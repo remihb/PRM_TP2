@@ -1,0 +1,765 @@
+Return-Path: <return-a18-1587-1599-resp-m2-miage=univ-rennes1.fr=4@animoassur.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Sun, 13 Sep 2015 18:36:28 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from vmsmtprexch.univ-rennes1.fr (vmsmtprexch.univ-rennes1.fr [129.20.128.62])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 7428F26A0A41
+	for <resp-m2-miage@univ-rennes1.fr>; Sun, 13 Sep 2015 18:36:28 +0200 (CEST)
+Received: from mbcasexch4.Ur.local (mbcasexch4.univ-rennes1.fr [129.20.125.132])
+	by vmsmtprexch.univ-rennes1.fr (Postfix) with ESMTP id 708DB85
+	for <resp-m2-miage@univ-rennes1.fr>; Sun, 13 Sep 2015 18:36:28 +0200 (CEST)
+X-CrossPremisesHeadersFilteredBySendConnector: mbcasexch4.Ur.local
+Received: from mbcasexch1.Ur.local (2002:8114:7d81::8114:7d81) by
+ mbcasexch4.Ur.local (2002:8114:7d84::8114:7d84) with Microsoft SMTP Server
+ (TLS) id 15.0.913.22; Sun, 13 Sep 2015 18:36:28 +0200
+Received: from mailout1.univ-rennes1.fr (129.20.128.162) by
+ mbcasexch1.Ur.local (129.20.125.129) with Microsoft SMTP Server id
+ 15.0.913.22 via Frontend Transport; Sun, 13 Sep 2015 18:36:28 +0200
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 57E126047A
+	for <resp-m2-miage@univ-rennes1.fr>; Sun, 13 Sep 2015 18:31:01 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id Q1MyZRVbEmFO for <resp-m2-miage@univ-rennes1.fr>;
+	Sun, 13 Sep 2015 18:31:01 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 333DA60451
+	for <resp-m2-miage@univ-rennes1.fr>; Sun, 13 Sep 2015 18:31:01 +0200 (CEST)
+Received: from mxb1-2.relay.renater.fr (mxb1-2.relay.renater.fr [194.214.201.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 2BF2520033
+	for <resp-m2-miage@univ-rennes1.fr>; Sun, 13 Sep 2015 18:31:01 +0200 (CEST)
+Received: from smtp1-22.revue-en-ligne.com (smtp1-22.revue-en-ligne.com [5.196.210.205])
+	by mxb1-2.relay.renater.fr (asm) with SMTP id DE23D2800BA
+	for <resp-m2-miage@univ-rennes1.fr>; Sun, 13 Sep 2015 18:31:00 +0200 (CEST)
+Received: (GreenArrow 7720 invoked by uid 410); 13 Sep 2015 16:31:00 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=animoassur.com; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=9kq6pV
+	gtGrIPxsSVy1vfspqTskM=; b=PbqS+g1jpbkiIf5/xE4S7fXUMejIi/AGyxkZGB
+	nPRu/F5bBAp7Z+OwHjfsL5nWmy4z89rOM6XCPgSvgDon/O31H9RzDjTg3XNmXazH
+	NGVMmZP4qu3+6BEHtitbIr5YJiFEpLO4RiiwpcDZ+V0OR9Gu8g01AosTUcS+dO0B
+	1zclY=
+Subject: =?UTF-8?Q?Frais=20de=20port=20offerts=20=2B=20R=C3=A9duction?=
+ =?UTF-8?Q?s=20sur=20la=20nouvelle=20collection=2C=20la=20journ=C3=A9?=
+ =?UTF-8?Q?e=20commence=20bien?=
+From: Blancheporte par Sociabiliweb <news@animoassur.com>
+To: <resp-m2-miage@univ-rennes1.fr>
+Date: Sun, 13 Sep 2015 16:31:00 +0000
+List-Unsubscribe: <http://animoassur.com/ga/unsubscribe/2-11527895-18-840-1599-ed35df89ef15825-1025365b8a>,
+ <mailto:return-a18-1587-1599-resp-m2-miage=univ-rennes1.fr=4u@animoassur.com>
+X-Mailer: GreenArrow Studio (v4.44.0)
+X-CampaignID: s4:1587-b8e4734bcf19a814
+Message-ID: <mid-1fa0a94c3c451dbf81c897f13ac55933@animoassur.com>
+X-Mailer-Info: 4.hFDO.QM1gzN.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.QM1kTO
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="==d0c2d47ca58c66de5d4dd183491385a1"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 5.196.210.205
+X-Bizanga: IMP - mxb1-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekgedrvddvgddutdehucetufdoteggodetrfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefuhffvfffjoffkgggtsegrtderreertdejnecuhfhrohhmpedfuehlrghntghhvghpohhrthgvuchprghrucfuohgtihgrsghilhhifigvsgdfuceonhgvfihssegrnhhimhhorghsshhurhdrtghomheqnecuffhomhgrihhnpegrnhhimhhorghsshhurhdrtghomh 
+X-Renater-ServerName: mxb1-2.relay.renater.fr
+X-OrganizationHeadersPreserved: mbcasexch4.Ur.local
+
+--==d0c2d47ca58c66de5d4dd183491385a1
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+=20
+Exceptionnel : -25% sur toute votre commande et frais de port gratuits
+=20
+ 	Blancheporte=09=20
+FEMME	 	LINGERIE	 	HOMME	 	GRANDE
+TAILLE	 	LINGE DE
+MAISON	 	MAISON
+=20
+D=C3=A8s 2 articles command=C3=A9s
+-25%*
+SUR TOUTE VOTRE COMMANDE
+ 	+	J'EN PROFITE !=09=20=09=20
++
+frais de port
+GRATUITS*
+d=C3=A8s 29=E2=82=AC d=E2=80=99achat
+ 	> J'en profite!=09=20
+=20=09=20
+ 	-25% sur toute votre commande et frais de port offerts
+=20
+Mode Femme =C3=A0 25% et livraison gratuite
+Notre nouvelle collection tendance =C3=A0 -25%* sublime toutes les femmes=
+=E2=80=A6
+ 	> Je d=C3=A9couvre !=09=20
+=20=09=20
+=20=09
+Linge de maison =C3=A0 25% et livraison offerte
+La tradition du beau linge de maison : qualit=C3=A9 et long=C3=A9vit=C3=A9
+ 	> Je d=C3=A9couvre !=09=20
+=20=09=20
+=20=09
+Lingerie =C3=A0 petits prix livr=C3=A9e sans frais
+De la lingerie experte et =C3=A9l=C3=A9gante, dans toutes les tailles =C3=
+=A0 25%* !
+ 	> Je d=C3=A9couvre !=09=20
+=20=09=20
+=20
+paiement securis=C3=A9	satisfait ou rembours=C3=A9	livraison Blancheporte	p=
+aiement par ch=C3=A8que
+Paiement s=C3=A9curis=C3=A9	Satisfait ou rembours=C3=A9	Livraison =C3=A0 do=
+micile	Suivi de commande
+=20
+=20=09
+Le shopping facile en 3 clics !
+1=C2=B0	REMPLISSEZ
+votre panier, vos r=C3=A9ductions
+s'additionnent toutes seules
+=20=09
+2=C2=B0	D=C3=89CIDEZ
+de votre livraison et payez
+comme vous voulez, c'est s=C3=A9curis=C3=A9
+=20=09
+3=C2=B0	ESSAYEZ
+tranquillement chez vous,
+les retours en Relais sont gratuits !
+=20
+* Offre valable jusqu=E2=80=99au 22/09/15, d=C3=A8s 2 articles achet=C3=A9s=
+, hors frais d=E2=80=99envoi. Les articles remis=C3=A9s, prix incroyables, =
+les moins chers, les marques ne peuvent b=C3=A9n=C3=A9ficier d=E2=80=99aucu=
+ne r=C3=A9duction suppl=C3=A9mentaire. Les frais d=E2=80=99envoi sont offer=
+ts d=C3=A8s 29=E2=82=AC d=E2=80=99achats en relais sous 5 =C3=A0 6 jours ou=
+ =C3=A0 votre domicile sous 7 =C3=A0 8 jours pour la France m=C3=A9tropolit=
+aine. Pour les DOM-TOM frais d=E2=80=99envoi offerts d=C3=A8s 49=E2=82=AC d=
+=E2=80=99achats par acheminement bateau sous 30 jours. Non cumulable avec u=
+ne autre offre promotionnelle.
+
+--==d0c2d47ca58c66de5d4dd183491385a1
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" />
+	<title>Blancheporte</title>
+</head>
+<body>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"font-family:Arial, Sans-Serif; font-size:12px;" width=3D"600">
+	<tbody>
+		<tr>
+			<td height=3D"12" width=3D"600"></td>
+		</tr>
+		<tr>
+			<td align=3D"center" bgcolor=3D"#E2006E" height=3D"20" valign=3D"middle"=
+ width=3D"600"><a href=3D"http://animoassur.com/ga/click/2-11527895-18-840-=
+1599-11202-9275f1fb7e-1025365b8a" style=3D"text-decoration:none; text-align=
+:left;" target=3D"_blank"><font size=3D"4" style=3D"font-family:Arial,Sans-=
+Serif;font-size:16px;color:#FFFFFF;font-weight:bold">Exceptionnel : -25% su=
+r toute votre commande et frais de port gratuits</font> </a></td>
+		</tr>
+		<tr>
+			<td height=3D"12" width=3D"600"></td>
+		</tr>
+		<tr>
+			<td height=3D"62" width=3D"600">
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"600">
+				<tbody>
+					<tr>
+						<td height=3D"62" width=3D"192"></td>
+						<td align=3D"center" height=3D"62" width=3D"216"><a href=3D"http://an=
+imoassur.com/ga/click/2-11527895-18-840-1599-11203-ac27677f2b-1025365b8a" s=
+tyle=3D"text-decoration:none;text-align:center;" target=3D"_blank"><img alt=
+=3D"Blancheporte" border=3D"0" height=3D"62" src=3D"http://img.digital-metr=
+ic.com/1/400/1011/75825/0/blancheporte.jpg" style=3D"display:block;font-siz=
+e:30px;font-weight:bold;color:#020202;" width=3D"216" /> </a></td>
+						<td height=3D"62" width=3D"192"></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td align=3D"center" height=3D"50" style=3D"background-color:#edeae3;" w=
+idth=3D"600">
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"50" wi=
+dth=3D"600">
+				<tbody>
+					<tr>
+						<td align=3D"center" valign=3D"middle"><a href=3D"http://animoassur.c=
+om/ga/click/2-11527895-18-840-1599-11204-56fe6e352d-1025365b8a" style=3D"te=
+xt-decoration:none;" target=3D"_blank"><font size=3D"1" style=3D"font-famil=
+y:Arial,Sans-Serif;font-size:13px;color:#020202;text-transform:uppercase;">=
+Femme</font> </a></td>
+						<td style=3D"background-color:#FFFFFF;" width=3D"1"></td>
+						<td align=3D"center" valign=3D"middle"><a href=3D"http://animoassur.c=
+om/ga/click/2-11527895-18-840-1599-11205-7a19e36d22-1025365b8a" style=3D"te=
+xt-decoration:none;" target=3D"_blank"><font size=3D"1" style=3D"font-famil=
+y:Arial,Sans-Serif;font-size:13px;color:#020202;text-transform:uppercase;">=
+Lingerie</font> </a></td>
+						<td style=3D"background-color:#FFFFFF;" width=3D"1"></td>
+						<td align=3D"center" valign=3D"middle"><a href=3D"http://animoassur.c=
+om/ga/click/2-11527895-18-840-1599-11206-a577859c19-1025365b8a" style=3D"te=
+xt-decoration:none;" target=3D"_blank"><font size=3D"1" style=3D"font-famil=
+y:Arial,Sans-Serif;font-size:13px;color:#020202;text-transform:uppercase;">=
+Homme</font> </a></td>
+						<td style=3D"background-color:#FFFFFF;" width=3D"1"></td>
+						<td align=3D"center" valign=3D"middle"><a href=3D"http://animoassur.c=
+om/ga/click/2-11527895-18-840-1599-11207-d51541bfb8-1025365b8a" style=3D"te=
+xt-decoration:none;" target=3D"_blank"><font size=3D"1" style=3D"font-famil=
+y:Arial,Sans-Serif;font-size:13px;color:#020202;text-transform:uppercase;">=
+Grande<br />
+						Taille</font> </a></td>
+						<td style=3D"background-color:#FFFFFF;" width=3D"1"></td>
+						<td align=3D"center" valign=3D"middle"><a href=3D"http://animoassur.c=
+om/ga/click/2-11527895-18-840-1599-11208-664eefa631-1025365b8a" style=3D"te=
+xt-decoration:none;" target=3D"_blank"><font size=3D"1" style=3D"font-famil=
+y:Arial,Sans-Serif;font-size:13px;color:#020202;text-transform:uppercase;">=
+Linge de<br />
+						Maison</font> </a></td>
+						<td style=3D"background-color:#FFFFFF;" width=3D"1"></td>
+						<td align=3D"center" valign=3D"middle"><a href=3D"http://animoassur.c=
+om/ga/click/2-11527895-18-840-1599-11209-cb5523156c-1025365b8a" style=3D"te=
+xt-decoration:none;" target=3D"_blank"><font size=3D"1" style=3D"font-famil=
+y:Arial,Sans-Serif;font-size:13px;color:#020202;text-transform:uppercase;">=
+Maison</font> </a></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td width=3D"600">
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"600">
+				<tbody>
+					<tr>
+						<td height=3D"12" width=3D"600"></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"font-family:Arial, Helvetica, sans-serif; font-size:14px;" width=
+=3D"600">
+				<tbody>
+					<tr>
+						<td height=3D"440" width=3D"600">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" height=3D"440" width=3D"600">
+							<tbody>
+								<tr>
+									<td align=3D"center" height=3D"118" width=3D"266">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" height=3D"140" style=3D"background-color:#E2006E" width=3D"266">
+										<tbody>
+											<tr>
+												<td align=3D"center" height=3D"166" width=3D"218"><a href=3D"ht=
+tp://animoassur.com/ga/click/2-11527895-18-840-1599-11210-28b5d49e41-102536=
+5b8a" style=3D"text-decoration:none;text-align:center;" target=3D"_blank"><=
+font size=3D"1" style=3D"font-family:Arial,Sans-Serif;font-size:12px;color:=
+#FFFEFF;">D&egrave;s 2 articles command&eacute;s</font><br />
+												<font size=3D"6" style=3D"font-family:Arial,Sans-Serif;font-siz=
+e:106px;color:#FFFEFF;">-25<font style=3D"position:relative;top:-48px;font-=
+family:Arial,Sans-Serif;font-size:32px;color:#FFFEFF;font-weight:normal;">%=
+*</font></font><br />
+												<font size=3D"1" style=3D"font-family:Arial,Sans-Serif;font-siz=
+e:15px;color:#FFFEFF;font-weight:bold;text-transform:uppercase;">sur <u> to=
+ute</u> votre commande</font></a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" height=3D"50" valign=3D"middle" width=3D"2=
+18">
+												<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" height=3D"39" width=3D"218">
+													<tbody>
+														<tr>
+															<td height=3D"39" width=3D"29"></td>
+															<td align=3D"center" height=3D"39" width=3D"31"><a href=3D"h=
+ttp://animoassur.com/ga/click/2-11527895-18-840-1599-11211-21ec9fd77f-10253=
+65b8a" style=3D"text-decoration:none;text-align:center;" target=3D"_blank">=
+<img alt=3D"+" border=3D"0" height=3D"39" src=3D"http://img.digital-metric.=
+com/1/400/1011/75825/0/temp-cta-1a.png" style=3D"display:block;color:#FFFEF=
+F;font-size:30px;" width=3D"31" /> </a></td>
+															<td align=3D"center" height=3D"39" style=3D"background-color=
+:#000000;" width=3D"125"><a href=3D"http://animoassur.com/ga/click/2-115278=
+95-18-840-1599-11212-417819f1c2-1025365b8a" style=3D"text-decoration:none; =
+text-align:center;" target=3D"_blank"><font size=3D"1" style=3D"font-family=
+:Arial,Sans-Serif;font-size:14px;color:#FFFEFF;text-transform:uppercase;fon=
+t-weight:bold;font-style:italic;">J&#39;en profite !</font> </a></td>
+															<td height=3D"39" width=3D"4"><a href=3D"http://animoassur.c=
+om/ga/click/2-11527895-18-840-1599-11213-0c79c3683d-1025365b8a" style=3D"te=
+xt-decoration:none;" target=3D"_blank"><img alt=3D"&nbsp;" border=3D"0" hei=
+ght=3D"39" src=3D"http://img.digital-metric.com/1/400/1011/75825/0/temp-cta=
+-1b.png" style=3D"display:block;" width=3D"4" /> </a></td>
+															<td height=3D"39" width=3D"29"></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" height=3D"82" style=3D"background-color:#FFFFFF;" width=3D"266">
+										<tbody>
+											<tr>
+												<td align=3D"center" height=3D"82" width=3D"218"><a href=3D"htt=
+p://animoassur.com/ga/click/2-11527895-18-840-1599-11214-1f1f9ca853-1025365=
+b8a" style=3D"text-decoration:none;text-align:center;" target=3D"_blank"><f=
+ont size=3D"1" style=3D"font-family:Arial,Sans-Serif;font-size:60px;color:#=
+E2006E;">+</font> </a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" height=3D"140" width=3D"266">
+										<tbody>
+											<tr>
+												<td align=3D"center" height=3D"118" style=3D"background-color:#=
+EBEBEB;" width=3D"266"><a href=3D"http://animoassur.com/ga/click/2-11527895=
+-18-840-1599-11215-932f2dc4fd-1025365b8a" style=3D"text-decoration:none;tex=
+t-align:center;" target=3D"_blank"><font size=3D"1" style=3D"font-family:Ar=
+ial,Sans-Serif;font-size:38px;color:#E2006E;">frais de port<br />
+												GRATUITS*</font><br />
+												<font size=3D"1" style=3D"font-family:Arial,Sans-Serif;font-siz=
+e:12px;color:#444444;">d&egrave;s 29&euro; d&rsquo;achat</font> </a></td>
+											</tr>
+											<tr>
+												<td height=3D"22" width=3D"266">
+												<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" width=3D"266">
+													<tbody>
+														<tr>
+															<td height=3D"12" style=3D"background-color:#EBEBEB;" width=
+=3D"40"></td>
+															<td align=3D"center" bgcolor=3D"#000000" height=3D"22" rowsp=
+an=3D"2" style=3D"border:solid 1px #999999;" width=3D"186"><a href=3D"http:=
+//animoassur.com/ga/click/2-11527895-18-840-1599-11216-300bbac4af-1025365b8=
+a" style=3D"text-decoration:none; text-align:center;" target=3D"_blank"><fo=
+nt size=3D"1" style=3D"font-family:Arial,Sans-Serif;font-size:12px;color:#F=
+FFFFF;font-weight:bold;font-style:italic;">&gt; J&#39;en profite!</font> </=
+a></td>
+															<td height=3D"12" style=3D"background-color:#EBEBEB;" width=
+=3D"40"></td>
+														</tr>
+														<tr>
+															<td height=3D"10" width=3D"40"></td>
+															<td height=3D"10" width=3D"40"></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td height=3D"140" width=3D"20"></td>
+									<td align=3D"center" height=3D"440" style=3D"background-color:#CCC=
+CCC;" width=3D"314"><a href=3D"http://animoassur.com/ga/click/2-11527895-18=
+-840-1599-11217-811605c984-1025365b8a" style=3D"text-decoration:none;text-a=
+lign:center;" target=3D"_blank"><img alt=3D"-25% sur toute votre commande e=
+t frais de port offerts" border=3D"0" height=3D"440" src=3D"http://img.digi=
+tal-metric.com/1/400/1011/75825/0/blancheporte-collection.jpg" style=3D"dis=
+play:block;color:#020202;font-size:16px;text-align:center;" width=3D"314" /=
+> </a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"600">
+				<tbody>
+					<tr>
+						<td height=3D"12" width=3D"600"></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"font-family:Arial, Helvetica, sans-serif; font-size:14px;" width=
+=3D"600">
+				<tbody>
+					<tr>
+						<td height=3D"168" width=3D"600">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"168=
+" width=3D"600">
+							<tbody>
+								<tr>
+									<td height=3D"168" width=3D"190">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"190">
+										<tbody>
+											<tr>
+												<td align=3D"center" height=3D"100" style=3D"background-color:#=
+CCCCCC;" width=3D"190"><a href=3D"http://animoassur.com/ga/click/2-11527895=
+-18-840-1599-11218-8f9420ee0e-1025365b8a" style=3D"text-decoration:none;tex=
+t-align:center;" target=3D"_blank"><img alt=3D"Mode Femme =C3=A0 25% et liv=
+raison gratuite" border=3D"0" height=3D"100" src=3D"http://img.digital-metr=
+ic.com/1/400/1011/75825/0/blancheporte-mode-femme.jpg" style=3D"display:blo=
+ck;color:#020202;font-size:16px;text-align:center;" width=3D"190" /> </a></=
+td>
+											</tr>
+											<tr>
+												<td align=3D"center" height=3D"46" style=3D"background-color:#E=
+BEBEB;" width=3D"190"><a href=3D"http://animoassur.com/ga/click/2-11527895-=
+18-840-1599-11219-63421057bd-1025365b8a" style=3D"text-decoration:none;text=
+-align:center;" target=3D"_blank"><font size=3D"1" style=3D"font-family:Ari=
+al,Sans-Serif;font-size:11px;color:#444444;">Notre nouvelle collection tend=
+ance &agrave; -25%* sublime toutes les femmes&hellip;</font> </a></td>
+											</tr>
+											<tr>
+												<td height=3D"22" width=3D"190">
+												<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" width=3D"190">
+													<tbody>
+														<tr>
+															<td height=3D"12" style=3D"background-color:#EBEBEB;" width=
+=3D"25"></td>
+															<td align=3D"center" bgcolor=3D"#000000" height=3D"22" rowsp=
+an=3D"2" style=3D"border:solid 1px #999999;" width=3D"140"><a href=3D"http:=
+//animoassur.com/ga/click/2-11527895-18-840-1599-11220-e738ff3003-1025365b8=
+a" style=3D"text-decoration:none; text-align:center;" target=3D"_blank"><fo=
+nt size=3D"1" style=3D"font-family:Arial,Sans-Serif;font-size:12px;color:#F=
+FFFFF;font-weight:bold;font-style:italic;">&gt; Je d&eacute;couvre !</font>=
+ </a></td>
+															<td height=3D"12" style=3D"background-color:#EBEBEB;" width=
+=3D"25"></td>
+														</tr>
+														<tr>
+															<td height=3D"10" width=3D"25"></td>
+															<td height=3D"10" width=3D"25"></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td height=3D"168" width=3D"15"></td>
+									<td height=3D"168" width=3D"170">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"190">
+										<tbody>
+											<tr>
+												<td align=3D"center" height=3D"100" style=3D"background-color:#=
+CCCCCC;" width=3D"190"><a href=3D"http://animoassur.com/ga/click/2-11527895=
+-18-840-1599-11221-49b20936c5-1025365b8a" style=3D"text-decoration:none;tex=
+t-align:center;" target=3D"_blank"><img alt=3D"Linge de maison =C3=A0 25% e=
+t livraison offerte" border=3D"0" height=3D"100" src=3D"http://img.digital-=
+metric.com/1/400/1011/75825/0/blancheporte-mode-linge-de-maison.jpg" style=
+=3D"display:block;color:#020202;font-size:16px;text-align:center;" width=3D=
+"190" /> </a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" height=3D"46" style=3D"background-color:#E=
+BEBEB;" width=3D"190"><a href=3D"http://animoassur.com/ga/click/2-11527895-=
+18-840-1599-11222-77cb5adb86-1025365b8a" style=3D"text-decoration:none;text=
+-align:center;" target=3D"_blank"><font size=3D"1" style=3D"font-family:Ari=
+al,Sans-Serif;font-size:11px;color:#444444;">La tradition du beau linge de =
+maison : qualit&eacute; et long&eacute;vit&eacute;</font> </a></td>
+											</tr>
+											<tr>
+												<td height=3D"22" width=3D"190">
+												<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" width=3D"190">
+													<tbody>
+														<tr>
+															<td height=3D"12" style=3D"background-color:#EBEBEB;" width=
+=3D"25"></td>
+															<td align=3D"center" bgcolor=3D"#000000" height=3D"22" rowsp=
+an=3D"2" style=3D"border:solid 1px #999999;" width=3D"140"><a href=3D"http:=
+//animoassur.com/ga/click/2-11527895-18-840-1599-11223-135f360542-1025365b8=
+a" style=3D"text-decoration:none; text-align:center;" target=3D"_blank"><fo=
+nt size=3D"1" style=3D"font-family:Arial,Sans-Serif;font-size:12px;color:#F=
+FFFFF;font-weight:bold;font-style:italic;">&gt; Je d&eacute;couvre !</font>=
+ </a></td>
+															<td height=3D"12" style=3D"background-color:#EBEBEB;" width=
+=3D"25"></td>
+														</tr>
+														<tr>
+															<td height=3D"10" width=3D"25"></td>
+															<td height=3D"10" width=3D"25"></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td height=3D"168" width=3D"15"></td>
+									<td height=3D"168" width=3D"170">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"190">
+										<tbody>
+											<tr>
+												<td align=3D"center" height=3D"100" style=3D"background-color:#=
+CCCCCC;" width=3D"190"><a href=3D"http://animoassur.com/ga/click/2-11527895=
+-18-840-1599-11224-6852ad9620-1025365b8a" style=3D"text-decoration:none;tex=
+t-align:center;" target=3D"_blank"><img alt=3D"Lingerie =C3=A0 petits prix =
+livr=C3=A9e sans frais" border=3D"0" height=3D"100" src=3D"http://img.digit=
+al-metric.com/1/400/1011/75825/0/blancheporte-mode-lingerie.jpg" style=3D"d=
+isplay:block;color:#020202;font-size:16px;text-align:center;" width=3D"190"=
+ /> </a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" height=3D"46" style=3D"background-color:#E=
+BEBEB;" width=3D"190"><a href=3D"http://animoassur.com/ga/click/2-11527895-=
+18-840-1599-11225-9d107a485f-1025365b8a" style=3D"text-decoration:none;text=
+-align:center;" target=3D"_blank"><font size=3D"1" style=3D"font-family:Ari=
+al,Sans-Serif;font-size:11px;color:#444444;">De la lingerie experte et &eac=
+ute;l&eacute;gante, dans toutes les tailles &agrave; 25%* !</font> </a></td>
+											</tr>
+											<tr>
+												<td height=3D"22" width=3D"190">
+												<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" width=3D"190">
+													<tbody>
+														<tr>
+															<td height=3D"12" style=3D"background-color:#EBEBEB;" width=
+=3D"25"></td>
+															<td align=3D"center" bgcolor=3D"#000000" height=3D"22" rowsp=
+an=3D"2" style=3D"border:solid 1px #999999;" width=3D"140"><a href=3D"http:=
+//animoassur.com/ga/click/2-11527895-18-840-1599-11226-5e347a16fc-1025365b8=
+a" style=3D"text-decoration:none; text-align:center;" target=3D"_blank"><fo=
+nt size=3D"1" style=3D"font-family:Arial,Sans-Serif;font-size:12px;color:#F=
+FFFFF;font-weight:bold;font-style:italic;">&gt; Je d&eacute;couvre !</font>=
+ </a></td>
+															<td height=3D"12" style=3D"background-color:#EBEBEB;" width=
+=3D"25"></td>
+														</tr>
+														<tr>
+															<td height=3D"10" width=3D"25"></td>
+															<td height=3D"10" width=3D"25"></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td height=3D"22" width=3D"600"></td>
+		</tr>
+		<tr>
+			<td width=3D"600">
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"600">
+				<tbody>
+					<tr>
+						<td><a href=3D"http://animoassur.com/ga/click/2-11527895-18-840-1599-=
+11227-179417e8e2-1025365b8a" target=3D"_blank"><img alt=3D"paiement securis=
+=C3=A9" border=3D"0" height=3D"80" src=3D"http://img.digital-metric.com/1/4=
+00/1011/75825/0/temp-paiement-securise-4.jpg" style=3D"display:block;" titl=
+e=3D"paiement securis=C3=A9" width=3D"150" /></a></td>
+						<td><a href=3D"http://animoassur.com/ga/click/2-11527895-18-840-1599-=
+11228-1c1029213d-1025365b8a" target=3D"_blank"><img alt=3D"satisfait ou rem=
+bours=C3=A9" border=3D"0" height=3D"80" src=3D"http://img.digital-metric.co=
+m/1/400/1011/75825/0/temp-satisfait-rembourse-4.jpg" style=3D"display:block=
+;" title=3D"satisfait ou rembours=C3=A9" width=3D"150" /></a></td>
+						<td><a href=3D"http://animoassur.com/ga/click/2-11527895-18-840-1599-=
+11229-f51ec02ffc-1025365b8a" target=3D"_blank"><img alt=3D"livraison Blanch=
+eporte" border=3D"0" height=3D"80" src=3D"http://img.digital-metric.com/1/4=
+00/1011/75825/0/temp-livraison-4.jpg" style=3D"display:block;" title=3D"liv=
+raison Blancheporte" width=3D"150" /></a></td>
+						<td><a href=3D"http://animoassur.com/ga/click/2-11527895-18-840-1599-=
+11230-5554a9c7bb-1025365b8a" target=3D"_blank"><img alt=3D"paiement par ch=
+=C3=A8que" border=3D"0" height=3D"80" src=3D"http://img.digital-metric.com/=
+1/400/1011/75825/0/temp-suivi-de-commande-4.jpg" style=3D"display:block;" t=
+itle=3D"paiement par ch=C3=A8que" width=3D"150" /></a></td>
+					</tr>
+					<tr>
+						<td align=3D"center" height=3D"22" valign=3D"middle" width=3D"150"><a=
+ href=3D"http://animoassur.com/ga/click/2-11527895-18-840-1599-11231-f8db17=
+4521-1025365b8a" style=3D"text-decoration:none;" target=3D"_blank"><font si=
+ze=3D"1" style=3D"font-family:Arial,Sans-Serif;font-size:12px;color:#717171=
+;font-weight:bold;">Paiement s&eacute;curis&eacute;</font></a></td>
+						<td align=3D"center" height=3D"22" valign=3D"middle" width=3D"150"><a=
+ href=3D"http://animoassur.com/ga/click/2-11527895-18-840-1599-11232-fab194=
+046f-1025365b8a" style=3D"text-decoration:none;" target=3D"_blank"><font si=
+ze=3D"1" style=3D"font-family:Arial,Sans-Serif;font-size:12px;color:#717171=
+;font-weight:bold;">Satisfait ou rembours&eacute;</font></a></td>
+						<td align=3D"center" height=3D"22" valign=3D"middle" width=3D"150"><a=
+ href=3D"http://animoassur.com/ga/click/2-11527895-18-840-1599-11233-2604b6=
+5065-1025365b8a" style=3D"text-decoration:none;" target=3D"_blank"><font si=
+ze=3D"1" style=3D"font-family:Arial,Sans-Serif;font-size:12px;color:#717171=
+;font-weight:bold;">Livraison &agrave; domicile</font></a></td>
+						<td align=3D"center" height=3D"22" valign=3D"middle" width=3D"150"><a=
+ href=3D"http://animoassur.com/ga/click/2-11527895-18-840-1599-11234-d1c32a=
+1466-1025365b8a" style=3D"text-decoration:none;" target=3D"_blank"><font si=
+ze=3D"1" style=3D"font-family:Arial,Sans-Serif;font-size:12px;color:#717171=
+;font-weight:bold;">Suivi de commande</font></a></td>
+					</tr>
+					<tr>
+						<td colspan=3D"4" height=3D"2" style=3D"background-color:#f7f5f5;" wi=
+dth=3D"600"></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor=3D"#edeae3" height=3D"112" width=3D"600">
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"600">
+				<tbody>
+					<tr>
+						<td height=3D"100" width=3D"22"></td>
+						<td height=3D"100" width=3D"554">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"554">
+							<tbody>
+								<tr>
+									<td align=3D"left" colspan=3D"5" height=3D"30" valign=3D"middle" w=
+idth=3D"554"><a href=3D"http://animoassur.com/ga/click/2-11527895-18-840-15=
+99-11235-bc8be875d2-1025365b8a" style=3D"text-decoration:none;" target=3D"_=
+blank"><font size=3D"1" style=3D"font-family:Arial,Sans-Serif;font-size:14p=
+x;color:#717171;font-weight:bold;">Le shopping facile en 3 clics !</font> <=
+/a></td>
+								</tr>
+								<tr>
+									<td height=3D"70" width=3D"174">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"174">
+										<tbody>
+											<tr>
+												<td height=3D"30" valign=3D"middle" width=3D"28"><a href=3D"htt=
+p://animoassur.com/ga/click/2-11527895-18-840-1599-11236-1d9fd56c73-1025365=
+b8a" style=3D"text-decoration:none;" target=3D"_blank"><font size=3D"1" sty=
+le=3D"font-family:Arial,Sans-Serif;font-size:26px;color:#E2006A;font-style:=
+italic;">1&deg;</font> </a></td>
+												<td height=3D"30" valign=3D"middle" width=3D"146"><a href=3D"ht=
+tp://animoassur.com/ga/click/2-11527895-18-840-1599-11237-a281d469d4-102536=
+5b8a" style=3D"text-decoration:none;" target=3D"_blank"><font size=3D"1" st=
+yle=3D"font-family:Arial,Sans-Serif;font-size:12px;color:#E2006A;text-trans=
+form:uppercase;font-weight:bold;">REMPLISSEZ</font> </a></td>
+											</tr>
+											<tr>
+												<td colspan=3D"2" height=3D"40" width=3D"174"><a href=3D"http:/=
+/animoassur.com/ga/click/2-11527895-18-840-1599-11238-d46e6e370f-1025365b8a=
+" style=3D"text-decoration:none;" target=3D"_blank"><font size=3D"1" style=
+=3D"font-family:Arial,Sans-Serif;font-size:11px;color:#020202;">votre panie=
+r, vos r&eacute;ductions<br />
+												s&#39;additionnent toutes seules</font> </a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td height=3D"70" width=3D"16"></td>
+									<td height=3D"70" width=3D"174">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"174">
+										<tbody>
+											<tr>
+												<td height=3D"30" valign=3D"middle" width=3D"28"><a href=3D"htt=
+p://animoassur.com/ga/click/2-11527895-18-840-1599-11239-c7fe433fc7-1025365=
+b8a" style=3D"text-decoration:none;" target=3D"_blank"><font size=3D"1" sty=
+le=3D"font-family:Arial,Sans-Serif;font-size:26px;color:#E2006A;font-style:=
+italic;">2&deg;</font> </a></td>
+												<td height=3D"30" valign=3D"middle" width=3D"146"><a href=3D"ht=
+tp://animoassur.com/ga/click/2-11527895-18-840-1599-11240-b4484f6cb6-102536=
+5b8a" style=3D"text-decoration:none;" target=3D"_blank"><font size=3D"1" st=
+yle=3D"font-family:Arial,Sans-Serif;font-size:12px;color:#E2006A;text-trans=
+form:uppercase;font-weight:bold;">D&Eacute;CIDEZ</font> </a></td>
+											</tr>
+											<tr>
+												<td colspan=3D"2" height=3D"40" width=3D"174"><a href=3D"http:/=
+/animoassur.com/ga/click/2-11527895-18-840-1599-11241-657a90df98-1025365b8a=
+" style=3D"text-decoration:none;" target=3D"_blank"><font size=3D"1" style=
+=3D"font-family:Arial,Sans-Serif;font-size:11px;color:#020202;">de votre li=
+vraison et payez<br />
+												comme vous voulez, c&#39;est s&eacute;curis&eacute;</font> </a>=
+</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td height=3D"70" width=3D"16"></td>
+									<td height=3D"70" width=3D"174">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"174">
+										<tbody>
+											<tr>
+												<td height=3D"30" valign=3D"middle" width=3D"28"><a href=3D"htt=
+p://animoassur.com/ga/click/2-11527895-18-840-1599-11242-94191d1b0f-1025365=
+b8a" style=3D"text-decoration:none;" target=3D"_blank"><font size=3D"1" sty=
+le=3D"font-family:Arial,Sans-Serif;font-size:26px;color:#E2006A;font-style:=
+italic;">3&deg;</font> </a></td>
+												<td height=3D"30" valign=3D"middle" width=3D"146"><a href=3D"ht=
+tp://animoassur.com/ga/click/2-11527895-18-840-1599-11243-7137dd51a6-102536=
+5b8a" style=3D"text-decoration:none;" target=3D"_blank"><font size=3D"1" st=
+yle=3D"font-family:Arial,Sans-Serif;font-size:12px;color:#E2006A;text-trans=
+form:uppercase;font-weight:bold;">ESSAYEZ</font> </a></td>
+											</tr>
+											<tr>
+												<td colspan=3D"2" height=3D"40" width=3D"174"><a href=3D"http:/=
+/animoassur.com/ga/click/2-11527895-18-840-1599-11244-5949210a72-1025365b8a=
+" style=3D"text-decoration:none;" target=3D"_blank"><font size=3D"1" style=
+=3D"font-family:Arial,Sans-Serif;font-size:11px;color:#020202;">tranquillem=
+ent chez vous,<br />
+												les retours en Relais sont gratuits !</font> </a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td height=3D"100" width=3D"22"></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td height=3D"40" width=3D"600"><a href=3D"http://animoassur.com/ga/clic=
+k/2-11527895-18-840-1599-11245-ce85d3ec0f-1025365b8a" style=3D"text-decorat=
+ion:none;" target=3D"_blank"><font size=3D"1" style=3D"font-family:Arial,Sa=
+ns-Serif; font-size:11px; color:#B5B5B5;">* Offre valable jusqu&rsquo;au 22=
+/09/15, d&egrave;s 2 articles achet&eacute;s, hors frais d&rsquo;envoi. Les=
+ articles remis&eacute;s, prix incroyables, les moins chers, les marques ne=
+ peuvent b&eacute;n&eacute;ficier d&rsquo;aucune r&eacute;duction suppl&eac=
+ute;mentaire. Les frais d&rsquo;envoi sont offerts d&egrave;s 29&euro; d&rs=
+quo;achats en relais sous 5 &agrave; 6 jours ou &agrave; votre domicile sou=
+s 7 &agrave; 8 jours pour la France m&eacute;tropolitaine. Pour les DOM-TOM=
+ frais d&rsquo;envoi offerts d&egrave;s 49&euro; d&rsquo;achats par achemin=
+ement bateau sous 30 jours. Non cumulable avec une autre offre promotionnel=
+le.</font> </a></td>
+		</tr>
+	</tbody>
+</table>
+
+<p><img border=3D"0" height=3D"1" src=3D"http://mtrc1.digital-metric.com/vi=
+ew.php?params=3D2f7b25ed398c5ad1f4513db24536a51d" width=3D"1" /></p>
+
+<a href=3D"http://animoassur.com/ga/unsubscribe/2-11527895-18-840-1599-ed35=
+df89ef15825-1025365b8a">Je souhaite me d=C3=A9sinscrire et ne plus recevoir=
+ les newsletters</a><img src=3D"http://animoassur.com/ga/open/2-11527895-18=
+-840-1599-1025365b8a" height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==d0c2d47ca58c66de5d4dd183491385a1--

@@ -1,0 +1,729 @@
+Return-Path: <return-a18-2045-2054-resp-m2-miage=univ-rennes1.fr=4@maison-de-lauto.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Sun, 01 Nov 2015 15:56:02 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from vmsmtprexch.univ-rennes1.fr (vmsmtprexch.univ-rennes1.fr [129.20.128.62])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 6980726A0A7B
+	for <resp-m2-miage@univ-rennes1.fr>; Sun,  1 Nov 2015 15:56:02 +0100 (CET)
+Received: from mbcasexch4.Ur.local (mbcasexch4.univ-rennes1.fr [129.20.125.132])
+	by vmsmtprexch.univ-rennes1.fr (Postfix) with ESMTP id 66F8AFD
+	for <resp-m2-miage@univ-rennes1.fr>; Sun,  1 Nov 2015 15:56:02 +0100 (CET)
+X-CrossPremisesHeadersFilteredBySendConnector: mbcasexch4.Ur.local
+Received: from mbcasexch1.Ur.local (2002:8114:7d81::8114:7d81) by
+ mbcasexch4.Ur.local (2002:8114:7d84::8114:7d84) with Microsoft SMTP Server
+ (TLS) id 15.0.913.22; Sun, 1 Nov 2015 15:56:01 +0100
+Received: from mailout1.univ-rennes1.fr (129.20.128.162) by
+ mbcasexch1.Ur.local (129.20.125.129) with Microsoft SMTP Server id
+ 15.0.913.22 via Frontend Transport; Sun, 1 Nov 2015 15:56:01 +0100
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 0B32C60144
+	for <resp-m2-miage@univ-rennes1.fr>; Sun,  1 Nov 2015 15:56:02 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id sOcwN-ld3cjc for <resp-m2-miage@univ-rennes1.fr>;
+	Sun,  1 Nov 2015 15:56:01 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id DBCEE60020
+	for <resp-m2-miage@univ-rennes1.fr>; Sun,  1 Nov 2015 15:56:01 +0100 (CET)
+Received: from mxb2-2.relay.renater.fr (mxb2-2.relay.renater.fr [194.214.200.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id D485D20033
+	for <resp-m2-miage@univ-rennes1.fr>; Sun,  1 Nov 2015 15:56:01 +0100 (CET)
+Received: from smtp1-31.revue-en-ligne.com (smtp1-31.revue-en-ligne.com [5.196.213.102])
+	by mxb2-2.relay.renater.fr (asm) with SMTP id 8FE9F60061D
+	for <resp-m2-miage@univ-rennes1.fr>; Sun,  1 Nov 2015 15:56:01 +0100 (CET)
+Received: (GreenArrow 31993 invoked by uid 410); 1 Nov 2015 14:55:59 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=maison-de-lauto.com; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=E0YL+2
+	tRL9gTrb9p3AXMnURCnlo=; b=CHMsRnQUemsr+PbEU4bcxlRs+xRnOboXU4+b4/
+	Bx0HeY1boY0ynulGoVGbRK9bxGWFZqmZcMZDa27eOHS3rKtGcOqvsWB5S0G8ynwE
+	lSX6sAeOnfgTj/b3+4D5MThr1gU+96v0Wtrc3mOaJy24rUWgGGi3FOD6vYftuF+3
+	5KYv8=
+Subject: =?UTF-8?Q?Sp=C3=A9cial=20Marrakech=20d=C3=A8s=20145=20euro?=
+ =?UTF-8?Q?s=2C=20Promos=20Croisi=C3=A8res=202016=2C=20D=C3=A9cembre=20?=
+ =?UTF-8?Q?en=20Belgique?=
+From: =?UTF-8?B?VmFjYW5jZXMgUsOpdXNzaWVzIHBhciBTb2NpYWJpbGl3ZWI=?=
+	<news@maison-de-lauto.com>
+To: <resp-m2-miage@univ-rennes1.fr>
+Date: Sun, 1 Nov 2015 14:55:59 +0000
+List-Unsubscribe: <http://maison-de-lauto.com/ga/unsubscribe/2-11527895-18-1069-2054-ed35df89ef15825-824aa169e0>,
+ <mailto:return-a18-2045-2054-resp-m2-miage=univ-rennes1.fr=4u@maison-de-lauto.com>
+X-Mailer: GreenArrow Studio (v4.65.0)
+X-CampaignID: s4:2045-3657300cd32fb2ea
+Message-ID: <mid-80fae84a1b659a93b993264e2d4664b6@maison-de-lauto.com>
+X-Mailer-Info: 4.hFDO.gMwQTN.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.gMwUDN
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="==809df75972c0238bc0fa35c079d20775"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 5.196.213.102
+X-Bizanga: IMP - mxb2-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekhedrvdeggdejudcutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefuhffvfffjoffkgggtsegrtderreertdejnecuhfhrohhmpeggrggtrghntggvshcutforuhhsshhivghsuchprghrucfuohgtihgrsghilhhifigvsgcuoehnvgifshesmhgrihhsohhnqdguvgdqlhgruhhtohdrtghomheqnecuffhomhgrihhnpehmrghishhonhdquggvqdhlrghuthhordgtohhmnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehsmhhtphduqdefuddrrhgvvhhuvgdqvghnqdhlihhgnhgvrdgtohhmpdhinhgvthephedrudeliedrvddufedruddtvddpmhgrihhlfhhrohhmpehrvghtuhhrnhdqrgdukedqvddtgeehqddvtdehgedqrhgvshhpqdhmvddqmhhirghgvgepuhhnihhvqdhrvghnnhgvshdurdhfrhepgeesmhgrihhsohhnqdguvgdqlhgruhhtohdrtghomhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb2-2.relay.renater.fr
+X-OrganizationHeadersPreserved: mbcasexch4.Ur.local
+
+--==809df75972c0238bc0fa35c079d20775
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Vacances r=C3=A9ussies.com - FLASH DERNIERES MINUTES
+
+Sunparks
+Sunparks=09=20
+DECEMBRE EN BELGIQUE
+4 villages vacances =C3=A0 d=C3=A9couvrir
+=C3=80 partir de 139=E2=82=AC	D=C3=89COUVRIR=20
+Logitravel
+Logitravel=09=20
+PROMOS CROISIERES 2016
+Jusqu'=C3=A0 200 euros de r=C3=A9duction
+=C3=80 partir de 336=E2=82=AC	D=C3=89COUVRIR=20
+Logitravel
+Logitravel=09=20
+SPECIAL MARRAKECH
+S=C3=A9jours 5j/4n vol + h=C3=B4tel
+=C3=80 partir de 145=E2=82=AC	D=C3=89COUVRIR=20
+ABCroisi=C3=83=C2=A8re
+ABCroisi=C3=83=C2=A8re=09=20
+MSC PREZIOSA 5*
+France, Italie, Malte, Espagne
+=C3=80 partir de 359=E2=82=AC	D=C3=89COUVRIR=20
+Promo Croisi=C3=83=C2=A8re
+Promo Croisi=C3=83=C2=A8re=09=20
+CROISIERE PARFUM DES ILES
+Rep Dom, St Barth, Venezuela
+=C3=80 partir de 999=E2=82=AC	D=C3=89COUVRIR=20
+Sunparks
+Sunparks=09=20
+VILLAGE SUNPARKS ARDENNEN
+5j/4n en Maison Select 59m=C2=B2
+=C3=80 partir de 149=E2=82=AC	D=C3=89COUVRIR=20
+* Les prix affich=C3=A9s sur cette newsletter ont =C3=A9t=C3=A9 relev=C3=A9=
+s sur les sites internets mentionn=C3=A9s le 28/10/2015 =C3=A0 15h.=
+
+--==809df75972c0238bc0fa35c079d20775
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" />
+	<title>VacancesReussies.com - FLASH DERNI&Egrave;RES MINUTES</title>
+</head>
+<body style=3D"background-color:#CECCC8;"><!-- BANNIERE: FLASH DERNIERES MI=
+NUTES -->
+<div style=3D"background-color:#CECCC8;">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+	<tbody>
+		<tr>
+			<td>
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"650">
+				<tbody>
+					<tr>
+						<td bgcolor=3D"#F6F6F6"><a href=3D"http://maison-de-lauto.com/ga/clic=
+k/2-11527895-18-1069-2054-14264-dfe0c25e1d-824aa169e0" target=3D"_blank"><i=
+mg alt=3D"Vacances r=C3=A9ussies.com - FLASH DERNIERES MINUTES" border=3D"0=
+" height=3D"150" src=3D"http://46.101.7.34/vacances/vr-291015/haeder_bp.jpg=
+" style=3D"display:block;" width=3D"650" /></a></td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#FFFFFF"><img border=3D"0" height=3D"12" src=3D"http:/=
+/46.101.7.34/vacances/vr-291015/header_under.gif" style=3D"display:block;" =
+width=3D"650" /></td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- CONTENU BDD(INFOS) -->
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"650">
+				<tbody>
+					<tr>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://mai=
+son-de-lauto.com/ga/click/2-11527895-18-1069-2054-14265-2dcbdc238f-824aa169=
+e0" target=3D"_blank"><img alt=3D"Sunparks" border=3D"0" height=3D"160" src=
+=3D"http://46.101.7.34/vacances/vr-291015/IP1.jpg" style=3D"display:block;"=
+ width=3D"290" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://maison-de-lauto.com/ga/click/2-11527895-18-1069-2054-14265-2dcbd=
+c238f-824aa169e0" target=3D"_blank"><img alt=3D"Sunparks" border=3D"0" heig=
+ht=3D"28" src=3D"http://46.101.7.34/vacances/vr-291015/Sunparks104x40.jpg" =
+style=3D"display:block;" width=3D"78" /></a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://maison-de-lauto.com/ga/click/2-11527895-18-1069-2054-14265-2dcbdc23=
+8f-824aa169e0" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">DECEMBRE EN BELGIQUE</a></strong></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://maison-de-lauto.com/ga/click/2-11527895-18-1069-2054-14265-2dcbd=
+c238f-824aa169e0" style=3D" color:#707173; text-decoration:none;" target=3D=
+"_blank">4 villages vacances &agrave; d&eacute;couvrir</a></span></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://maison-de-lauto.com/=
+ga/click/2-11527895-18-1069-2054-14265-2dcbdc238f-824aa169e0" style=3D" col=
+or:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a>=
+</span><a href=3D"http://maison-de-lauto.com/ga/click/2-11527895-18-1069-20=
+54-14265-2dcbdc238f-824aa169e0" style=3D" color:#FFFFFF; text-decoration:no=
+ne;" target=3D"_blank"> <strong style=3D"font-size:24px">139&euro;</strong>=
+</a></td>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"mi=
+ddle" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://maison-=
+de-lauto.com/ga/click/2-11527895-18-1069-2054-14265-2dcbdc238f-824aa169e0" =
+style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;=
+COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/v=
+r-291015/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- td --></td>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://mai=
+son-de-lauto.com/ga/click/2-11527895-18-1069-2054-14266-804d50bfe3-824aa169=
+e0" target=3D"_blank"><img alt=3D"Logitravel" border=3D"0" height=3D"160" s=
+rc=3D"http://46.101.7.34/vacances/vr-291015/IP2.jpg" style=3D"display:block=
+;" width=3D"290" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://maison-de-lauto.com/ga/click/2-11527895-18-1069-2054-14266-804d5=
+0bfe3-824aa169e0" target=3D"_blank"><img alt=3D"Logitravel" border=3D"0" he=
+ight=3D"28" src=3D"http://46.101.7.34/vacances/vr-291015/logitravel104x40.p=
+ng" style=3D"display:block;" width=3D"78" /></a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://maison-de-lauto.com/ga/click/2-11527895-18-1069-2054-14266-804d50bf=
+e3-824aa169e0" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">PROMOS CROISIERES 2016</a></strong></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://maison-de-lauto.com/ga/click/2-11527895-18-1069-2054-14266-804d5=
+0bfe3-824aa169e0" style=3D" color:#707173; text-decoration:none;" target=3D=
+"_blank">Jusqu&#39;&agrave; 200 euros de r&eacute;duction</a></span></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://maison-de-lauto.com/=
+ga/click/2-11527895-18-1069-2054-14266-804d50bfe3-824aa169e0" style=3D" col=
+or:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a>=
+</span><a href=3D"http://maison-de-lauto.com/ga/click/2-11527895-18-1069-20=
+54-14266-804d50bfe3-824aa169e0" style=3D" color:#FFFFFF; text-decoration:no=
+ne;" target=3D"_blank"> <strong style=3D"font-size:24px">336&euro;</strong>=
+</a></td>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"mi=
+ddle" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://maison-=
+de-lauto.com/ga/click/2-11527895-18-1069-2054-14266-804d50bfe3-824aa169e0" =
+style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;=
+COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/v=
+r-291015/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- td --></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"650">
+				<tbody>
+					<tr>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://mai=
+son-de-lauto.com/ga/click/2-11527895-18-1069-2054-14267-cc1c0ba645-824aa169=
+e0" target=3D"_blank"><img alt=3D"Logitravel" border=3D"0" height=3D"160" s=
+rc=3D"http://46.101.7.34/vacances/vr-291015/IP3.jpg" style=3D"display:block=
+;" width=3D"290" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://maison-de-lauto.com/ga/click/2-11527895-18-1069-2054-14267-cc1c0=
+ba645-824aa169e0" target=3D"_blank"><img alt=3D"Logitravel" border=3D"0" he=
+ight=3D"28" src=3D"http://46.101.7.34/vacances/vr-291015/logitravel104x40.p=
+ng" style=3D"display:block;" width=3D"78" /></a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://maison-de-lauto.com/ga/click/2-11527895-18-1069-2054-14267-cc1c0ba6=
+45-824aa169e0" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">SPECIAL MARRAKECH</a></strong></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://maison-de-lauto.com/ga/click/2-11527895-18-1069-2054-14267-cc1c0=
+ba645-824aa169e0" style=3D" color:#707173; text-decoration:none;" target=3D=
+"_blank">S&eacute;jours 5j/4n vol + h&ocirc;tel</a></span></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://maison-de-lauto.com/=
+ga/click/2-11527895-18-1069-2054-14267-cc1c0ba645-824aa169e0" style=3D" col=
+or:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a>=
+</span><a href=3D"http://maison-de-lauto.com/ga/click/2-11527895-18-1069-20=
+54-14267-cc1c0ba645-824aa169e0" style=3D" color:#FFFFFF; text-decoration:no=
+ne;" target=3D"_blank"> <strong style=3D"font-size:24px">145&euro;</strong>=
+</a></td>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"mi=
+ddle" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://maison-=
+de-lauto.com/ga/click/2-11527895-18-1069-2054-14267-cc1c0ba645-824aa169e0" =
+style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;=
+COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/v=
+r-291015/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- td --></td>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://mai=
+son-de-lauto.com/ga/click/2-11527895-18-1069-2054-14268-43482ceeb4-824aa169=
+e0" target=3D"_blank"><img alt=3D"ABCroisi=C3=83=C2=A8re" border=3D"0" heig=
+ht=3D"160" src=3D"http://46.101.7.34/vacances/vr-291015/IP4.jpg" style=3D"d=
+isplay:block;" width=3D"290" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://maison-de-lauto.com/ga/click/2-11527895-18-1069-2054-14268-43482=
+ceeb4-824aa169e0" target=3D"_blank"><img alt=3D"ABCroisi=C3=83=C2=A8re" bor=
+der=3D"0" height=3D"28" src=3D"http://46.101.7.34/vacances/vr-291015/AB_104=
+x40.jpg" style=3D"display:block;" width=3D"78" /></a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://maison-de-lauto.com/ga/click/2-11527895-18-1069-2054-14268-43482cee=
+b4-824aa169e0" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">MSC PREZIOSA 5*</a></strong></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://maison-de-lauto.com/ga/click/2-11527895-18-1069-2054-14268-43482=
+ceeb4-824aa169e0" style=3D" color:#707173; text-decoration:none;" target=3D=
+"_blank">France, Italie, Malte, Espagne</a></span></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://maison-de-lauto.com/=
+ga/click/2-11527895-18-1069-2054-14268-43482ceeb4-824aa169e0" style=3D" col=
+or:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a>=
+</span><a href=3D"http://maison-de-lauto.com/ga/click/2-11527895-18-1069-20=
+54-14268-43482ceeb4-824aa169e0" style=3D" color:#FFFFFF; text-decoration:no=
+ne;" target=3D"_blank"> <strong style=3D"font-size:24px">359&euro;</strong>=
+</a></td>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"mi=
+ddle" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://maison-=
+de-lauto.com/ga/click/2-11527895-18-1069-2054-14268-43482ceeb4-824aa169e0" =
+style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;=
+COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/v=
+r-291015/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- td --></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"650">
+				<tbody>
+					<tr>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://mai=
+son-de-lauto.com/ga/click/2-11527895-18-1069-2054-14269-07731f4ade-824aa169=
+e0" target=3D"_blank"><img alt=3D"Promo Croisi=C3=83=C2=A8re" border=3D"0" =
+height=3D"160" src=3D"http://46.101.7.34/vacances/vr-291015/IP5.jpg" style=
+=3D"display:block;" width=3D"290" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://maison-de-lauto.com/ga/click/2-11527895-18-1069-2054-14269-07731=
+f4ade-824aa169e0" target=3D"_blank"><img alt=3D"Promo Croisi=C3=83=C2=A8re"=
+ border=3D"0" height=3D"28" src=3D"http://46.101.7.34/vacances/vr-291015/pr=
+omocroisiere104x40.jpg" style=3D"display:block;" width=3D"78" /></a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://maison-de-lauto.com/ga/click/2-11527895-18-1069-2054-14269-07731f4a=
+de-824aa169e0" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">CROISIERE PARFUM DES ILES</a></strong></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://maison-de-lauto.com/ga/click/2-11527895-18-1069-2054-14269-07731=
+f4ade-824aa169e0" style=3D" color:#707173; text-decoration:none;" target=3D=
+"_blank">Rep Dom, St Barth, Venezuela</a></span></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://maison-de-lauto.com/=
+ga/click/2-11527895-18-1069-2054-14269-07731f4ade-824aa169e0" style=3D" col=
+or:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a>=
+</span><a href=3D"http://maison-de-lauto.com/ga/click/2-11527895-18-1069-20=
+54-14269-07731f4ade-824aa169e0" style=3D" color:#FFFFFF; text-decoration:no=
+ne;" target=3D"_blank"> <strong style=3D"font-size:24px">999&euro;</strong>=
+</a></td>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"mi=
+ddle" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://maison-=
+de-lauto.com/ga/click/2-11527895-18-1069-2054-14269-07731f4ade-824aa169e0" =
+style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;=
+COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/v=
+r-291015/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- td --></td>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://mai=
+son-de-lauto.com/ga/click/2-11527895-18-1069-2054-14270-58a66dcd9c-824aa169=
+e0" target=3D"_blank"><img alt=3D"Sunparks" border=3D"0" height=3D"160" src=
+=3D"http://46.101.7.34/vacances/vr-291015/IP6.jpg" style=3D"display:block;"=
+ width=3D"290" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://maison-de-lauto.com/ga/click/2-11527895-18-1069-2054-14270-58a66=
+dcd9c-824aa169e0" target=3D"_blank"><img alt=3D"Sunparks" border=3D"0" heig=
+ht=3D"28" src=3D"http://46.101.7.34/vacances/vr-291015/Sunparks104x40.jpg" =
+style=3D"display:block;" width=3D"78" /></a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://maison-de-lauto.com/ga/click/2-11527895-18-1069-2054-14270-58a66dcd=
+9c-824aa169e0" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">VILLAGE SUNPARKS ARDENNEN</a></strong></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://maison-de-lauto.com/ga/click/2-11527895-18-1069-2054-14270-58a66=
+dcd9c-824aa169e0" style=3D" color:#707173; text-decoration:none;" target=3D=
+"_blank">5j/4n en Maison Select 59m&sup2;</a></span></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://maison-de-lauto.com/=
+ga/click/2-11527895-18-1069-2054-14270-58a66dcd9c-824aa169e0" style=3D" col=
+or:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a>=
+</span><a href=3D"http://maison-de-lauto.com/ga/click/2-11527895-18-1069-20=
+54-14270-58a66dcd9c-824aa169e0" style=3D" color:#FFFFFF; text-decoration:no=
+ne;" target=3D"_blank"> <strong style=3D"font-size:24px">149&euro;</strong>=
+</a></td>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"mi=
+ddle" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://maison-=
+de-lauto.com/ga/click/2-11527895-18-1069-2054-14270-58a66dcd9c-824aa169e0" =
+style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;=
+COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/v=
+r-291015/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- td --></td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- Footer -->
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"12" cellspacing=3D"0=
+" width=3D"650">
+				<tbody>
+					<tr>
+						<td align=3D"center" style=3D"color:#44443E; font-size:10px;-webkit-t=
+ext-size-adjust:none; font-family:Arial, Helvetica, sans-serif">* Les prix =
+affich&eacute;s sur cette newsletter ont &eacute;t&eacute; relev&eacute;s s=
+ur les sites internets mentionn&eacute;s le 28/10/2015 &agrave; 15h.</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<center><a href=3D"http://maison-de-lauto.com/ga/unsubscribe/2-11527895-18-=
+1069-2054-ed35df89ef15825-824aa169e0">Je souhaite me d=C3=A9sinscrire et ne=
+ plus recevoir les newsletters</a>
+</center><img src=3D"http://maison-de-lauto.com/ga/open/2-11527895-18-1069-=
+2054-824aa169e0" height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==809df75972c0238bc0fa35c079d20775--

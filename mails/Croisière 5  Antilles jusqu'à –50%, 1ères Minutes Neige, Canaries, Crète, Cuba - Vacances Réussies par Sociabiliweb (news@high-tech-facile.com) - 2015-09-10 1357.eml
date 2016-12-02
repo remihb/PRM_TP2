@@ -1,0 +1,1437 @@
+Return-Path: <return-a18-1558-1559-resp-m2-miage=univ-rennes1.fr=4@high-tech-facile.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Thu, 10 Sep 2015 13:57:19 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from vmsmtprexch.univ-rennes1.fr (vmsmtprexch.univ-rennes1.fr [129.20.128.62])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 969CA26A0E8C
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 10 Sep 2015 13:57:19 +0200 (CEST)
+Received: from mbcasexch3.Ur.local (mbcasexch3.univ-rennes1.fr [129.20.125.131])
+	by vmsmtprexch.univ-rennes1.fr (Postfix) with ESMTP id 8CE8716B
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 10 Sep 2015 13:57:19 +0200 (CEST)
+X-CrossPremisesHeadersFilteredBySendConnector: mbcasexch3.Ur.local
+Received: from mbcasexch1.Ur.local (2002:8114:7d81::8114:7d81) by
+ mbcasexch3.Ur.local (2002:8114:7d83::8114:7d83) with Microsoft SMTP Server
+ (TLS) id 15.0.913.22; Thu, 10 Sep 2015 13:57:19 +0200
+Received: from mailout1.univ-rennes1.fr (129.20.128.162) by
+ mbcasexch1.Ur.local (129.20.125.129) with Microsoft SMTP Server id
+ 15.0.913.22 via Frontend Transport; Thu, 10 Sep 2015 13:57:19 +0200
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 2128160153
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 10 Sep 2015 13:57:19 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id va163K0A8NpU for <resp-m2-miage@univ-rennes1.fr>;
+	Thu, 10 Sep 2015 13:57:18 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id E17CC600EF
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 10 Sep 2015 13:57:18 +0200 (CEST)
+Received: from mxb2-1.relay.renater.fr (mxb2-1.relay.renater.fr [194.214.200.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id C8F3320033
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 10 Sep 2015 13:57:18 +0200 (CEST)
+Received: from smtp1-29.revue-en-ligne.com (smtp1-29.revue-en-ligne.com [5.196.213.100])
+	by mxb2-1.relay.renater.fr (asm) with SMTP id 7A9C960013F
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 10 Sep 2015 13:57:18 +0200 (CEST)
+Received: (GreenArrow 14127 invoked by uid 410); 10 Sep 2015 11:57:18 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=high-tech-facile.com; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=iBNyv6
+	rTWLHfGcFLdnu38UnHWDA=; b=CYEY/TXmQ7JfJCCESZUTO8b9QlBuJh3A2co95N
+	GBfQaIQnTdTB2SDsC6Te9c6gco29pNlEtb+uxSR/uT428yOHTkUnunXS+wcW0Pe5
+	QbJ1FCkg+nA2rVMBFuXGqGj7jqDI3SFLFvxQwMJkXg38P2UfcmjgEKA+3PE4SVtX
+	TM4Co=
+Subject: =?UTF-8?Q?Croisi=C3=A8re=205=2A=20Antilles=20jusqu=27=C3=A0=20?=
+ =?UTF-8?Q?=E2=80=9350=25=2C=201=C3=A8res=20Minutes=20Neige=2C=20Canari?=
+ =?UTF-8?Q?es=2C=20Cr=C3=A8te=2C=20Cuba?=
+From: =?UTF-8?B?VmFjYW5jZXMgUsOpdXNzaWVzIHBhciBTb2NpYWJpbGl3ZWI=?=
+	<news@high-tech-facile.com>
+To: <resp-m2-miage@univ-rennes1.fr>
+Date: Thu, 10 Sep 2015 11:57:18 +0000
+List-Unsubscribe: <http://high-tech-facile.com/ga/unsubscribe/2-11527895-18-819-1559-ed35df89ef15825-39f74cb6e1>,
+ <mailto:return-a18-1558-1559-resp-m2-miage=univ-rennes1.fr=4u@high-tech-facile.com>
+X-Mailer: GreenArrow Studio (v4.44.0)
+X-CampaignID: s4:1558-c6122af42873e6cc
+Message-ID: <mid-983108921a47f78053f6a45938ab8fa4@high-tech-facile.com>
+X-Mailer-Info: 4.hFDO.QM1UDO.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.QM1UTO
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="==84eecd005ccab670f232063a78260005"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 5.196.213.100
+X-Bizanga: IMP - mxb2-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekgedrudeigdegkecutefuodetggdotefrucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepuffhvfffjffokfggtgesrgdtreerredtjeenucfhrhhomhepgggrtggrnhgtvghsucftrohushhsihgvshcuphgrrhcuufhotghirggsihhlihifvggsuceonhgvfihssehhihhghhdqthgvtghhqdhfrggtihhlvgdrtghomheqnecuffhomhgrihhnpehhihhghhdqthgvtghhqdhfrggtihhlvgdrtghomh 
+X-Renater-ServerName: mxb2-1.relay.renater.fr
+X-OrganizationHeadersPreserved: mbcasexch3.Ur.local
+
+--==84eecd005ccab670f232063a78260005
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Vacances r=C3=A9ussies.com - FLASH DERNIERES MINUTES ( http://high-tech-fac=
+ile.com/ga/click/2-11527895-18-819-1559-10829-2f4b980615-39f74cb6e1 )
+
+Promo Croisi=C3=83=C2=A8re ( http://high-tech-facile.com/ga/click/2-1152789=
+5-18-819-1559-10830-e2a704179e-39f74cb6e1 )
+
+Promo Croisi=C3=83=C2=A8re ( http://high-tech-facile.com/ga/click/2-1152789=
+5-18-819-1559-10830-e2a704179e-39f74cb6e1 )
+
+PERLE DES ANTILLES ( http://high-tech-facile.com/ga/click/2-11527895-18-819=
+-1559-10830-e2a704179e-39f74cb6e1 )
+
+Croisi=C3=A8re Costa Favolosa 5* ( http://high-tech-facile.com/ga/click/2-1=
+1527895-18-819-1559-10830-e2a704179e-39f74cb6e1 )
+
+=C3=80 partir de ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1=
+559-10830-e2a704179e-39f74cb6e1 )486=E2=82=AC ( http://high-tech-facile.com=
+/ga/click/2-11527895-18-819-1559-10830-e2a704179e-39f74cb6e1 )
+
+D=C3=89COUVRIR ( http://high-tech-facile.com/ga/click/2-11527895-18-819-155=
+9-10830-e2a704179e-39f74cb6e1 )
+
+Marmara ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10831=
+-7ac627950c-39f74cb6e1 )
+
+Marmara ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10831=
+-7ac627950c-39f74cb6e1 )
+
+CLUB MARMARA VALFREJUS 3* ( http://high-tech-facile.com/ga/click/2-11527895=
+-18-819-1559-10831-7ac627950c-39f74cb6e1 )
+
+8j/7n en pension compl=C3=A8te ( http://high-tech-facile.com/ga/click/2-115=
+27895-18-819-1559-10831-7ac627950c-39f74cb6e1 )
+
+=C3=80 partir de ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1=
+559-10831-7ac627950c-39f74cb6e1 )589=E2=82=AC ( http://high-tech-facile.com=
+/ga/click/2-11527895-18-819-1559-10831-7ac627950c-39f74cb6e1 )
+
+D=C3=89COUVRIR ( http://high-tech-facile.com/ga/click/2-11527895-18-819-155=
+9-10831-7ac627950c-39f74cb6e1 )
+
+Vacanciel ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-108=
+32-408d6ec0e1-39f74cb6e1 )
+
+Vacanciel ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-108=
+32-408d6ec0e1-39f74cb6e1 )
+
+1ERES MINUTES NEIGE ( http://high-tech-facile.com/ga/click/2-11527895-18-81=
+9-1559-10832-408d6ec0e1-39f74cb6e1 )
+
+Budget famille jusqu'=C3=A0 -30% ( http://high-tech-facile.com/ga/click/2-1=
+1527895-18-819-1559-10832-408d6ec0e1-39f74cb6e1 )
+
+=C3=80 partir de ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1=
+559-10832-408d6ec0e1-39f74cb6e1 )315=E2=82=AC ( http://high-tech-facile.com=
+/ga/click/2-11527895-18-819-1559-10832-408d6ec0e1-39f74cb6e1 )
+
+D=C3=89COUVRIR ( http://high-tech-facile.com/ga/click/2-11527895-18-819-155=
+9-10832-408d6ec0e1-39f74cb6e1 )
+
+Marmara ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10833=
+-4ad37aaa38-39f74cb6e1 )
+
+Marmara ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10833=
+-4ad37aaa38-39f74cb6e1 )
+
+CANARIES PLAYA BLANCA ( http://high-tech-facile.com/ga/click/2-11527895-18-=
+819-1559-10833-4ad37aaa38-39f74cb6e1 )
+
+8j/7n en tout compris ( http://high-tech-facile.com/ga/click/2-11527895-18-=
+819-1559-10833-4ad37aaa38-39f74cb6e1 )
+
+=C3=80 partir de ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1=
+559-10833-4ad37aaa38-39f74cb6e1 )509=E2=82=AC ( http://high-tech-facile.com=
+/ga/click/2-11527895-18-819-1559-10833-4ad37aaa38-39f74cb6e1 )
+
+D=C3=89COUVRIR ( http://high-tech-facile.com/ga/click/2-11527895-18-819-155=
+9-10833-4ad37aaa38-39f74cb6e1 )
+
+Vacanciel ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-108=
+34-e815724768-39f74cb6e1 )
+
+Vacanciel ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-108=
+34-e815724768-39f74cb6e1 )
+
+HOTEL CLUB PORT FREJUS ( http://high-tech-facile.com/ga/click/2-11527895-18=
+-819-1559-10834-e815724768-39f74cb6e1 )
+
+8j/7n en demi-pension ( http://high-tech-facile.com/ga/click/2-11527895-18-=
+819-1559-10834-e815724768-39f74cb6e1 )
+
+=C3=80 partir de ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1=
+559-10834-e815724768-39f74cb6e1 )322=E2=82=AC ( http://high-tech-facile.com=
+/ga/click/2-11527895-18-819-1559-10834-e815724768-39f74cb6e1 )
+
+D=C3=89COUVRIR ( http://high-tech-facile.com/ga/click/2-11527895-18-819-155=
+9-10834-e815724768-39f74cb6e1 )
+
+Marmara ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10835=
+-ed1bf30666-39f74cb6e1 )
+
+Marmara ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10835=
+-ed1bf30666-39f74cb6e1 )
+
+MARRAKECH DAR ATLAS 4* ( http://high-tech-facile.com/ga/click/2-11527895-18=
+-819-1559-10835-ed1bf30666-39f74cb6e1 )
+
+8j/7n en tout compris ( http://high-tech-facile.com/ga/click/2-11527895-18-=
+819-1559-10835-ed1bf30666-39f74cb6e1 )
+
+=C3=80 partir de ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1=
+559-10835-ed1bf30666-39f74cb6e1 )349=E2=82=AC ( http://high-tech-facile.com=
+/ga/click/2-11527895-18-819-1559-10835-ed1bf30666-39f74cb6e1 )
+
+D=C3=89COUVRIR ( http://high-tech-facile.com/ga/click/2-11527895-18-819-155=
+9-10835-ed1bf30666-39f74cb6e1 )
+
+Marmara ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10836=
+-6da6f0e13d-39f74cb6e1 )
+
+Marmara ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10836=
+-6da6f0e13d-39f74cb6e1 )
+
+CRETE MARINA BEACH 4* ( http://high-tech-facile.com/ga/click/2-11527895-18-=
+819-1559-10836-6da6f0e13d-39f74cb6e1 )
+
+8j/7n en tout compris ( http://high-tech-facile.com/ga/click/2-11527895-18-=
+819-1559-10836-6da6f0e13d-39f74cb6e1 )
+
+=C3=80 partir de ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1=
+559-10836-6da6f0e13d-39f74cb6e1 )539=E2=82=AC ( http://high-tech-facile.com=
+/ga/click/2-11527895-18-819-1559-10836-6da6f0e13d-39f74cb6e1 )
+
+D=C3=89COUVRIR ( http://high-tech-facile.com/ga/click/2-11527895-18-819-155=
+9-10836-6da6f0e13d-39f74cb6e1 )
+
+ABCroisi=C3=83=C2=A8re ( http://high-tech-facile.com/ga/click/2-11527895-18=
+-819-1559-10837-e5efe09e87-39f74cb6e1 )
+
+ABCroisi=C3=83=C2=A8re ( http://high-tech-facile.com/ga/click/2-11527895-18=
+-819-1559-10837-e5efe09e87-39f74cb6e1 )
+
+CUBA JAMA=C3=8FQUE MEXIQUE ( http://high-tech-facile.com/ga/click/2-1152789=
+5-18-819-1559-10837-e5efe09e87-39f74cb6e1 )
+
+Croisi=C3=A8re MSC 4* vols inclus ( http://high-tech-facile.com/ga/click/2-=
+11527895-18-819-1559-10837-e5efe09e87-39f74cb6e1 )
+
+=C3=80 partir de ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1=
+559-10837-e5efe09e87-39f74cb6e1 )1349=E2=82=AC ( http://high-tech-facile.co=
+m/ga/click/2-11527895-18-819-1559-10837-e5efe09e87-39f74cb6e1 )
+
+D=C3=89COUVRIR ( http://high-tech-facile.com/ga/click/2-11527895-18-819-155=
+9-10837-e5efe09e87-39f74cb6e1 )
+
+Vacanciel ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-108=
+38-8ac81d2b69-39f74cb6e1 )
+
+Vacanciel ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-108=
+38-8ac81d2b69-39f74cb6e1 )
+
+CLUB PRALOGNAN LA VANOISE ( http://high-tech-facile.com/ga/click/2-11527895=
+-18-819-1559-10838-8ac81d2b69-39f74cb6e1 )
+
+8j/7n en demi-pension ( http://high-tech-facile.com/ga/click/2-11527895-18-=
+819-1559-10838-8ac81d2b69-39f74cb6e1 )
+
+=C3=80 partir de ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1=
+559-10838-8ac81d2b69-39f74cb6e1 )315=E2=82=AC ( http://high-tech-facile.com=
+/ga/click/2-11527895-18-819-1559-10838-8ac81d2b69-39f74cb6e1 )
+
+D=C3=89COUVRIR ( http://high-tech-facile.com/ga/click/2-11527895-18-819-155=
+9-10838-8ac81d2b69-39f74cb6e1 )
+
+Vacanciel ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-108=
+39-016f0e4e6c-39f74cb6e1 )
+
+Vacanciel ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-108=
+39-016f0e4e6c-39f74cb6e1 )
+
+HOTEL CLUB 3* COURCHEVEL ( http://high-tech-facile.com/ga/click/2-11527895-=
+18-819-1559-10839-016f0e4e6c-39f74cb6e1 )
+
+8j/7n en demi-pension ( http://high-tech-facile.com/ga/click/2-11527895-18-=
+819-1559-10839-016f0e4e6c-39f74cb6e1 )
+
+=C3=80 partir de ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1=
+559-10839-016f0e4e6c-39f74cb6e1 )574=E2=82=AC ( http://high-tech-facile.com=
+/ga/click/2-11527895-18-819-1559-10839-016f0e4e6c-39f74cb6e1 )
+
+D=C3=89COUVRIR ( http://high-tech-facile.com/ga/click/2-11527895-18-819-155=
+9-10839-016f0e4e6c-39f74cb6e1 )
+
+Marmara ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10840=
+-f8f1e011b8-39f74cb6e1 )
+
+Marmara ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10840=
+-f8f1e011b8-39f74cb6e1 )
+
+BALEARES CLUB DEL MAR 4* ( http://high-tech-facile.com/ga/click/2-11527895-=
+18-819-1559-10840-f8f1e011b8-39f74cb6e1 )
+
+8j/7n en tout compris ( http://high-tech-facile.com/ga/click/2-11527895-18-=
+819-1559-10840-f8f1e011b8-39f74cb6e1 )
+
+=C3=80 partir de ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1=
+559-10840-f8f1e011b8-39f74cb6e1 )419=E2=82=AC ( http://high-tech-facile.com=
+/ga/click/2-11527895-18-819-1559-10840-f8f1e011b8-39f74cb6e1 )
+
+D=C3=89COUVRIR ( http://high-tech-facile.com/ga/click/2-11527895-18-819-155=
+9-10840-f8f1e011b8-39f74cb6e1 )
+
+Vacanciel ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-108=
+41-e95515e0e1-39f74cb6e1 )
+
+Vacanciel ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-108=
+41-e95515e0e1-39f74cb6e1 )
+
+CLUB 3* VAL CENIS ( http://high-tech-facile.com/ga/click/2-11527895-18-819-=
+1559-10841-e95515e0e1-39f74cb6e1 )
+
+8j/7n en demi-pension ( http://high-tech-facile.com/ga/click/2-11527895-18-=
+819-1559-10841-e95515e0e1-39f74cb6e1 )
+
+=C3=80 partir de ( http://high-tech-facile.com/ga/click/2-11527895-18-819-1=
+559-10841-e95515e0e1-39f74cb6e1 )322=E2=82=AC ( http://high-tech-facile.com=
+/ga/click/2-11527895-18-819-1559-10841-e95515e0e1-39f74cb6e1 )
+
+D=C3=89COUVRIR ( http://high-tech-facile.com/ga/click/2-11527895-18-819-155=
+9-10841-e95515e0e1-39f74cb6e1 )
+
+* Les prix affich=C3=A9s sur cette newsletter ont =C3=A9t=C3=A9 relev=C3=A9=
+s sur les
+sites internets mentionn=C3=A9s le 09/09/2015 =C3=A0 15h.=
+
+--==84eecd005ccab670f232063a78260005
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" />
+	<title>VacancesReussies.com - FLASH DERNI&Egrave;RES MINUTES</title>
+</head>
+<body style=3D"background-color:#CECCC8;"><!-- BANNIERE: FLASH DERNIERES MI=
+NUTES -->
+<div style=3D"background-color:#CECCC8;">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"650">
+	<tbody>
+		<tr>
+			<td bgcolor=3D"#F6F6F6"><a href=3D"http://high-tech-facile.com/ga/click/=
+2-11527895-18-819-1559-10829-2f4b980615-39f74cb6e1" target=3D"_blank"><img =
+alt=3D"Vacances r=C3=A9ussies.com - FLASH DERNIERES MINUTES" border=3D"0" h=
+eight=3D"150" src=3D"http://46.101.7.34/vacances/vr-090915/header_bp_3.jpg"=
+ style=3D"display:block;" width=3D"650" /></a></td>
+		</tr>
+		<tr>
+			<td bgcolor=3D"#FFFFFF"><img border=3D"0" height=3D"12" src=3D"http://46=
+.101.7.34/vacances/vr-090915/header_under.gif" style=3D"display:block;" wid=
+th=3D"650" /></td>
+		</tr>
+	</tbody>
+</table>
+<!-- CONTENU BDD(INFOS) -->
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"650">
+	<tbody>
+		<tr>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://high-t=
+ech-facile.com/ga/click/2-11527895-18-819-1559-10830-e2a704179e-39f74cb6e1"=
+ target=3D"_blank"><img alt=3D"Promo Croisi=C3=83=C2=A8re" border=3D"0" hei=
+ght=3D"160" src=3D"http://46.101.7.34/vacances/vr-090915/IP1.jpg" style=3D"=
+display:block;" width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10830-e2a704179=
+e-39f74cb6e1" target=3D"_blank"><img alt=3D"Promo Croisi=C3=83=C2=A8re" bor=
+der=3D"0" height=3D"28" src=3D"http://46.101.7.34/vacances/vr-090915/promoc=
+roisiere104x40.jpg" style=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10830-e2a704179e-=
+39f74cb6e1" style=3D" color:#707173; text-decoration:none;" target=3D"_blan=
+k">PERLE DES ANTILLES</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10830-e2a70417=
+9e-39f74cb6e1" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">Croisi&egrave;re Costa Favolosa 5*</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://high-tech-facile.com/ga=
+/click/2-11527895-18-819-1559-10830-e2a704179e-39f74cb6e1" style=3D" color:=
+#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></s=
+pan><a href=3D"http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-=
+10830-e2a704179e-39f74cb6e1" style=3D" color:#FFFFFF; text-decoration:none;=
+" target=3D"_blank"> <strong style=3D"font-size:24px">486&euro;</strong></a=
+></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://high-tech-=
+facile.com/ga/click/2-11527895-18-819-1559-10830-e2a704179e-39f74cb6e1" sty=
+le=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COU=
+VRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-0=
+90915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://high-t=
+ech-facile.com/ga/click/2-11527895-18-819-1559-10831-7ac627950c-39f74cb6e1"=
+ target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D"160" src=3D"=
+http://46.101.7.34/vacances/vr-090915/IP2.jpg" style=3D"display:block;" wid=
+th=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10831-7ac627950=
+c-39f74cb6e1" target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D=
+"28" src=3D"http://46.101.7.34/vacances/vr-090915/marmara104x40.jpg" style=
+=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10831-7ac627950c-=
+39f74cb6e1" style=3D" color:#707173; text-decoration:none;" target=3D"_blan=
+k">CLUB MARMARA VALFREJUS 3*</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10831-7ac62795=
+0c-39f74cb6e1" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">8j/7n en pension compl&egrave;te</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://high-tech-facile.com/ga=
+/click/2-11527895-18-819-1559-10831-7ac627950c-39f74cb6e1" style=3D" color:=
+#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></s=
+pan><a href=3D"http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-=
+10831-7ac627950c-39f74cb6e1" style=3D" color:#FFFFFF; text-decoration:none;=
+" target=3D"_blank"> <strong style=3D"font-size:24px">589&euro;</strong></a=
+></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://high-tech-=
+facile.com/ga/click/2-11527895-18-819-1559-10831-7ac627950c-39f74cb6e1" sty=
+le=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COU=
+VRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-0=
+90915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"650">
+	<tbody>
+		<tr>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://high-t=
+ech-facile.com/ga/click/2-11527895-18-819-1559-10832-408d6ec0e1-39f74cb6e1"=
+ target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" height=3D"160" src=
+=3D"http://46.101.7.34/vacances/vr-090915/IP3.jpg" style=3D"display:block;"=
+ width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10832-408d6ec0e=
+1-39f74cb6e1" target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" height=
+=3D"28" src=3D"http://46.101.7.34/vacances/vr-090915/vacanciel104x40.jpg" s=
+tyle=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10832-408d6ec0e1-=
+39f74cb6e1" style=3D" color:#707173; text-decoration:none;" target=3D"_blan=
+k">1ERES MINUTES NEIGE</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10832-408d6ec0=
+e1-39f74cb6e1" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">Budget famille jusqu&#39;&agrave; -30%</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://high-tech-facile.com/ga=
+/click/2-11527895-18-819-1559-10832-408d6ec0e1-39f74cb6e1" style=3D" color:=
+#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></s=
+pan><a href=3D"http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-=
+10832-408d6ec0e1-39f74cb6e1" style=3D" color:#FFFFFF; text-decoration:none;=
+" target=3D"_blank"> <strong style=3D"font-size:24px">315&euro;</strong></a=
+></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://high-tech-=
+facile.com/ga/click/2-11527895-18-819-1559-10832-408d6ec0e1-39f74cb6e1" sty=
+le=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COU=
+VRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-0=
+90915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://high-t=
+ech-facile.com/ga/click/2-11527895-18-819-1559-10833-4ad37aaa38-39f74cb6e1"=
+ target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D"160" src=3D"=
+http://46.101.7.34/vacances/vr-090915/IP4.jpg" style=3D"display:block;" wid=
+th=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10833-4ad37aaa3=
+8-39f74cb6e1" target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D=
+"28" src=3D"http://46.101.7.34/vacances/vr-090915/marmara104x40.jpg" style=
+=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10833-4ad37aaa38-=
+39f74cb6e1" style=3D" color:#707173; text-decoration:none;" target=3D"_blan=
+k">CANARIES PLAYA BLANCA</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10833-4ad37aaa=
+38-39f74cb6e1" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">8j/7n en tout compris</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://high-tech-facile.com/ga=
+/click/2-11527895-18-819-1559-10833-4ad37aaa38-39f74cb6e1" style=3D" color:=
+#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></s=
+pan><a href=3D"http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-=
+10833-4ad37aaa38-39f74cb6e1" style=3D" color:#FFFFFF; text-decoration:none;=
+" target=3D"_blank"> <strong style=3D"font-size:24px">509&euro;</strong></a=
+></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://high-tech-=
+facile.com/ga/click/2-11527895-18-819-1559-10833-4ad37aaa38-39f74cb6e1" sty=
+le=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COU=
+VRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-0=
+90915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"650">
+	<tbody>
+		<tr>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://high-t=
+ech-facile.com/ga/click/2-11527895-18-819-1559-10834-e815724768-39f74cb6e1"=
+ target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" height=3D"160" src=
+=3D"http://46.101.7.34/vacances/vr-090915/IP5.jpg" style=3D"display:block;"=
+ width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10834-e81572476=
+8-39f74cb6e1" target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" height=
+=3D"28" src=3D"http://46.101.7.34/vacances/vr-090915/vacanciel104x40.jpg" s=
+tyle=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10834-e815724768-=
+39f74cb6e1" style=3D" color:#707173; text-decoration:none;" target=3D"_blan=
+k">HOTEL CLUB PORT FREJUS</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10834-e8157247=
+68-39f74cb6e1" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">8j/7n en demi-pension</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://high-tech-facile.com/ga=
+/click/2-11527895-18-819-1559-10834-e815724768-39f74cb6e1" style=3D" color:=
+#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></s=
+pan><a href=3D"http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-=
+10834-e815724768-39f74cb6e1" style=3D" color:#FFFFFF; text-decoration:none;=
+" target=3D"_blank"> <strong style=3D"font-size:24px">322&euro;</strong></a=
+></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://high-tech-=
+facile.com/ga/click/2-11527895-18-819-1559-10834-e815724768-39f74cb6e1" sty=
+le=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COU=
+VRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-0=
+90915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://high-t=
+ech-facile.com/ga/click/2-11527895-18-819-1559-10835-ed1bf30666-39f74cb6e1"=
+ target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D"160" src=3D"=
+http://46.101.7.34/vacances/vr-090915/IP6.jpg" style=3D"display:block;" wid=
+th=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10835-ed1bf3066=
+6-39f74cb6e1" target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D=
+"28" src=3D"http://46.101.7.34/vacances/vr-090915/marmara104x40.jpg" style=
+=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10835-ed1bf30666-=
+39f74cb6e1" style=3D" color:#707173; text-decoration:none;" target=3D"_blan=
+k">MARRAKECH DAR ATLAS 4*</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10835-ed1bf306=
+66-39f74cb6e1" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">8j/7n en tout compris</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://high-tech-facile.com/ga=
+/click/2-11527895-18-819-1559-10835-ed1bf30666-39f74cb6e1" style=3D" color:=
+#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></s=
+pan><a href=3D"http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-=
+10835-ed1bf30666-39f74cb6e1" style=3D" color:#FFFFFF; text-decoration:none;=
+" target=3D"_blank"> <strong style=3D"font-size:24px">349&euro;</strong></a=
+></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://high-tech-=
+facile.com/ga/click/2-11527895-18-819-1559-10835-ed1bf30666-39f74cb6e1" sty=
+le=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COU=
+VRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-0=
+90915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"650">
+	<tbody>
+		<tr>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://high-t=
+ech-facile.com/ga/click/2-11527895-18-819-1559-10836-6da6f0e13d-39f74cb6e1"=
+ target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D"160" src=3D"=
+http://46.101.7.34/vacances/vr-090915/IP7.jpg" style=3D"display:block;" wid=
+th=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10836-6da6f0e13=
+d-39f74cb6e1" target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D=
+"28" src=3D"http://46.101.7.34/vacances/vr-090915/marmara104x40.jpg" style=
+=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10836-6da6f0e13d-=
+39f74cb6e1" style=3D" color:#707173; text-decoration:none;" target=3D"_blan=
+k">CRETE MARINA BEACH 4*</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10836-6da6f0e1=
+3d-39f74cb6e1" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">8j/7n en tout compris</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://high-tech-facile.com/ga=
+/click/2-11527895-18-819-1559-10836-6da6f0e13d-39f74cb6e1" style=3D" color:=
+#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></s=
+pan><a href=3D"http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-=
+10836-6da6f0e13d-39f74cb6e1" style=3D" color:#FFFFFF; text-decoration:none;=
+" target=3D"_blank"> <strong style=3D"font-size:24px">539&euro;</strong></a=
+></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://high-tech-=
+facile.com/ga/click/2-11527895-18-819-1559-10836-6da6f0e13d-39f74cb6e1" sty=
+le=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COU=
+VRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-0=
+90915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://high-t=
+ech-facile.com/ga/click/2-11527895-18-819-1559-10837-e5efe09e87-39f74cb6e1"=
+ target=3D"_blank"><img alt=3D"ABCroisi=C3=83=C2=A8re" border=3D"0" height=
+=3D"160" src=3D"http://46.101.7.34/vacances/vr-090915/IP8.jpg" style=3D"dis=
+play:block;" width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10837-e5efe09e8=
+7-39f74cb6e1" target=3D"_blank"><img alt=3D"ABCroisi=C3=83=C2=A8re" border=
+=3D"0" height=3D"28" src=3D"http://46.101.7.34/vacances/vr-090915/AB_104x40=
+.jpg" style=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10837-e5efe09e87-=
+39f74cb6e1" style=3D" color:#707173; text-decoration:none;" target=3D"_blan=
+k">CUBA JAMA&Iuml;QUE MEXIQUE</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10837-e5efe09e=
+87-39f74cb6e1" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">Croisi&egrave;re MSC 4* vols inclus</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://high-tech-facile.com/ga=
+/click/2-11527895-18-819-1559-10837-e5efe09e87-39f74cb6e1" style=3D" color:=
+#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></s=
+pan><a href=3D"http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-=
+10837-e5efe09e87-39f74cb6e1" style=3D" color:#FFFFFF; text-decoration:none;=
+" target=3D"_blank"> <strong style=3D"font-size:24px">1349&euro;</strong></=
+a></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://high-tech-=
+facile.com/ga/click/2-11527895-18-819-1559-10837-e5efe09e87-39f74cb6e1" sty=
+le=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COU=
+VRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-0=
+90915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"650">
+	<tbody>
+		<tr>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://high-t=
+ech-facile.com/ga/click/2-11527895-18-819-1559-10838-8ac81d2b69-39f74cb6e1"=
+ target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" height=3D"160" src=
+=3D"http://46.101.7.34/vacances/vr-090915/IP9.jpg" style=3D"display:block;"=
+ width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10838-8ac81d2b6=
+9-39f74cb6e1" target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" height=
+=3D"28" src=3D"http://46.101.7.34/vacances/vr-090915/vacanciel104x40.jpg" s=
+tyle=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10838-8ac81d2b69-=
+39f74cb6e1" style=3D" color:#707173; text-decoration:none;" target=3D"_blan=
+k">CLUB PRALOGNAN LA VANOISE</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10838-8ac81d2b=
+69-39f74cb6e1" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">8j/7n en demi-pension</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://high-tech-facile.com/ga=
+/click/2-11527895-18-819-1559-10838-8ac81d2b69-39f74cb6e1" style=3D" color:=
+#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></s=
+pan><a href=3D"http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-=
+10838-8ac81d2b69-39f74cb6e1" style=3D" color:#FFFFFF; text-decoration:none;=
+" target=3D"_blank"> <strong style=3D"font-size:24px">315&euro;</strong></a=
+></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://high-tech-=
+facile.com/ga/click/2-11527895-18-819-1559-10838-8ac81d2b69-39f74cb6e1" sty=
+le=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COU=
+VRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-0=
+90915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://high-t=
+ech-facile.com/ga/click/2-11527895-18-819-1559-10839-016f0e4e6c-39f74cb6e1"=
+ target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" height=3D"160" src=
+=3D"http://46.101.7.34/vacances/vr-090915/IP10.jpg" style=3D"display:block;=
+" width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10839-016f0e4e6=
+c-39f74cb6e1" target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" height=
+=3D"28" src=3D"http://46.101.7.34/vacances/vr-090915/vacanciel104x40.jpg" s=
+tyle=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10839-016f0e4e6c-=
+39f74cb6e1" style=3D" color:#707173; text-decoration:none;" target=3D"_blan=
+k">HOTEL CLUB 3* COURCHEVEL</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10839-016f0e4e=
+6c-39f74cb6e1" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">8j/7n en demi-pension</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://high-tech-facile.com/ga=
+/click/2-11527895-18-819-1559-10839-016f0e4e6c-39f74cb6e1" style=3D" color:=
+#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></s=
+pan><a href=3D"http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-=
+10839-016f0e4e6c-39f74cb6e1" style=3D" color:#FFFFFF; text-decoration:none;=
+" target=3D"_blank"> <strong style=3D"font-size:24px">574&euro;</strong></a=
+></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://high-tech-=
+facile.com/ga/click/2-11527895-18-819-1559-10839-016f0e4e6c-39f74cb6e1" sty=
+le=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COU=
+VRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-0=
+90915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"650">
+	<tbody>
+		<tr>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://high-t=
+ech-facile.com/ga/click/2-11527895-18-819-1559-10840-f8f1e011b8-39f74cb6e1"=
+ target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D"160" src=3D"=
+http://46.101.7.34/vacances/vr-090915/IP11.jpg" style=3D"display:block;" wi=
+dth=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10840-f8f1e011b=
+8-39f74cb6e1" target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D=
+"28" src=3D"http://46.101.7.34/vacances/vr-090915/marmara104x40.jpg" style=
+=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10840-f8f1e011b8-=
+39f74cb6e1" style=3D" color:#707173; text-decoration:none;" target=3D"_blan=
+k">BALEARES CLUB DEL MAR 4*</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10840-f8f1e011=
+b8-39f74cb6e1" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">8j/7n en tout compris</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://high-tech-facile.com/ga=
+/click/2-11527895-18-819-1559-10840-f8f1e011b8-39f74cb6e1" style=3D" color:=
+#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></s=
+pan><a href=3D"http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-=
+10840-f8f1e011b8-39f74cb6e1" style=3D" color:#FFFFFF; text-decoration:none;=
+" target=3D"_blank"> <strong style=3D"font-size:24px">419&euro;</strong></a=
+></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://high-tech-=
+facile.com/ga/click/2-11527895-18-819-1559-10840-f8f1e011b8-39f74cb6e1" sty=
+le=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COU=
+VRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-0=
+90915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://high-t=
+ech-facile.com/ga/click/2-11527895-18-819-1559-10841-e95515e0e1-39f74cb6e1"=
+ target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" height=3D"160" src=
+=3D"http://46.101.7.34/vacances/vr-090915/IP12.jpg" style=3D"display:block;=
+" width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10841-e95515e0e=
+1-39f74cb6e1" target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" height=
+=3D"28" src=3D"http://46.101.7.34/vacances/vr-090915/vacanciel104x40.jpg" s=
+tyle=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10841-e95515e0e1-=
+39f74cb6e1" style=3D" color:#707173; text-decoration:none;" target=3D"_blan=
+k">CLUB 3* VAL CENIS</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-10841-e95515e0=
+e1-39f74cb6e1" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">8j/7n en demi-pension</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://high-tech-facile.com/ga=
+/click/2-11527895-18-819-1559-10841-e95515e0e1-39f74cb6e1" style=3D" color:=
+#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></s=
+pan><a href=3D"http://high-tech-facile.com/ga/click/2-11527895-18-819-1559-=
+10841-e95515e0e1-39f74cb6e1" style=3D" color:#FFFFFF; text-decoration:none;=
+" target=3D"_blank"> <strong style=3D"font-size:24px">322&euro;</strong></a=
+></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://high-tech-=
+facile.com/ga/click/2-11527895-18-819-1559-10841-e95515e0e1-39f74cb6e1" sty=
+le=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COU=
+VRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-0=
+90915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+		</tr>
+	</tbody>
+</table>
+<!-- Footer -->
+
+<table align=3D"center" border=3D"0" cellpadding=3D"12" cellspacing=3D"0" w=
+idth=3D"650">
+	<tbody>
+		<tr>
+			<td align=3D"center" style=3D"color:#44443E; font-size:10px;-webkit-text=
+-size-adjust:none; font-family:Arial, Helvetica, sans-serif">* Les prix aff=
+ich&eacute;s sur cette newsletter ont &eacute;t&eacute; relev&eacute;s sur =
+les sites internets mentionn&eacute;s le 09/09/2015 &agrave; 15h.</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<img src=3D"http://er.sociabiliweb.fr/EREO/E/458/730c3/resp-m2-miage@univ-r=
+ennes1.fr/pixel.gif" alt=3D"" height=3D"1" /> <img src=3D"http://asset.emai=
+l-match.com/849/asset?type=3DIMG&amp;optin=3D1&amp;email=3Dresp-m2-miage@un=
+iv-rennes1.fr" alt=3D"" width=3D"1" height=3D"1" /></p>
+<p style=3D"text-align: center;"><img src=3D"http://adtrack.adleadevent.com=
+/adtckrtg.php?ids=3D37&amp;email=3Dresp-m2-miage@univ-rennes1.fr" alt=3D"" =
+height=3D"1" /><a href=3D"http://high-tech-facile.com/ga/unsubscribe/2-1152=
+7895-18-819-1559-ed35df89ef15825-39f74cb6e1">Je souhaite me d=C3=A9sinscrir=
+e</a></p>
+<img src=3D"http://high-tech-facile.com/ga/open/2-11527895-18-819-1559-39f7=
+4cb6e1" height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==84eecd005ccab670f232063a78260005--

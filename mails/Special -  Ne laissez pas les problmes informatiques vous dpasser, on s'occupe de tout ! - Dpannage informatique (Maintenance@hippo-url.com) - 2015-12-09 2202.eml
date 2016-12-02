@@ -1,0 +1,287 @@
+Return-Path: <wjxu-r7-rnflj_jc7k-g3cc3hq.4g@hippo-url.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Wed, 09 Dec 2015 22:02:47 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 0856E26A0EE8
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  9 Dec 2015 22:02:47 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 047D8600EE
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  9 Dec 2015 22:02:47 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id eripmQcZxnuL for <resp-m2-miage@univ-rennes1.fr>;
+	Wed,  9 Dec 2015 22:02:46 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 9F7DA6013B
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  9 Dec 2015 22:02:46 +0100 (CET)
+Received: from mxb1-2.relay.renater.fr (mxb1-2.relay.renater.fr [194.214.201.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 989EB20033
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  9 Dec 2015 22:02:46 +0100 (CET)
+Received: from esmtp-b72.hippo-url.com (esmtp-b72.hippo-url.com [185.52.32.38])
+	by mxb1-2.relay.renater.fr (asm) with ESMTP id 66E0F2801A9
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  9 Dec 2015 22:02:46 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; d=hippo-url.com; h=to
+	:subject:date:from:reply-to:list-unsubscribe:message-id
+	:mime-version:content-type; s=mailserverf; bh=vtR5glQCv1jxL1fHQm
+	h0wzsnJX3o++gZxj/u5dS90Dg=; b=f5jTPNlE3RI1Xub+NBKXuL0KdNqVoMIOWb
+	inLQf+SMMHt45wxPaTJXLnMzX7kVetDq2umrACXEGRmnw2EUP8VSokT7GhbfD8Lz
+	Z/CjSmAa1bayL7tDerVPkS7AzmD9uuEx8/aK9tCEg6g8KvwyYvRGlJeayBX4al5Q
+	LNADZITu8=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=hippo-url.com; h=to:subject
+	:date:from:reply-to:list-unsubscribe:message-id:mime-version
+	:content-type; q=dns; s=mailserverf; b=B8qknUwC9rBg8MYzDP54fdmo/
+	dnGPprdTBS33auwXEEbRelMgmxDhQkebTD0TdjKwkBhs10OcjXta7o2sjvDEOxJ4
+	LOqxGWgjhLrXrxX+p1c1zRaRGIOFiPkmHjYMS3vY8bCpQCktqv+ep5pP5VnFMIcw
+	VL88BxBoiUBpIwDHsk=
+To: resp-m2-miage <resp-m2-miage@univ-rennes1.fr>
+Subject: *****Spam*****=?utf-8?Q?Ne_laissez_pas_les_probl=C3=A8mes_informatiques_vous_d=C3=A9pas?=  =?utf-8?Q?ser,_on_s'occupe_de_tout_!?=
+X-PHP-Originating-Script: 1002:class.phpmailer.php
+Date: Wed, 9 Dec 2015 22:02:45 +0100
+From: =?utf-8?Q?D=C3=A9pannage_informatique?= <Maintenance@hippo-url.com>
+Reply-to: =?utf-8?Q?D=C3=A9pannage_informatique?= <wjxu-r7-rnflj_jc7k-g3cc3hq.4g@hippo-url.com>
+X-campaign_id: 7831398682273082608670595705_19
+X-uid_id_m: cmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI==503
+List-Unsubscribe: <http://app.hippo-url.com/d/?camp=7831398682273082608670595705_19&ms=cmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=>
+Message-ID: <b207717f6b6e3b637f51b8e80d2ba4cd@hippo-url.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="Part1_b207717f6b6e3b637f51b8e80d2ba4cd"
+X-Original-Source-IP: 185.52.32.38
+X-Renater-Spam-Status: Yes
+X-VR-SPAM-SCORE: 107
+X-Bizanga: IMP - mxb1-2.relay.renater.fr
+X-Renater-SpamState: 12
+X-Renater-SpamScore: 107
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekiedrudehgddugeduucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucftohhuthgvrhdqqdfrmfgjucdluddtjedmnecujfgurhepvffufffhrhfjkfggtgesrgdtjhertddtjeenucfhrhhomhepfforphgrnhhnrghgvggpihhnfhhorhhmrghtihhquhgvuceoofgrihhnthgvnhgrnhgtvgeshhhiphhpohdquhhrlhdrtghomheqnecuffhomhgrihhnpehhihhpphhoqdhurhhlrdgtohhmnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopegvshhmthhpqdgsjedvrdhhihhpphhoqdhurhhlrdgtohhmpdhinhgvthepudekhedrhedvrdefvddrfeekpdhmrghilhhfrhhomhepfihjgihuqdhrjedqrhhnfhhljhgpjhgtjehkqdhgfegttgefhhhqrdeggheshhhiphhpohdquhhrlhdrtghomhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb1-2.relay.renater.fr
+
+--Part1_b207717f6b6e3b637f51b8e80d2ba4cd
+Content-Type: text/plain; charset = "utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Pour visualiser et se d=C3=A9sabonner ce message,
+=20
+Veuillez, copier puis coller, l'adresse URL compl=C3=A8te ci-dessous dans=
+ la
+barre d'adresse de votre navigateur et appuyer sur la touche "Entr=C3=A9e=
+" de
+votre clavier.
+
+
+
+- - - - - - - - - - - - - - - - -=20
+
+http://app.hippo-url.com/v/?camp=3D7831398682273082608670595705_19&ms=3Dc=
+mVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=3D
+
+- - - - - - - - - - - - - - - - -=20
+
+
+
+
+--Part1_b207717f6b6e3b637f51b8e80d2ba4cd
+Content-Type: text/html; charset = "utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"fr" lang=3D"fr">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" =
+/>
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0" />
+<title>Ne laissez pas les probl=C3=A8mes informatiques vous d=C3=A9passer=
+, on s\'occupe de tout !</title>
+</head><body marginheight=3D"0" leftmargin=3D"0" style=3D"margin:0px; -we=
+bkit-text-size-adjust:none; padding:0px; -moz-text-size-adjust:none; -ms-=
+text-size-adjust:none; text-size-adjust:none;" topmargin=3D"0" marginwidt=
+h=3D"0">
+<center><p>
+<a href=3D"http://app.hippo-url.com/v/?camp=3D783139868227308260867059570=
+5_19&ms=3DcmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=3D" target=3D"_blank" t=
+itle=3D"Si cet e-mail ne s'affiche pas correctement, suivez ce lien." sty=
+le=3D"color:#00F; font-family:'Arial'; font-size:12px; text-decoration:un=
+derline;">Si cet email ne s&rsquo;affiche pas correctement, suivez ce lie=
+n.</a></p><table align=3D"center" bgcolor=3D"#FFFFFF" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" width=3D"600">     <tbody>         <tr>    =
+         <td align=3D"center" bgcolor=3D"#4a4452" height=3D"40" valign=3D=
+"middle" width=3D"600"><font style=3D" font-family:Arial, Helvetica, sans=
+-serif; font-size:10px ; font-weight: normal; color:#ffffff;">Optez pour =
+une maintenance informatique !<br>             </font></td>         </tr>=
+         <tr>             <td style=3D"font-family:Arial, Helvetica, sans=
+-serif; color:#FFFFFF; font-size:24px; text-transform: uppercase;" align=3D=
+"center" bgcolor=3D"#4a4452" height=3D"77" width=3D"600"><img src=3D"http=
+://app.hippo-url
+ .com/r/?rc=3DaHR0cHM6Ly9ub2Rlcy5uZW9wZXJmLmNvbS91cGxvYWRzL3Zpc3VlbHMvMTM=
+vNDA4L2tpdHMvTG9nb19CcHJvLmpwZw=3D=3D" alt=3D"BPRO" border=3D"0" height=3D=
+"77" width=3D"136"></td>         </tr>         <tr>             <td align=
+=3D"center" bgcolor=3D"#4a4452" height=3D"43" valign=3D"middle" width=3D"=
+600"><a style=3D"text-decoration: none" href=3D"http://app.hippo-url.com/=
+r/?m=3DcmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=3D&c=3D7831398682273082608=
+670595705_19&rc=3DaHR0cDovL25vZGVzLm5wdjE3cWVqYmQuY29tL3IvY2xpYy00MDgtMzY=
+yLTIzMDUtdXJsLWFIUjBjRG92TDJKd2NtOHVabkl2TVRJMk5WOUNVREpmVGtWUFVEOXhZM0E5=
+TVRJMk5WOUNVREpmVGtWUFVDTjFkRzFmYzI5MWNtTmxQVzRtZFhSdFgyMWxaR2wxYlQxbExXM=
+WhhV3dtZFhSdFgyTmhiWEJoYVdkdVBXNWxkM05qSm5WMGJWOXViMjkyWlhKeWFXUmxQVEU/cm=
+dyb3VwPXBfODk2NSZhbXA7dHJhY2thZmY9JmFtcDtncm91cD0=3D" target=3D"_blank"><=
+font style=3D"font-family:Arial, Helvetica, sans-serif; text-transform:up=
+percase; font-size:22px;; color:#3baeab">Maintenance informatique</font><=
+/a></td>         </tr>         <tr>             <td bgcolor=3D"#3baeab" h=
+eight=3D"2" w
+ idth=3D"600">&nbsp;</td>         </tr>         <tr>             <td>    =
+         <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D=
+"600">                 <tbody>                     <tr>                  =
+       <td height=3D"15" width=3D"72">&nbsp;</td>                        =
+ <td bgcolor=3D"#c8c7cb" height=3D"15" width=3D"1">&nbsp;</td>           =
+              <td height=3D"15" width=3D"66">&nbsp;</td>                 =
+        <td height=3D"15" width=3D"419">&nbsp;</td>                      =
+   <td height=3D"15" width=3D"42">&nbsp;</td>                     </tr>  =
+               </tbody>             </table>             </td>         </=
+tr>         <tr>             <td>             <table border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" width=3D"600">                 <tbody>      =
+               <tr>                         <td><a href=3D"http://app.hip=
+po-url.com/r/?m=3DcmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=3D&c=3D78313986=
+82273082608670595705_19&rc=3DaHR0cDovL25vZGVzLm5wdjE3cWVqYmQuY29tL3IvY2xp=
+Yy00MDgtMzYyLTIzMD
+ UtdXJsLWFIUjBjRG92TDJKd2NtOHVabkl2TVRJMk5WOUNVREpmVGtWUFVEOXhZM0E5TVRJMk=
+5WOUNVREpmVGtWUFVDTjFkRzFmYzI5MWNtTmxQVzRtZFhSdFgyMWxaR2wxYlQxbExXMWhhV3d=
+tZFhSdFgyTmhiWEJoYVdkdVBXNWxkM05qSm5WMGJWOXViMjkyWlhKeWFXUmxQVEU/cmdyb3Vw=
+PXBfODk2NSZhbXA7dHJhY2thZmY9JmFtcDtncm91cD0=3D" target=3D"_blank"><img sr=
+c=3D"http://app.hippo-url.com/r/?rc=3DaHR0cHM6Ly9ub2Rlcy5uZW9wZXJmLmNvbS9=
+1cGxvYWRzL3Zpc3VlbHMvMTMvNDA4L2tpdHMvUGljdG9fSVQuanBn" alt=3D"" border=3D=
+"0" height=3D"98" width=3D"139"></a></td>                         <td>   =
+                      <table border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"419">                             <tbody>                   =
+              <tr>                                     <td width=3D"19">&=
+nbsp;</td>                                     <td height=3D"4" width=3D"=
+400">&nbsp;</td>                                 </tr>                   =
+              <tr>                                     <td bgcolor=3D"#3b=
+aeab" height=3D"70" width=3D"19">&nbsp;</td>                             =
+  =20
+      <td align=3D"left" bgcolor=3D"#3baeab" valign=3D"middle" width=3D"4=
+00"><a style=3D"text-decoration: none" href=3D"http://app.hippo-url.com/r=
+/?m=3DcmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=3D&c=3D78313986822730826086=
+70595705_19&rc=3DaHR0cDovL25vZGVzLm5wdjE3cWVqYmQuY29tL3IvY2xpYy00MDgtMzYy=
+LTIzMDUtdXJsLWFIUjBjRG92TDJKd2NtOHVabkl2TVRJMk5WOUNVREpmVGtWUFVEOXhZM0E5T=
+VRJMk5WOUNVREpmVGtWUFVDTjFkRzFmYzI5MWNtTmxQVzRtZFhSdFgyMWxaR2wxYlQxbExXMW=
+hhV3dtZFhSdFgyTmhiWEJoYVdkdVBXNWxkM05qSm5WMGJWOXViMjkyWlhKeWFXUmxQVEU/cmd=
+yb3VwPXBfODk2NSZhbXA7dHJhY2thZmY9JmFtcDtncm91cD0=3D" target=3D"_blank"><f=
+ont style=3D"font-family:Arial, Helvetica, sans-serif; font-size:14px; co=
+lor:#ffffff"><span style=3D"font-size:18px; text-transform:uppercase; fon=
+t-weight:bold;">La solution &Agrave; toutes vos angoisses !</span><br>   =
+                                  Ne laissez pas les probl&egrave;mes inf=
+ormatiques vous d&eacute;passer, vous ne vous occupez de rien on s'occupe=
+ de tout. </font></a></td>                                 </tr>    =20
+                             <tr>                                     <td=
+ width=3D"19">&nbsp;</td>                                     <td height=3D=
+"4" width=3D"400">&nbsp;</td>                                 </tr>      =
+                       </tbody>                         </table>         =
+                </td>                         <td height=3D"98" width=3D"=
+42">&nbsp;</td>                     </tr>                 </tbody>       =
+      </table>             </td>         </tr>         <tr>             <=
+td>             <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"600">                 <tbody>                     <tr>           =
+              <td height=3D"53" width=3D"72">&nbsp;</td>                 =
+        <td bgcolor=3D"#c8c7cb" width=3D"1">&nbsp;</td>                  =
+       <td width=3D"66">&nbsp;</td>                         <td width=3D"=
+419"><a style=3D"text-decoration: none" href=3D"http://app.hippo-url.com/=
+r/?m=3DcmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=3D&c=3D7831398682273082608=
+670595
+ 705_19&rc=3DaHR0cDovL25vZGVzLm5wdjE3cWVqYmQuY29tL3IvY2xpYy00MDgtMzYyLTIz=
+MDUtdXJsLWFIUjBjRG92TDJKd2NtOHVabkl2TVRJMk5WOUNVREpmVGtWUFVEOXhZM0E5TVRJM=
+k5WOUNVREpmVGtWUFVDTjFkRzFmYzI5MWNtTmxQVzRtZFhSdFgyMWxaR2wxYlQxbExXMWhhV3=
+dtZFhSdFgyTmhiWEJoYVdkdVBXNWxkM05qSm5WMGJWOXViMjkyWlhKeWFXUmxQVEU/cmdyb3V=
+wPXBfODk2NSZhbXA7dHJhY2thZmY9JmFtcDtncm91cD0=3D" target=3D"_blank"><font =
+style=3D"font-family:Arial, Helvetica, sans-serif; font-size:15px; color:=
+#4a4452"><strong>1.</strong> D&eacute;pannage informatique<br>           =
+              <strong>2. </strong>Suivi de votre parc informatique :<br> =
+                        &nbsp;&nbsp;&nbsp;&nbsp;audit, conseil, solutions=
+, intervention..<br>                         <strong>3. </strong>Des forf=
+aits adapt&eacute;s &agrave; votre budget et vos besoins. </font></a></td=
+>                         <td width=3D"42">&nbsp;</td>                   =
+  </tr>                 </tbody>             </table>             </td>  =
+       </tr>         <tr>             <td>        =20
+     <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600=
+">                 <tbody>                     <tr>                      =
+   <td height=3D"16" width=3D"72">&nbsp;</td>                         <td=
+ bgcolor=3D"#c8c7cb" height=3D"16" width=3D"1">&nbsp;</td>               =
+                                   <td bgcolor=3D"#FFFFFF" height=3D"16" =
+width=3D"485">&nbsp;</td>                                                =
+  <td height=3D"16" width=3D"42">&nbsp;</td>                     </tr>   =
+              </tbody>             </table>             </td>         </t=
+r>         <tr>             <td>             <table border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" width=3D"600">                 <tbody>       =
+              <tr>                         <td height=3D"178" width=3D"72=
+">&nbsp;</td>                         <td bgcolor=3D"#c8c7cb" height=3D"1=
+78" width=3D"1">&nbsp;</td>                         <td><a href=3D"http:/=
+/app.hippo-url.com/r/?m=3DcmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=3D&c=3D=
+7831398682273082608670
+ 595705_19&rc=3DaHR0cDovL25vZGVzLm5wdjE3cWVqYmQuY29tL3IvY2xpYy00MDgtMzYyL=
+TIzMDUtdXJsLWFIUjBjRG92TDJKd2NtOHVabkl2TVRJMk5WOUNVREpmVGtWUFVEOXhZM0E5TV=
+RJMk5WOUNVREpmVGtWUFVDTjFkRzFmYzI5MWNtTmxQVzRtZFhSdFgyMWxaR2wxYlQxbExXMWh=
+hV3dtZFhSdFgyTmhiWEJoYVdkdVBXNWxkM05qSm5WMGJWOXViMjkyWlhKeWFXUmxQVEU/cmdy=
+b3VwPXBfODk2NSZhbXA7dHJhY2thZmY9JmFtcDtncm91cD0=3D" style=3D"font-family:=
+Arial, Helvetica, sans-serif; text-decoration:none ;" target=3D"_blank"><=
+img src=3D"http://app.hippo-url.com/r/?rc=3DaHR0cHM6Ly9ub2Rlcy5uZW9wZXJmL=
+mNvbS91cGxvYWRzL3Zpc3VlbHMvMTMvNDA4L2tpdHMvVmlzdWVsLmpwZw=3D=3D" alt=3D""=
+ border=3D"0" height=3D"178" width=3D"485"></a></td>                     =
+    <td height=3D"178" width=3D"42">&nbsp;</td>                     </tr>=
+                 </tbody>             </table>             </td>         =
+</tr>         <tr>             <td>             <table border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"600">                 <tbody>    =
+                 <tr>                         <td height=3D"33" width=3D"=
+72">&nbs
+ p;</td>                         <td bgcolor=3D"#c8c7cb" height=3D"33" wi=
+dth=3D"1">&nbsp;</td>                         <td height=3D"33" width=3D"=
+527">&nbsp;</td>                     </tr>                 </tbody>      =
+       </table>             </td>         </tr>         <tr>             =
+<td>             <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+width=3D"600">                 <tbody>                     <tr>          =
+               <td height=3D"65" width=3D"72">&nbsp;</td>                =
+         <td bgcolor=3D"#c8c7cb" height=3D"65" width=3D"1">&nbsp;</td>   =
+                      <td height=3D"65" width=3D"91">&nbsp;</td>         =
+                <td align=3D"center" bgcolor=3D"#3baeab"><a style=3D"font=
+-family:Arial, Helvetica, sans-serif; color:#FFFFFF; font-size:26px; text=
+-transform: uppercase; font-weight:bold;" href=3D"http://app.hippo-url.co=
+m/r/?m=3DcmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=3D&c=3D78313986822730826=
+08670595705_19&rc=3DaHR0cDovL25vZGVzLm5wdjE3cWVqYmQuY29tL3IvY2xpYy00MDgtM=
+zYyLTIzMDUtdXJsL
+ WFIUjBjRG92TDJKd2NtOHVabkl2TVRJMk5WOUNVREpmVGtWUFVEOXhZM0E5TVRJMk5WOUNVR=
+EpmVGtWUFVDTjFkRzFmYzI5MWNtTmxQVzRtZFhSdFgyMWxaR2wxYlQxbExXMWhhV3dtZFhSdF=
+gyTmhiWEJoYVdkdVBXNWxkM05qSm5WMGJWOXViMjkyWlhKeWFXUmxQVEU/cmdyb3VwPXBfODk=
+2NSZhbXA7dHJhY2thZmY9JmFtcDtncm91cD0=3D" target=3D"_blank"><img src=3D"ht=
+tp://app.hippo-url.com/r/?rc=3DaHR0cHM6Ly9ub2Rlcy5uZW9wZXJmLmNvbS91cGxvYW=
+RzL3Zpc3VlbHMvMTMvNDA4L2tpdHMvQnRuX0lULmpwZw=3D=3D" alt=3D"en savoir plus=
+" border=3D"0" height=3D"65" width=3D"272"></a></td>                     =
+    <td height=3D"65" width=3D"164">&nbsp;</td>                     </tr>=
+                 </tbody>             </table>             </td>         =
+</tr>         <tr>             <td><img src=3D"http://app.hippo-url.com/r=
+/?rc=3DaHR0cHM6Ly9ub2Rlcy5uZW9wZXJmLmNvbS91cGxvYWRzL3Zpc3VlbHMvMTMvNDA4L2=
+tpdHMvRm9vdGVyX0lULmpwZw=3D=3D" alt=3D"" border=3D"0" height=3D"33" width=
+=3D"600"></td>         </tr>         <tr>             <td align=3D"center=
+" bgcolor=3D"#4a4452" height=3D"35" width=3D"600">&nbsp;</td>         </t=
+r>     </tbody>=20
+ </table><img alt=3D"" src=3D"http://app.hippo-url.com/r/?rc=3DaHR0cDovL2=
+5vZGVzLm5wdjE3cWVqYmQuY29tL21haWxpbmctNDA4LTM2Mi0yMzA1P3Jncm91cD1wXzg5NjU=
+mYW1wO2dyb3VwPQ=3D=3D" border=3D"0" height=3D"1" width=3D"1"><img src=3D"=
+http://app.hippo-url.com/t/?i=3D7831398682273082608670595705_19&m=3DcmVzc=
+C1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=3D&url=3Dhttp://app.hippo-url.com/imag=
+es/blank.jpg" alt=3D"_pspacer5"  /><p>
+<a href=3D"http://app.hippo-url.com/d/?camp=3D783139868227308260867059570=
+5_19&ms=3DcmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=3D" target=3D"_blank" t=
+itle=3D"Ne plus recevoir d'informations de notre part" style=3D"color:#00=
+F; font-family:'Arial'; font-size:12px; text-decoration:underline;">Pour =
+se d&eacute;sabonner : Suivez ce lien.</a><br />Si ce message vous a caus=
+&eacute; un quelconque d&eacute;rangement, nous vous prions de nous en ex=
+cuser.
+</p><center>
+</body>
+</html>
+
+
+
+--Part1_b207717f6b6e3b637f51b8e80d2ba4cd--
+

@@ -1,0 +1,142 @@
+Return-Path: <bounce+qB9-GMrp-eD9K@mix.loffremagique.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Mon, 04 Jan 2016 11:46:21 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 36F4A26A06EB
+	for <resp-m2-miage@univ-rennes1.fr>; Mon,  4 Jan 2016 11:46:21 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 2A5BB601FE
+	for <resp-m2-miage@univ-rennes1.fr>; Mon,  4 Jan 2016 11:46:21 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id v9gsWRiEgpsT for <resp-m2-miage@univ-rennes1.fr>;
+	Mon,  4 Jan 2016 11:46:21 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 02AC5601FC
+	for <resp-m2-miage@univ-rennes1.fr>; Mon,  4 Jan 2016 11:46:21 +0100 (CET)
+Received: from mxb2-2.relay.renater.fr (mxb2-2.relay.renater.fr [194.214.200.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id F0CD420033
+	for <resp-m2-miage@univ-rennes1.fr>; Mon,  4 Jan 2016 11:46:20 +0100 (CET)
+Received: from smtp165.mix.loffremagique.com (smtp165.mix.loffremagique.com [82.196.26.165])
+	by mxb2-2.relay.renater.fr (asm) with ESMTP id BB6D160057A
+	for <resp-m2-miage@univ-rennes1.fr>; Mon,  4 Jan 2016 11:46:20 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=s2c; d=mix.loffremagique.com;
+ h=Date:To:From:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type; i=news@mix.loffremagique.com;
+ bh=xWBknR/kQXL58TZ+plydKacs9C8=;
+ b=JGZ4KGFH/iJI4NzjP6k3Om+ucz07y8AIpGm4Rw5vQ3gbWh67JNdCjcdl9UKDxm/gSGi/Vm531RF6
+   iv6NaNdQTXZ07GQCXxRoDH+usQumRCqzxTZNc7HUYFQofvZ5RpdCPfamYL6HQB9H7jiXQ2mQaW8M
+   PA1vcvIeOUDY3yCVv3A=
+Received: by smtp165.mix.loffremagique.com id hh96no1vjtg0 for <resp-m2-miage@univ-rennes1.fr>; Mon, 4 Jan 2016 11:33:04 +0100 (envelope-from <bounce+qB9-GMrp-eD9K@mix.loffremagique.com>)
+Date: Mon, 4 Jan 2016 11:33:04 +0100
+To: resp-m2-miage@univ-rennes1.fr
+From: =?UTF-8?Q?Fran=C3=A7oise_Saget_-_Espace_promos?= <news@mix.loffremagique.com>
+Subject: -50 pourcent et plus encore sur le linge de maison et livraison est gratuite
+Message-ID: <bounce+qB9-GMrp-eD9K@mix.loffremagique.com>
+List-Unsubscribe: <mailto:bounce+qB9-GMrp-eD9K@mix.loffremagique.com?subject=unsubscribe-qB9-GMrp>,<http://trk.mix.loffremagique.com/usb/qB9-GMrp.php>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_6f24b26331f393d169a47373b96d78bb"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 82.196.26.165
+X-Bizanga: IMP - mxb2-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekiedrieejgddvtdcutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpeffvffhuffkjfggtgesrgdtrehptddtjeenucfhrhhomhephfhrrghnpohoihhsvggpufgrghgvthgpqdgpgfhsphgrtggvpghprhhomhhoshcuoehnvgifshesmhhigidrlhhofhhfrhgvmhgrghhiqhhuvgdrtghomheqnecuffhomhgrihhnpehfrhgrnhgtohhishgvshgrghgvthdrtghomhdplhhofhhfrhgvmhgrghhiqhhuvgdrtghomhenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepshhmthhpudeihedrmhhigidrlhhofhhfrhgvmhgrghhiqhhuvgdrtghomhdpihhnvghtpeekvddrudeliedrvdeirdduieehpdhmrghilhhfrhhomhepsghouhhntggvodhqueelqdfiofhrphdqvgfflefmsehmihigrdhlohhffhhrvghmrghgihhquhgvrdgtohhmpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb2-2.relay.renater.fr
+
+
+--b1_6f24b26331f393d169a47373b96d78bb
+Content-Type: text/plain; charset = "UTF-8"
+Content-Transfer-Encoding: 8bit
+
+Afficher la version web. (http://trk.mix.loffremagique.com/view/qB9-GMrp.php) | Annuler votre abonnement. (http://trk.mix.loffremagique.com/usb/qB9-GMrp.php) | Signaler comme courrier indésirable. (mailto:abuse@dgcnit.fr)
+En poursuivant votre navigation, vous acceptez l'utilisation de cookies pour vous proposer des services et offres adaptés
+à vos centres d'intérêts et mesurer la fréquentation de nos services. Pour en savoir plus suivez ce lien (http://trk.mix.loffremagique.com/tk/qB9-GMrp-r17.php)
+
+http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDt.php
+http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDu.php 1er commande?LIVRAISON OFFERTEdès 15€ d’achat avec le code : BONHEUR (http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDv.php)
+http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDw.php
+http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDx.php http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDy.php http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDz.php http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDA.php http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDB.php http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDC.php
+http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDD.php
+http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDE.php
+http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDF.php
+
+Vos AVANTAGES!
+http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDG.php
+si votre achat ne vous plaît pas (http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDH.php)
+http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDI.php
+pour toute commande (http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDJ.php)
+http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDK.php
+dès15€ d’achatavec le code : BONHEUR (http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDL.php)
+Noël
+http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDM.php http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDN.php http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDO.php
+http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDP.php                     http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDQ.php                                   http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDR.php                                      http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDS.php
+PAIEMENT SÉCURISÉ (http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDT.php) GARANTIE SATISFAIT OU REMBOURSÉ (http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDU.php) LIVRAISON GRATUITE DÈS 40€ D’ACHAT (http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDV.php) UN CADEAU OFFERT POUR CHAQUE COMMANDE (http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDW.php)
+
+http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDX.php
+
+SUIVEZ-NOUS SUR PINTEREST (http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDY.php)
+http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDZ.php
+
+SUIVEZ-NOUS SUR (http://trk.mix.loffremagique.com/tk/qB9-GMrp-rE0.php) FACEBOOK (http://trk.mix.loffremagique.com/tk/qB9-GMrp-rE1.php)
+
+CONTACTEZ-NOUS
+0 892 027 576
+
+0892 02 75 76
+
+Offre COCOON valable du 30/12/2015 au 14/01/2016 dans la limite des stocks disponibles.
+-30% sur une sélection de lingerie de nuit, lingerie de jour et articles de la catégorie « maison ».
+-50% et plus sur une sélection de linge de maison (dans les catégories « chambre », « salle de bain », « table »)
+
+Code promo BONHEUR : frais de livraison standard offerts pour toute commande supérieure à 15€ sur le site http://trk.mix.loffremagique.com/tk/qB9-GMrp-iLC.php (http://trk.mix.loffremagique.com/tk/qB9-GMrp-rE2.php) . Les codes de réduction sont valables une fois et ne sont pas cumulables avec d’autres codes promotionnels.
+
+Espaces Promos, 12 rue Camille Desmoulins, 92300 Levallois Perret.
+Conformément à l'article 34 de la loi Informatique et Liberté du 6 janvier 1978, vous disposez d'un droit d'accès, de modification,
+de rectification et de suppression des données vous concernant en adressant votre demande à &quot;report@dgcnit.fr&quot;.
+Déclaration CNIL - 1642645
+Vous souhaitez vous désinscrire de cette liste ? Cliquez ici. (http://trk.mix.loffremagique.com/usb/qB9-GMrp.php)
+
+
+--b1_6f24b26331f393d169a47373b96d78bb
+Content-Type: text/html; charset = "UTF-8"
+Content-Transfer-Encoding: 8bit
+
+<table width='702' border='0' cellspacing='0' cellpadding='0' align='center' > <tr> <td width='702' valign='top' align='center'> <table style='' align='center' border='0' cellpadding='0' cellspacing='0' > <tr> <td width='174' align='left' style='text-align:left;'><a href='http://trk.mix.loffremagique.com/view/qB9-GMrp.php' style='color:#000; text-decoration:underline; font-family:Arial,Helvetica,sans-serif; font-size:11px; text-align:left; font-weight:bold;'>Afficher la version web.</a></td> <td width='6'>|</td> <td width='207' align='center' style='text-align:center;'><a href='http://trk.mix.loffremagique.com/usb/qB9-GMrp.php' style='color:#000; text-decoration:underline; font-family:Arial,Helvetica,sans-serif; font-size:11px; text-align:center; font-weight:bold;'>Annuler votre abonnement.</a></td> <td width='6'>|</td> <td width='207' align='right' style='text-align:right;'><a href='mailto:abuse@dgcnit.fr' style='color:#00F; text-decoration:underline;
+font-family:Arial,Helvetica,sans-serif; font-size:11px; text-align:right; font-weight:bold;'>Signaler comme courrier indésirable.</a></td> </tr> </table></td> </tr> <tr> <td width='702' style='font-family:Arial, Helvetica, sans-serif; font-size:10px; color:grey; text-align:center;'> En poursuivant votre navigation, vous acceptez l'utilisation de cookies pour vous proposer des services et offres adaptés <br/> à vos centres d'intérêts et mesurer la fréquentation de nos services. Pour en savoir plus suivez <a href='http://trk.mix.loffremagique.com/tk/qB9-GMrp-r17.php' target='_blank'> ce lien </a></td> </tr> <tr> <td width='702' align='center'></td> </tr> </table><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>COCOON</title></head><body> <table width="700" cellpadding="0"
+cellspacing="0" border="0" align="center" style="font-size:0px;"><tr><td> <table width="700" height="100" border="0" cellpadding="0" cellspacing="0"><tr><td width="316" height="123" valign="bottom"> <a target="_blank" href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDt.php"> <img src="http://media.francoisesaget.com/bannieres/20151221/images/img_affiliation_02.jpg" alt="Françoise Saget" width="316" height="118" style="display:block; border:none; outline:none; text-decoration:none;"></a> </td> <td valign="middle"> </td> <td width="324" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td width="86"><a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDu.php" target="_blank"><img src="http://media.francoisesaget.com/bannieres/20151221/images/img_email-cocoon_03.jpg" width="86" height="118" alt="Calendrierde l’Avent" border="0" style="display:block"></a></td> <td align="center" bgcolor="#F4F4F4"><a
+href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDv.php" target="_blank" style="text-decoration:none;"><font color="#683767" face="Arial, Helvetica, sans-serif" size="5" style="font-size:25px;">1<sup style="font-size:15px;">er</sup> commande?<br><font style="font-size:20px;" color="#c40079">LIVRAISON OFFERTE</font><br><font style="font-size:12px;">dès 15€ d’achat<br> avec le code : </font> <font color="#51abaf" style="font-size:18px"><strong>BONHEUR</strong></font></font></a></td> <td width="11" align="center"> </td> </tr></table><a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDw.php" target="_blank"></a></td> </tr></table></td> </tr><tr><td> <table width="700" height="33" border="0" cellpadding="0" cellspacing="0"><tr><td height="33"><a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDx.php" target="_blank"><img src="http://media.francoisesaget.com/bannieres/20151221/images/img_newsletter-s3_08.jpg" width="87" height="44" alt="CHAMBRE" style="display:bloc
+ k;"
+border="0"></a></td> <td><a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDy.php" target="_blank"><img src="http://media.francoisesaget.com/bannieres/20151221/images/img_newsletter-s3_09.jpg" width="135" height="44" alt="SALLE DE BAIN" style="display:block;" border="0"></a></td> <td><a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDz.php" target="_blank"><img src="http://media.francoisesaget.com/bannieres/20151221/images/img_newsletter-s3_10.jpg" width="78" height="44" alt="TABLE" style="display:block;" border="0"></a></td> <td><a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDA.php" target="_blank"><img src="http://media.francoisesaget.com/bannieres/20151221/images/img_newsletter-s3_11.jpg" width="89" height="44" alt="MAISON" style="display:block;" border="0"></a></td> <td><a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDB.php" target="_blank"><img src="http://media.francoisesaget.com/bannieres/20151221/images/img_newsletter-s3_12.jpg" width="160"
+height="44" alt="LINGERIE DE NUIT" style="display:block;" border="0"></a></td> <td><a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDC.php" target="_blank"><img src="http://media.francoisesaget.com/bannieres/20151221/images/img_newsletter-s3_13.jpg" width="151" height="44" alt="LINGERIE DE JOUR" style="display:block;" border="0"></a></td> </tr></table></td> </tr><tr><td valign="top"><table width="698" border="0" align="center" cellpadding="0" cellspacing="0"><tr><td><a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDD.php" target="_blank"><img src="http://media.francoisesaget.com/bannieres/20151221/images/img_email-cocoon_12.jpg" width="698" height="294" alt="Créez une ambiance de Noël en famille joyeuse et chaleureuse..." border="0" style=" display: block; border:0;"></a></td> </tr><tr><td><a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDE.php" target="_blank"><img src="http://media.francoisesaget.com/bannieres/20151221/images/img_email-cocoon_13.jpg"
+width="698" height="272" alt="-50% sur une sélection de linge de maison(2) j'en profite" border="0" style=" display: block; border:0;"></a></td> </tr><tr><td><a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDF.php" target="_blank"><img src="http://media.francoisesaget.com/bannieres/20151221/images/img_email-cocoon_14.jpg" width="698" height="134" alt="Nappes à partir de 14€90 Choisissez les matières et couleurs de vos envies" border="0" style=" display: block; border:0;"></a></td> </tr></table></td> </tr><tr><td height="25"> </td></tr><tr><td align="center" valign="top"><font face="Arial, Helvetica, sans-serif" color="#d52b8a" style="font-size:30px; " size="6">Vos <font color="#755c9f" style="font-size:32px; ">AVANTAGES!</font></font></td></tr><tr><td height="23"><img src="http://media.francoisesaget.com/bannieres/20151221/images/spacer.gif" width="1" height="23" border="0" style="display:block"></td> </tr><tr><td><table width="698" border="0" align="center"
+cellpadding="0" cellspacing="0"><tr><td valign="top"><table width="213" border="0" cellspacing="0" cellpadding="0"><tr><td><a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDG.php" target="_blank"><img src="http://media.francoisesaget.com/bannieres/20151221/images/img_email-cocoon_22.jpg" width="213" height="123" alt="livraison avant noël" border="0" style="display:block"></a></td> </tr><tr><td height="34" align="center" valign="top" style=" font:17px 'Roboto', sans-serif; color:#7a2d84; text-align: center; line-height:16px;" background="http://media.francoisesaget.com/bannieres/20151221/images/img_email-affiliation-noel-1_b_34.jpg"><a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDH.php" target="_blank" style="text-decoration:none"><font color="#755c9f">si votre achat<br> ne vous plaît pas</font></a></td> </tr></table></td> <td width="17" valign="top"><img src="http://media.francoisesaget.com/bannieres/20151221/images/img_email-cocoon_23.jpg" width="21" height="
+ 123"
+border="0" style="display:block"></td> <td valign="top"><table width="206" border="0" cellspacing="0" cellpadding="0"><tr><td><a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDI.php" target="_blank"><img src="http://media.francoisesaget.com/bannieres/20151221/images/img_email-cocoon_24.jpg" width="206" height="123" alt="Un cadeau OFFERT" border="0" style="display:block"></a></td> </tr><tr><td height="19" align="center" valign="top" bgcolor="#fefefe" style=" font:17px 'Roboto', sans-serif; color:#7a2d84; text-align: center;" background="http://media.francoisesaget.com/bannieres/20151221/images/img_email-affiliation-noel-1_b_35.jpg"><a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDJ.php" target="_blank" style="text-decoration:none"><font color="#755c9f">pour toute commande</font></a></td> </tr></table></td> <td width="19" valign="top"><img src="http://media.francoisesaget.com/bannieres/20151221/images/img_email-cocoon_25.jpg" width="18" height="143" border="0"
+style="display:block"></td> <td valign="top"><table width="240" border="0" cellspacing="0" cellpadding="0"><tr><td><a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDK.php" target="_blank"><img src="http://media.francoisesaget.com/bannieres/20151221/images/img_email-cocoon_26.jpg" width="240" height="128" alt="CALENDRIER DE L’AVENT" border="0" style="display:block"></a></td> </tr><tr><td height="55" align="center" valign="top" background="http://media.francoisesaget.com/bannieres/20151221/images/img_email-affiliation-noel-1_b_36.jpg" style=" font:17px 'Roboto', sans-serif; color:#5a308d; text-align: center;"><a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDL.php" target="_blank" style="text-decoration:none"><font color="#755c9f">dès15€ d’achat<br><font style="font-size:12px">avec le code : </font> <font color="#51abaf" style="font-size:17px"><strong>BONHEUR</strong></font></font></a></td> </tr></table></td> </tr></table></td> </tr><tr><td align="center"><im
+ g
+src="http://media.francoisesaget.com/bannieres/20151221/images/img_email-cocoon_36.jpg" width="698" height="68" alt="Noël" border="0" style="display:block"></td></tr><tr><td align="center" valign="top"><table width="698" border="0" align="center" cellpadding="0" cellspacing="0"><tr><td><a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDM.php" target="_blank"><img src="http://media.francoisesaget.com/bannieres/20151221/images/img_email-cocoon_37.jpg" width="239" height="295" alt="idées cadeaux pyjamas, homewear dès 12€95" border="0" style="display:block"></a></td> <td><a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDN.php" target="_blank"><img src="http://media.francoisesaget.com/bannieres/20151221/images/img_email-cocoon_38.jpg" width="225" height="295" alt="serviettes à partir de 3€95" border="0" style="display:block"></a></td> <td><a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDO.php" target="_blank"><img
+src="http://media.francoisesaget.com/bannieres/20151221/images/img_email-cocoon_39.jpg" width="234" height="295" alt="idées cadeaux pour hommes dès 3€95" border="0" style="display:block"></a></td> </tr></table></td> </tr><tr><td height="9" valign="bottom" style="line-height:9px; font-size:9px;"><img src="http://media.francoisesaget.com/bannieres/20151221/images/img_newsletter-s3_35.jpg" width="700" height="6" border="0"></td></tr><tr><td> <table border="0" width="700" cellspacing="0" cellpadding="0" style=" background-color:#FEFCFF;"><tr><td width="128" align="center" valign="middle" style=" border-right:dotted; border-right-color:#d6c9d2; border-right-width:1px;"> <a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDP.php" target="_blank" style="color:#5B413B; text-decoration:none;"> <img src="http://media.francoisesaget.com/bannieres/20151221/images/paiement.jpg" alt="PAIEMENT SÉCURISÉ" width="93" height="62" style="display:block;" border="0"></a></td> <td align="c
+ enter"
+valign="middle" style="border-right:dotted; border-right-color:#d6c9d2; border-right-width:1px;"> <a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDQ.php" target="_blank" style="color:#5B413B; text-decoration:none;"> <img src="http://media.francoisesaget.com/bannieres/20151221/images/garantie.jpg" alt="GARANTIE SATISFAIT OU REMBOURSÉ" width="82" height="54" style="display:block;" border="0"></a></td> <td width="184" align="center" valign="middle" style=" border-right:dotted; border-right-color:#d6c9d2; border-right-width:1px;"> <a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDR.php" target="_blank" style="color:#5B413B; text-decoration:none;"> <img src="http://media.francoisesaget.com/bannieres/20151221/images/livraison_72.jpg" alt="LIVRAISON GRATUITE DÈS 40€ D'ACHAT" width="182" height="54" style="display:block;" border="0"></a></td> <td width="173" align="center" valign="middle" style=""> <a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDS.php"
+target="_blank" style="color:#5B413B; text-decoration:none;"> <img src="http://media.francoisesaget.com/bannieres/20151221/images/cadeau.jpg" alt="UN CADEAU OFFERT POUR CHAQUE COMMANDE" width="77" height="60" style="display:block;" border="0"></a></td> </tr><tr><td width="128" style="font: Normal 12px 'Arial', sans-serif; padding-bottom:2px; text-transform:none; text-align:center; border-right:dotted; border-right-color:#d6c9d2; border-right-width:1px;"> <a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDT.php" target="_blank" style="color:#333; text-decoration:none;"> <strong>PAIEMENT <br> SÉCURISÉ </strong></a></td> <td style="font: Normal 12px 'Arial', sans-serif; padding-bottom:2px; text-transform:none; text-align:center; border-right:dotted; border-right-color:#d6c9d2; border-right-width:1px;"> <a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDU.php" target="_blank" style="color: #333; text-decoration:none;"> <strong>GARANTIE <br> SATISFAIT OU REMBOURSÉ
+</strong></a></td> <td width="183" style="font: Normal 12px 'Arial', sans-serif; padding-bottom:2px; text-transform:none; text-align:center; border-right:dotted; border-right-color:#d6c9d2; border-right-width:1px;"> <a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDV.php" target="_blank" style="color: #333; text-decoration:none;"> <strong>LIVRAISON GRATUITE</strong> <strong><br> DÈS 40€ D’ACHAT</strong></a></td> <td width="175" style="font: Normal 12px 'Arial', sans-serif; padding-bottom:2px; text-transform:none; text-align:center;"> <a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDW.php" target="_blank" style="color: #333; text-decoration:none;"> <strong>UN CADEAU OFFERT</strong> <strong><br> POUR CHAQUE COMMANDE</strong></a></td> </tr></table></td> </tr><tr><td> <table border="0" width="700" cellspacing="0" cellpadding="0" style="background-color:#fffbff; border-top:dotted; border-top-color:#d6c9d2; border-top-width:1px; height:1px;"></table></td>
+</tr><tr><td><table width="702" border="0" align="right" cellpadding="0" cellspacing="0" style="background-color:#fffbff;"><tr><td width="42" style="background-color:#fffbff;"><a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDX.php" target="_blank" style="color: #333; text-decoration:none;"> <img src="http://media.francoisesaget.com/bannieres/20151221/images/footer_02.jpg" alt="SUIVEZ-NOUS SUR PINTEREST" width="42" height="44" style="display:block;" border="0"></a></td> <td width="163" style="background-color:#fffbff;"><p style="font: Normal 12px 'Arial', sans-serif; text-transform:none; width: auto; text-align:left;"> <a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDY.php" target="_blank" style="color:#333; text-decoration:none;"> <strong>SUIVEZ-NOUS SUR<br> PINTEREST</strong></a></p></td> <td width="37" style="background-color:#fffbff;"><a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rDZ.php" target="_blank" style="color: #333; text-decoration:none;"> <im
+ g
+src="http://media.francoisesaget.com/bannieres/20151221/images/footer_03.jpg" alt="SUIVEZ-NOUS SUR FACEBOOK" width="34" height="35" style="display:block;" border="0"></a></td> <td width="133" style="background-color:#fffbff;"><p style="font: Normal 12px 'Arial', sans-serif; text-transform:none; width: auto; text-align:left;"> <a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rE0.php" target="_blank" style="color:#333; text-decoration:none;"><strong>SUIVEZ-NOUS SUR<br></strong></a><a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rE1.php" target="_blank" style="color:#333; text-decoration:none;"><b>FACEBOOK</b></a></p></td> <td width="206" valign="middle" style="background-color:#fffbff;"><table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td width="60"> </td> <td><span style="font: Normal 12px 'Arial', sans-serif; text-transform:none; width: auto; text-align:left;">CONTACTEZ-NOUS<br><font color="#8b0f73" size="5" style="font-size:20px"><strong>0 892 0
+ 27
+576</strong></font></span></td> </tr></table></td> <td width="119" style="background-color:#fffbff;"><img src="http://media.francoisesaget.com/bannieres/20151221/images/img_nl151209_46.jpg" alt="0892 02 75 76" width="119" height="35" style="display:block;" border="0"></td> </tr></table></td> </tr><tr><td> <table border="0" width="700" cellspacing="0" cellpadding="0" style="background-color:#fffbff; border-top:dotted; border-top-color:#d6c9d2; border-top-width:1px; height:1px;"></table></td> </tr><tr><td align="left" valign="top" bgcolor="#fffbff" style="text-align:left; font:normal 11px Arial, Helvetica, sans-serif; color:#666; line-height:15px; padding:10px"><strong>Offre COCOON valable du 30/12/2015 au 14/01/2016</strong> dans la limite des stocks disponibles.  <br><strong>-30%</strong> sur une sélection de lingerie de nuit, lingerie de jour et articles de la catégorie « maison ».<br><strong>-50% </strong>et plus sur une sélection de linge de maison (dans les caté
+ gories
+« chambre », « salle de bain », « table »)<br><br><strong>Code promo BONHEUR : </strong>frais de livraison standard offerts pour toute commande supérieure à 15€ sur le site <a href="http://trk.mix.loffremagique.com/tk/qB9-GMrp-rE2.php" target="_blank" style="text-decoration:none;"><font color="#666666">http://www.francoisesaget.com/fr</font></a>. Les codes de réduction sont valables une fois et ne sont pas cumulables avec d’autres codes promotionnels.<br><br><br><br></td> </tr></table><img src="http://ea.francoisesaget.com/view/francoisesaget/EMfNwnYS.kZtdivW2Rhvc2cKKcSF89jkT9GLeDg-/pix.gif?&eemail=" width="1" height="1" border="0" nosend style="display:none;"><img src="http://mtrc1.digital-metric.com/view.php?params=51e7b2e5ac00d611031cbfe0244fa522" alt="" border="0" width="1" height="1"><div> <table width="702" border="0" cellspacing="0" cellpadding="0" align="center" style="font-family:Arial, Helvetica, sans-serif; font-size:10px; color:black;
+text-align:center;"><tr><td style="font-size:10px; text-align:center;"><br> Espaces Promos, 12 rue Camille Desmoulins, 92300 Levallois Perret.<br> Conformément à l'article 34 de la loi Informatique et Liberté du 6 janvier 1978, vous disposez d'un droit d'accès, de modification,<br> de rectification et de suppression des données vous concernant en adressant votre demande à "report@dgcnit.fr".<br> Déclaration CNIL - 1642645 </td> </tr><tr><td></td></tr><tr><td>Vous souhaitez vous désinscrire de cette liste ? <a href="http://trk.mix.loffremagique.com/usb/qB9-GMrp.php" style="color: #000; text-decoration:underline; font-size: 11px;">Cliquez ici.</a></td></tr></table></div><img src="http://trk.mix.loffremagique.com/pg/qB9-GMrp.php" width="1" height="1" alt="" /></body></html> <img src="http://tr.plandefou.com/email=resp-m2-miage@univ-rennes1.fr" style="width:1px; height:1px; display:none;" /> <img
+src="http://p-eu.acxiom-online.com/pixel/ema?eml=e16f90279e0fa260475aa0f5d3ee7d879a08def5&ha=sha1&pid=6346&t=634618&sc=lighttor-sc2-c393&ot=pixel" style="width:1px; height:1px; display:none;" />
+
+
+
+--b1_6f24b26331f393d169a47373b96d78bb--
+
+

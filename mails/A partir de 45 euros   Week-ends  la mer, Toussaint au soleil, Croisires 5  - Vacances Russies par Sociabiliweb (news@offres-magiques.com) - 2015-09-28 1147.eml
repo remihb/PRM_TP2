@@ -1,0 +1,1534 @@
+Return-Path: <return-a18-1711-1727-resp-m2-miage=univ-rennes1.fr=4@offres-magiques.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Mon, 28 Sep 2015 11:47:13 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from vmsmtprexch.univ-rennes1.fr (vmsmtprexch.univ-rennes1.fr [129.20.128.62])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 6E98026A039F
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 28 Sep 2015 11:47:13 +0200 (CEST)
+Received: from mbcasexch1.Ur.local (mbcasexch1.univ-rennes1.fr [129.20.125.129])
+	by vmsmtprexch.univ-rennes1.fr (Postfix) with ESMTP id 69ACEF7
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 28 Sep 2015 11:47:13 +0200 (CEST)
+X-CrossPremisesHeadersFilteredBySendConnector: mbcasexch1.Ur.local
+Received: from mbcasexch1.Ur.local (2002:8114:7d81::8114:7d81) by
+ mbcasexch1.Ur.local (2002:8114:7d81::8114:7d81) with Microsoft SMTP Server
+ (TLS) id 15.0.913.22; Mon, 28 Sep 2015 11:47:12 +0200
+Received: from mailout1.univ-rennes1.fr (129.20.128.162) by
+ mbcasexch1.Ur.local (129.20.125.129) with Microsoft SMTP Server id
+ 15.0.913.22 via Frontend Transport; Mon, 28 Sep 2015 11:47:12 +0200
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id F0239600A4
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 28 Sep 2015 11:47:12 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id C7yPTTw1GQF5 for <resp-m2-miage@univ-rennes1.fr>;
+	Mon, 28 Sep 2015 11:47:12 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id C2066600A3
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 28 Sep 2015 11:47:12 +0200 (CEST)
+Received: from mxb1-2.relay.renater.fr (mxb1-2.relay.renater.fr [194.214.201.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id B82802003A
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 28 Sep 2015 11:47:12 +0200 (CEST)
+Received: from smtp1-20.revue-en-ligne.com (smtp1-20.revue-en-ligne.com [5.196.210.147])
+	by mxb1-2.relay.renater.fr (asm) with SMTP id ED83D28007C
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 28 Sep 2015 11:47:09 +0200 (CEST)
+Received: (GreenArrow 26005 invoked by uid 410); 28 Sep 2015 09:47:08 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=offres-magiques.com; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=I0sPz/
+	xIEURKhwrjXj4rFyFkw+U=; b=j9PN0dlo145OfmEA6Uh1JwGZtBGYUX9inQjI9J
+	sw/sdI5/RRIDNU6cDukQ5Ai8CjBw8f08m0129ZBP3qTI2b7VwrCpgBXXZ+dQg4Ju
+	NcJ7AkEr9k7cJcJjYf2laqDFnJ5+szpIlgUlOos4UBPoLqbf2YyiXXZLOAeM5bOQ
+	xmR4I=
+Subject: =?UTF-8?Q?A=20partir=20de=2045=20euros=20=3A=20Week=2Dends=20?=
+ =?UTF-8?Q?=C3=A0=20la=20mer=2C=20Toussaint=20au=20soleil=2C=20Crois?=
+ =?UTF-8?Q?i=C3=A8res=205=2A?=
+From: =?UTF-8?B?VmFjYW5jZXMgUsOpdXNzaWVzIHBhciBTb2NpYWJpbGl3ZWI=?=
+	<news@offres-magiques.com>
+To: <resp-m2-miage@univ-rennes1.fr>
+Date: Mon, 28 Sep 2015 09:47:08 +0000
+List-Unsubscribe: <http://offres-magiques.com/ga/unsubscribe/2-11527895-18-902-1727-ed35df89ef15825-c1b3093bc6>,
+ <mailto:return-a18-1711-1727-resp-m2-miage=univ-rennes1.fr=4u@offres-magiques.com>
+X-Mailer: GreenArrow Studio (v4.44.0)
+X-CampaignID: s4:1711-bbce0cb3e88f0860
+Message-ID: <mid-73436c423a8e86728d2c4eb12cf31183@offres-magiques.com>
+X-Mailer-Info: 4.hFDO.QM3ETM.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.QM3IzN
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="==f3512c39c9107356d1e150ca8ab982c1"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 5.196.210.147
+X-Bizanga: IMP - mxb1-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekgedrheehgddvtdcutefuodetggdotefrucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepuffhvfffjffokfggtgesrgdtreerredtjeenucfhrhhomhepgggrtggrnhgtvghsucftrohushhsihgvshcuphgrrhcuufhotghirggsihhlihifvggsuceonhgvfihssehofhhfrhgvshdqmhgrghhiqhhuvghsrdgtohhmqeenucffohhmrghinhepohhffhhrvghsqdhmrghgihhquhgvshdrtghomh 
+X-Renater-ServerName: mxb1-2.relay.renater.fr
+X-OrganizationHeadersPreserved: mbcasexch1.Ur.local
+
+--==f3512c39c9107356d1e150ca8ab982c1
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Vacances r=C3=A9ussies.com - Les meilleures offres pour voyager moins cher
+
+INFOS PROMOS DE LA SEMAINE
+VENTE FLASH<br>11 OFFRES JUSQU=C3=A2=C2=80=C2=99=C3=80 -68%
+VENTE FLASH
+11 OFFRES JUSQU'=C3=80 -68%=09
+=C3=80 partir de=20=20=20
+45=E2=82=AC
+Locations bord de mer, r=C3=A9sidences
+bien-=C3=AAtre et 1=C3=A8res minutes Ski.=09
+D=C3=A9couvrir
+
+=09=20
+CROISIERE ANTILLES<br>COSTA FAVOLOSA 5*
+CROISIERE ANTILLES
+COSTA FAVOLOSA 5*=09
+=C3=80 partir de=20=20=20
+982=E2=82=AC
+8j/7n vols inclus : Guadeloupe,
+St Martin, Rep Dom, Martinique.=09
+D=C3=A9couvrir
+
+=09=20
+VACANCES DE TOUSSAINT<br>SOLEIL ET TOUT COMPRIS
+VACANCES DE TOUSSAINT
+SOLEIL ET TOUT COMPRIS=09
+=C3=80 partir de=20=20=20
+499=E2=82=AC
+Majorque, Sardaigne, Bodrum,
+Lanzarote, Cr=C3=A8te, Agadir, ...=09
+D=C3=A9couvrir
+
+=09=20
+CROISIERE MEDITERRANEE<br>COSTA DIADEMA 5*
+CROISIERE MEDITERRANEE
+COSTA DIADEMA 5*=09
+=C3=80 partir de=20=20=20
+349=E2=82=AC
+8j/7n en pension compl=C3=A9te :
+Espagne, Bal=C3=A9ares et Italie.=09
+D=C3=A9couvrir
+
+=09=20
+MEILLEURS PLANS DU MOMENT
+WEEK-END NORMANDIE
+WEEK-END NORMANDIE
+3j/2n en appt 40m=C2=B2	Locasun VP
+99=E2=82=AC au lieu de 312=E2=82=AC	D=C3=A9couvrir=20
+AGADIR TULIP INN 3*
+AGADIR TULIP INN 3*
+8j/7n en demi-pension	Marmara
+259=E2=82=AC au lieu de 489=E2=82=AC	D=C3=A9couvrir=20
+PRESQU'ILE DE GIENS
+PRESQU=E2=80=99ILE DE GIENS
+Gratuit pour les enfants	Vacanciel
+286=E2=82=AC au lieu de 357=E2=82=AC	D=C3=A9couvrir=20
+GOLFE DE ST-TROPEZ
+GOLFE DE ST-TROPEZ
+Gratuit pour les enfants	Vacanciel
+385=E2=82=AC	D=C3=A9couvrir=20
+CANARIES 4* IZARO
+CANARIES 4* IZARO
+8j/7n en petit-d=C3=A9jeuner	Marmara
+389=E2=82=AC au lieu de 569=E2=82=AC	D=C3=A9couvrir=20
+LA PLAGNE PARADISKI
+LA PLAGNE PARADISKI
+8j/7n en Studio 4 pers.	Locasun VP
+255=E2=82=AC au lieu de 365=E2=82=AC	D=C3=A9couvrir=20
+CRETE CLUB 4* ALL IN
+CRETE CLUB 4* ALL IN
+8j/7n en tout compris	Marmara
+489=E2=82=AC au lieu de 749=E2=82=AC	D=C3=A9couvrir=20
+MSC FANTASIA 5*
+MSC FANTASIA 5*
+Italie Sicile Malte Palma	Promo Croisi=C3=83=C2=A8re
+689=E2=82=AC au lieu de 939=E2=82=AC	D=C3=A9couvrir=20
+CORSE PORTO VECCHIO
+CORSE PORTO VECCHIO
+8j/7n en appt avec balcon	Vacanciel
+595=E2=82=AC	D=C3=A9couvrir=20
+MAISON EN VENDEE
+MAISON EN VENDEE
+8j/7n en maison 47m=C2=B2	Locasun VP
+181=E2=82=AC au lieu de 249=E2=82=AC	D=C3=A9couvrir=20
+PAYS BASQUE CLUB 3*
+PAYS BASQUE CLUB 3*
+Gratuit pour les enfants	Vacanciel
+343=E2=82=AC	D=C3=A9couvrir=20
+IZMIR CLUB 4* ALL IN
+IZMIR CLUB 4* ALL IN
+8j/7n en tout compris	Marmara
+329=E2=82=AC au lieu de 689=E2=82=AC	D=C3=A9couvrir=20
+* Les prix affich=C3=A9s sur cette newsletter ont =C3=A9t=C3=A9 relev=C3=A9=
+s sur les sites internets mentionn=C3=A9s le 23/09/2015 =C3=A0 15h.=
+
+--==f3512c39c9107356d1e150ca8ab982c1
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" />
+	<title>Vacances r&eacute;ussies</title>
+</head>
+<body style=3D"background-color:#CECCC8;">
+<div style=3D"background-color:#CECCC8;">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+	<tbody>
+		<tr>
+			<td>
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"630">
+				<tbody>
+					<tr>
+						<td bgcolor=3D"#F6F6F6"><a href=3D"http://offres-magiques.com/ga/clic=
+k/2-11527895-18-902-1727-12062-a49691041f-c1b3093bc6" target=3D"_blank"><im=
+g alt=3D"Vacances r=C3=A9ussies.com - Les meilleures offres pour voyager mo=
+ins cher" border=3D"0" height=3D"146" src=3D"http://46.101.7.34/vacances/vr=
+-240915/header.gif" style=3D"display:block;" width=3D"630" /></a></td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#FFFFFF"><img border=3D"0" height=3D"12" src=3D"http:/=
+/46.101.7.34/vacances/vr-240915/header_under.gif" style=3D"display:block;" =
+width=3D"630" /></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"12" cellspacing=3D"0=
+" width=3D"630">
+				<tbody>
+					<tr>
+						<td bgcolor=3D"#FFFFFF">
+						<table border=3D"0" cellpadding=3D"10" cellspacing=3D"0" width=3D"100=
+%">
+							<tbody>
+								<tr>
+									<td bgcolor=3D"#B1B3B4" style=3D"color:#FFFFFF; font-size:20px; fo=
+nt-family:Arial, Helvetica, sans-serif;"><strong>INFOS PROMOS DE LA SEMAINE=
+</strong></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- INFOS PROMOS -->
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"630">
+				<tbody>
+					<tr>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://off=
+res-magiques.com/ga/click/2-11527895-18-902-1727-12063-ba6e6658b5-c1b3093bc=
+6" target=3D"_blank"><img alt=3D"VENTE FLASH&lt;br&gt;11 OFFRES JUSQU=C3=A2=
+=C2=80=C2=99=C3=80 -68%" border=3D"0" height=3D"160" src=3D"http://46.101.7=
+.34/vacances/vr-240915/IP1.jpg" style=3D"display:block;" width=3D"290" /> <=
+/a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-12063-ba6e6658b=
+5-c1b3093bc6" style=3D" color:#707173; text-decoration:none;" target=3D"_bl=
+ank">VENTE FLASH<br />
+												11 OFFRES JUSQU&#39;&Agrave; -68% </a> </strong></td>
+												<td width=3D"82">
+												<table border=3D"0" cellpadding=3D"4" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://offres-magiques.com/=
+ga/click/2-11527895-18-902-1727-12063-ba6e6658b5-c1b3093bc6" style=3D" colo=
+r:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de &nbs=
+p; </a> </span><br />
+															<a href=3D"http://offres-magiques.com/ga/click/2-11527895-18=
+-902-1727-12063-ba6e6658b5-c1b3093bc6" style=3D" color:#FFFFFF; text-decora=
+tion:none;" target=3D"_blank"><strong style=3D"font-size:24px">45&euro; </s=
+trong> </a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-12063-ba6e66=
+58b5-c1b3093bc6" style=3D"color:#707173; text-decoration:none;" target=3D"_=
+blank">Locations bord de mer, r&eacute;sidences<br />
+												bien-&ecirc;tre et 1&egrave;res minutes Ski. </a> </span></td>
+												<td align=3D"left" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"4" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#707173" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:12px"><a href=3D"http://offres-magiques.com=
+/ga/click/2-11527895-18-902-1727-12063-ba6e6658b5-c1b3093bc6" style=3D"colo=
+r:#FFFFFF; text-decoration:none;" target=3D"_blank">D&eacute;couvrir<br />
+															<img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vac=
+ances/vr-240915/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-12063-ba6e66=
+58b5-c1b3093bc6" target=3D"_blank"><img border=3D"0" height=3D"28" src=3D"h=
+ttp://46.101.7.34/vacances/vr-240915/locasun104x40.jpg" style=3D"display:bl=
+ock;" width=3D"78" /> </a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://off=
+res-magiques.com/ga/click/2-11527895-18-902-1727-12064-b4abc81f99-c1b3093bc=
+6" target=3D"_blank"><img alt=3D"CROISIERE ANTILLES&lt;br&gt;COSTA FAVOLOSA=
+ 5*" border=3D"0" height=3D"160" src=3D"http://46.101.7.34/vacances/vr-2409=
+15/IP2.jpg" style=3D"display:block;" width=3D"290" /> </a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-12064-b4abc81f9=
+9-c1b3093bc6" style=3D" color:#707173; text-decoration:none;" target=3D"_bl=
+ank">CROISIERE ANTILLES<br />
+												COSTA FAVOLOSA 5* </a> </strong></td>
+												<td width=3D"82">
+												<table border=3D"0" cellpadding=3D"4" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://offres-magiques.com/=
+ga/click/2-11527895-18-902-1727-12064-b4abc81f99-c1b3093bc6" style=3D" colo=
+r:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de &nbs=
+p; </a> </span><br />
+															<a href=3D"http://offres-magiques.com/ga/click/2-11527895-18=
+-902-1727-12064-b4abc81f99-c1b3093bc6" style=3D" color:#FFFFFF; text-decora=
+tion:none;" target=3D"_blank"><strong style=3D"font-size:24px">982&euro; </=
+strong> </a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-12064-b4abc8=
+1f99-c1b3093bc6" style=3D"color:#707173; text-decoration:none;" target=3D"_=
+blank">8j/7n vols inclus : Guadeloupe,<br />
+												St Martin, Rep Dom, Martinique. </a> </span></td>
+												<td align=3D"left" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"4" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#707173" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:12px"><a href=3D"http://offres-magiques.com=
+/ga/click/2-11527895-18-902-1727-12064-b4abc81f99-c1b3093bc6" style=3D"colo=
+r:#FFFFFF; text-decoration:none;" target=3D"_blank">D&eacute;couvrir<br />
+															<img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vac=
+ances/vr-240915/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-12064-b4abc8=
+1f99-c1b3093bc6" target=3D"_blank"><img border=3D"0" height=3D"28" src=3D"h=
+ttp://46.101.7.34/vacances/vr-240915/logo-CV-104x40.jpg" style=3D"display:b=
+lock;" width=3D"78" /> </a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"630">
+				<tbody>
+					<tr>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://off=
+res-magiques.com/ga/click/2-11527895-18-902-1727-12065-5045fb3f28-c1b3093bc=
+6" target=3D"_blank"><img alt=3D"VACANCES DE TOUSSAINT&lt;br&gt;SOLEIL ET T=
+OUT COMPRIS" border=3D"0" height=3D"160" src=3D"http://46.101.7.34/vacances=
+/vr-240915/IP3.jpg" style=3D"display:block;" width=3D"290" /> </a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-12065-5045fb3f2=
+8-c1b3093bc6" style=3D" color:#707173; text-decoration:none;" target=3D"_bl=
+ank">VACANCES DE TOUSSAINT<br />
+												SOLEIL ET TOUT COMPRIS </a> </strong></td>
+												<td width=3D"82">
+												<table border=3D"0" cellpadding=3D"4" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://offres-magiques.com/=
+ga/click/2-11527895-18-902-1727-12065-5045fb3f28-c1b3093bc6" style=3D" colo=
+r:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de &nbs=
+p; </a> </span><br />
+															<a href=3D"http://offres-magiques.com/ga/click/2-11527895-18=
+-902-1727-12065-5045fb3f28-c1b3093bc6" style=3D" color:#FFFFFF; text-decora=
+tion:none;" target=3D"_blank"><strong style=3D"font-size:24px">499&euro; </=
+strong> </a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-12065-5045fb=
+3f28-c1b3093bc6" style=3D"color:#707173; text-decoration:none;" target=3D"_=
+blank">Majorque, Sardaigne, Bodrum,<br />
+												Lanzarote, Cr&egrave;te, Agadir, ... </a> </span></td>
+												<td align=3D"left" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"4" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#707173" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:12px"><a href=3D"http://offres-magiques.com=
+/ga/click/2-11527895-18-902-1727-12065-5045fb3f28-c1b3093bc6" style=3D"colo=
+r:#FFFFFF; text-decoration:none;" target=3D"_blank">D&eacute;couvrir<br />
+															<img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vac=
+ances/vr-240915/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-12065-5045fb=
+3f28-c1b3093bc6" target=3D"_blank"><img border=3D"0" height=3D"28" src=3D"h=
+ttp://46.101.7.34/vacances/vr-240915/marmara104x40.jpg" style=3D"display:bl=
+ock;" width=3D"78" /> </a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://off=
+res-magiques.com/ga/click/2-11527895-18-902-1727-12066-881cb56350-c1b3093bc=
+6" target=3D"_blank"><img alt=3D"CROISIERE MEDITERRANEE&lt;br&gt;COSTA DIAD=
+EMA 5*" border=3D"0" height=3D"160" src=3D"http://46.101.7.34/vacances/vr-2=
+40915/IP4.jpg" style=3D"display:block;" width=3D"290" /> </a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-12066-881cb5635=
+0-c1b3093bc6" style=3D" color:#707173; text-decoration:none;" target=3D"_bl=
+ank">CROISIERE MEDITERRANEE<br />
+												COSTA DIADEMA 5* </a> </strong></td>
+												<td width=3D"82">
+												<table border=3D"0" cellpadding=3D"4" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://offres-magiques.com/=
+ga/click/2-11527895-18-902-1727-12066-881cb56350-c1b3093bc6" style=3D" colo=
+r:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de &nbs=
+p; </a> </span><br />
+															<a href=3D"http://offres-magiques.com/ga/click/2-11527895-18=
+-902-1727-12066-881cb56350-c1b3093bc6" style=3D" color:#FFFFFF; text-decora=
+tion:none;" target=3D"_blank"><strong style=3D"font-size:24px">349&euro; </=
+strong> </a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-12066-881cb5=
+6350-c1b3093bc6" style=3D"color:#707173; text-decoration:none;" target=3D"_=
+blank">8j/7n en pension compl&eacute;te :<br />
+												Espagne, Bal&eacute;ares et Italie. </a> </span></td>
+												<td align=3D"left" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"4" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#707173" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:12px"><a href=3D"http://offres-magiques.com=
+/ga/click/2-11527895-18-902-1727-12066-881cb56350-c1b3093bc6" style=3D"colo=
+r:#FFFFFF; text-decoration:none;" target=3D"_blank">D&eacute;couvrir<br />
+															<img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vac=
+ances/vr-240915/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-12066-881cb5=
+6350-c1b3093bc6" target=3D"_blank"><img border=3D"0" height=3D"28" src=3D"h=
+ttp://46.101.7.34/vacances/vr-240915/AB_104x40.jpg" style=3D"display:block;=
+" width=3D"78" /> </a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- MEILLEURS PLANS DU MOMENT -->
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"12" cellspacing=3D"0=
+" width=3D"630">
+				<tbody>
+					<tr>
+						<td bgcolor=3D"#FFFFFF">
+						<table border=3D"0" cellpadding=3D"10" cellspacing=3D"0" width=3D"100=
+%">
+							<tbody>
+								<tr>
+									<td bgcolor=3D"#B1B3B4" style=3D"color:#FFFFFF; font-size:20px; fo=
+nt-family:Arial, Helvetica, sans-serif;"><strong>MEILLEURS PLANS DU MOMENT<=
+/strong></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"6" cellspacing=3D"0"=
+ width=3D"630">
+				<tbody>
+					<tr>
+						<td bgcolor=3D"#FFFFFF">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"618">
+							<tbody>
+								<tr>
+									<td align=3D"left" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"6" width=3D"2=
+06">
+										<tbody>
+											<tr>
+												<td><a href=3D"http://offres-magiques.com/ga/click/2-11527895-1=
+8-902-1727-12067-a355e85cf8-c1b3093bc6" target=3D"_blank"><img alt=3D"WEEK-=
+END NORMANDIE" border=3D"0" height=3D"100" src=3D"http://46.101.7.34/vacanc=
+es/vr-240915/MP1.jpg" style=3D"display:block;" width=3D"194" /></a></td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td style=3D"font-family:Arial, Helvetica, sans-serif; font-=
+size:11px; color:#707173;"><strong><a href=3D"http://offres-magiques.com/ga=
+/click/2-11527895-18-902-1727-12067-a355e85cf8-c1b3093bc6" style=3D" color:=
+#707173; text-decoration:none;" target=3D"_blank">WEEK-END NORMANDIE</a></s=
+trong><br />
+															<a href=3D"http://offres-magiques.com/ga/click/2-11527895-18=
+-902-1727-12067-a355e85cf8-c1b3093bc6" style=3D"color:#707173; text-decorat=
+ion:none;" target=3D"_blank">3j/2n en appt 40m&sup2;</a></td>
+															<td align=3D"right" valign=3D"middle" width=3D"48"><span sty=
+le=3D"font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#7071=
+73;"><a href=3D"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-=
+12067-a355e85cf8-c1b3093bc6" target=3D"_blank"><img alt=3D"Locasun VP" bord=
+er=3D"0" height=3D"18" src=3D"http://46.101.7.34/vacances/vr-240915/locasun=
+104x40.jpg" style=3D"display:block;" width=3D"48" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"2" cellspacing=3D"0" width=
+=3D"194">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#FF9900" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#707173;" valign=3D"t=
+op" width=3D"131"><span style=3D"font-family:Arial, Helvetica, sans-serif; =
+font-size:16px; color:#FFFFFF;"><strong><a href=3D"http://offres-magiques.c=
+om/ga/click/2-11527895-18-902-1727-12067-a355e85cf8-c1b3093bc6" style=3D"co=
+lor:#FFFFFF; text-decoration:none;" target=3D"_blank">99&euro;</a></strong>=
+<a href=3D"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-12067=
+-a355e85cf8-c1b3093bc6" style=3D" color:#FFFFFF; text-decoration:none;"><sp=
+an style=3D"font-size:8px;" target=3D"_blank">&nbsp;au lieu de&nbsp;</span>=
+<span style=3D"font-size:10px;">312&euro;</span></a> </span></td>
+															<td align=3D"center" bgcolor=3D"#707173" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle" width=3D"55"><span style=3D"font-size:10px"><a href=3D"http://offres=
+-magiques.com/ga/click/2-11527895-18-902-1727-12067-a355e85cf8-c1b3093bc6" =
+style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&eacute;=
+couvrir&nbsp;<img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacan=
+ces/vr-240915/fleche.gif" width=3D"6" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"left" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"6" width=3D"2=
+06">
+										<tbody>
+											<tr>
+												<td><a href=3D"http://offres-magiques.com/ga/click/2-11527895-1=
+8-902-1727-12068-a5e58345c6-c1b3093bc6" target=3D"_blank"><img alt=3D"AGADI=
+R TULIP INN 3*" border=3D"0" height=3D"100" src=3D"http://46.101.7.34/vacan=
+ces/vr-240915/MP2.jpg" style=3D"display:block;" width=3D"194" /></a></td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td style=3D"font-family:Arial, Helvetica, sans-serif; font-=
+size:11px; color:#707173;"><strong><a href=3D"http://offres-magiques.com/ga=
+/click/2-11527895-18-902-1727-12068-a5e58345c6-c1b3093bc6" style=3D" color:=
+#707173; text-decoration:none;" target=3D"_blank">AGADIR TULIP INN 3*</a></=
+strong><br />
+															<a href=3D"http://offres-magiques.com/ga/click/2-11527895-18=
+-902-1727-12068-a5e58345c6-c1b3093bc6" style=3D"color:#707173; text-decorat=
+ion:none;" target=3D"_blank">8j/7n en demi-pension</a></td>
+															<td align=3D"right" valign=3D"middle" width=3D"48"><span sty=
+le=3D"font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#7071=
+73;"><a href=3D"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-=
+12068-a5e58345c6-c1b3093bc6" target=3D"_blank"><img alt=3D"Marmara" border=
+=3D"0" height=3D"18" src=3D"http://46.101.7.34/vacances/vr-240915/marmara10=
+4x40.jpg" style=3D"display:block;" width=3D"48" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"2" cellspacing=3D"0" width=
+=3D"194">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#FF9900" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#707173;" valign=3D"t=
+op" width=3D"131"><span style=3D"font-family:Arial, Helvetica, sans-serif; =
+font-size:16px; color:#FFFFFF;"><strong><a href=3D"http://offres-magiques.c=
+om/ga/click/2-11527895-18-902-1727-12068-a5e58345c6-c1b3093bc6" style=3D"co=
+lor:#FFFFFF; text-decoration:none;" target=3D"_blank">259&euro;</a></strong=
+><a href=3D"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-1206=
+8-a5e58345c6-c1b3093bc6" style=3D" color:#FFFFFF; text-decoration:none;"><s=
+pan style=3D"font-size:8px;" target=3D"_blank">&nbsp;au lieu de&nbsp;</span=
+><span style=3D"font-size:10px;">489&euro;</span></a> </span></td>
+															<td align=3D"center" bgcolor=3D"#707173" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle" width=3D"55"><span style=3D"font-size:10px"><a href=3D"http://offres=
+-magiques.com/ga/click/2-11527895-18-902-1727-12068-a5e58345c6-c1b3093bc6" =
+style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&eacute;=
+couvrir&nbsp;<img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacan=
+ces/vr-240915/fleche.gif" width=3D"6" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"left" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"6" width=3D"2=
+06">
+										<tbody>
+											<tr>
+												<td><a href=3D"http://offres-magiques.com/ga/click/2-11527895-1=
+8-902-1727-12069-1745db7eb6-c1b3093bc6" target=3D"_blank"><img alt=3D"PRESQ=
+U'ILE DE GIENS" border=3D"0" height=3D"100" src=3D"http://46.101.7.34/vacan=
+ces/vr-240915/MP3.jpg" style=3D"display:block;" width=3D"194" /></a></td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td style=3D"font-family:Arial, Helvetica, sans-serif; font-=
+size:11px; color:#707173;"><strong><a href=3D"http://offres-magiques.com/ga=
+/click/2-11527895-18-902-1727-12069-1745db7eb6-c1b3093bc6" style=3D" color:=
+#707173; text-decoration:none;" target=3D"_blank">PRESQU&rsquo;ILE DE GIENS=
+</a></strong><br />
+															<a href=3D"http://offres-magiques.com/ga/click/2-11527895-18=
+-902-1727-12069-1745db7eb6-c1b3093bc6" style=3D"color:#707173; text-decorat=
+ion:none;" target=3D"_blank">Gratuit pour les enfants</a></td>
+															<td align=3D"right" valign=3D"middle" width=3D"48"><span sty=
+le=3D"font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#7071=
+73;"><a href=3D"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-=
+12069-1745db7eb6-c1b3093bc6" target=3D"_blank"><img alt=3D"Vacanciel" borde=
+r=3D"0" height=3D"18" src=3D"http://46.101.7.34/vacances/vr-240915/vacancie=
+l104x40.jpg" style=3D"display:block;" width=3D"48" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"2" cellspacing=3D"0" width=
+=3D"194">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#FF9900" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#707173;" valign=3D"t=
+op" width=3D"131"><span style=3D"font-family:Arial, Helvetica, sans-serif; =
+font-size:16px; color:#FFFFFF;"><strong><a href=3D"http://offres-magiques.c=
+om/ga/click/2-11527895-18-902-1727-12069-1745db7eb6-c1b3093bc6" style=3D"co=
+lor:#FFFFFF; text-decoration:none;" target=3D"_blank">286&euro;</a></strong=
+><a href=3D"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-1206=
+9-1745db7eb6-c1b3093bc6" style=3D" color:#FFFFFF; text-decoration:none;"><s=
+pan style=3D"font-size:8px;" target=3D"_blank">&nbsp;au lieu de&nbsp;</span=
+><span style=3D"font-size:10px;">357&euro;</span></a> </span></td>
+															<td align=3D"center" bgcolor=3D"#707173" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle" width=3D"55"><span style=3D"font-size:10px"><a href=3D"http://offres=
+-magiques.com/ga/click/2-11527895-18-902-1727-12069-1745db7eb6-c1b3093bc6" =
+style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&eacute;=
+couvrir&nbsp;<img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacan=
+ces/vr-240915/fleche.gif" width=3D"6" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"6" cellspacing=3D"0"=
+ width=3D"630">
+				<tbody>
+					<tr>
+						<td bgcolor=3D"#FFFFFF">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"618">
+							<tbody>
+								<tr>
+									<td align=3D"left" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"6" width=3D"2=
+06">
+										<tbody>
+											<tr>
+												<td><a href=3D"http://offres-magiques.com/ga/click/2-11527895-1=
+8-902-1727-12070-b7117ca720-c1b3093bc6" target=3D"_blank"><img alt=3D"GOLFE=
+ DE ST-TROPEZ" border=3D"0" height=3D"100" src=3D"http://46.101.7.34/vacanc=
+es/vr-240915/MP4.jpg" style=3D"display:block;" width=3D"194" /></a></td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td style=3D"font-family:Arial, Helvetica, sans-serif; font-=
+size:11px; color:#707173;"><strong><a href=3D"http://offres-magiques.com/ga=
+/click/2-11527895-18-902-1727-12070-b7117ca720-c1b3093bc6" style=3D" color:=
+#707173; text-decoration:none;" target=3D"_blank">GOLFE DE ST-TROPEZ</a></s=
+trong><br />
+															<a href=3D"http://offres-magiques.com/ga/click/2-11527895-18=
+-902-1727-12070-b7117ca720-c1b3093bc6" style=3D"color:#707173; text-decorat=
+ion:none;" target=3D"_blank">Gratuit pour les enfants</a></td>
+															<td align=3D"right" valign=3D"middle" width=3D"48"><span sty=
+le=3D"font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#7071=
+73;"><a href=3D"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-=
+12070-b7117ca720-c1b3093bc6" target=3D"_blank"><img alt=3D"Vacanciel" borde=
+r=3D"0" height=3D"18" src=3D"http://46.101.7.34/vacances/vr-240915/vacancie=
+l104x40.jpg" style=3D"display:block;" width=3D"48" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"2" cellspacing=3D"0" width=
+=3D"194">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#FF9900" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#707173;" valign=3D"t=
+op" width=3D"131"><span style=3D"font-family:Arial, Helvetica, sans-serif; =
+font-size:16px; color:#FFFFFF;"><strong><a href=3D"http://offres-magiques.c=
+om/ga/click/2-11527895-18-902-1727-12070-b7117ca720-c1b3093bc6" style=3D"co=
+lor:#FFFFFF; text-decoration:none;" target=3D"_blank">385&euro;</a></strong=
+> </span></td>
+															<td align=3D"center" bgcolor=3D"#707173" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle" width=3D"55"><span style=3D"font-size:10px"><a href=3D"http://offres=
+-magiques.com/ga/click/2-11527895-18-902-1727-12070-b7117ca720-c1b3093bc6" =
+style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&eacute;=
+couvrir&nbsp;<img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacan=
+ces/vr-240915/fleche.gif" width=3D"6" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"left" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"6" width=3D"2=
+06">
+										<tbody>
+											<tr>
+												<td><a href=3D"http://offres-magiques.com/ga/click/2-11527895-1=
+8-902-1727-12071-141a0c28ff-c1b3093bc6" target=3D"_blank"><img alt=3D"CANAR=
+IES 4* IZARO" border=3D"0" height=3D"100" src=3D"http://46.101.7.34/vacance=
+s/vr-240915/MP5.jpg" style=3D"display:block;" width=3D"194" /></a></td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td style=3D"font-family:Arial, Helvetica, sans-serif; font-=
+size:11px; color:#707173;"><strong><a href=3D"http://offres-magiques.com/ga=
+/click/2-11527895-18-902-1727-12071-141a0c28ff-c1b3093bc6" style=3D" color:=
+#707173; text-decoration:none;" target=3D"_blank">CANARIES 4* IZARO</a></st=
+rong><br />
+															<a href=3D"http://offres-magiques.com/ga/click/2-11527895-18=
+-902-1727-12071-141a0c28ff-c1b3093bc6" style=3D"color:#707173; text-decorat=
+ion:none;" target=3D"_blank">8j/7n en petit-d&eacute;jeuner</a></td>
+															<td align=3D"right" valign=3D"middle" width=3D"48"><span sty=
+le=3D"font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#7071=
+73;"><a href=3D"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-=
+12071-141a0c28ff-c1b3093bc6" target=3D"_blank"><img alt=3D"Marmara" border=
+=3D"0" height=3D"18" src=3D"http://46.101.7.34/vacances/vr-240915/marmara10=
+4x40.jpg" style=3D"display:block;" width=3D"48" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"2" cellspacing=3D"0" width=
+=3D"194">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#FF9900" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#707173;" valign=3D"t=
+op" width=3D"131"><span style=3D"font-family:Arial, Helvetica, sans-serif; =
+font-size:16px; color:#FFFFFF;"><strong><a href=3D"http://offres-magiques.c=
+om/ga/click/2-11527895-18-902-1727-12071-141a0c28ff-c1b3093bc6" style=3D"co=
+lor:#FFFFFF; text-decoration:none;" target=3D"_blank">389&euro;</a></strong=
+><a href=3D"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-1207=
+1-141a0c28ff-c1b3093bc6" style=3D" color:#FFFFFF; text-decoration:none;"><s=
+pan style=3D"font-size:8px;" target=3D"_blank">&nbsp;au lieu de&nbsp;</span=
+><span style=3D"font-size:10px;">569&euro;</span></a> </span></td>
+															<td align=3D"center" bgcolor=3D"#707173" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle" width=3D"55"><span style=3D"font-size:10px"><a href=3D"http://offres=
+-magiques.com/ga/click/2-11527895-18-902-1727-12071-141a0c28ff-c1b3093bc6" =
+style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&eacute;=
+couvrir&nbsp;<img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacan=
+ces/vr-240915/fleche.gif" width=3D"6" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"left" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"6" width=3D"2=
+06">
+										<tbody>
+											<tr>
+												<td><a href=3D"http://offres-magiques.com/ga/click/2-11527895-1=
+8-902-1727-12072-7cc8c302ee-c1b3093bc6" target=3D"_blank"><img alt=3D"LA PL=
+AGNE PARADISKI" border=3D"0" height=3D"100" src=3D"http://46.101.7.34/vacan=
+ces/vr-240915/MP6.jpg" style=3D"display:block;" width=3D"194" /></a></td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td style=3D"font-family:Arial, Helvetica, sans-serif; font-=
+size:11px; color:#707173;"><strong><a href=3D"http://offres-magiques.com/ga=
+/click/2-11527895-18-902-1727-12072-7cc8c302ee-c1b3093bc6" style=3D" color:=
+#707173; text-decoration:none;" target=3D"_blank">LA PLAGNE PARADISKI</a></=
+strong><br />
+															<a href=3D"http://offres-magiques.com/ga/click/2-11527895-18=
+-902-1727-12072-7cc8c302ee-c1b3093bc6" style=3D"color:#707173; text-decorat=
+ion:none;" target=3D"_blank">8j/7n en Studio 4 pers.</a></td>
+															<td align=3D"right" valign=3D"middle" width=3D"48"><span sty=
+le=3D"font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#7071=
+73;"><a href=3D"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-=
+12072-7cc8c302ee-c1b3093bc6" target=3D"_blank"><img alt=3D"Locasun VP" bord=
+er=3D"0" height=3D"18" src=3D"http://46.101.7.34/vacances/vr-240915/locasun=
+104x40.jpg" style=3D"display:block;" width=3D"48" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"2" cellspacing=3D"0" width=
+=3D"194">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#FF9900" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#707173;" valign=3D"t=
+op" width=3D"131"><span style=3D"font-family:Arial, Helvetica, sans-serif; =
+font-size:16px; color:#FFFFFF;"><strong><a href=3D"http://offres-magiques.c=
+om/ga/click/2-11527895-18-902-1727-12072-7cc8c302ee-c1b3093bc6" style=3D"co=
+lor:#FFFFFF; text-decoration:none;" target=3D"_blank">255&euro;</a></strong=
+><a href=3D"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-1207=
+2-7cc8c302ee-c1b3093bc6" style=3D" color:#FFFFFF; text-decoration:none;"><s=
+pan style=3D"font-size:8px;" target=3D"_blank">&nbsp;au lieu de&nbsp;</span=
+><span style=3D"font-size:10px;">365&euro;</span></a> </span></td>
+															<td align=3D"center" bgcolor=3D"#707173" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle" width=3D"55"><span style=3D"font-size:10px"><a href=3D"http://offres=
+-magiques.com/ga/click/2-11527895-18-902-1727-12072-7cc8c302ee-c1b3093bc6" =
+style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&eacute;=
+couvrir&nbsp;<img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacan=
+ces/vr-240915/fleche.gif" width=3D"6" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"6" cellspacing=3D"0"=
+ width=3D"630">
+				<tbody>
+					<tr>
+						<td bgcolor=3D"#FFFFFF">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"618">
+							<tbody>
+								<tr>
+									<td align=3D"left" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"6" width=3D"2=
+06">
+										<tbody>
+											<tr>
+												<td><a href=3D"http://offres-magiques.com/ga/click/2-11527895-1=
+8-902-1727-12073-80f6a8bd40-c1b3093bc6" target=3D"_blank"><img alt=3D"CRETE=
+ CLUB 4* ALL IN" border=3D"0" height=3D"100" src=3D"http://46.101.7.34/vaca=
+nces/vr-240915/MP7.jpg" style=3D"display:block;" width=3D"194" /></a></td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td style=3D"font-family:Arial, Helvetica, sans-serif; font-=
+size:11px; color:#707173;"><strong><a href=3D"http://offres-magiques.com/ga=
+/click/2-11527895-18-902-1727-12073-80f6a8bd40-c1b3093bc6" style=3D" color:=
+#707173; text-decoration:none;" target=3D"_blank">CRETE CLUB 4* ALL IN</a><=
+/strong><br />
+															<a href=3D"http://offres-magiques.com/ga/click/2-11527895-18=
+-902-1727-12073-80f6a8bd40-c1b3093bc6" style=3D"color:#707173; text-decorat=
+ion:none;" target=3D"_blank">8j/7n en tout compris</a></td>
+															<td align=3D"right" valign=3D"middle" width=3D"48"><span sty=
+le=3D"font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#7071=
+73;"><a href=3D"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-=
+12073-80f6a8bd40-c1b3093bc6" target=3D"_blank"><img alt=3D"Marmara" border=
+=3D"0" height=3D"18" src=3D"http://46.101.7.34/vacances/vr-240915/marmara10=
+4x40.jpg" style=3D"display:block;" width=3D"48" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"2" cellspacing=3D"0" width=
+=3D"194">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#FF9900" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#707173;" valign=3D"t=
+op" width=3D"131"><span style=3D"font-family:Arial, Helvetica, sans-serif; =
+font-size:16px; color:#FFFFFF;"><strong><a href=3D"http://offres-magiques.c=
+om/ga/click/2-11527895-18-902-1727-12073-80f6a8bd40-c1b3093bc6" style=3D"co=
+lor:#FFFFFF; text-decoration:none;" target=3D"_blank">489&euro;</a></strong=
+><a href=3D"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-1207=
+3-80f6a8bd40-c1b3093bc6" style=3D" color:#FFFFFF; text-decoration:none;"><s=
+pan style=3D"font-size:8px;" target=3D"_blank">&nbsp;au lieu de&nbsp;</span=
+><span style=3D"font-size:10px;">749&euro;</span></a> </span></td>
+															<td align=3D"center" bgcolor=3D"#707173" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle" width=3D"55"><span style=3D"font-size:10px"><a href=3D"http://offres=
+-magiques.com/ga/click/2-11527895-18-902-1727-12073-80f6a8bd40-c1b3093bc6" =
+style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&eacute;=
+couvrir&nbsp;<img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacan=
+ces/vr-240915/fleche.gif" width=3D"6" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"left" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"6" width=3D"2=
+06">
+										<tbody>
+											<tr>
+												<td><a href=3D"http://offres-magiques.com/ga/click/2-11527895-1=
+8-902-1727-12074-bb6b4e765f-c1b3093bc6" target=3D"_blank"><img alt=3D"MSC F=
+ANTASIA 5*" border=3D"0" height=3D"100" src=3D"http://46.101.7.34/vacances/=
+vr-240915/MP8.jpg" style=3D"display:block;" width=3D"194" /></a></td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td style=3D"font-family:Arial, Helvetica, sans-serif; font-=
+size:11px; color:#707173;"><strong><a href=3D"http://offres-magiques.com/ga=
+/click/2-11527895-18-902-1727-12074-bb6b4e765f-c1b3093bc6" style=3D" color:=
+#707173; text-decoration:none;" target=3D"_blank">MSC FANTASIA 5*</a></stro=
+ng><br />
+															<a href=3D"http://offres-magiques.com/ga/click/2-11527895-18=
+-902-1727-12074-bb6b4e765f-c1b3093bc6" style=3D"color:#707173; text-decorat=
+ion:none;" target=3D"_blank">Italie Sicile Malte Palma</a></td>
+															<td align=3D"right" valign=3D"middle" width=3D"48"><span sty=
+le=3D"font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#7071=
+73;"><a href=3D"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-=
+12074-bb6b4e765f-c1b3093bc6" target=3D"_blank"><img alt=3D"Promo Croisi=C3=
+=83=C2=A8re" border=3D"0" height=3D"18" src=3D"http://46.101.7.34/vacances/=
+vr-240915/promocroisiere104x40.jpg" style=3D"display:block;" width=3D"48" /=
+> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"2" cellspacing=3D"0" width=
+=3D"194">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#FF9900" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#707173;" valign=3D"t=
+op" width=3D"131"><span style=3D"font-family:Arial, Helvetica, sans-serif; =
+font-size:16px; color:#FFFFFF;"><strong><a href=3D"http://offres-magiques.c=
+om/ga/click/2-11527895-18-902-1727-12074-bb6b4e765f-c1b3093bc6" style=3D"co=
+lor:#FFFFFF; text-decoration:none;" target=3D"_blank">689&euro;</a></strong=
+><a href=3D"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-1207=
+4-bb6b4e765f-c1b3093bc6" style=3D" color:#FFFFFF; text-decoration:none;"><s=
+pan style=3D"font-size:8px;" target=3D"_blank">&nbsp;au lieu de&nbsp;</span=
+><span style=3D"font-size:10px;">939&euro;</span></a> </span></td>
+															<td align=3D"center" bgcolor=3D"#707173" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle" width=3D"55"><span style=3D"font-size:10px"><a href=3D"http://offres=
+-magiques.com/ga/click/2-11527895-18-902-1727-12074-bb6b4e765f-c1b3093bc6" =
+style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&eacute;=
+couvrir&nbsp;<img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacan=
+ces/vr-240915/fleche.gif" width=3D"6" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"left" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"6" width=3D"2=
+06">
+										<tbody>
+											<tr>
+												<td><a href=3D"http://offres-magiques.com/ga/click/2-11527895-1=
+8-902-1727-12075-81f6537517-c1b3093bc6" target=3D"_blank"><img alt=3D"CORSE=
+ PORTO VECCHIO" border=3D"0" height=3D"100" src=3D"http://46.101.7.34/vacan=
+ces/vr-240915/MP9.jpg" style=3D"display:block;" width=3D"194" /></a></td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td style=3D"font-family:Arial, Helvetica, sans-serif; font-=
+size:11px; color:#707173;"><strong><a href=3D"http://offres-magiques.com/ga=
+/click/2-11527895-18-902-1727-12075-81f6537517-c1b3093bc6" style=3D" color:=
+#707173; text-decoration:none;" target=3D"_blank">CORSE PORTO VECCHIO</a></=
+strong><br />
+															<a href=3D"http://offres-magiques.com/ga/click/2-11527895-18=
+-902-1727-12075-81f6537517-c1b3093bc6" style=3D"color:#707173; text-decorat=
+ion:none;" target=3D"_blank">8j/7n en appt avec balcon</a></td>
+															<td align=3D"right" valign=3D"middle" width=3D"48"><span sty=
+le=3D"font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#7071=
+73;"><a href=3D"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-=
+12075-81f6537517-c1b3093bc6" target=3D"_blank"><img alt=3D"Vacanciel" borde=
+r=3D"0" height=3D"18" src=3D"http://46.101.7.34/vacances/vr-240915/vacancie=
+l104x40.jpg" style=3D"display:block;" width=3D"48" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"2" cellspacing=3D"0" width=
+=3D"194">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#FF9900" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#707173;" valign=3D"t=
+op" width=3D"131"><span style=3D"font-family:Arial, Helvetica, sans-serif; =
+font-size:16px; color:#FFFFFF;"><strong><a href=3D"http://offres-magiques.c=
+om/ga/click/2-11527895-18-902-1727-12075-81f6537517-c1b3093bc6" style=3D"co=
+lor:#FFFFFF; text-decoration:none;" target=3D"_blank">595&euro;</a></strong=
+> </span></td>
+															<td align=3D"center" bgcolor=3D"#707173" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle" width=3D"55"><span style=3D"font-size:10px"><a href=3D"http://offres=
+-magiques.com/ga/click/2-11527895-18-902-1727-12075-81f6537517-c1b3093bc6" =
+style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&eacute;=
+couvrir&nbsp;<img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacan=
+ces/vr-240915/fleche.gif" width=3D"6" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"6" cellspacing=3D"0"=
+ width=3D"630">
+				<tbody>
+					<tr>
+						<td bgcolor=3D"#FFFFFF">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"618">
+							<tbody>
+								<tr>
+									<td align=3D"left" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"6" width=3D"2=
+06">
+										<tbody>
+											<tr>
+												<td><a href=3D"http://offres-magiques.com/ga/click/2-11527895-1=
+8-902-1727-12076-d575f0fabe-c1b3093bc6" target=3D"_blank"><img alt=3D"MAISO=
+N EN VENDEE" border=3D"0" height=3D"100" src=3D"http://46.101.7.34/vacances=
+/vr-240915/MP10.jpg" style=3D"display:block;" width=3D"194" /></a></td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td style=3D"font-family:Arial, Helvetica, sans-serif; font-=
+size:11px; color:#707173;"><strong><a href=3D"http://offres-magiques.com/ga=
+/click/2-11527895-18-902-1727-12076-d575f0fabe-c1b3093bc6" style=3D" color:=
+#707173; text-decoration:none;" target=3D"_blank">MAISON EN VENDEE</a></str=
+ong><br />
+															<a href=3D"http://offres-magiques.com/ga/click/2-11527895-18=
+-902-1727-12076-d575f0fabe-c1b3093bc6" style=3D"color:#707173; text-decorat=
+ion:none;" target=3D"_blank">8j/7n en maison 47m&sup2;</a></td>
+															<td align=3D"right" valign=3D"middle" width=3D"48"><span sty=
+le=3D"font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#7071=
+73;"><a href=3D"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-=
+12076-d575f0fabe-c1b3093bc6" target=3D"_blank"><img alt=3D"Locasun VP" bord=
+er=3D"0" height=3D"18" src=3D"http://46.101.7.34/vacances/vr-240915/locasun=
+104x40.jpg" style=3D"display:block;" width=3D"48" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"2" cellspacing=3D"0" width=
+=3D"194">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#FF9900" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#707173;" valign=3D"t=
+op" width=3D"131"><span style=3D"font-family:Arial, Helvetica, sans-serif; =
+font-size:16px; color:#FFFFFF;"><strong><a href=3D"http://offres-magiques.c=
+om/ga/click/2-11527895-18-902-1727-12076-d575f0fabe-c1b3093bc6" style=3D"co=
+lor:#FFFFFF; text-decoration:none;" target=3D"_blank">181&euro;</a></strong=
+><a href=3D"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-1207=
+6-d575f0fabe-c1b3093bc6" style=3D" color:#FFFFFF; text-decoration:none;"><s=
+pan style=3D"font-size:8px;" target=3D"_blank">&nbsp;au lieu de&nbsp;</span=
+><span style=3D"font-size:10px;">249&euro;</span></a> </span></td>
+															<td align=3D"center" bgcolor=3D"#707173" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle" width=3D"55"><span style=3D"font-size:10px"><a href=3D"http://offres=
+-magiques.com/ga/click/2-11527895-18-902-1727-12076-d575f0fabe-c1b3093bc6" =
+style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&eacute;=
+couvrir&nbsp;<img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacan=
+ces/vr-240915/fleche.gif" width=3D"6" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"left" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"6" width=3D"2=
+06">
+										<tbody>
+											<tr>
+												<td><a href=3D"http://offres-magiques.com/ga/click/2-11527895-1=
+8-902-1727-12077-ea2b93047c-c1b3093bc6" target=3D"_blank"><img alt=3D"PAYS =
+BASQUE CLUB 3*" border=3D"0" height=3D"100" src=3D"http://46.101.7.34/vacan=
+ces/vr-240915/MP11.jpg" style=3D"display:block;" width=3D"194" /></a></td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td style=3D"font-family:Arial, Helvetica, sans-serif; font-=
+size:11px; color:#707173;"><strong><a href=3D"http://offres-magiques.com/ga=
+/click/2-11527895-18-902-1727-12077-ea2b93047c-c1b3093bc6" style=3D" color:=
+#707173; text-decoration:none;" target=3D"_blank">PAYS BASQUE CLUB 3*</a></=
+strong><br />
+															<a href=3D"http://offres-magiques.com/ga/click/2-11527895-18=
+-902-1727-12077-ea2b93047c-c1b3093bc6" style=3D"color:#707173; text-decorat=
+ion:none;" target=3D"_blank">Gratuit pour les enfants</a></td>
+															<td align=3D"right" valign=3D"middle" width=3D"48"><span sty=
+le=3D"font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#7071=
+73;"><a href=3D"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-=
+12077-ea2b93047c-c1b3093bc6" target=3D"_blank"><img alt=3D"Vacanciel" borde=
+r=3D"0" height=3D"18" src=3D"http://46.101.7.34/vacances/vr-240915/vacancie=
+l104x40.jpg" style=3D"display:block;" width=3D"48" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"2" cellspacing=3D"0" width=
+=3D"194">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#FF9900" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#707173;" valign=3D"t=
+op" width=3D"131"><span style=3D"font-family:Arial, Helvetica, sans-serif; =
+font-size:16px; color:#FFFFFF;"><strong><a href=3D"http://offres-magiques.c=
+om/ga/click/2-11527895-18-902-1727-12077-ea2b93047c-c1b3093bc6" style=3D"co=
+lor:#FFFFFF; text-decoration:none;" target=3D"_blank">343&euro;</a></strong=
+> </span></td>
+															<td align=3D"center" bgcolor=3D"#707173" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle" width=3D"55"><span style=3D"font-size:10px"><a href=3D"http://offres=
+-magiques.com/ga/click/2-11527895-18-902-1727-12077-ea2b93047c-c1b3093bc6" =
+style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&eacute;=
+couvrir&nbsp;<img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacan=
+ces/vr-240915/fleche.gif" width=3D"6" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"left" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"6" width=3D"2=
+06">
+										<tbody>
+											<tr>
+												<td><a href=3D"http://offres-magiques.com/ga/click/2-11527895-1=
+8-902-1727-12078-1c0d23ed8c-c1b3093bc6" target=3D"_blank"><img alt=3D"IZMIR=
+ CLUB 4* ALL IN" border=3D"0" height=3D"100" src=3D"http://46.101.7.34/vaca=
+nces/vr-240915/MP12.jpg" style=3D"display:block;" width=3D"194" /></a></td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td style=3D"font-family:Arial, Helvetica, sans-serif; font-=
+size:11px; color:#707173;"><strong><a href=3D"http://offres-magiques.com/ga=
+/click/2-11527895-18-902-1727-12078-1c0d23ed8c-c1b3093bc6" style=3D" color:=
+#707173; text-decoration:none;" target=3D"_blank">IZMIR CLUB 4* ALL IN</a><=
+/strong><br />
+															<a href=3D"http://offres-magiques.com/ga/click/2-11527895-18=
+-902-1727-12078-1c0d23ed8c-c1b3093bc6" style=3D"color:#707173; text-decorat=
+ion:none;" target=3D"_blank">8j/7n en tout compris</a></td>
+															<td align=3D"right" valign=3D"middle" width=3D"48"><span sty=
+le=3D"font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#7071=
+73;"><a href=3D"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-=
+12078-1c0d23ed8c-c1b3093bc6" target=3D"_blank"><img alt=3D"Marmara" border=
+=3D"0" height=3D"18" src=3D"http://46.101.7.34/vacances/vr-240915/marmara10=
+4x40.jpg" style=3D"display:block;" width=3D"48" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"2" cellspacing=3D"0" width=
+=3D"194">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#FF9900" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#707173;" valign=3D"t=
+op" width=3D"131"><span style=3D"font-family:Arial, Helvetica, sans-serif; =
+font-size:16px; color:#FFFFFF;"><strong><a href=3D"http://offres-magiques.c=
+om/ga/click/2-11527895-18-902-1727-12078-1c0d23ed8c-c1b3093bc6" style=3D"co=
+lor:#FFFFFF; text-decoration:none;" target=3D"_blank">329&euro;</a></strong=
+><a href=3D"http://offres-magiques.com/ga/click/2-11527895-18-902-1727-1207=
+8-1c0d23ed8c-c1b3093bc6" style=3D" color:#FFFFFF; text-decoration:none;"><s=
+pan style=3D"font-size:8px;" target=3D"_blank">&nbsp;au lieu de&nbsp;</span=
+><span style=3D"font-size:10px;">689&euro;</span></a> </span></td>
+															<td align=3D"center" bgcolor=3D"#707173" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle" width=3D"55"><span style=3D"font-size:10px"><a href=3D"http://offres=
+-magiques.com/ga/click/2-11527895-18-902-1727-12078-1c0d23ed8c-c1b3093bc6" =
+style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&eacute;=
+couvrir&nbsp;<img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacan=
+ces/vr-240915/fleche.gif" width=3D"6" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"12" cellspacing=3D"0=
+" width=3D"630">
+				<tbody>
+					<tr>
+						<td align=3D"center" style=3D"color:#44443E; font-size:10px;-webkit-t=
+ext-size-adjust:none; font-family:Arial, Helvetica, sans-serif">* Les prix =
+affich&eacute;s sur cette newsletter ont &eacute;t&eacute; relev&eacute;s s=
+ur les sites internets mentionn&eacute;s le 23/09/2015 &agrave; 15h.</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<center><a href=3D"http://offres-magiques.com/ga/unsubscribe/2-11527895-18-=
+902-1727-ed35df89ef15825-c1b3093bc6">Je souhaite me d=C3=A9sinscrire et ne =
+plus recevoir les newsletters</a>
+ <img alt=3D"track" height=3D"1" src=3D"http://er.sociabiliweb.fr/EREO/E/45=
+8/730c3/resp-m2-miage@univ-rennes1.fr/pixel.gif" />=20
+ <img alt=3D"track" height=3D"1" src=3D"http://asset.email-match.com/849/as=
+set?type=3DIMG&optin=3D1&email=3Dresp-m2-miage@univ-rennes1.fr" width=3D"1"=
+ />
+ <img alt=3D"track" height=3D"1" src=3D"http://adtrack.adleadevent.com/adtc=
+krtg.php?ids=3D37&email=3Dresp-m2-miage@univ-rennes1.fr" /> </center><img s=
+rc=3D"http://offres-magiques.com/ga/open/2-11527895-18-902-1727-c1b3093bc6"=
+ height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==f3512c39c9107356d1e150ca8ab982c1--

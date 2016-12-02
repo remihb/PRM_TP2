@@ -1,0 +1,595 @@
+Return-Path: <bounce-284608-ce2a65900e-146121678@lideedujour.fr>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Fri, 08 Jul 2016 19:15:11 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from mailout2.univ-rennes1.fr (mailout2.univ-rennes1.fr [129.20.129.120])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 90E7652
+	for <resp-m2-miage@univ-rennes1.fr>; Fri,  8 Jul 2016 19:15:11 +0200 (CEST)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 8E5416007A
+	for <resp-m2-miage@univ-rennes1.fr>; Fri,  8 Jul 2016 19:15:11 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout2.univ-rennes1.fr ([129.20.129.120])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id IU6j_TDCXHwQ for <resp-m2-miage@univ-rennes1.fr>;
+	Fri,  8 Jul 2016 19:15:11 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 7608660049
+	for <resp-m2-miage@univ-rennes1.fr>; Fri,  8 Jul 2016 19:15:11 +0200 (CEST)
+Received: from mxb2-2.relay.renater.fr (mxb2-2.relay.renater.fr [194.214.200.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 6DA1920033
+	for <resp-m2-miage@univ-rennes1.fr>; Fri,  8 Jul 2016 19:15:11 +0200 (CEST)
+Received: from er5.lideedujour.fr (er5.lideedujour.fr [188.213.62.192])
+	by mxb2-2.relay.renater.fr (asm) with ESMTP id 3873F600216
+	for <resp-m2-miage@univ-rennes1.fr>; Fri,  8 Jul 2016 19:15:11 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=default; d=lideedujour.fr;
+ h=MIME-Version:From:Reply-To:List-Unsubscribe:Feedback-ID:Subject:Content-Type:To:Message-ID:Date; i=redbysfr@lideedujour.fr;
+ bh=wWkj4N/A3vzsS96C5Ble7/7XY/o=;
+ b=MebKetWJa7INn7n5VVxWbQpj/CA4KcabW4OZ0Kodq/Ae31TIXYsEBqxr6hHYyuSVQo7pP8Qe4LKi
+   mI5S5fbkKANhxDWMJvVxjViuFoX9uQdBmMcfNn6BhfH0Xw+hS9EgzxkSx++z8i2RHQ/uhrFA6QIu
+   RIEmYukY8Au173F5xEk=
+MIME-Version: 1.0
+Precedence: bulk
+From: "RED by SFR par L'Idee du Jour" <redbysfr@lideedujour.fr>
+Reply-To: "L Idee Du Jour" <info@lideedujour.fr>
+List-Unsubscribe: <http://clicks.lideedujour.fr/lu/702787234/987c0cd/284608.html>
+X-EMID: 0
+Feedback-ID: LEAD658
+Subject: =?UTF-8?B?Vm90cmUgcHJvY2hhaW4gZm9yZmFpdCBJbGxpbWl0w6kgSW50ZXJuZXQgMjBHbyDDoCAxMEUvbW9pcyBzZSB0cm91dmUgZGFucyBjZSBtYWls?=
+Content-Type: multipart/alternative;
+ boundary=5e4405401f2b1b14f7c3e7477e0024f9
+To: resp-m2-miage@univ-rennes1.fr
+Message-ID: <0.0.239.7BB.1D1D93C3FAFB806.0@er5.lideedujour.fr>
+Date: Fri, 8 Jul 2016 19:14:56 +0200
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 188.213.62.192
+X-Bizanga: IMP - mxb2-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeeltddrfedtgddutdelucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepgghphfhrjffutgfvkfffsegrtderredttdejnecuhfhrohhmpedftffgffcusgihucfuhfftuchprghrucfnkdfkuggvvgcuughuucflohhurhdfuceorhgvuggshihsfhhrsehlihguvggvughujhhouhhrrdhfrheqnecuffhomhgrihhnpehlihguvggvughujhhouhhrrdhfrhenucfkphepudekkedrvddufedriedvrdduledvnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopegvrhehrdhlihguvggvughujhhouhhrrdhfrhdpihhnvghtpedukeekrddvudefrdeivddrudelvddpmhgrihhlfhhrohhmpegsohhunhgtvgdqvdekgeeitdekqdgtvgdvrgeiheeltddtvgdqudegieduvdduieejkeeslhhiuggvvgguuhhjohhurhdrfhhrpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb2-2.relay.renater.fr
+
+
+--5e4405401f2b1b14f7c3e7477e0024f9
+Content-Type: text/plain; 
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Visualiser la version en ligne : http://clicks.lideedujour.fr/v/702787234/9=
+87c0cd/sMfkiZFFxHHcYEXK0xebIqxm2ZQTYuVysP13.html
+Signaler comme courrier ind=C3=A9sirable : http://clicks.lideedujour.fr/u/7=
+02787234/987c0cd/sMfkiZFFxHHcYEXK0xebIqxm2ZQTYuVysP13.html
+
+http://clicks.lideedujour.fr/cl/702787234/840264/274563/29/c8AeHQmITcBuF3yk=
+wztgvpea3bAqDJHFOaz9.htm
+
+D=C3=A9couvrez le forfait RED Illimit=C3=A9 Internet 20Go =C3=A0 10=
+=E2=82=AC/mois ! Dans ce mail, un forfait Illimit=C3=A9 20Go =C3=A0 10=
+=E2=82=AC/mois vous attend ! VITE ! Forfait illimit=C3=A9 Internet 20Go =
+=C3=A0 10=E2=82=AC/mois pendant quelques jours seulement ! Votre prochain f=
+orfait Illimit=C3=A9 Internet 20Go =C3=A0 10=E2=82=AC/mois se trouve dans c=
+e mail !
+
+
+|
+
+|
+
+|
+
+Jours
+Heures
+Minutes
+Secondes
+WE WANT
+
+
+20Go =3D10
+
+=E2=82=AC
+
+/MOIS
+
+SANS CONDITION DE DUR=C3=89E
+SANS ENGAGEMENT
+
+
+
+COMMANDER
+
+*Nous en voulons plus
+
+Les plus de RED by SFR
+=C2=A0
+
+Sans engagement
+
+
+Tr=C3=A8s haut d=C3=A9bit
+SFR
+
+Personnalisable
+
+
+100% online
+
+=C3=80 BIENT=C3=94T SUR
+REDBYSFR.FR
+
+Vous recevez ce message car vous =C3=AAtes membre de Les L Idee Du Jour.
+
+Vous pouvez exercer votre droit d'acc=C3=A8s et de suppression =C3=A0 tout =
+moment en nous contactant =C3=A0 : info@lideedujour.fr, ou en nous =C3=
+=A9crivant =C3=A0 L Idee Du Jour - Av Franc=C3=A9sc Camb=C3=B3 21, 5=C2=
+=BA - 08003 Barcelona.=20
+
+Suivez ce lien pour vous d=C3=A9sabonner.http://clicks.lideedujour.fr/u/702=
+787234/987c0cd/sMfkiZFFxHHcYEXK0xebIqxm2ZQTYuVysP13.html Politique de confi=
+dentialit=C3=A9.http://www.lideedujour.fr/privacy.html
+
+--5e4405401f2b1b14f7c3e7477e0024f9
+Content-Type: text/html; 
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" />
+<title>Votre prochain forfait Illimit=C3=A9 Internet 20Go =C3=A0 10E/mois s=
+e trouve dans ce mail</title>
+=09
+<style type=3D"text/css">
+=09.ReadMsgBody { width: 100%; }
+=09.ExternalClass { width: 100%; }
+=09td {border-collapse: collapse; }
+=09
+</style>
+
+</head>
+<body><center><table align=3D"center" style=3D"text-align:center; font-fami=
+ly: Arial; font-size: 12px; color: grey;">
+<tr><td style=3D"text-align:center; font-family: Arial; font-size: 12px; co=
+lor: grey;">
+<span style=3D"font-family: Arial;"><a href=3D"http://clicks.lideedujour.fr=
+/v/702787234/987c0cd/sMfkiZFFxHHcYEXK0xebIqxm2ZQTYuVysP13.html">Visualiser =
+la version en ligne</a> | <a href=3D"http://clicks.lideedujour.fr/u/7027872=
+34/987c0cd/sMfkiZFFxHHcYEXK0xebIqxm2ZQTYuVysP13.html">Signaler comme courri=
+er ind=C3=A9sirable</a><br /><br /></span>
+</td></tr></table></center><br />
+<title>otre prochain forfait Illimit=C3=A9 Internet 20Go =C3=A0 10E/mois se=
+ trouve dans ce mail</title>
+=09
+<title>D=C3=A9couvrez le forfait RED Illimit=C3=A9 Internet 20Go =C3=A0 10E=
+/mois</title>
+=09
+<title>D=C3=A9couvrez le forfait RED Illimit=C3=A9 Internet 20Go =C3=A0 10=
+=E2=82=AC/mois ! Dans ce mail, un forfait Illimit=C3=A9 20Go =C3=A0 10=
+=E2=82=AC/mois vous attend ! VITE ! Forfait illimit=C3=A9 Internet 20Go =
+=C3=A0 10=E2=82=AC/mois pendant quelques jours seulement ! Votre prochain f=
+orfait Illimit=C3=A9 Internet 20Go =C3=A0 10=E2=82=AC/mois se trouve dans c=
+e mail !</title>
+=09
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center" st=
+yle=3D"background-color: #FFFFFF;" width=3D"100%"><tr><td style=3D"text-ali=
+gn: center;"><br /><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+width=3D"100%">
+<tr>
+<td align=3D"center">
+<table width=3D"600" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"font-family: Arial,sans-serif;">
+<tr>
+<td height=3D"30"><a href=3D"http://clicks.lideedujour.fr/cl/702787234/8402=
+64/274538/1/cjJJiSsnSrz9pAtTnYBFinGmWnsNC156njtQ.htm"><img src=3D"http://im=
+ages.lideedujour.fr/20160705/bq4cKdRCX8A/ZbuN09_1.jpg" border=3D"0" width=
+=3D"143" height=3D"85" style=3D"display:block;" alt=3D"RED" /></a></td>
+</tr>
+<tr>
+<td align=3D"center" height=3D"115" style=3D"background-color: #00E094;">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0">
+<tr>
+<td align=3D"center" height=3D"20"></td>
+</tr>
+<tr>
+<td align=3D"center">
+<table width=3D"306" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=
+=3D"font-family: Verdana;">
+<tr>
+<td width=3D"75" valign=3D"top"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/840264/274539/2/TpF3AGZdkYNV5EAE8cqkKUQOrzdCCW6Q9AuE.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160705/bq4cKdRCX8A/ZbuN09_2.gif" border=
+=3D"0" width=3D"70" height=3D"40" style=3D"display:block;" alt=3D"02" /></a=
+></td>
+<td width=3D"2" valign=3D"top" style=3D"width: 2px; color: #5aebba; font-si=
+ze: 40px; line-height: 40px;">|</td>
+<td width=3D"75" valign=3D"top"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/840264/274540/3/42wfkxu6tTtLJvpg9xGrQt6N6SbTdZEVMCH1.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160705/bq4cKdRCX8A/ZbuN09_3.gif" border=
+=3D"0" width=3D"70" height=3D"40" style=3D"display:block;" alt=3D"04" /></a=
+></td>
+<td width=3D"2" style=3D"width: 2px; color: #5aebba; font-size: 40px; line-=
+height: 40px;">|</td>
+<td width=3D"75" valign=3D"top"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/840264/274541/4/mKNaqW0wjAuM0SnjfjUOr1uD6inND5IHpLHr.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160705/bq4cKdRCX8A/ZbuN09_4.gif" border=
+=3D"0" width=3D"70" height=3D"40" style=3D"display:block;" alt=3D"14" /></a=
+></td>
+<td width=3D"2" style=3D"width: 2px; color: #5aebba; font-size: 40px; line-=
+height: 40px;">|</td>
+<td width=3D"75" valign=3D"top"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/840264/274542/5/CW2KymF9FiWhh2cs3VMqYL8sYApHjWcm59IN.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160705/bq4cKdRCX8A/ZbuN09_5.gif" border=
+=3D"0" width=3D"70" height=3D"40" style=3D"display:block;" alt=3D"59" /></a=
+></td>
+</tr>
+<tr>
+<td valign=3D"top" align=3D"center"><span style=3D"color: #FFFFFF; font-siz=
+e: 10px;">Jours</span></td>
+<td></td>
+<td valign=3D"top" align=3D"center"><span style=3D"color: #FFFFFF; font-siz=
+e: 10px;">Heures</span></td>
+<td></td>
+<td valign=3D"top" align=3D"center"><span style=3D"color: #FFFFFF; font-siz=
+e: 10px;">Minutes</span></td>
+<td></td>
+<td valign=3D"top" align=3D"center"><span style=3D"color: #FFFFFF; font-siz=
+e: 10px;">Secondes</span></td>
+</tr>
+<tr>
+<td colspan=3D"7" valign=3D"bottom">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"1"><img src=3D"http://images.lideedujour.fr/201=
+60705/bq4cKdRCX8A/ZbuN09_6.gif" border=3D"0" width=3D"180" height=3D"1" sty=
+le=3D"display:block; background-color: #FCFDFE; font-family: Arial, Helveti=
+ca, sans-serif; font-size: 14px; color: #030609; text-decoration: none;" al=
+t=3D"D=C3=A9couvrez le forfait" /></td>
+<td width=3D"155" height=3D"1"><img src=3D"http://images.lideedujour.fr/201=
+60705/bq4cKdRCX8A/ZbuN09_7.gif" border=3D"0" width=3D"155" height=3D"1" sty=
+le=3D"display:block; background-color: #FCFDFE; font-family: Arial, Helveti=
+ca, sans-serif; font-size: 14px; color: #030609; text-decoration: none;" al=
+t=3D"RED Illimit=C3=A9 Internet" /></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan=3D"7" valign=3D"bottom">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"1"><img src=3D"http://images.lideedujour.fr/201=
+60705/bq4cKdRCX8A/ZbuN09_8.gif" border=3D"0" width=3D"180" height=3D"1" sty=
+le=3D"display:block; background-color: #FCFDFE; font-family: Arial, Helveti=
+ca, sans-serif; font-size: 14px; color: #030609; text-decoration: none;" al=
+t=3D"20Go =C3=A0 10=E2=82=AC/mois" /></td>
+<td width=3D"140" height=3D"1"><img src=3D"http://images.lideedujour.fr/201=
+60705/bq4cKdRCX8A/ZbuN09_9.gif" border=3D"0" width=3D"140" height=3D"1" sty=
+le=3D"display:block; background-color: #FCFDFE; font-family: Arial, Helveti=
+ca, sans-serif; font-size: 14px; color: #030609; text-decoration: none;" al=
+t=3D"! Dans ce" /></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"47" align=3D"center" style=3D"background-color: #00E094;"><a =
+href=3D"http://clicks.lideedujour.fr/cl/702787234/840264/274543/6/ehrVsoFbM=
+BB18mUrFduUVYAenJ1yegLUEJ17.htm" target=3D"_blank"  style=3D"color: #FFFFFF=
+; font-family: Arial,sans-serif; font-size: 54px; font-weight: bold; text-d=
+ecoration: none;">WE WANT</a></td>
+</tr>
+<tr>
+<td align=3D"center" height=3D"70" valign=3D"top" style=3D"background-color=
+: #00E094;"><a href=3D"http://clicks.lideedujour.fr/cl/702787234/840264/274=
+544/7/Ik51FIeSL3BdHWpN4NonTc1Iv0Mw0FMydj7y.htm"><img src=3D"http://images.l=
+ideedujour.fr/20160705/bq4cKdRCX8A/ZbuN09_10.png" border=3D"0" width=3D"100=
+" height=3D"35" style=3D"display:block;" alt=3D"Deals for life" /></a></td>
+</tr>
+<tr>
+<td height=3D"339" align=3D"center" style=3D"background-color: #00E094;">
+<table width=3D"443" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" style=3D"background-color: #FFFFFF;">
+<tr>
+<td align=3D"center">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center" st=
+yle=3D"background-color: #FFFFFF;">
+<tr>
+<td align=3D"left" height=3D"100"><a href=3D"http://clicks.lideedujour.fr/c=
+l/702787234/840264/274545/8/BT8n0vFb2fPpsVwhcOZTG9VbjUmzybD0K8nV.htm"  targ=
+et=3D"_blank" style=3D"color: #010101; font-family: Arial,sans-serif; font-=
+size: 87px; font-weight: bold; text-decoration: none;"><span style=3D"text-=
+decoration: none; color: #010101; font-family: Arial,sans-serif; font-size:=
+ 87px; line-height: 87px;">20</span><span style=3D"font-size: 54px;">Go =3D=
+</span>10</a></td>
+<td align=3D"left" height=3D"100">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"background=
+-color: #FFFFFF;">
+<tr>
+<td height=3D"10"></td>
+</tr>
+<tr>
+<td height=3D"43"><a href=3D"http://clicks.lideedujour.fr/cl/702787234/8402=
+64/274546/9/zvETW7Q4prQxhStpRGjDghoajgH0ikmeXkm5.htm"  target=3D"_blank" st=
+yle=3D"color: #010101; font-family: Arial,sans-serif; font-size: 43px; font=
+-weight: bold; line-height: 43px; text-decoration: none;">=E2=82=AC</a></td=
+>
+</tr>
+<tr>
+<td height=3D"13"><a href=3D"http://clicks.lideedujour.fr/cl/702787234/8402=
+64/274547/10/MrIw4oc0agVKOC7opmVrWz7K2Oe05FyoJn6y.htm"  target=3D"_blank" s=
+tyle=3D"color: #010101; font-family: Arial,sans-serif; font-size: 12px; fon=
+t-weight: bold; line-height: 16px; text-decoration: none;"><span style=3D"f=
+ont-size: 12px; line-height: 16px;">/MOIS</span></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"center" colspan=3D"3"><a href=3D"http://clicks.lideedujour.fr/=
+cl/702787234/840264/274548/11/Y0pnbNIMTc7OLAgwfAbWRVHdp11zTXh0UqHp.htm"  ta=
+rget=3D"_blank" style=3D"text-decoration: none; color: #010101; font-family=
+: Arial,sans-serif;">SANS CONDITION DE DUR=C3=89E<br />
+SANS ENGAGEMENT</a></td>
+</tr>
+<tr>
+<td colspan=3D"3">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0">
+<tr>
+<td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"164" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/840264/274549/12/jJ8Xi02Bt01zoBAu2kTA3ZaNwt3NHc0W0b1p.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160705/bq4cKdRCX8A/ZbuN09_11.jpg" bord=
+er=3D"0" width=3D"164" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"Appels" /></a></td>
+</tr>
+<tr>
+<td width=3D"164" height=3D"55"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/840264/274549/13/jJ8Xi02Bt01zoBAu2kTA3ZaNwt3NHc0W0b1p.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160705/bq4cKdRCX8A/ZbuN09_12.jpg" bord=
+er=3D"0" width=3D"164" height=3D"55" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"illimit=C3=A9s" /></a></td>
+</tr>
+</table>
+</td>
+<td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"119" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/840264/274550/14/zCP4djCYKuCQMPcsCTJQHQ6BpZLyPExwLE0N.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160705/bq4cKdRCX8A/ZbuN09_13.jpg" bord=
+er=3D"0" width=3D"119" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"Sms et Mms" /></a></td>
+</tr>
+<tr>
+<td width=3D"119" height=3D"56"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/840264/274550/15/zCP4djCYKuCQMPcsCTJQHQ6BpZLyPExwLE0N.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160705/bq4cKdRCX8A/ZbuN09_14.jpg" bord=
+er=3D"0" width=3D"119" height=3D"56" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"illimit=C3=A9s" /></a></td>
+</tr>
+</table>
+</td>
+<td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"160" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/840264/274551/16/zJE1pO7ZsMam8H7IrY82VqT22sDf1kgKysuO.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160705/bq4cKdRCX8A/ZbuN09_15.jpg" bord=
+er=3D"0" width=3D"160" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"Internet" /></a></td>
+</tr>
+<tr>
+<td width=3D"160" height=3D"57"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/840264/274551/17/zJE1pO7ZsMam8H7IrY82VqT22sDf1kgKysuO.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160705/bq4cKdRCX8A/ZbuN09_16.jpg" bord=
+er=3D"0" width=3D"160" height=3D"57" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"20 Go" /></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr valign=3D"top">
+<td colspan=3D"3">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0">
+<tr>
+<td width=3D"144"></td>
+<td height=3D"40" width=3D"154" align=3D"center" style=3D"background-color:=
+ #00E094;"><a href=3D"http://clicks.lideedujour.fr/cl/702787234/840264/2745=
+52/18/8own7WspLchnHXLpmdTXYx77FUjNEZTCJDc3.htm"  target=3D"_blank" style=3D=
+"text-decoration: none; color: #FFFFFF; font-family: Arial,sans-serif; disp=
+lay: block;">COMMANDER</a></td>
+<td width=3D"144"></td>
+</tr>
+
+</table>
+</td>
+</tr>
+</table>
+<table width=3D"443" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0">
+  <tr>
+    <td bgcolor=3D"#FFFFFF">=C2=A0</td>
+  </tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"47" align=3D"center" style=3D"background-color: #00E094;"><a =
+href=3D"http://clicks.lideedujour.fr/cl/702787234/840264/274553/19/gjpuVjt1=
+JCb5XVVH1gNmo5nT0unN60eMyPLO.htm"  target=3D"_blank" style=3D"text-decorati=
+on: none; color: #FFFFFF; font-family: Arial,sans-serif; font-size: 12px;">=
+*Nous en voulons plus</a></td>
+</tr>
+<tr>
+<td height=3D"20"></td>
+</tr>
+<tr>
+<td align=3D"center"><span style=3D"color: #000000; font-size: 16px; font-w=
+eight: bold;"><br />
+Les plus de RED by SFR<br />
+<br />
+</span>
+  <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+    <tr>
+      <td><table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"=
+center" width=3D"70%" style=3D"background-color: #FFFFFF;">
+        <tr>
+          <td height=3D"10" style=3D"background-color: #FFFFFF;"></td>
+        </tr>
+        <tr>
+          <td align=3D"center" width=3D"100%" style=3D"background-color: #F=
+FFFFF;"><a href=3D"http://clicks.lideedujour.fr/cl/702787234/840264/274554/=
+20/n1xoar02sUZo4gguGEWg3XIKwKmzukbz4yq7.htm"><img src=3D"http://images.lide=
+edujour.fr/20160705/bq4cKdRCX8A/ZbuN09_17.png" border=3D"0" width=3D"95" he=
+ight=3D"52" style=3D"display:block;" alt=3D"Sans engagement" /></a></td>
+        </tr>
+        <tr>
+          <td align=3D"center" width=3D"100%" height=3D"30" valign=3D"middl=
+e" style=3D"background-color: #FFFFFF;"><a href=3D"http://clicks.lideedujou=
+r.fr/cl/702787234/840264/274555/21/IMBgPK3mEo7emZVTmyDAsgmCkwRz7qbAWS4c.htm=
+" target=3D"_blank"  style=3D"text-decoration: none; color: #000000; line-h=
+eight: 25px; font-weight: bold; font-size: 12px; display: block;">Sans enga=
+gement</a></td>
+        </tr>
+      </table></td>
+      <td><table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"=
+center" width=3D"71%" style=3D"background-color: #FFFFFF;">
+        <tr>
+          <td height=3D"10" style=3D"background-color: #FFFFFF;"></td>
+        </tr>
+        <tr>
+          <td align=3D"center" width=3D"100%" style=3D"background-color: #F=
+FFFFF;"><a href=3D"http://clicks.lideedujour.fr/cl/702787234/840264/274556/=
+22/wSDbPBbwNVsi9qTCbFmWACqTSd714tbQGNCM.htm"><img src=3D"http://images.lide=
+edujour.fr/20160705/bq4cKdRCX8A/ZbuN09_18.png" border=3D"0" width=3D"95" he=
+ight=3D"52" style=3D"display:block;" alt=3D"Tr=C3=A8s haut d=C3=A9bit" /></=
+a></td>
+        </tr>
+        <tr>
+          <td align=3D"center" width=3D"100%" height=3D"30" valign=3D"middl=
+e" style=3D"background-color: #FFFFFF;"><a href=3D"http://clicks.lideedujou=
+r.fr/cl/702787234/840264/274557/23/bVAmGCFRucY5B1M0nBhp5exTZ5y34Wpd5xGf.htm=
+" target=3D"_blank"  style=3D"text-decoration: none; color: #000000; line-h=
+eight: 25px; font-weight: bold; font-size: 12px; display: block;">Tr=C3=
+=A8s haut d=C3=A9bit
+            SFR</a></td>
+        </tr>
+      </table></td>
+      <td><table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"=
+center" width=3D"24%" style=3D"background-color: #FFFFFF;">
+        <tr>
+          <td height=3D"10" style=3D"background-color: #FFFFFF;"></td>
+        </tr>
+        <tr>
+          <td align=3D"center" width=3D"100%" style=3D"background-color: #F=
+FFFFF;"><a href=3D"http://clicks.lideedujour.fr/cl/702787234/840264/274558/=
+24/r4BoCbEepgicdh15aZLxZpX2ehtVQ5g34QAM.htm"><img src=3D"http://images.lide=
+edujour.fr/20160705/bq4cKdRCX8A/ZbuN09_19.png" border=3D"0" width=3D"95" he=
+ight=3D"52" style=3D"display:block;" alt=3D"Personnalisable" /></a></td>
+        </tr>
+        <tr>
+          <td align=3D"center" width=3D"100%" height=3D"30" valign=3D"middl=
+e" style=3D"background-color: #FFFFFF;"><a href=3D"http://clicks.lideedujou=
+r.fr/cl/702787234/840264/274559/25/f8Su6PjWOy8SPhjKYS1SkKBCNMiG4GYK87nu.htm=
+" target=3D"_blank"  style=3D"text-decoration: none; color: #000000; line-h=
+eight: 25px; font-weight: bold; font-size: 12px; display: block;">Personnal=
+isable</a></td>
+        </tr>
+      </table></td>
+      <td><table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"=
+center" width=3D"24%" style=3D"background-color: #FFFFFF;">
+        <tr>
+          <td height=3D"10" style=3D"background-color: #FFFFFF;"></td>
+        </tr>
+        <tr>
+          <td align=3D"center" width=3D"100%" style=3D"background-color: #F=
+FFFFF;"><a href=3D"http://clicks.lideedujour.fr/cl/702787234/840264/274560/=
+26/Pytf6Ywpu0xrqnHr0CcrXEexpImn5O4Gn4Hj.htm"><img src=3D"http://images.lide=
+edujour.fr/20160705/bq4cKdRCX8A/ZbuN09_20.png" border=3D"0" width=3D"95" he=
+ight=3D"52" style=3D"display:block;" alt=3D"100% online" /></a></td>
+        </tr>
+        <tr>
+          <td align=3D"center" width=3D"100%" height=3D"30" valign=3D"middl=
+e" style=3D"background-color: #FFFFFF;"><a href=3D"http://clicks.lideedujou=
+r.fr/cl/702787234/840264/274561/27/nLuP7vAFftrIifeSGXouwWwQ3hYJo2yenR9c.htm=
+" target=3D"_blank"  style=3D"text-decoration: none; color: #000000; line-h=
+eight: 25px; font-weight: bold; font-size: 12px; display: block;">100% onli=
+ne</a></td>
+        </tr>
+      </table></td>
+    </tr>
+  </table>
+  <span style=3D"color: #000000; font-size: 16px; font-weight: bold;">=
+=C2=A0</span></td>
+</tr>
+<tr>
+  <td height=3D"40" style=3D"background-color: #FFFFFF;"></td>
+</tr>
+<tr>
+<td height=3D"22" align=3D"left" style=3D"background-color: #00E094;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td width=3D"30"></td>
+<td><a href=3D"http://clicks.lideedujour.fr/cl/702787234/840264/274562/28/L=
+UtdCSQDavDefNtbqIA6VFDnnPECqtbOr4m0.htm" target=3D"_blank"  style=3D"text-d=
+ecoration: none; color: #ffffff; line-height: 22px; font-weight: bold; font=
+-size: 12px; display: block;">=C3=80 BIENT=C3=94T SUR
+REDBYSFR.FR</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table><img src=3D"http://o.adv-img1.fr/182-152-1523-3322-40503/uniqueId" =
+width=3D"1" height=3D"1" border=3D"0" alt=3D" " />
+</td></tr></table>
+
+
+
+
+<img src=3D"http://clicks.lideedujour.fr/op/702787234/840264.gif?t=3D146790=
+8323" height=3D"1" width=3D"1" alt=3D"" border=3D"0" />
+<center><table align=3D"center" style=3D"text-align:center; font-family: Ar=
+ial; font-size: 12px; color: grey;">
+<tr><td style=3D"text-align:center; font-family: Arial; font-size: 12px; co=
+lor: grey;">
+<span style=3D"font-family: Arial;">Vous recevez ce message car vous =C3=
+=AAtes membre de Les L Idee Du Jour.<br /><br />
+Vous pouvez exercer votre droit d'acc=C3=A8s et de suppression
+=C3=A0 tout moment en nous contactant =C3=A0 : info@lideedujour.fr,
+ou en nous =C3=A9crivant =C3=A0 L Idee Du Jour - Av Franc=C3=A9sc Camb=
+=C3=B3 21, 5=C2=BA - 08003 Barcelona.
+<br /><br />
+<a href=3D"http://clicks.lideedujour.fr/u/702787234/987c0cd/sMfkiZFFxHHcYEX=
+K0xebIqxm2ZQTYuVysP13.html" title=3D"d=C3=A9sabonner" style=3D"color:#00000=
+0; font-weight:bold;">Suivez ce lien pour vous d=C3=A9sabonner</a>.=20
+<a href=3D"http://www.lideedujour.fr/privacy.html" style=3D"color:#000000; =
+font-weight:bold;">Politique de confidentialit=C3=A9</a>.
+</span></td></tr></table></center><br /></body></html>
+
+--5e4405401f2b1b14f7c3e7477e0024f9--

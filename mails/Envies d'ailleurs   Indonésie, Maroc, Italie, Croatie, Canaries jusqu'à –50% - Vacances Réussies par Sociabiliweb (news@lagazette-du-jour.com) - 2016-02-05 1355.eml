@@ -1,0 +1,1065 @@
+Return-Path: <return-a5-6148-6149-resp-m2-miage=univ-rennes1.fr=4@lagazette-du-jour.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Fri, 05 Feb 2016 13:56:41 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id DE3D226A10BA
+	for <resp-m2-miage@univ-rennes1.fr>; Fri,  5 Feb 2016 13:55:44 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 9B67060268
+	for <resp-m2-miage@univ-rennes1.fr>; Fri,  5 Feb 2016 13:55:44 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id MhxthpAF8Rua for <resp-m2-miage@univ-rennes1.fr>;
+	Fri,  5 Feb 2016 13:55:44 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id EB28F60273
+	for <resp-m2-miage@univ-rennes1.fr>; Fri,  5 Feb 2016 13:55:43 +0100 (CET)
+Received: from mxb1-2.relay.renater.fr (mxb1-2.relay.renater.fr [194.214.201.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id E1C022003A
+	for <resp-m2-miage@univ-rennes1.fr>; Fri,  5 Feb 2016 13:55:43 +0100 (CET)
+Received: from smtp1-3.gazette-du-jour.com (smtp1-3.gazette-du-jour.com [5.135.22.138])
+	by mxb1-2.relay.renater.fr (asm) with SMTP id 951E728022B
+	for <resp-m2-miage@univ-rennes1.fr>; Fri,  5 Feb 2016 13:55:43 +0100 (CET)
+Received: (GreenArrow 15332 invoked by uid 410); 5 Feb 2016 12:55:43 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=lagazette-du-jour.com; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=Amp732
+	h9/3QwNvpYScLZynDvEKY=; b=lmhQrLhZu0WIcGNDOgecZNtNxCR0gzbKYKgdrk
+	5EG4it6YfSG26wAVLqvg0lqfZY5P2ax4doeFmchKM/+/i1pfzs+K6kROvOobFt8V
+	E3vJtctjzY5qRvMc6k1tdhUlR7IxQ7eCOSLbIA3KGv60JtNc7szeysubME/uVEEq
+	rg0Xc=
+Subject: =?UTF-8?Q?Envies=20d=27ailleurs=20=3A=20Indon=C3=A9sie=2C=20Ma?=
+ =?UTF-8?Q?roc=2C=20Italie=2C=20Croatie=2C=20Canaries=20jusqu?=
+ =?UTF-8?Q?=27=C3=A0=20=E2=80=9350=25?=
+From: =?UTF-8?B?VmFjYW5jZXMgUsOpdXNzaWVzIHBhciBTb2NpYWJpbGl3ZWI=?= <news@lagazette-du-jour.com>
+To: resp-m2-miage@univ-rennes1.fr
+Date: 05 Feb 2016 12:55:43 -0000
+List-Unsubscribe: <http://lagazette-du-jour.com/ga/unsubscribe/2-23408395-5-3203-6149-114eca03668ab6f-f3587a377c>,
+ <mailto:return-a5-6148-6149-resp-m2-miage=univ-rennes1.fr=4u@lagazette-du-jour.com>
+X-Mailer: GreenArrow Studio (v4.65.0)
+X-CampaignID: s4:6148-dfbf340adde37b45
+Message-ID: <mid-c363ebc6cd699caeab0d2485afe390ed@lagazette-du-jour.com>
+X-Mailer-Info: 4.EWN.gNxQDO.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.gNxQTO
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==4aa8853f0e5418590cbe16ca309aa182"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 5.135.22.138
+X-Bizanga: IMP - mxb1-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekjedrvddvgdeghecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefuhffvfffjoffkgggtsegrtderreertdejnecuhfhrohhmpeggrggtrghntggvshcutforuhhsshhivghsuchprghrucfuohgtihgrsghilhhifigvsgcuoehnvgifsheslhgrghgriigvthhtvgdqughuqdhjohhurhdrtghomheqnecuffhomhgrihhnpehlrghgrgiivghtthgvqdguuhdqjhhouhhrrdgtohhmnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehsmhhtphduqdefrdhgrgiivghtthgvqdguuhdqjhhouhhrrdgtohhmpdhinhgvthephedrudefhedrvddvrddufeekpdhmrghilhhfrhhomheprhgvthhurhhnqdgrhedqiedugeekqdeiudegledqrhgvshhpqdhmvddqmhhirghgvgepuhhnihhvqdhrvghnnhgvshdurdhfrhepgeeslhgrghgriigvthhtvgdqughuqdhjohhurhdrtghomhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb1-2.relay.renater.fr
+
+This is a multi-part message in MIME format.
+
+--==4aa8853f0e5418590cbe16ca309aa182
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<a href=3D"http://lagazette-du-jour.com/ga/webviews/4-23408395-5-3203-3182-=
+6149-be95bf6a8e">Visualiser la version en ligne</a>
+
+Sunparks - Vacances de Paques ( http://lagazette-du-jour.com/ga/click/2-234=
+08395-5-3203-6149-25439-c8707beaf3-f3587a377c )
+
+Vacances r=C3=A9ussies.com - FLASH DERNIERES MINUTES ( http://lagazette-du-=
+jour.com/ga/click/2-23408395-5-3203-6149-25440-0950e90304-f3587a377c )
+
+Marmara ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-2544=
+1-d03dd5d608-f3587a377c )
+
+Marmara ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-2544=
+1-d03dd5d608-f3587a377c )
+
+AU SOLEIL JUSQU=E2=80=99=C3=80 -50% ( http://lagazette-du-jour.com/ga/click=
+/2-23408395-5-3203-6149-25441-d03dd5d608-f3587a377c )
+
+Canaries, Maroc, Cap Vert ( http://lagazette-du-jour.com/ga/click/2-2340839=
+5-5-3203-6149-25441-d03dd5d608-f3587a377c )
+
+=C3=80 partir de ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-=
+6149-25441-d03dd5d608-f3587a377c )399=E2=82=AC ( http://lagazette-du-jour.c=
+om/ga/click/2-23408395-5-3203-6149-25441-d03dd5d608-f3587a377c )
+
+D=C3=89COUVRIR ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-61=
+49-25441-d03dd5d608-f3587a377c )
+
+Carrefour Voyages ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3203=
+-6149-25442-72dcf312f0-f3587a377c )
+
+Carrefour Voyages ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3203=
+-6149-25442-72dcf312f0-f3587a377c )
+
+SPECIAL CIRCUITS INDONESIE ( http://lagazette-du-jour.com/ga/click/2-234083=
+95-5-3203-6149-25442-72dcf312f0-f3587a377c )
+
+10 =C3=A0 16 jours de Java =C3=A0 Bali ( http://lagazette-du-jour.com/ga/cl=
+ick/2-23408395-5-3203-6149-25442-72dcf312f0-f3587a377c )
+
+=C3=80 partir de ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-=
+6149-25442-72dcf312f0-f3587a377c )1399=E2=82=AC ( http://lagazette-du-jour.=
+com/ga/click/2-23408395-5-3203-6149-25442-72dcf312f0-f3587a377c )
+
+D=C3=89COUVRIR ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-61=
+49-25442-72dcf312f0-f3587a377c )
+
+ABCroisi=C3=83=C2=A8re ( http://lagazette-du-jour.com/ga/click/2-23408395-5=
+-3203-6149-25443-62b4989da9-f3587a377c )
+
+ABCroisi=C3=83=C2=A8re ( http://lagazette-du-jour.com/ga/click/2-23408395-5=
+-3203-6149-25443-62b4989da9-f3587a377c )
+
+CROISIERE 4* TOSCA ( http://lagazette-du-jour.com/ga/click/2-23408395-5-320=
+3-6149-25443-62b4989da9-f3587a377c )
+
+Malte, Sicile, Naples, Rome ( http://lagazette-du-jour.com/ga/click/2-23408=
+395-5-3203-6149-25443-62b4989da9-f3587a377c )
+
+=C3=80 partir de ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-=
+6149-25443-62b4989da9-f3587a377c )399=E2=82=AC ( http://lagazette-du-jour.c=
+om/ga/click/2-23408395-5-3203-6149-25443-62b4989da9-f3587a377c )
+
+D=C3=89COUVRIR ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-61=
+49-25443-62b4989da9-f3587a377c )
+
+Vacanciel ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-25=
+444-bf73e37f75-f3587a377c )
+
+Vacanciel ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-25=
+444-bf73e37f75-f3587a377c )
+
+VACANCES DE FEVRIER =C3=80 -20% ( http://lagazette-du-jour.com/ga/click/2-2=
+3408395-5-3203-6149-25444-bf73e37f75-f3587a377c )
+
+Courchevel, Pralognan, Allos ( http://lagazette-du-jour.com/ga/click/2-2340=
+8395-5-3203-6149-25444-bf73e37f75-f3587a377c )
+
+=C3=80 partir de ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-=
+6149-25444-bf73e37f75-f3587a377c )493=E2=82=AC ( http://lagazette-du-jour.c=
+om/ga/click/2-23408395-5-3203-6149-25444-bf73e37f75-f3587a377c )
+
+D=C3=89COUVRIR ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-61=
+49-25444-bf73e37f75-f3587a377c )
+
+Marmara ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-2544=
+5-3c6be19ffb-f3587a377c )
+
+Marmara ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-2544=
+5-3c6be19ffb-f3587a377c )
+
+CRETE ELOUNDA VILLAGE 5* ( http://lagazette-du-jour.com/ga/click/2-23408395=
+-5-3203-6149-25445-3c6be19ffb-f3587a377c )
+
+8j/7n en demi-pension ( http://lagazette-du-jour.com/ga/click/2-23408395-5-=
+3203-6149-25445-3c6be19ffb-f3587a377c )
+
+=C3=80 partir de ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-=
+6149-25445-3c6be19ffb-f3587a377c )599=E2=82=AC ( http://lagazette-du-jour.c=
+om/ga/click/2-23408395-5-3203-6149-25445-3c6be19ffb-f3587a377c )
+
+D=C3=89COUVRIR ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-61=
+49-25445-3c6be19ffb-f3587a377c )
+
+Marmara ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-2544=
+6-da54e13631-f3587a377c )
+
+Marmara ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-2544=
+6-da54e13631-f3587a377c )
+
+BALEARES BOUGANVILLA ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3=
+203-6149-25446-da54e13631-f3587a377c )
+
+8j/7n en tout compris ( http://lagazette-du-jour.com/ga/click/2-23408395-5-=
+3203-6149-25446-da54e13631-f3587a377c )
+
+=C3=80 partir de ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-=
+6149-25446-da54e13631-f3587a377c )439=E2=82=AC ( http://lagazette-du-jour.c=
+om/ga/click/2-23408395-5-3203-6149-25446-da54e13631-f3587a377c )
+
+D=C3=89COUVRIR ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-61=
+49-25446-da54e13631-f3587a377c )
+
+Marmara ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-2544=
+7-0c526d78b0-f3587a377c )
+
+Marmara ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-2544=
+7-0c526d78b0-f3587a377c )
+
+CROATIE HOTEL LE BLUESUN ( http://lagazette-du-jour.com/ga/click/2-23408395=
+-5-3203-6149-25447-0c526d78b0-f3587a377c )
+
+8j/7n en demi-pension ( http://lagazette-du-jour.com/ga/click/2-23408395-5-=
+3203-6149-25447-0c526d78b0-f3587a377c )
+
+=C3=80 partir de ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-=
+6149-25447-0c526d78b0-f3587a377c )499=E2=82=AC ( http://lagazette-du-jour.c=
+om/ga/click/2-23408395-5-3203-6149-25447-0c526d78b0-f3587a377c )
+
+D=C3=89COUVRIR ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-61=
+49-25447-0c526d78b0-f3587a377c )
+
+Promo Croisi=C3=83=C2=A8re ( http://lagazette-du-jour.com/ga/click/2-234083=
+95-5-3203-6149-25448-9dc46acccd-f3587a377c )
+
+Promo Croisi=C3=83=C2=A8re ( http://lagazette-du-jour.com/ga/click/2-234083=
+95-5-3203-6149-25448-9dc46acccd-f3587a377c )
+
+MSC PREZIOSA 5* ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6=
+149-25448-9dc46acccd-f3587a377c )
+
+Italie, Sicile, Malte, Espagne ( http://lagazette-du-jour.com/ga/click/2-23=
+408395-5-3203-6149-25448-9dc46acccd-f3587a377c )
+
+=C3=80 partir de ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-=
+6149-25448-9dc46acccd-f3587a377c )502=E2=82=AC ( http://lagazette-du-jour.c=
+om/ga/click/2-23408395-5-3203-6149-25448-9dc46acccd-f3587a377c )
+
+D=C3=89COUVRIR ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-61=
+49-25448-9dc46acccd-f3587a377c )
+
+* Les prix affich=C3=A9s sur cette newsletter ont =C3=A9t=C3=A9 relev=C3=A9=
+s sur les
+sites internets mentionn=C3=A9s le 03/02/2016 =C3=A0 15h.
+
+Sunparks - Vacances de Paques ( http://lagazette-du-jour.com/ga/click/2-234=
+08395-5-3203-6149-25439-c8707beaf3-f3587a377c )
+
+<a href=3D"http://lagazette-du-jour.com/ga/unsubscribe/2-23408395-5-3203-61=
+49-114eca03668ab6f-f3587a377c">Je souhaite me d=C3=A9sabonner</a>=
+
+--==4aa8853f0e5418590cbe16ca309aa182
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w=
+3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+	<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" />
+	<title>VacancesReussies.com - FLASH DERNI&Egrave;RES MINUTES</title>
+</head>
+<body style=3D"background-color:#CECCC8;"><a href=3D"http://lagazette-du-jo=
+ur.com/ga/webviews/4-23408395-5-3203-3182-6149-be95bf6a8e">Visualiser la ve=
+rsion en ligne</a>
+
+<!-- BANNIERE: FLASH DERNIERES MINUTES -->
+<div style=3D"background-color:#CECCC8;">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+	<tbody>
+		<tr>
+			<td valign=3D"top" width=3D"135"><a href=3D"http://lagazette-du-jour.com=
+/ga/click/2-23408395-5-3203-6149-25439-c8707beaf3-f3587a377c" target=3D"_bl=
+ank" title=3D"Sunparks - Vacances de Paques"><img alt=3D"Sunparks - Vacance=
+s de Paques" border=3D"0" height=3D"1000" src=3D"http://46.101.7.34/vacance=
+s/vr-040216/VR_gauche.jpg" width=3D"135" /></a></td>
+			<td>
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"650">
+				<tbody>
+					<tr>
+						<td bgcolor=3D"#F6F6F6"><a href=3D"http://lagazette-du-jour.com/ga/cl=
+ick/2-23408395-5-3203-6149-25440-0950e90304-f3587a377c" target=3D"_blank"><=
+img alt=3D"Vacances r=C3=A9ussies.com - FLASH DERNIERES MINUTES" border=3D"=
+0" height=3D"150" src=3D"http://46.101.7.34/vacances/vr-040216/haeder_bp_1.=
+jpg" style=3D"display:block;" width=3D"650" /></a></td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#FFFFFF"><img border=3D"0" height=3D"12" src=3D"http:/=
+/46.101.7.34/vacances/vr-040216/header_under.gif" style=3D"display:block;" =
+width=3D"650" /></td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- CONTENU BDD(INFOS) -->
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"650">
+				<tbody>
+					<tr>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://lag=
+azette-du-jour.com/ga/click/2-23408395-5-3203-6149-25441-d03dd5d608-f3587a3=
+77c" target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D"160" src=
+=3D"http://46.101.7.34/vacances/vr-040216/IP1.jpg" style=3D"display:block;"=
+ width=3D"290" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-25441-d03d=
+d5d608-f3587a377c" target=3D"_blank"><img alt=3D"Marmara" border=3D"0" heig=
+ht=3D"28" src=3D"http://46.101.7.34/vacances/vr-040216/marmara104x40.jpg" s=
+tyle=3D"display:block;" width=3D"78" /></a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-25441-d03dd5d=
+608-f3587a377c" style=3D" color:#707173; text-decoration:none;" target=3D"_=
+blank">AU SOLEIL JUSQU&rsquo;&Agrave; -50%</a></strong></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-25441-d03d=
+d5d608-f3587a377c" style=3D" color:#707173; text-decoration:none;" target=
+=3D"_blank">Canaries, Maroc, Cap Vert</a></span></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://lagazette-du-jour.co=
+m/ga/click/2-23408395-5-3203-6149-25441-d03dd5d608-f3587a377c" style=3D" co=
+lor:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a=
+></span><a href=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-=
+6149-25441-d03dd5d608-f3587a377c" style=3D" color:#FFFFFF; text-decoration:=
+none;" target=3D"_blank"> <strong style=3D"font-size:24px">399&euro;</stron=
+g></a></td>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"mi=
+ddle" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://lagazet=
+te-du-jour.com/ga/click/2-23408395-5-3203-6149-25441-d03dd5d608-f3587a377c"=
+ style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute=
+;COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/=
+vr-040216/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- td --></td>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://lag=
+azette-du-jour.com/ga/click/2-23408395-5-3203-6149-25442-72dcf312f0-f3587a3=
+77c" target=3D"_blank"><img alt=3D"Carrefour Voyages" border=3D"0" height=
+=3D"160" src=3D"http://46.101.7.34/vacances/vr-040216/IP2.jpg" style=3D"dis=
+play:block;" width=3D"290" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-25442-72dc=
+f312f0-f3587a377c" target=3D"_blank"><img alt=3D"Carrefour Voyages" border=
+=3D"0" height=3D"28" src=3D"http://46.101.7.34/vacances/vr-040216/logo-CV-1=
+04x40.jpg" style=3D"display:block;" width=3D"78" /></a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-25442-72dcf31=
+2f0-f3587a377c" style=3D" color:#707173; text-decoration:none;" target=3D"_=
+blank">SPECIAL CIRCUITS INDONESIE</a></strong></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-25442-72dc=
+f312f0-f3587a377c" style=3D" color:#707173; text-decoration:none;" target=
+=3D"_blank">10 &agrave; 16 jours de Java &agrave; Bali</a></span></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://lagazette-du-jour.co=
+m/ga/click/2-23408395-5-3203-6149-25442-72dcf312f0-f3587a377c" style=3D" co=
+lor:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a=
+></span><a href=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-=
+6149-25442-72dcf312f0-f3587a377c" style=3D" color:#FFFFFF; text-decoration:=
+none;" target=3D"_blank"> <strong style=3D"font-size:24px">1399&euro;</stro=
+ng></a></td>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"mi=
+ddle" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://lagazet=
+te-du-jour.com/ga/click/2-23408395-5-3203-6149-25442-72dcf312f0-f3587a377c"=
+ style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute=
+;COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/=
+vr-040216/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- td --></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"650">
+				<tbody>
+					<tr>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://lag=
+azette-du-jour.com/ga/click/2-23408395-5-3203-6149-25443-62b4989da9-f3587a3=
+77c" target=3D"_blank"><img alt=3D"ABCroisi=C3=83=C2=A8re" border=3D"0" hei=
+ght=3D"160" src=3D"http://46.101.7.34/vacances/vr-040216/IP3.jpg" style=3D"=
+display:block;" width=3D"290" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-25443-62b4=
+989da9-f3587a377c" target=3D"_blank"><img alt=3D"ABCroisi=C3=83=C2=A8re" bo=
+rder=3D"0" height=3D"28" src=3D"http://46.101.7.34/vacances/vr-040216/AB_10=
+4x40.jpg" style=3D"display:block;" width=3D"78" /></a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-25443-62b4989=
+da9-f3587a377c" style=3D" color:#707173; text-decoration:none;" target=3D"_=
+blank">CROISIERE 4* TOSCA</a></strong></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-25443-62b4=
+989da9-f3587a377c" style=3D" color:#707173; text-decoration:none;" target=
+=3D"_blank">Malte, Sicile, Naples, Rome</a></span></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://lagazette-du-jour.co=
+m/ga/click/2-23408395-5-3203-6149-25443-62b4989da9-f3587a377c" style=3D" co=
+lor:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a=
+></span><a href=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-=
+6149-25443-62b4989da9-f3587a377c" style=3D" color:#FFFFFF; text-decoration:=
+none;" target=3D"_blank"> <strong style=3D"font-size:24px">399&euro;</stron=
+g></a></td>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"mi=
+ddle" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://lagazet=
+te-du-jour.com/ga/click/2-23408395-5-3203-6149-25443-62b4989da9-f3587a377c"=
+ style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute=
+;COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/=
+vr-040216/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- td --></td>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://lag=
+azette-du-jour.com/ga/click/2-23408395-5-3203-6149-25444-bf73e37f75-f3587a3=
+77c" target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" height=3D"160" s=
+rc=3D"http://46.101.7.34/vacances/vr-040216/IP4.jpg" style=3D"display:block=
+;" width=3D"290" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-25444-bf73=
+e37f75-f3587a377c" target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" he=
+ight=3D"28" src=3D"http://46.101.7.34/vacances/vr-040216/vacanciel104x40.jp=
+g" style=3D"display:block;" width=3D"78" /></a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-25444-bf73e37=
+f75-f3587a377c" style=3D" color:#707173; text-decoration:none;" target=3D"_=
+blank">VACANCES DE FEVRIER &Agrave; -20%</a></strong></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-25444-bf73=
+e37f75-f3587a377c" style=3D" color:#707173; text-decoration:none;" target=
+=3D"_blank">Courchevel, Pralognan, Allos</a></span></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://lagazette-du-jour.co=
+m/ga/click/2-23408395-5-3203-6149-25444-bf73e37f75-f3587a377c" style=3D" co=
+lor:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a=
+></span><a href=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-=
+6149-25444-bf73e37f75-f3587a377c" style=3D" color:#FFFFFF; text-decoration:=
+none;" target=3D"_blank"> <strong style=3D"font-size:24px">493&euro;</stron=
+g></a></td>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"mi=
+ddle" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://lagazet=
+te-du-jour.com/ga/click/2-23408395-5-3203-6149-25444-bf73e37f75-f3587a377c"=
+ style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute=
+;COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/=
+vr-040216/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- td --></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"650">
+				<tbody>
+					<tr>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://lag=
+azette-du-jour.com/ga/click/2-23408395-5-3203-6149-25445-3c6be19ffb-f3587a3=
+77c" target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D"160" src=
+=3D"http://46.101.7.34/vacances/vr-040216/IP5.jpg" style=3D"display:block;"=
+ width=3D"290" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-25445-3c6b=
+e19ffb-f3587a377c" target=3D"_blank"><img alt=3D"Marmara" border=3D"0" heig=
+ht=3D"28" src=3D"http://46.101.7.34/vacances/vr-040216/marmara104x40.jpg" s=
+tyle=3D"display:block;" width=3D"78" /></a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-25445-3c6be19=
+ffb-f3587a377c" style=3D" color:#707173; text-decoration:none;" target=3D"_=
+blank">CRETE ELOUNDA VILLAGE 5*</a></strong></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-25445-3c6b=
+e19ffb-f3587a377c" style=3D" color:#707173; text-decoration:none;" target=
+=3D"_blank">8j/7n en demi-pension</a></span></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://lagazette-du-jour.co=
+m/ga/click/2-23408395-5-3203-6149-25445-3c6be19ffb-f3587a377c" style=3D" co=
+lor:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a=
+></span><a href=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-=
+6149-25445-3c6be19ffb-f3587a377c" style=3D" color:#FFFFFF; text-decoration:=
+none;" target=3D"_blank"> <strong style=3D"font-size:24px">599&euro;</stron=
+g></a></td>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"mi=
+ddle" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://lagazet=
+te-du-jour.com/ga/click/2-23408395-5-3203-6149-25445-3c6be19ffb-f3587a377c"=
+ style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute=
+;COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/=
+vr-040216/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- td --></td>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://lag=
+azette-du-jour.com/ga/click/2-23408395-5-3203-6149-25446-da54e13631-f3587a3=
+77c" target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D"160" src=
+=3D"http://46.101.7.34/vacances/vr-040216/IP6.jpg" style=3D"display:block;"=
+ width=3D"290" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-25446-da54=
+e13631-f3587a377c" target=3D"_blank"><img alt=3D"Marmara" border=3D"0" heig=
+ht=3D"28" src=3D"http://46.101.7.34/vacances/vr-040216/marmara104x40.jpg" s=
+tyle=3D"display:block;" width=3D"78" /></a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-25446-da54e13=
+631-f3587a377c" style=3D" color:#707173; text-decoration:none;" target=3D"_=
+blank">BALEARES BOUGANVILLA</a></strong></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-25446-da54=
+e13631-f3587a377c" style=3D" color:#707173; text-decoration:none;" target=
+=3D"_blank">8j/7n en tout compris</a></span></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://lagazette-du-jour.co=
+m/ga/click/2-23408395-5-3203-6149-25446-da54e13631-f3587a377c" style=3D" co=
+lor:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a=
+></span><a href=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-=
+6149-25446-da54e13631-f3587a377c" style=3D" color:#FFFFFF; text-decoration:=
+none;" target=3D"_blank"> <strong style=3D"font-size:24px">439&euro;</stron=
+g></a></td>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"mi=
+ddle" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://lagazet=
+te-du-jour.com/ga/click/2-23408395-5-3203-6149-25446-da54e13631-f3587a377c"=
+ style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute=
+;COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/=
+vr-040216/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- td --></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"650">
+				<tbody>
+					<tr>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://lag=
+azette-du-jour.com/ga/click/2-23408395-5-3203-6149-25447-0c526d78b0-f3587a3=
+77c" target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D"160" src=
+=3D"http://46.101.7.34/vacances/vr-040216/IP7.jpg" style=3D"display:block;"=
+ width=3D"290" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-25447-0c52=
+6d78b0-f3587a377c" target=3D"_blank"><img alt=3D"Marmara" border=3D"0" heig=
+ht=3D"28" src=3D"http://46.101.7.34/vacances/vr-040216/marmara104x40.jpg" s=
+tyle=3D"display:block;" width=3D"78" /></a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-25447-0c526d7=
+8b0-f3587a377c" style=3D" color:#707173; text-decoration:none;" target=3D"_=
+blank">CROATIE HOTEL LE BLUESUN</a></strong></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-25447-0c52=
+6d78b0-f3587a377c" style=3D" color:#707173; text-decoration:none;" target=
+=3D"_blank">8j/7n en demi-pension</a></span></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://lagazette-du-jour.co=
+m/ga/click/2-23408395-5-3203-6149-25447-0c526d78b0-f3587a377c" style=3D" co=
+lor:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a=
+></span><a href=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-=
+6149-25447-0c526d78b0-f3587a377c" style=3D" color:#FFFFFF; text-decoration:=
+none;" target=3D"_blank"> <strong style=3D"font-size:24px">499&euro;</stron=
+g></a></td>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"mi=
+ddle" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://lagazet=
+te-du-jour.com/ga/click/2-23408395-5-3203-6149-25447-0c526d78b0-f3587a377c"=
+ style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute=
+;COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/=
+vr-040216/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- td --></td>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://lag=
+azette-du-jour.com/ga/click/2-23408395-5-3203-6149-25448-9dc46acccd-f3587a3=
+77c" target=3D"_blank"><img alt=3D"Promo Croisi=C3=83=C2=A8re" border=3D"0"=
+ height=3D"160" src=3D"http://46.101.7.34/vacances/vr-040216/IP8.jpg" style=
+=3D"display:block;" width=3D"290" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-25448-9dc4=
+6acccd-f3587a377c" target=3D"_blank"><img alt=3D"Promo Croisi=C3=83=C2=A8re=
+" border=3D"0" height=3D"28" src=3D"http://46.101.7.34/vacances/vr-040216/p=
+romocroisiere104x40.jpg" style=3D"display:block;" width=3D"78" /></a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-25448-9dc46ac=
+ccd-f3587a377c" style=3D" color:#707173; text-decoration:none;" target=3D"_=
+blank">MSC PREZIOSA 5*</a></strong></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-6149-25448-9dc4=
+6acccd-f3587a377c" style=3D" color:#707173; text-decoration:none;" target=
+=3D"_blank">Italie, Sicile, Malte, Espagne</a></span></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://lagazette-du-jour.co=
+m/ga/click/2-23408395-5-3203-6149-25448-9dc46acccd-f3587a377c" style=3D" co=
+lor:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a=
+></span><a href=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3203-=
+6149-25448-9dc46acccd-f3587a377c" style=3D" color:#FFFFFF; text-decoration:=
+none;" target=3D"_blank"> <strong style=3D"font-size:24px">502&euro;</stron=
+g></a></td>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"mi=
+ddle" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://lagazet=
+te-du-jour.com/ga/click/2-23408395-5-3203-6149-25448-9dc46acccd-f3587a377c"=
+ style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute=
+;COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/=
+vr-040216/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- td --></td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- Footer -->
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"12" cellspacing=3D"0=
+" width=3D"650">
+				<tbody>
+					<tr>
+						<td align=3D"center" style=3D"color:#44443E; font-size:10px;-webkit-t=
+ext-size-adjust:none; font-family:Arial, Helvetica, sans-serif">* Les prix =
+affich&eacute;s sur cette newsletter ont &eacute;t&eacute; relev&eacute;s s=
+ur les sites internets mentionn&eacute;s le 03/02/2016 &agrave; 15h.</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+			<td valign=3D"top" width=3D"135"><a href=3D"http://lagazette-du-jour.com=
+/ga/click/2-23408395-5-3203-6149-25439-c8707beaf3-f3587a377c" target=3D"_bl=
+ank" title=3D"Sunparks - Vacances de Paques"><img alt=3D"Sunparks - Vacance=
+s de Paques" border=3D"0" height=3D"1000" src=3D"http://46.101.7.34/vacance=
+s/vr-040216/VR_droite.jpg" width=3D"135" /></a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<p><img id=3D"pictureoct" src=3D"http://email.mediapleez.com/tracking/displ=
+ay.php?name=3D20160204+NL+VR+SW" /></p>
+
+
+<a href=3D"http://lagazette-du-jour.com/ga/unsubscribe/2-23408395-5-3203-61=
+49-114eca03668ab6f-f3587a377c">Je souhaite me d=C3=A9sabonner</a><img alt=
+=3D"track" height=3D"1" src=3D"http://er.sociabiliweb.fr/EREO/E/458/730c3/r=
+esp-m2-miage@univ-rennes1.fr/pixel.gif" /> <img alt=3D"track" height=3D"1" =
+src=3D"http://asset.email-match.com/849/asset?type=3DIMG&optin=3D1&email=3D=
+resp-m2-miage@univ-rennes1.fr" width=3D"1" /><img alt=3D"track" height=3D"1=
+" src=3D"http://adtrack.adleadevent.com/adtckrtg.php?ids=3D37&email=3Dresp-=
+m2-miage@univ-rennes1.fr" />=20
+
+<img src=3D"http://lagazette-du-jour.com/ga/open/2-23408395-5-3203-6149-f35=
+87a377c" height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==4aa8853f0e5418590cbe16ca309aa182--
+

@@ -1,0 +1,1430 @@
+Return-Path: <return-a18-1583-1603-resp-m2-miage=univ-rennes1.fr=4@lespetitsanimaux.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Mon, 14 Sep 2015 18:14:48 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from vmsmtprexch.univ-rennes1.fr (vmsmtprexch.univ-rennes1.fr [129.20.128.62])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 6C78F26A096F
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 14 Sep 2015 18:14:48 +0200 (CEST)
+Received: from mbcasexch4.Ur.local (mbcasexch4.univ-rennes1.fr [129.20.125.132])
+	by vmsmtprexch.univ-rennes1.fr (Postfix) with ESMTP id 62B07C8
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 14 Sep 2015 18:14:48 +0200 (CEST)
+X-CrossPremisesHeadersFilteredBySendConnector: mbcasexch4.Ur.local
+Received: from mbcasexch1.Ur.local (2002:8114:7d81::8114:7d81) by
+ mbcasexch4.Ur.local (2002:8114:7d84::8114:7d84) with Microsoft SMTP Server
+ (TLS) id 15.0.913.22; Mon, 14 Sep 2015 18:14:47 +0200
+Received: from mailout1.univ-rennes1.fr (129.20.128.162) by
+ mbcasexch1.Ur.local (129.20.125.129) with Microsoft SMTP Server id
+ 15.0.913.22 via Frontend Transport; Mon, 14 Sep 2015 18:14:47 +0200
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id D22F360209
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 14 Sep 2015 18:14:47 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id 8U_keE7etY7V for <resp-m2-miage@univ-rennes1.fr>;
+	Mon, 14 Sep 2015 18:14:47 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id A488B6002E
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 14 Sep 2015 18:14:47 +0200 (CEST)
+Received: from mxb1-2.relay.renater.fr (mxb1-2.relay.renater.fr [194.214.201.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 9A89820033
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 14 Sep 2015 18:14:47 +0200 (CEST)
+Received: from smtp1-22.revue-en-ligne.com (smtp1-22.revue-en-ligne.com [5.196.210.205])
+	by mxb1-2.relay.renater.fr (asm) with SMTP id 5371A2800AF
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 14 Sep 2015 18:14:47 +0200 (CEST)
+Received: (GreenArrow 11734 invoked by uid 410); 14 Sep 2015 16:14:47 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=lespetitsanimaux.com; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=ihiDBJ
+	wVh2TOZxdDJTU9Xoj6VkQ=; b=v8pYxGJ9x/Zh08CD7p4Jc7H4ONtpp7xHtZEymO
+	Wjr8iLC46q/gzLRLXU0H5pfi7Q1BjAKl/7/vJNRc2cRtuwOmCGs3xhWG3ME9BVEP
+	T0WZpxtUB4cP8/mVBe4dY4Zv9hqrE8w9KhplKaMUWBJYvNVLvGk8vorOlE3Qo6+9
+	VuvY4=
+Subject: =?UTF-8?Q?Croisi=C3=A8re=205=2A=20Antilles=20jusqu=27=C3=A0=20?=
+ =?UTF-8?Q?=E2=80=9350=25=2C=201=C3=A8res=20Minutes=20Neige=2C=20Canari?=
+ =?UTF-8?Q?es=2C=20Cr=C3=A8te=2C=20Cuba?=
+From: =?UTF-8?B?VmFjYW5jZXMgUsOpdXNzaWVzIHBhciBTb2NpYWJpbGl3ZWI=?=
+	<news@lespetitsanimaux.com>
+To: <resp-m2-miage@univ-rennes1.fr>
+Date: Mon, 14 Sep 2015 16:14:47 +0000
+List-Unsubscribe: <http://lespetitsanimaux.com/ga/unsubscribe/2-11527895-18-836-1603-ed35df89ef15825-39965aef30>,
+ <mailto:return-a18-1583-1603-resp-m2-miage=univ-rennes1.fr=4u@lespetitsanimaux.com>
+X-Mailer: GreenArrow Studio (v4.44.0)
+X-CampaignID: s4:1583-cd1bf8660cea7837
+Message-ID: <mid-f175b5a8fa8448db5ef44e61641b1c7a@lespetitsanimaux.com>
+X-Mailer-Info: 4.hFDO.QM1gzM.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.QM2AzM
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="==d13d302a6eac92025e654b2021da9f5a"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 5.196.210.205
+X-Bizanga: IMP - mxb1-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekgedrvdeggdeljecutefuodetggdotefrucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepuffhvfffjffokfggtgesrgdtreerredtjeenucfhrhhomhepgggrtggrnhgtvghsucftrohushhsihgvshcuphgrrhcuufhotghirggsihhlihifvggsuceonhgvfihssehlvghsphgvthhithhsrghnihhmrghugidrtghomheqnecuffhomhgrihhnpehlvghsphgvthhithhsrghnihhmrghugidrtghomh 
+X-Renater-ServerName: mxb1-2.relay.renater.fr
+X-OrganizationHeadersPreserved: mbcasexch4.Ur.local
+
+--==d13d302a6eac92025e654b2021da9f5a
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Vacances r=C3=A9ussies.com - FLASH DERNIERES MINUTES ( http://lespetitsanim=
+aux.com/ga/click/2-11527895-18-836-1603-11286-8ca2ac2d55-39965aef30 )
+
+Promo Croisi=C3=83=C2=A8re ( http://lespetitsanimaux.com/ga/click/2-1152789=
+5-18-836-1603-11287-5a133366c9-39965aef30 )
+
+Promo Croisi=C3=83=C2=A8re ( http://lespetitsanimaux.com/ga/click/2-1152789=
+5-18-836-1603-11287-5a133366c9-39965aef30 )
+
+PERLE DES ANTILLES ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836=
+-1603-11287-5a133366c9-39965aef30 )
+
+Croisi=C3=A8re Costa Favolosa 5* ( http://lespetitsanimaux.com/ga/click/2-1=
+1527895-18-836-1603-11287-5a133366c9-39965aef30 )
+
+=C3=80 partir de ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1=
+603-11287-5a133366c9-39965aef30 )486=E2=82=AC ( http://lespetitsanimaux.com=
+/ga/click/2-11527895-18-836-1603-11287-5a133366c9-39965aef30 )
+
+D=C3=89COUVRIR ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-160=
+3-11287-5a133366c9-39965aef30 )
+
+Marmara ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11288=
+-eed5a81021-39965aef30 )
+
+Marmara ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11288=
+-eed5a81021-39965aef30 )
+
+CLUB MARMARA VALFREJUS 3* ( http://lespetitsanimaux.com/ga/click/2-11527895=
+-18-836-1603-11288-eed5a81021-39965aef30 )
+
+8j/7n en pension compl=C3=A8te ( http://lespetitsanimaux.com/ga/click/2-115=
+27895-18-836-1603-11288-eed5a81021-39965aef30 )
+
+=C3=80 partir de ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1=
+603-11288-eed5a81021-39965aef30 )589=E2=82=AC ( http://lespetitsanimaux.com=
+/ga/click/2-11527895-18-836-1603-11288-eed5a81021-39965aef30 )
+
+D=C3=89COUVRIR ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-160=
+3-11288-eed5a81021-39965aef30 )
+
+Vacanciel ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-112=
+89-04249329e9-39965aef30 )
+
+Vacanciel ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-112=
+89-04249329e9-39965aef30 )
+
+1ERES MINUTES NEIGE ( http://lespetitsanimaux.com/ga/click/2-11527895-18-83=
+6-1603-11289-04249329e9-39965aef30 )
+
+Budget famille jusqu'=C3=A0 -30% ( http://lespetitsanimaux.com/ga/click/2-1=
+1527895-18-836-1603-11289-04249329e9-39965aef30 )
+
+=C3=80 partir de ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1=
+603-11289-04249329e9-39965aef30 )315=E2=82=AC ( http://lespetitsanimaux.com=
+/ga/click/2-11527895-18-836-1603-11289-04249329e9-39965aef30 )
+
+D=C3=89COUVRIR ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-160=
+3-11289-04249329e9-39965aef30 )
+
+Marmara ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11290=
+-8d6ea7c2ef-39965aef30 )
+
+Marmara ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11290=
+-8d6ea7c2ef-39965aef30 )
+
+CANARIES PLAYA BLANCA ( http://lespetitsanimaux.com/ga/click/2-11527895-18-=
+836-1603-11290-8d6ea7c2ef-39965aef30 )
+
+8j/7n en tout compris ( http://lespetitsanimaux.com/ga/click/2-11527895-18-=
+836-1603-11290-8d6ea7c2ef-39965aef30 )
+
+=C3=80 partir de ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1=
+603-11290-8d6ea7c2ef-39965aef30 )509=E2=82=AC ( http://lespetitsanimaux.com=
+/ga/click/2-11527895-18-836-1603-11290-8d6ea7c2ef-39965aef30 )
+
+D=C3=89COUVRIR ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-160=
+3-11290-8d6ea7c2ef-39965aef30 )
+
+Vacanciel ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-112=
+91-dafc1e2250-39965aef30 )
+
+Vacanciel ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-112=
+91-dafc1e2250-39965aef30 )
+
+HOTEL CLUB PORT FREJUS ( http://lespetitsanimaux.com/ga/click/2-11527895-18=
+-836-1603-11291-dafc1e2250-39965aef30 )
+
+8j/7n en demi-pension ( http://lespetitsanimaux.com/ga/click/2-11527895-18-=
+836-1603-11291-dafc1e2250-39965aef30 )
+
+=C3=80 partir de ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1=
+603-11291-dafc1e2250-39965aef30 )322=E2=82=AC ( http://lespetitsanimaux.com=
+/ga/click/2-11527895-18-836-1603-11291-dafc1e2250-39965aef30 )
+
+D=C3=89COUVRIR ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-160=
+3-11291-dafc1e2250-39965aef30 )
+
+Marmara ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11292=
+-169ff38300-39965aef30 )
+
+Marmara ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11292=
+-169ff38300-39965aef30 )
+
+MARRAKECH DAR ATLAS 4* ( http://lespetitsanimaux.com/ga/click/2-11527895-18=
+-836-1603-11292-169ff38300-39965aef30 )
+
+8j/7n en tout compris ( http://lespetitsanimaux.com/ga/click/2-11527895-18-=
+836-1603-11292-169ff38300-39965aef30 )
+
+=C3=80 partir de ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1=
+603-11292-169ff38300-39965aef30 )349=E2=82=AC ( http://lespetitsanimaux.com=
+/ga/click/2-11527895-18-836-1603-11292-169ff38300-39965aef30 )
+
+D=C3=89COUVRIR ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-160=
+3-11292-169ff38300-39965aef30 )
+
+Marmara ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11293=
+-101e76c031-39965aef30 )
+
+Marmara ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11293=
+-101e76c031-39965aef30 )
+
+CRETE MARINA BEACH 4* ( http://lespetitsanimaux.com/ga/click/2-11527895-18-=
+836-1603-11293-101e76c031-39965aef30 )
+
+8j/7n en tout compris ( http://lespetitsanimaux.com/ga/click/2-11527895-18-=
+836-1603-11293-101e76c031-39965aef30 )
+
+=C3=80 partir de ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1=
+603-11293-101e76c031-39965aef30 )539=E2=82=AC ( http://lespetitsanimaux.com=
+/ga/click/2-11527895-18-836-1603-11293-101e76c031-39965aef30 )
+
+D=C3=89COUVRIR ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-160=
+3-11293-101e76c031-39965aef30 )
+
+ABCroisi=C3=83=C2=A8re ( http://lespetitsanimaux.com/ga/click/2-11527895-18=
+-836-1603-11294-ac46f6a917-39965aef30 )
+
+ABCroisi=C3=83=C2=A8re ( http://lespetitsanimaux.com/ga/click/2-11527895-18=
+-836-1603-11294-ac46f6a917-39965aef30 )
+
+CUBA JAMA=C3=8FQUE MEXIQUE ( http://lespetitsanimaux.com/ga/click/2-1152789=
+5-18-836-1603-11294-ac46f6a917-39965aef30 )
+
+Croisi=C3=A8re MSC 4* vols inclus ( http://lespetitsanimaux.com/ga/click/2-=
+11527895-18-836-1603-11294-ac46f6a917-39965aef30 )
+
+=C3=80 partir de ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1=
+603-11294-ac46f6a917-39965aef30 )1349=E2=82=AC ( http://lespetitsanimaux.co=
+m/ga/click/2-11527895-18-836-1603-11294-ac46f6a917-39965aef30 )
+
+D=C3=89COUVRIR ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-160=
+3-11294-ac46f6a917-39965aef30 )
+
+Vacanciel ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-112=
+95-37d622eefc-39965aef30 )
+
+Vacanciel ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-112=
+95-37d622eefc-39965aef30 )
+
+CLUB PRALOGNAN LA VANOISE ( http://lespetitsanimaux.com/ga/click/2-11527895=
+-18-836-1603-11295-37d622eefc-39965aef30 )
+
+8j/7n en demi-pension ( http://lespetitsanimaux.com/ga/click/2-11527895-18-=
+836-1603-11295-37d622eefc-39965aef30 )
+
+=C3=80 partir de ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1=
+603-11295-37d622eefc-39965aef30 )315=E2=82=AC ( http://lespetitsanimaux.com=
+/ga/click/2-11527895-18-836-1603-11295-37d622eefc-39965aef30 )
+
+D=C3=89COUVRIR ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-160=
+3-11295-37d622eefc-39965aef30 )
+
+Vacanciel ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-112=
+96-fe67e1c07a-39965aef30 )
+
+Vacanciel ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-112=
+96-fe67e1c07a-39965aef30 )
+
+HOTEL CLUB 3* COURCHEVEL ( http://lespetitsanimaux.com/ga/click/2-11527895-=
+18-836-1603-11296-fe67e1c07a-39965aef30 )
+
+8j/7n en demi-pension ( http://lespetitsanimaux.com/ga/click/2-11527895-18-=
+836-1603-11296-fe67e1c07a-39965aef30 )
+
+=C3=80 partir de ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1=
+603-11296-fe67e1c07a-39965aef30 )574=E2=82=AC ( http://lespetitsanimaux.com=
+/ga/click/2-11527895-18-836-1603-11296-fe67e1c07a-39965aef30 )
+
+D=C3=89COUVRIR ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-160=
+3-11296-fe67e1c07a-39965aef30 )
+
+Marmara ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11297=
+-9169b2a3f8-39965aef30 )
+
+Marmara ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11297=
+-9169b2a3f8-39965aef30 )
+
+BALEARES CLUB DEL MAR 4* ( http://lespetitsanimaux.com/ga/click/2-11527895-=
+18-836-1603-11297-9169b2a3f8-39965aef30 )
+
+8j/7n en tout compris ( http://lespetitsanimaux.com/ga/click/2-11527895-18-=
+836-1603-11297-9169b2a3f8-39965aef30 )
+
+=C3=80 partir de ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1=
+603-11297-9169b2a3f8-39965aef30 )419=E2=82=AC ( http://lespetitsanimaux.com=
+/ga/click/2-11527895-18-836-1603-11297-9169b2a3f8-39965aef30 )
+
+D=C3=89COUVRIR ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-160=
+3-11297-9169b2a3f8-39965aef30 )
+
+Vacanciel ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-112=
+98-401bdc62a4-39965aef30 )
+
+Vacanciel ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-112=
+98-401bdc62a4-39965aef30 )
+
+CLUB 3* VAL CENIS ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-=
+1603-11298-401bdc62a4-39965aef30 )
+
+8j/7n en demi-pension ( http://lespetitsanimaux.com/ga/click/2-11527895-18-=
+836-1603-11298-401bdc62a4-39965aef30 )
+
+=C3=80 partir de ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1=
+603-11298-401bdc62a4-39965aef30 )322=E2=82=AC ( http://lespetitsanimaux.com=
+/ga/click/2-11527895-18-836-1603-11298-401bdc62a4-39965aef30 )
+
+D=C3=89COUVRIR ( http://lespetitsanimaux.com/ga/click/2-11527895-18-836-160=
+3-11298-401bdc62a4-39965aef30 )
+
+* Les prix affich=C3=A9s sur cette newsletter ont =C3=A9t=C3=A9 relev=C3=A9=
+s sur les
+sites internets mentionn=C3=A9s le 09/09/2015 =C3=A0 15h.=
+
+--==d13d302a6eac92025e654b2021da9f5a
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" />
+	<title>VacancesReussies.com - FLASH DERNI&Egrave;RES MINUTES</title>
+</head>
+<body style=3D"background-color:#CECCC8;"><!-- BANNIERE: FLASH DERNIERES MI=
+NUTES -->
+<div style=3D"background-color:#CECCC8;">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"650">
+	<tbody>
+		<tr>
+			<td bgcolor=3D"#F6F6F6"><a href=3D"http://lespetitsanimaux.com/ga/click/=
+2-11527895-18-836-1603-11286-8ca2ac2d55-39965aef30" target=3D"_blank"><img =
+alt=3D"Vacances r=C3=A9ussies.com - FLASH DERNIERES MINUTES" border=3D"0" h=
+eight=3D"150" src=3D"http://46.101.7.34/vacances/vr-090915/header_bp_3.jpg"=
+ style=3D"display:block;" width=3D"650" /></a></td>
+		</tr>
+		<tr>
+			<td bgcolor=3D"#FFFFFF"><img border=3D"0" height=3D"12" src=3D"http://46=
+.101.7.34/vacances/vr-090915/header_under.gif" style=3D"display:block;" wid=
+th=3D"650" /></td>
+		</tr>
+	</tbody>
+</table>
+<!-- CONTENU BDD(INFOS) -->
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"650">
+	<tbody>
+		<tr>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://lespet=
+itsanimaux.com/ga/click/2-11527895-18-836-1603-11287-5a133366c9-39965aef30"=
+ target=3D"_blank"><img alt=3D"Promo Croisi=C3=83=C2=A8re" border=3D"0" hei=
+ght=3D"160" src=3D"http://46.101.7.34/vacances/vr-090915/IP1.jpg" style=3D"=
+display:block;" width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11287-5a133366c=
+9-39965aef30" target=3D"_blank"><img alt=3D"Promo Croisi=C3=83=C2=A8re" bor=
+der=3D"0" height=3D"28" src=3D"http://46.101.7.34/vacances/vr-090915/promoc=
+roisiere104x40.jpg" style=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11287-5a133366c9-=
+39965aef30" style=3D" color:#707173; text-decoration:none;" target=3D"_blan=
+k">PERLE DES ANTILLES</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11287-5a133366=
+c9-39965aef30" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">Croisi&egrave;re Costa Favolosa 5*</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://lespetitsanimaux.com/ga=
+/click/2-11527895-18-836-1603-11287-5a133366c9-39965aef30" style=3D" color:=
+#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></s=
+pan><a href=3D"http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-=
+11287-5a133366c9-39965aef30" style=3D" color:#FFFFFF; text-decoration:none;=
+" target=3D"_blank"> <strong style=3D"font-size:24px">486&euro;</strong></a=
+></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://lespetitsa=
+nimaux.com/ga/click/2-11527895-18-836-1603-11287-5a133366c9-39965aef30" sty=
+le=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COU=
+VRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-0=
+90915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://lespet=
+itsanimaux.com/ga/click/2-11527895-18-836-1603-11288-eed5a81021-39965aef30"=
+ target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D"160" src=3D"=
+http://46.101.7.34/vacances/vr-090915/IP2.jpg" style=3D"display:block;" wid=
+th=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11288-eed5a8102=
+1-39965aef30" target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D=
+"28" src=3D"http://46.101.7.34/vacances/vr-090915/marmara104x40.jpg" style=
+=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11288-eed5a81021-=
+39965aef30" style=3D" color:#707173; text-decoration:none;" target=3D"_blan=
+k">CLUB MARMARA VALFREJUS 3*</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11288-eed5a810=
+21-39965aef30" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">8j/7n en pension compl&egrave;te</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://lespetitsanimaux.com/ga=
+/click/2-11527895-18-836-1603-11288-eed5a81021-39965aef30" style=3D" color:=
+#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></s=
+pan><a href=3D"http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-=
+11288-eed5a81021-39965aef30" style=3D" color:#FFFFFF; text-decoration:none;=
+" target=3D"_blank"> <strong style=3D"font-size:24px">589&euro;</strong></a=
+></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://lespetitsa=
+nimaux.com/ga/click/2-11527895-18-836-1603-11288-eed5a81021-39965aef30" sty=
+le=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COU=
+VRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-0=
+90915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"650">
+	<tbody>
+		<tr>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://lespet=
+itsanimaux.com/ga/click/2-11527895-18-836-1603-11289-04249329e9-39965aef30"=
+ target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" height=3D"160" src=
+=3D"http://46.101.7.34/vacances/vr-090915/IP3.jpg" style=3D"display:block;"=
+ width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11289-04249329e=
+9-39965aef30" target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" height=
+=3D"28" src=3D"http://46.101.7.34/vacances/vr-090915/vacanciel104x40.jpg" s=
+tyle=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11289-04249329e9-=
+39965aef30" style=3D" color:#707173; text-decoration:none;" target=3D"_blan=
+k">1ERES MINUTES NEIGE</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11289-04249329=
+e9-39965aef30" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">Budget famille jusqu&#39;&agrave; -30%</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://lespetitsanimaux.com/ga=
+/click/2-11527895-18-836-1603-11289-04249329e9-39965aef30" style=3D" color:=
+#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></s=
+pan><a href=3D"http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-=
+11289-04249329e9-39965aef30" style=3D" color:#FFFFFF; text-decoration:none;=
+" target=3D"_blank"> <strong style=3D"font-size:24px">315&euro;</strong></a=
+></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://lespetitsa=
+nimaux.com/ga/click/2-11527895-18-836-1603-11289-04249329e9-39965aef30" sty=
+le=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COU=
+VRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-0=
+90915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://lespet=
+itsanimaux.com/ga/click/2-11527895-18-836-1603-11290-8d6ea7c2ef-39965aef30"=
+ target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D"160" src=3D"=
+http://46.101.7.34/vacances/vr-090915/IP4.jpg" style=3D"display:block;" wid=
+th=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11290-8d6ea7c2e=
+f-39965aef30" target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D=
+"28" src=3D"http://46.101.7.34/vacances/vr-090915/marmara104x40.jpg" style=
+=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11290-8d6ea7c2ef-=
+39965aef30" style=3D" color:#707173; text-decoration:none;" target=3D"_blan=
+k">CANARIES PLAYA BLANCA</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11290-8d6ea7c2=
+ef-39965aef30" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">8j/7n en tout compris</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://lespetitsanimaux.com/ga=
+/click/2-11527895-18-836-1603-11290-8d6ea7c2ef-39965aef30" style=3D" color:=
+#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></s=
+pan><a href=3D"http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-=
+11290-8d6ea7c2ef-39965aef30" style=3D" color:#FFFFFF; text-decoration:none;=
+" target=3D"_blank"> <strong style=3D"font-size:24px">509&euro;</strong></a=
+></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://lespetitsa=
+nimaux.com/ga/click/2-11527895-18-836-1603-11290-8d6ea7c2ef-39965aef30" sty=
+le=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COU=
+VRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-0=
+90915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"650">
+	<tbody>
+		<tr>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://lespet=
+itsanimaux.com/ga/click/2-11527895-18-836-1603-11291-dafc1e2250-39965aef30"=
+ target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" height=3D"160" src=
+=3D"http://46.101.7.34/vacances/vr-090915/IP5.jpg" style=3D"display:block;"=
+ width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11291-dafc1e225=
+0-39965aef30" target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" height=
+=3D"28" src=3D"http://46.101.7.34/vacances/vr-090915/vacanciel104x40.jpg" s=
+tyle=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11291-dafc1e2250-=
+39965aef30" style=3D" color:#707173; text-decoration:none;" target=3D"_blan=
+k">HOTEL CLUB PORT FREJUS</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11291-dafc1e22=
+50-39965aef30" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">8j/7n en demi-pension</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://lespetitsanimaux.com/ga=
+/click/2-11527895-18-836-1603-11291-dafc1e2250-39965aef30" style=3D" color:=
+#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></s=
+pan><a href=3D"http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-=
+11291-dafc1e2250-39965aef30" style=3D" color:#FFFFFF; text-decoration:none;=
+" target=3D"_blank"> <strong style=3D"font-size:24px">322&euro;</strong></a=
+></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://lespetitsa=
+nimaux.com/ga/click/2-11527895-18-836-1603-11291-dafc1e2250-39965aef30" sty=
+le=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COU=
+VRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-0=
+90915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://lespet=
+itsanimaux.com/ga/click/2-11527895-18-836-1603-11292-169ff38300-39965aef30"=
+ target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D"160" src=3D"=
+http://46.101.7.34/vacances/vr-090915/IP6.jpg" style=3D"display:block;" wid=
+th=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11292-169ff3830=
+0-39965aef30" target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D=
+"28" src=3D"http://46.101.7.34/vacances/vr-090915/marmara104x40.jpg" style=
+=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11292-169ff38300-=
+39965aef30" style=3D" color:#707173; text-decoration:none;" target=3D"_blan=
+k">MARRAKECH DAR ATLAS 4*</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11292-169ff383=
+00-39965aef30" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">8j/7n en tout compris</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://lespetitsanimaux.com/ga=
+/click/2-11527895-18-836-1603-11292-169ff38300-39965aef30" style=3D" color:=
+#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></s=
+pan><a href=3D"http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-=
+11292-169ff38300-39965aef30" style=3D" color:#FFFFFF; text-decoration:none;=
+" target=3D"_blank"> <strong style=3D"font-size:24px">349&euro;</strong></a=
+></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://lespetitsa=
+nimaux.com/ga/click/2-11527895-18-836-1603-11292-169ff38300-39965aef30" sty=
+le=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COU=
+VRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-0=
+90915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"650">
+	<tbody>
+		<tr>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://lespet=
+itsanimaux.com/ga/click/2-11527895-18-836-1603-11293-101e76c031-39965aef30"=
+ target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D"160" src=3D"=
+http://46.101.7.34/vacances/vr-090915/IP7.jpg" style=3D"display:block;" wid=
+th=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11293-101e76c03=
+1-39965aef30" target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D=
+"28" src=3D"http://46.101.7.34/vacances/vr-090915/marmara104x40.jpg" style=
+=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11293-101e76c031-=
+39965aef30" style=3D" color:#707173; text-decoration:none;" target=3D"_blan=
+k">CRETE MARINA BEACH 4*</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11293-101e76c0=
+31-39965aef30" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">8j/7n en tout compris</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://lespetitsanimaux.com/ga=
+/click/2-11527895-18-836-1603-11293-101e76c031-39965aef30" style=3D" color:=
+#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></s=
+pan><a href=3D"http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-=
+11293-101e76c031-39965aef30" style=3D" color:#FFFFFF; text-decoration:none;=
+" target=3D"_blank"> <strong style=3D"font-size:24px">539&euro;</strong></a=
+></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://lespetitsa=
+nimaux.com/ga/click/2-11527895-18-836-1603-11293-101e76c031-39965aef30" sty=
+le=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COU=
+VRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-0=
+90915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://lespet=
+itsanimaux.com/ga/click/2-11527895-18-836-1603-11294-ac46f6a917-39965aef30"=
+ target=3D"_blank"><img alt=3D"ABCroisi=C3=83=C2=A8re" border=3D"0" height=
+=3D"160" src=3D"http://46.101.7.34/vacances/vr-090915/IP8.jpg" style=3D"dis=
+play:block;" width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11294-ac46f6a91=
+7-39965aef30" target=3D"_blank"><img alt=3D"ABCroisi=C3=83=C2=A8re" border=
+=3D"0" height=3D"28" src=3D"http://46.101.7.34/vacances/vr-090915/AB_104x40=
+.jpg" style=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11294-ac46f6a917-=
+39965aef30" style=3D" color:#707173; text-decoration:none;" target=3D"_blan=
+k">CUBA JAMA&Iuml;QUE MEXIQUE</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11294-ac46f6a9=
+17-39965aef30" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">Croisi&egrave;re MSC 4* vols inclus</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://lespetitsanimaux.com/ga=
+/click/2-11527895-18-836-1603-11294-ac46f6a917-39965aef30" style=3D" color:=
+#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></s=
+pan><a href=3D"http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-=
+11294-ac46f6a917-39965aef30" style=3D" color:#FFFFFF; text-decoration:none;=
+" target=3D"_blank"> <strong style=3D"font-size:24px">1349&euro;</strong></=
+a></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://lespetitsa=
+nimaux.com/ga/click/2-11527895-18-836-1603-11294-ac46f6a917-39965aef30" sty=
+le=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COU=
+VRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-0=
+90915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"650">
+	<tbody>
+		<tr>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://lespet=
+itsanimaux.com/ga/click/2-11527895-18-836-1603-11295-37d622eefc-39965aef30"=
+ target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" height=3D"160" src=
+=3D"http://46.101.7.34/vacances/vr-090915/IP9.jpg" style=3D"display:block;"=
+ width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11295-37d622eef=
+c-39965aef30" target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" height=
+=3D"28" src=3D"http://46.101.7.34/vacances/vr-090915/vacanciel104x40.jpg" s=
+tyle=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11295-37d622eefc-=
+39965aef30" style=3D" color:#707173; text-decoration:none;" target=3D"_blan=
+k">CLUB PRALOGNAN LA VANOISE</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11295-37d622ee=
+fc-39965aef30" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">8j/7n en demi-pension</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://lespetitsanimaux.com/ga=
+/click/2-11527895-18-836-1603-11295-37d622eefc-39965aef30" style=3D" color:=
+#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></s=
+pan><a href=3D"http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-=
+11295-37d622eefc-39965aef30" style=3D" color:#FFFFFF; text-decoration:none;=
+" target=3D"_blank"> <strong style=3D"font-size:24px">315&euro;</strong></a=
+></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://lespetitsa=
+nimaux.com/ga/click/2-11527895-18-836-1603-11295-37d622eefc-39965aef30" sty=
+le=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COU=
+VRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-0=
+90915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://lespet=
+itsanimaux.com/ga/click/2-11527895-18-836-1603-11296-fe67e1c07a-39965aef30"=
+ target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" height=3D"160" src=
+=3D"http://46.101.7.34/vacances/vr-090915/IP10.jpg" style=3D"display:block;=
+" width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11296-fe67e1c07=
+a-39965aef30" target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" height=
+=3D"28" src=3D"http://46.101.7.34/vacances/vr-090915/vacanciel104x40.jpg" s=
+tyle=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11296-fe67e1c07a-=
+39965aef30" style=3D" color:#707173; text-decoration:none;" target=3D"_blan=
+k">HOTEL CLUB 3* COURCHEVEL</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11296-fe67e1c0=
+7a-39965aef30" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">8j/7n en demi-pension</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://lespetitsanimaux.com/ga=
+/click/2-11527895-18-836-1603-11296-fe67e1c07a-39965aef30" style=3D" color:=
+#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></s=
+pan><a href=3D"http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-=
+11296-fe67e1c07a-39965aef30" style=3D" color:#FFFFFF; text-decoration:none;=
+" target=3D"_blank"> <strong style=3D"font-size:24px">574&euro;</strong></a=
+></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://lespetitsa=
+nimaux.com/ga/click/2-11527895-18-836-1603-11296-fe67e1c07a-39965aef30" sty=
+le=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COU=
+VRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-0=
+90915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"650">
+	<tbody>
+		<tr>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://lespet=
+itsanimaux.com/ga/click/2-11527895-18-836-1603-11297-9169b2a3f8-39965aef30"=
+ target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D"160" src=3D"=
+http://46.101.7.34/vacances/vr-090915/IP11.jpg" style=3D"display:block;" wi=
+dth=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11297-9169b2a3f=
+8-39965aef30" target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D=
+"28" src=3D"http://46.101.7.34/vacances/vr-090915/marmara104x40.jpg" style=
+=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11297-9169b2a3f8-=
+39965aef30" style=3D" color:#707173; text-decoration:none;" target=3D"_blan=
+k">BALEARES CLUB DEL MAR 4*</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11297-9169b2a3=
+f8-39965aef30" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">8j/7n en tout compris</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://lespetitsanimaux.com/ga=
+/click/2-11527895-18-836-1603-11297-9169b2a3f8-39965aef30" style=3D" color:=
+#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></s=
+pan><a href=3D"http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-=
+11297-9169b2a3f8-39965aef30" style=3D" color:#FFFFFF; text-decoration:none;=
+" target=3D"_blank"> <strong style=3D"font-size:24px">419&euro;</strong></a=
+></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://lespetitsa=
+nimaux.com/ga/click/2-11527895-18-836-1603-11297-9169b2a3f8-39965aef30" sty=
+le=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COU=
+VRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-0=
+90915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://lespet=
+itsanimaux.com/ga/click/2-11527895-18-836-1603-11298-401bdc62a4-39965aef30"=
+ target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" height=3D"160" src=
+=3D"http://46.101.7.34/vacances/vr-090915/IP12.jpg" style=3D"display:block;=
+" width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11298-401bdc62a=
+4-39965aef30" target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" height=
+=3D"28" src=3D"http://46.101.7.34/vacances/vr-090915/vacanciel104x40.jpg" s=
+tyle=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11298-401bdc62a4-=
+39965aef30" style=3D" color:#707173; text-decoration:none;" target=3D"_blan=
+k">CLUB 3* VAL CENIS</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-11298-401bdc62=
+a4-39965aef30" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">8j/7n en demi-pension</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://lespetitsanimaux.com/ga=
+/click/2-11527895-18-836-1603-11298-401bdc62a4-39965aef30" style=3D" color:=
+#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></s=
+pan><a href=3D"http://lespetitsanimaux.com/ga/click/2-11527895-18-836-1603-=
+11298-401bdc62a4-39965aef30" style=3D" color:#FFFFFF; text-decoration:none;=
+" target=3D"_blank"> <strong style=3D"font-size:24px">322&euro;</strong></a=
+></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://lespetitsa=
+nimaux.com/ga/click/2-11527895-18-836-1603-11298-401bdc62a4-39965aef30" sty=
+le=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COU=
+VRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-0=
+90915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+		</tr>
+	</tbody>
+</table>
+<!-- Footer -->
+
+<table align=3D"center" border=3D"0" cellpadding=3D"12" cellspacing=3D"0" w=
+idth=3D"650">
+	<tbody>
+		<tr>
+			<td align=3D"center" style=3D"color:#44443E; font-size:10px;-webkit-text=
+-size-adjust:none; font-family:Arial, Helvetica, sans-serif">* Les prix aff=
+ich&eacute;s sur cette newsletter ont &eacute;t&eacute; relev&eacute;s sur =
+les sites internets mentionn&eacute;s le 09/09/2015 &agrave; 15h.</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<a href=3D"http://lespetitsanimaux.com/ga/unsubscribe/2-11527895-18-836-160=
+3-ed35df89ef15825-39965aef30">Je souhaite me d=C3=A9sinscrire et ne plus re=
+cevoir les newsletters</a><img src=3D"http://lespetitsanimaux.com/ga/open/2=
+-11527895-18-836-1603-39965aef30" height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==d13d302a6eac92025e654b2021da9f5a--

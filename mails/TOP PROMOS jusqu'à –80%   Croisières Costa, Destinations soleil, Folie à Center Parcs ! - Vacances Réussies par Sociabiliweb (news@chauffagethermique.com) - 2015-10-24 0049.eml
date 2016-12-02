@@ -1,0 +1,1327 @@
+Return-Path: <return-a18-1966-1968-resp-m2-miage=univ-rennes1.fr=4@chauffagethermique.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Sat, 24 Oct 2015 00:49:47 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from vmsmtprexch.univ-rennes1.fr (vmsmtprexch.univ-rennes1.fr [129.20.128.62])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 8354C26A112B
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 24 Oct 2015 00:49:47 +0200 (CEST)
+Received: from mbcasexch4.Ur.local (mbcasexch4.univ-rennes1.fr [129.20.125.132])
+	by vmsmtprexch.univ-rennes1.fr (Postfix) with ESMTP id 7B27911F
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 24 Oct 2015 00:49:47 +0200 (CEST)
+X-CrossPremisesHeadersFilteredBySendConnector: mbcasexch4.Ur.local
+Received: from mbcasexch1.Ur.local (2002:8114:7d81::8114:7d81) by
+ mbcasexch4.Ur.local (2002:8114:7d84::8114:7d84) with Microsoft SMTP Server
+ (TLS) id 15.0.913.22; Sat, 24 Oct 2015 00:49:46 +0200
+Received: from mailout1.univ-rennes1.fr (129.20.128.162) by
+ mbcasexch1.Ur.local (129.20.125.129) with Microsoft SMTP Server id
+ 15.0.913.22 via Frontend Transport; Sat, 24 Oct 2015 00:49:46 +0200
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 15E7E60114
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 24 Oct 2015 00:49:47 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id 5uIURkTj0mjI for <resp-m2-miage@univ-rennes1.fr>;
+	Sat, 24 Oct 2015 00:49:46 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id DE9946002F
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 24 Oct 2015 00:49:46 +0200 (CEST)
+Received: from mxb1-2.relay.renater.fr (mxb1-2.relay.renater.fr [194.214.201.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id D58F720033
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 24 Oct 2015 00:49:46 +0200 (CEST)
+Received: from smtp1-48.revue-en-ligne.com (smtp1-48.revue-en-ligne.com [5.196.214.79])
+	by mxb1-2.relay.renater.fr (asm) with SMTP id 8B3A828014D
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 24 Oct 2015 00:49:46 +0200 (CEST)
+Received: (GreenArrow 25506 invoked by uid 410); 23 Oct 2015 22:49:46 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=chauffagethermique.com; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=lun1hO
+	1jBdK/lUWO9cquJVzMXcQ=; b=QN9GITq66s083lnDk8qdQWl/ar6vMYzp8NLj4d
+	tmmd9qKrnT8p9dAxWAaiivzPkjc/RoaPZpwk3ytBfr1rXTUuetEIfQilYyFqaTGb
+	s7QmgXrH+npgzIkqccWv6GIO8LYzmxi1Hfn+7pLLlKOySqJ11qKqcwQfBBxKIg7y
+	iwltY=
+Subject: =?UTF-8?Q?TOP=20PROMOS=20jusqu=27=C3=A0=20=E2=80=9380=25=20?=
+ =?UTF-8?Q?=3A=20Croisi=C3=A8res=20Costa=2C=20Destinations=20soleil?=
+ =?UTF-8?Q?=2C=20Folie=20=C3=A0=20Center=20Parcs=20=21?=
+From: =?UTF-8?B?VmFjYW5jZXMgUsOpdXNzaWVzIHBhciBTb2NpYWJpbGl3ZWI=?=
+	<news@chauffagethermique.com>
+To: <resp-m2-miage@univ-rennes1.fr>
+Date: Fri, 23 Oct 2015 22:49:46 +0000
+List-Unsubscribe: <http://chauffagethermique.com/ga/unsubscribe/2-11527895-18-1027-1968-ed35df89ef15825-dbbb456c11>,
+ <mailto:return-a18-1966-1968-resp-m2-miage=univ-rennes1.fr=4u@chauffagethermique.com>
+X-Mailer: GreenArrow Studio (v4.65.0)
+X-CampaignID: s4:1966-3bc9b9315404a348
+Message-ID: <mid-ef11c1b4396d37c4cb3c65a5cc7c046b@chauffagethermique.com>
+X-Mailer-Info: 4.hFDO.QM5YjN.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.QM5YDO
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="==e25f1ea4c6b06c61bf7e87cb2ffb79fe"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 5.196.214.79
+X-Bizanga: IMP - mxb1-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekhedrtdejgddugecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefuhffvfffjoffkgggtsegrtderreertdejnecuhfhrohhmpeggrggtrghntggvshcutforuhhsshhivghsuchprghrucfuohgtihgrsghilhhifigvsgcuoehnvgifshestghhrghufhhfrghgvghthhgvrhhmihhquhgvrdgtohhmqeenucffohhmrghinheptghhrghufhhfrghgvghthhgvrhhmihhquhgvrdgtohhmnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehsmhhtphduqdegkedrrhgvvhhuvgdqvghnqdhlihhgnhgvrdgtohhmpdhinhgvthephedrudeliedrvddugedrjeelpdhmrghilhhfrhhomheprhgvthhurhhnqdgrudekqdduleeiiedqudelieekqdhrvghsphdqmhdvqdhmihgrghgvpehunhhivhdqrhgvnhhnvghsuddrfhhrpeegsegthhgruhhffhgrghgvthhhvghrmhhiqhhuvgdrtghomhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb1-2.relay.renater.fr
+X-OrganizationHeadersPreserved: mbcasexch4.Ur.local
+
+--==e25f1ea4c6b06c61bf7e87cb2ffb79fe
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Vacances r=C3=A9ussies.com - Les meilleures offres pour voyager moins cher
+
+INFOS PROMOS DE LA SEMAINE
+VENTE FLASH JUSQU'=C3=80 -40%<br>11 DESTINATIONS SOLEIL
+VENTE FLASH JUSQU=E2=80=99=C3=80 -40%
+11 DESTINATIONS SOLEIL=09
+=C3=80 partir de=20=20=20
+349=E2=82=AC
+Canaries, Rep Dom, Mexique,
+Cuba, Ile Maurice, Tha=C3=AFlande, ...=09
+D=C3=A9couvrir
+
+=09=20
+TARIF FLASH<br>CROISIERE ITALIE ESPAGNE
+TARIF FLASH
+CROISIERE ITALIE ESPAGNE=20=20=09
+=C3=80 partir de=20=20=20
+206=E2=82=AC
+6j/5n en pension compl=C3=A8te
+=C3=A0 bord du Costa Fortuna 4*.=09
+D=C3=A9couvrir
+
+=09=20
+DERNIERES MINUTES SOLEIL<br>PARTEZ JUSQU'=C3=80 -50%
+DERNIERES MINUTES SOLEIL
+PARTEZ JUSQU=E2=80=99=C3=80 -50%=09
+=C3=80 partir de=20=20=20
+339=E2=82=AC
+44 offres =C3=A0 saisir : Bal=C3=A9ares,
+Marrakech, Canaries, Antalya, ...=09
+D=C3=A9couvrir
+
+=09=20
+SEMAINE DE FOLIE !<br>COTTAGES JUSQU'=C3=80 -40%
+SEMAINE DE FOLIE !
+COTTAGES JUSQU=E2=80=99=C3=80 -40%=09
+=C3=80 partir de=20=20=20
+259=E2=82=AC
+Parc aquatique tropical =C3=A0 29=C2=B0
+toute l'ann=C3=A9e dans les domaines.=09
+D=C3=A9couvrir
+
+=09=20
+MEILLEURS PLANS DU MOMENT
+SOLOGNE AQUA MUNDO
+SOLOGNE AQUA MUNDO
+5j/4n en Cottage 64m=C2=B2	CenterParcs
+249=E2=82=AC au lieu de 419=E2=82=AC	D=C3=A9couvrir=20
+CANARIES PLAYABLANCA
+CANARIES PLAYABLANCA
+8j/7n en tout compris	Marmara
+489=E2=82=AC au lieu de 619=E2=82=AC	D=C3=A9couvrir=20
+MARRAKECH DAR ATLAS
+MARRAKECH DAR ATLAS
+8j/7n en tout compris	Marmara
+389=E2=82=AC au lieu de 579=E2=82=AC	D=C3=A9couvrir=20
+CANARIES THB TROPICAL
+CANARIES THB TROPICAL
+8j/7n en tout compris	Marmara
+439=E2=82=AC au lieu de 639=E2=82=AC	D=C3=A9couvrir=20
+DEEP NATURE SPA
+DEEP NATURE SPA
+3j/2n en chambre Premium	CenterParcs
+99=E2=82=AC au lieu de 149=E2=82=AC	D=C3=A9couvrir=20
+JARDINS D'AGADIR 4*
+JARDINS D=E2=80=99AGADIR 4*
+8j/7n en tout compris	Marmara
+419=E2=82=AC au lieu de 619=E2=82=AC	D=C3=A9couvrir=20
+LE BOIS AUX DAIMS
+LE BOIS AUX DAIMS
+3j/2n en Cottage 55m=C2=B2	CenterParcs
+179=E2=82=AC au lieu de 259=E2=82=AC	D=C3=A9couvrir=20
+MEXIQUE RIVIERA MAYA
+MEXIQUE RIVIERA MAYA
+8j/7n en tout inclus	Look Voyages
+999=E2=82=AC au lieu de 1513=E2=82=AC	D=C3=A9couvrir=20
+CROISIERE 5* REP DOM
+CROISIERE 5* REP DOM
+Costa Magica vol inclus	Promo Croisi=C3=A8re
+1196=E2=82=AC au lieu de 1449=E2=82=AC	D=C3=A9couvrir=20
+* Les prix affich=C3=A9s sur cette newsletter ont =C3=A9t=C3=A9 relev=C3=A9=
+s sur les sites internets mentionn=C3=A9s le 21/10/2015 =C3=A0 15h.=
+
+--==e25f1ea4c6b06c61bf7e87cb2ffb79fe
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" />
+	<title>Vacances r&eacute;ussies</title>
+</head>
+<body style=3D"background-color:#CECCC8;">
+<div style=3D"background-color:#CECCC8;">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+	<tbody>
+		<tr>
+			<td>
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"630">
+				<tbody>
+					<tr>
+						<td bgcolor=3D"#F6F6F6"><a href=3D"http://chauffagethermique.com/ga/c=
+lick/2-11527895-18-1027-1968-13685-4d4074e070-dbbb456c11" target=3D"_blank"=
+><img alt=3D"Vacances r=C3=A9ussies.com - Les meilleures offres pour voyage=
+r moins cher" border=3D"0" height=3D"146" src=3D"http://46.101.7.34/vacance=
+s/vr-231015/header.gif" style=3D"display:block;" width=3D"630" /></a></td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#FFFFFF"><img border=3D"0" height=3D"12" src=3D"http:/=
+/46.101.7.34/vacances/vr-231015/header_under.gif" style=3D"display:block;" =
+width=3D"630" /></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"12" cellspacing=3D"0=
+" width=3D"630">
+				<tbody>
+					<tr>
+						<td bgcolor=3D"#FFFFFF">
+						<table border=3D"0" cellpadding=3D"10" cellspacing=3D"0" width=3D"100=
+%">
+							<tbody>
+								<tr>
+									<td bgcolor=3D"#B1B3B4" style=3D"color:#FFFFFF; font-size:20px; fo=
+nt-family:Arial, Helvetica, sans-serif;"><strong>INFOS PROMOS DE LA SEMAINE=
+</strong></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- INFOS PROMOS -->
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"630">
+				<tbody>
+					<tr>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://cha=
+uffagethermique.com/ga/click/2-11527895-18-1027-1968-13686-0f0e4063c3-dbbb4=
+56c11" target=3D"_blank"><img alt=3D"VENTE FLASH JUSQU'=C3=80 -40%&lt;br&gt=
+;11 DESTINATIONS SOLEIL" border=3D"0" height=3D"160" src=3D"http://46.101.7=
+.34/vacances/vr-231015/IP1.jpg" style=3D"display:block;" width=3D"290" /> <=
+/a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://chauffagethermique.com/ga/click/2-11527895-18-1027-1968-13686-0f0e4=
+063c3-dbbb456c11" style=3D" color:#707173; text-decoration:none;" target=3D=
+"_blank">VENTE FLASH JUSQU&rsquo;&Agrave; -40%<br />
+												11 DESTINATIONS SOLEIL </a> </strong></td>
+												<td width=3D"82">
+												<table border=3D"0" cellpadding=3D"4" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://chauffagethermique.c=
+om/ga/click/2-11527895-18-1027-1968-13686-0f0e4063c3-dbbb456c11" style=3D" =
+color:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de =
+&nbsp; </a> </span><br />
+															<a href=3D"http://chauffagethermique.com/ga/click/2-11527895=
+-18-1027-1968-13686-0f0e4063c3-dbbb456c11" style=3D" color:#FFFFFF; text-de=
+coration:none;" target=3D"_blank"><strong style=3D"font-size:24px">349&euro=
+; </strong> </a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://chauffagethermique.com/ga/click/2-11527895-18-1027-1968-13686-0f=
+0e4063c3-dbbb456c11" style=3D"color:#707173; text-decoration:none;" target=
+=3D"_blank">Canaries, Rep Dom, Mexique,<br />
+												Cuba, Ile Maurice, Tha&iuml;lande, ... </a> </span></td>
+												<td align=3D"left" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"4" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#707173" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:12px"><a href=3D"http://chauffagethermique.=
+com/ga/click/2-11527895-18-1027-1968-13686-0f0e4063c3-dbbb456c11" style=3D"=
+color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&eacute;couvrir<br=
+ />
+															<img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vac=
+ances/vr-231015/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://chauffagethermique.com/ga/click/2-11527895-18-1027-1968-13686-0f=
+0e4063c3-dbbb456c11" target=3D"_blank"><img border=3D"0" height=3D"28" src=
+=3D"http://46.101.7.34/vacances/vr-231015/lookvoyages104x40.jpg" style=3D"d=
+isplay:block;" width=3D"78" /> </a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://cha=
+uffagethermique.com/ga/click/2-11527895-18-1027-1968-13687-83893753fc-dbbb4=
+56c11" target=3D"_blank"><img alt=3D"TARIF FLASH&lt;br&gt;CROISIERE ITALIE =
+ESPAGNE" border=3D"0" height=3D"160" src=3D"http://46.101.7.34/vacances/vr-=
+231015/IP2.jpg" style=3D"display:block;" width=3D"290" /> </a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://chauffagethermique.com/ga/click/2-11527895-18-1027-1968-13687-83893=
+753fc-dbbb456c11" style=3D" color:#707173; text-decoration:none;" target=3D=
+"_blank">TARIF FLASH<br />
+												CROISIERE ITALIE ESPAGNE </a> </strong></td>
+												<td width=3D"82">
+												<table border=3D"0" cellpadding=3D"4" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://chauffagethermique.c=
+om/ga/click/2-11527895-18-1027-1968-13687-83893753fc-dbbb456c11" style=3D" =
+color:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de =
+&nbsp; </a> </span><br />
+															<a href=3D"http://chauffagethermique.com/ga/click/2-11527895=
+-18-1027-1968-13687-83893753fc-dbbb456c11" style=3D" color:#FFFFFF; text-de=
+coration:none;" target=3D"_blank"><strong style=3D"font-size:24px">206&euro=
+; </strong> </a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://chauffagethermique.com/ga/click/2-11527895-18-1027-1968-13687-83=
+893753fc-dbbb456c11" style=3D"color:#707173; text-decoration:none;" target=
+=3D"_blank">6j/5n en pension compl&egrave;te<br />
+												&agrave; bord du Costa Fortuna 4*. </a> </span></td>
+												<td align=3D"left" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"4" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#707173" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:12px"><a href=3D"http://chauffagethermique.=
+com/ga/click/2-11527895-18-1027-1968-13687-83893753fc-dbbb456c11" style=3D"=
+color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&eacute;couvrir<br=
+ />
+															<img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vac=
+ances/vr-231015/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://chauffagethermique.com/ga/click/2-11527895-18-1027-1968-13687-83=
+893753fc-dbbb456c11" target=3D"_blank"><img border=3D"0" height=3D"28" src=
+=3D"http://46.101.7.34/vacances/vr-231015/AB_104x40.jpg" style=3D"display:b=
+lock;" width=3D"78" /> </a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"630">
+				<tbody>
+					<tr>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://cha=
+uffagethermique.com/ga/click/2-11527895-18-1027-1968-13688-0493d25976-dbbb4=
+56c11" target=3D"_blank"><img alt=3D"DERNIERES MINUTES SOLEIL&lt;br&gt;PART=
+EZ JUSQU'=C3=80 -50%" border=3D"0" height=3D"160" src=3D"http://46.101.7.34=
+/vacances/vr-231015/IP3.jpg" style=3D"display:block;" width=3D"290" /> </a>=
+</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://chauffagethermique.com/ga/click/2-11527895-18-1027-1968-13688-0493d=
+25976-dbbb456c11" style=3D" color:#707173; text-decoration:none;" target=3D=
+"_blank">DERNIERES MINUTES SOLEIL<br />
+												PARTEZ JUSQU&rsquo;&Agrave; -50% </a> </strong></td>
+												<td width=3D"82">
+												<table border=3D"0" cellpadding=3D"4" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://chauffagethermique.c=
+om/ga/click/2-11527895-18-1027-1968-13688-0493d25976-dbbb456c11" style=3D" =
+color:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de =
+&nbsp; </a> </span><br />
+															<a href=3D"http://chauffagethermique.com/ga/click/2-11527895=
+-18-1027-1968-13688-0493d25976-dbbb456c11" style=3D" color:#FFFFFF; text-de=
+coration:none;" target=3D"_blank"><strong style=3D"font-size:24px">339&euro=
+; </strong> </a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://chauffagethermique.com/ga/click/2-11527895-18-1027-1968-13688-04=
+93d25976-dbbb456c11" style=3D"color:#707173; text-decoration:none;" target=
+=3D"_blank">44 offres &agrave; saisir : Bal&eacute;ares,<br />
+												Marrakech, Canaries, Antalya, ... </a> </span></td>
+												<td align=3D"left" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"4" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#707173" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:12px"><a href=3D"http://chauffagethermique.=
+com/ga/click/2-11527895-18-1027-1968-13688-0493d25976-dbbb456c11" style=3D"=
+color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&eacute;couvrir<br=
+ />
+															<img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vac=
+ances/vr-231015/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://chauffagethermique.com/ga/click/2-11527895-18-1027-1968-13688-04=
+93d25976-dbbb456c11" target=3D"_blank"><img border=3D"0" height=3D"28" src=
+=3D"http://46.101.7.34/vacances/vr-231015/marmara104x40.jpg" style=3D"displ=
+ay:block;" width=3D"78" /> </a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://cha=
+uffagethermique.com/ga/click/2-11527895-18-1027-1968-13689-b27ec63ad7-dbbb4=
+56c11" target=3D"_blank"><img alt=3D"SEMAINE DE FOLIE !&lt;br&gt;COTTAGES J=
+USQU'=C3=80 -40%" border=3D"0" height=3D"160" src=3D"http://46.101.7.34/vac=
+ances/vr-231015/IP4.jpg" style=3D"display:block;" width=3D"290" /> </a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://chauffagethermique.com/ga/click/2-11527895-18-1027-1968-13689-b27ec=
+63ad7-dbbb456c11" style=3D" color:#707173; text-decoration:none;" target=3D=
+"_blank">SEMAINE DE FOLIE !<br />
+												COTTAGES JUSQU&rsquo;&Agrave; -40% </a> </strong></td>
+												<td width=3D"82">
+												<table border=3D"0" cellpadding=3D"4" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://chauffagethermique.c=
+om/ga/click/2-11527895-18-1027-1968-13689-b27ec63ad7-dbbb456c11" style=3D" =
+color:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de =
+&nbsp; </a> </span><br />
+															<a href=3D"http://chauffagethermique.com/ga/click/2-11527895=
+-18-1027-1968-13689-b27ec63ad7-dbbb456c11" style=3D" color:#FFFFFF; text-de=
+coration:none;" target=3D"_blank"><strong style=3D"font-size:24px">259&euro=
+; </strong> </a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://chauffagethermique.com/ga/click/2-11527895-18-1027-1968-13689-b2=
+7ec63ad7-dbbb456c11" style=3D"color:#707173; text-decoration:none;" target=
+=3D"_blank">Parc aquatique tropical &agrave; 29&deg;<br />
+												toute l&#39;ann&eacute;e dans les domaines. </a> </span></td>
+												<td align=3D"left" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"4" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#707173" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:12px"><a href=3D"http://chauffagethermique.=
+com/ga/click/2-11527895-18-1027-1968-13689-b27ec63ad7-dbbb456c11" style=3D"=
+color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&eacute;couvrir<br=
+ />
+															<img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vac=
+ances/vr-231015/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://chauffagethermique.com/ga/click/2-11527895-18-1027-1968-13689-b2=
+7ec63ad7-dbbb456c11" target=3D"_blank"><img border=3D"0" height=3D"28" src=
+=3D"http://46.101.7.34/vacances/vr-231015/logo_centerparcs.jpg" style=3D"di=
+splay:block;" width=3D"78" /> </a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- MEILLEURS PLANS DU MOMENT -->
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"12" cellspacing=3D"0=
+" width=3D"630">
+				<tbody>
+					<tr>
+						<td bgcolor=3D"#FFFFFF">
+						<table border=3D"0" cellpadding=3D"10" cellspacing=3D"0" width=3D"100=
+%">
+							<tbody>
+								<tr>
+									<td bgcolor=3D"#B1B3B4" style=3D"color:#FFFFFF; font-size:20px; fo=
+nt-family:Arial, Helvetica, sans-serif;"><strong>MEILLEURS PLANS DU MOMENT<=
+/strong></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"6" cellspacing=3D"0"=
+ width=3D"630">
+				<tbody>
+					<tr>
+						<td bgcolor=3D"#FFFFFF">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"618">
+							<tbody>
+								<tr>
+									<td align=3D"left" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"6" width=3D"2=
+06">
+										<tbody>
+											<tr>
+												<td><a href=3D"http://chauffagethermique.com/ga/click/2-1152789=
+5-18-1027-1968-13690-0403907053-dbbb456c11" target=3D"_blank"><img alt=3D"S=
+OLOGNE AQUA MUNDO" border=3D"0" height=3D"100" src=3D"http://46.101.7.34/va=
+cances/vr-231015/MP1.jpg" style=3D"display:block;" width=3D"194" /></a></td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td style=3D"font-family:Arial, Helvetica, sans-serif; font-=
+size:11px; color:#707173;"><strong><a href=3D"http://chauffagethermique.com=
+/ga/click/2-11527895-18-1027-1968-13690-0403907053-dbbb456c11" style=3D" co=
+lor:#707173; text-decoration:none;" target=3D"_blank">SOLOGNE AQUA MUNDO</a=
+></strong><br />
+															<a href=3D"http://chauffagethermique.com/ga/click/2-11527895=
+-18-1027-1968-13690-0403907053-dbbb456c11" style=3D"color:#707173; text-dec=
+oration:none;" target=3D"_blank">5j/4n en Cottage 64m&sup2;</a></td>
+															<td align=3D"right" valign=3D"middle" width=3D"48"><span sty=
+le=3D"font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#7071=
+73;"><a href=3D"http://chauffagethermique.com/ga/click/2-11527895-18-1027-1=
+968-13690-0403907053-dbbb456c11" target=3D"_blank"><img alt=3D"CenterParcs"=
+ border=3D"0" height=3D"18" src=3D"http://46.101.7.34/vacances/vr-231015/lo=
+go_centerparcs.jpg" style=3D"display:block;" width=3D"48" /> </a> </span></=
+td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"2" cellspacing=3D"0" width=
+=3D"194">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#FF9900" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#707173;" valign=3D"t=
+op" width=3D"131"><span style=3D"font-family:Arial, Helvetica, sans-serif; =
+font-size:16px; color:#FFFFFF;"><strong><a href=3D"http://chauffagethermiqu=
+e.com/ga/click/2-11527895-18-1027-1968-13690-0403907053-dbbb456c11" style=
+=3D"color:#FFFFFF; text-decoration:none;" target=3D"_blank">249&euro;</a></=
+strong><a href=3D"http://chauffagethermique.com/ga/click/2-11527895-18-1027=
+-1968-13690-0403907053-dbbb456c11" style=3D" color:#FFFFFF; text-decoration=
+:none;"><span style=3D"font-size:8px;" target=3D"_blank">&nbsp;au lieu de&n=
+bsp;</span><span style=3D"font-size:10px;">419&euro;</span></a> </span></td>
+															<td align=3D"center" bgcolor=3D"#707173" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle" width=3D"55"><span style=3D"font-size:10px"><a href=3D"http://chauff=
+agethermique.com/ga/click/2-11527895-18-1027-1968-13690-0403907053-dbbb456c=
+11" style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&eac=
+ute;couvrir&nbsp;<img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/v=
+acances/vr-231015/fleche.gif" width=3D"6" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"left" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"6" width=3D"2=
+06">
+										<tbody>
+											<tr>
+												<td><a href=3D"http://chauffagethermique.com/ga/click/2-1152789=
+5-18-1027-1968-13691-145a7d0fcf-dbbb456c11" target=3D"_blank"><img alt=3D"C=
+ANARIES PLAYABLANCA" border=3D"0" height=3D"100" src=3D"http://46.101.7.34/=
+vacances/vr-231015/MP2.jpg" style=3D"display:block;" width=3D"194" /></a></=
+td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td style=3D"font-family:Arial, Helvetica, sans-serif; font-=
+size:11px; color:#707173;"><strong><a href=3D"http://chauffagethermique.com=
+/ga/click/2-11527895-18-1027-1968-13691-145a7d0fcf-dbbb456c11" style=3D" co=
+lor:#707173; text-decoration:none;" target=3D"_blank">CANARIES PLAYABLANCA<=
+/a></strong><br />
+															<a href=3D"http://chauffagethermique.com/ga/click/2-11527895=
+-18-1027-1968-13691-145a7d0fcf-dbbb456c11" style=3D"color:#707173; text-dec=
+oration:none;" target=3D"_blank">8j/7n en tout compris</a></td>
+															<td align=3D"right" valign=3D"middle" width=3D"48"><span sty=
+le=3D"font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#7071=
+73;"><a href=3D"http://chauffagethermique.com/ga/click/2-11527895-18-1027-1=
+968-13691-145a7d0fcf-dbbb456c11" target=3D"_blank"><img alt=3D"Marmara" bor=
+der=3D"0" height=3D"18" src=3D"http://46.101.7.34/vacances/vr-231015/marmar=
+a104x40.jpg" style=3D"display:block;" width=3D"48" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"2" cellspacing=3D"0" width=
+=3D"194">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#FF9900" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#707173;" valign=3D"t=
+op" width=3D"131"><span style=3D"font-family:Arial, Helvetica, sans-serif; =
+font-size:16px; color:#FFFFFF;"><strong><a href=3D"http://chauffagethermiqu=
+e.com/ga/click/2-11527895-18-1027-1968-13691-145a7d0fcf-dbbb456c11" style=
+=3D"color:#FFFFFF; text-decoration:none;" target=3D"_blank">489&euro;</a></=
+strong><a href=3D"http://chauffagethermique.com/ga/click/2-11527895-18-1027=
+-1968-13691-145a7d0fcf-dbbb456c11" style=3D" color:#FFFFFF; text-decoration=
+:none;"><span style=3D"font-size:8px;" target=3D"_blank">&nbsp;au lieu de&n=
+bsp;</span><span style=3D"font-size:10px;">619&euro;</span></a> </span></td>
+															<td align=3D"center" bgcolor=3D"#707173" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle" width=3D"55"><span style=3D"font-size:10px"><a href=3D"http://chauff=
+agethermique.com/ga/click/2-11527895-18-1027-1968-13691-145a7d0fcf-dbbb456c=
+11" style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&eac=
+ute;couvrir&nbsp;<img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/v=
+acances/vr-231015/fleche.gif" width=3D"6" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"left" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"6" width=3D"2=
+06">
+										<tbody>
+											<tr>
+												<td><a href=3D"http://chauffagethermique.com/ga/click/2-1152789=
+5-18-1027-1968-13692-7b09dfef40-dbbb456c11" target=3D"_blank"><img alt=3D"M=
+ARRAKECH DAR ATLAS" border=3D"0" height=3D"100" src=3D"http://46.101.7.34/v=
+acances/vr-231015/MP3.jpg" style=3D"display:block;" width=3D"194" /></a></t=
+d>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td style=3D"font-family:Arial, Helvetica, sans-serif; font-=
+size:11px; color:#707173;"><strong><a href=3D"http://chauffagethermique.com=
+/ga/click/2-11527895-18-1027-1968-13692-7b09dfef40-dbbb456c11" style=3D" co=
+lor:#707173; text-decoration:none;" target=3D"_blank">MARRAKECH DAR ATLAS</=
+a></strong><br />
+															<a href=3D"http://chauffagethermique.com/ga/click/2-11527895=
+-18-1027-1968-13692-7b09dfef40-dbbb456c11" style=3D"color:#707173; text-dec=
+oration:none;" target=3D"_blank">8j/7n en tout compris</a></td>
+															<td align=3D"right" valign=3D"middle" width=3D"48"><span sty=
+le=3D"font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#7071=
+73;"><a href=3D"http://chauffagethermique.com/ga/click/2-11527895-18-1027-1=
+968-13692-7b09dfef40-dbbb456c11" target=3D"_blank"><img alt=3D"Marmara" bor=
+der=3D"0" height=3D"18" src=3D"http://46.101.7.34/vacances/vr-231015/marmar=
+a104x40.jpg" style=3D"display:block;" width=3D"48" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"2" cellspacing=3D"0" width=
+=3D"194">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#FF9900" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#707173;" valign=3D"t=
+op" width=3D"131"><span style=3D"font-family:Arial, Helvetica, sans-serif; =
+font-size:16px; color:#FFFFFF;"><strong><a href=3D"http://chauffagethermiqu=
+e.com/ga/click/2-11527895-18-1027-1968-13692-7b09dfef40-dbbb456c11" style=
+=3D"color:#FFFFFF; text-decoration:none;" target=3D"_blank">389&euro;</a></=
+strong><a href=3D"http://chauffagethermique.com/ga/click/2-11527895-18-1027=
+-1968-13692-7b09dfef40-dbbb456c11" style=3D" color:#FFFFFF; text-decoration=
+:none;"><span style=3D"font-size:8px;" target=3D"_blank">&nbsp;au lieu de&n=
+bsp;</span><span style=3D"font-size:10px;">579&euro;</span></a> </span></td>
+															<td align=3D"center" bgcolor=3D"#707173" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle" width=3D"55"><span style=3D"font-size:10px"><a href=3D"http://chauff=
+agethermique.com/ga/click/2-11527895-18-1027-1968-13692-7b09dfef40-dbbb456c=
+11" style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&eac=
+ute;couvrir&nbsp;<img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/v=
+acances/vr-231015/fleche.gif" width=3D"6" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"6" cellspacing=3D"0"=
+ width=3D"630">
+				<tbody>
+					<tr>
+						<td bgcolor=3D"#FFFFFF">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"618">
+							<tbody>
+								<tr>
+									<td align=3D"left" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"6" width=3D"2=
+06">
+										<tbody>
+											<tr>
+												<td><a href=3D"http://chauffagethermique.com/ga/click/2-1152789=
+5-18-1027-1968-13693-26c00191b1-dbbb456c11" target=3D"_blank"><img alt=3D"C=
+ANARIES THB TROPICAL" border=3D"0" height=3D"100" src=3D"http://46.101.7.34=
+/vacances/vr-231015/MP4.jpg" style=3D"display:block;" width=3D"194" /></a><=
+/td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td style=3D"font-family:Arial, Helvetica, sans-serif; font-=
+size:11px; color:#707173;"><strong><a href=3D"http://chauffagethermique.com=
+/ga/click/2-11527895-18-1027-1968-13693-26c00191b1-dbbb456c11" style=3D" co=
+lor:#707173; text-decoration:none;" target=3D"_blank">CANARIES THB TROPICAL=
+</a></strong><br />
+															<a href=3D"http://chauffagethermique.com/ga/click/2-11527895=
+-18-1027-1968-13693-26c00191b1-dbbb456c11" style=3D"color:#707173; text-dec=
+oration:none;" target=3D"_blank">8j/7n en tout compris</a></td>
+															<td align=3D"right" valign=3D"middle" width=3D"48"><span sty=
+le=3D"font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#7071=
+73;"><a href=3D"http://chauffagethermique.com/ga/click/2-11527895-18-1027-1=
+968-13693-26c00191b1-dbbb456c11" target=3D"_blank"><img alt=3D"Marmara" bor=
+der=3D"0" height=3D"18" src=3D"http://46.101.7.34/vacances/vr-231015/marmar=
+a104x40.jpg" style=3D"display:block;" width=3D"48" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"2" cellspacing=3D"0" width=
+=3D"194">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#FF9900" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#707173;" valign=3D"t=
+op" width=3D"131"><span style=3D"font-family:Arial, Helvetica, sans-serif; =
+font-size:16px; color:#FFFFFF;"><strong><a href=3D"http://chauffagethermiqu=
+e.com/ga/click/2-11527895-18-1027-1968-13693-26c00191b1-dbbb456c11" style=
+=3D"color:#FFFFFF; text-decoration:none;" target=3D"_blank">439&euro;</a></=
+strong><a href=3D"http://chauffagethermique.com/ga/click/2-11527895-18-1027=
+-1968-13693-26c00191b1-dbbb456c11" style=3D" color:#FFFFFF; text-decoration=
+:none;"><span style=3D"font-size:8px;" target=3D"_blank">&nbsp;au lieu de&n=
+bsp;</span><span style=3D"font-size:10px;">639&euro;</span></a> </span></td>
+															<td align=3D"center" bgcolor=3D"#707173" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle" width=3D"55"><span style=3D"font-size:10px"><a href=3D"http://chauff=
+agethermique.com/ga/click/2-11527895-18-1027-1968-13693-26c00191b1-dbbb456c=
+11" style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&eac=
+ute;couvrir&nbsp;<img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/v=
+acances/vr-231015/fleche.gif" width=3D"6" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"left" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"6" width=3D"2=
+06">
+										<tbody>
+											<tr>
+												<td><a href=3D"http://chauffagethermique.com/ga/click/2-1152789=
+5-18-1027-1968-13694-e61221e314-dbbb456c11" target=3D"_blank"><img alt=3D"D=
+EEP NATURE SPA" border=3D"0" height=3D"100" src=3D"http://46.101.7.34/vacan=
+ces/vr-231015/MP5.jpg" style=3D"display:block;" width=3D"194" /></a></td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td style=3D"font-family:Arial, Helvetica, sans-serif; font-=
+size:11px; color:#707173;"><strong><a href=3D"http://chauffagethermique.com=
+/ga/click/2-11527895-18-1027-1968-13694-e61221e314-dbbb456c11" style=3D" co=
+lor:#707173; text-decoration:none;" target=3D"_blank">DEEP NATURE SPA</a></=
+strong><br />
+															<a href=3D"http://chauffagethermique.com/ga/click/2-11527895=
+-18-1027-1968-13694-e61221e314-dbbb456c11" style=3D"color:#707173; text-dec=
+oration:none;" target=3D"_blank">3j/2n en chambre Premium</a></td>
+															<td align=3D"right" valign=3D"middle" width=3D"48"><span sty=
+le=3D"font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#7071=
+73;"><a href=3D"http://chauffagethermique.com/ga/click/2-11527895-18-1027-1=
+968-13694-e61221e314-dbbb456c11" target=3D"_blank"><img alt=3D"CenterParcs"=
+ border=3D"0" height=3D"18" src=3D"http://46.101.7.34/vacances/vr-231015/lo=
+go_centerparcs.jpg" style=3D"display:block;" width=3D"48" /> </a> </span></=
+td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"2" cellspacing=3D"0" width=
+=3D"194">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#FF9900" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#707173;" valign=3D"t=
+op" width=3D"131"><span style=3D"font-family:Arial, Helvetica, sans-serif; =
+font-size:16px; color:#FFFFFF;"><strong><a href=3D"http://chauffagethermiqu=
+e.com/ga/click/2-11527895-18-1027-1968-13694-e61221e314-dbbb456c11" style=
+=3D"color:#FFFFFF; text-decoration:none;" target=3D"_blank">99&euro;</a></s=
+trong><a href=3D"http://chauffagethermique.com/ga/click/2-11527895-18-1027-=
+1968-13694-e61221e314-dbbb456c11" style=3D" color:#FFFFFF; text-decoration:=
+none;"><span style=3D"font-size:8px;" target=3D"_blank">&nbsp;au lieu de&nb=
+sp;</span><span style=3D"font-size:10px;">149&euro;</span></a> </span></td>
+															<td align=3D"center" bgcolor=3D"#707173" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle" width=3D"55"><span style=3D"font-size:10px"><a href=3D"http://chauff=
+agethermique.com/ga/click/2-11527895-18-1027-1968-13694-e61221e314-dbbb456c=
+11" style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&eac=
+ute;couvrir&nbsp;<img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/v=
+acances/vr-231015/fleche.gif" width=3D"6" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"left" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"6" width=3D"2=
+06">
+										<tbody>
+											<tr>
+												<td><a href=3D"http://chauffagethermique.com/ga/click/2-1152789=
+5-18-1027-1968-13695-f123b5b2c7-dbbb456c11" target=3D"_blank"><img alt=3D"J=
+ARDINS D'AGADIR 4*" border=3D"0" height=3D"100" src=3D"http://46.101.7.34/v=
+acances/vr-231015/MP6.jpg" style=3D"display:block;" width=3D"194" /></a></t=
+d>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td style=3D"font-family:Arial, Helvetica, sans-serif; font-=
+size:11px; color:#707173;"><strong><a href=3D"http://chauffagethermique.com=
+/ga/click/2-11527895-18-1027-1968-13695-f123b5b2c7-dbbb456c11" style=3D" co=
+lor:#707173; text-decoration:none;" target=3D"_blank">JARDINS D&rsquo;AGADI=
+R 4*</a></strong><br />
+															<a href=3D"http://chauffagethermique.com/ga/click/2-11527895=
+-18-1027-1968-13695-f123b5b2c7-dbbb456c11" style=3D"color:#707173; text-dec=
+oration:none;" target=3D"_blank">8j/7n en tout compris</a></td>
+															<td align=3D"right" valign=3D"middle" width=3D"48"><span sty=
+le=3D"font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#7071=
+73;"><a href=3D"http://chauffagethermique.com/ga/click/2-11527895-18-1027-1=
+968-13695-f123b5b2c7-dbbb456c11" target=3D"_blank"><img alt=3D"Marmara" bor=
+der=3D"0" height=3D"18" src=3D"http://46.101.7.34/vacances/vr-231015/marmar=
+a104x40.jpg" style=3D"display:block;" width=3D"48" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"2" cellspacing=3D"0" width=
+=3D"194">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#FF9900" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#707173;" valign=3D"t=
+op" width=3D"131"><span style=3D"font-family:Arial, Helvetica, sans-serif; =
+font-size:16px; color:#FFFFFF;"><strong><a href=3D"http://chauffagethermiqu=
+e.com/ga/click/2-11527895-18-1027-1968-13695-f123b5b2c7-dbbb456c11" style=
+=3D"color:#FFFFFF; text-decoration:none;" target=3D"_blank">419&euro;</a></=
+strong><a href=3D"http://chauffagethermique.com/ga/click/2-11527895-18-1027=
+-1968-13695-f123b5b2c7-dbbb456c11" style=3D" color:#FFFFFF; text-decoration=
+:none;"><span style=3D"font-size:8px;" target=3D"_blank">&nbsp;au lieu de&n=
+bsp;</span><span style=3D"font-size:10px;">619&euro;</span></a> </span></td>
+															<td align=3D"center" bgcolor=3D"#707173" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle" width=3D"55"><span style=3D"font-size:10px"><a href=3D"http://chauff=
+agethermique.com/ga/click/2-11527895-18-1027-1968-13695-f123b5b2c7-dbbb456c=
+11" style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&eac=
+ute;couvrir&nbsp;<img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/v=
+acances/vr-231015/fleche.gif" width=3D"6" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"6" cellspacing=3D"0"=
+ width=3D"630">
+				<tbody>
+					<tr>
+						<td bgcolor=3D"#FFFFFF">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"618">
+							<tbody>
+								<tr>
+									<td align=3D"left" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"6" width=3D"2=
+06">
+										<tbody>
+											<tr>
+												<td><a href=3D"http://chauffagethermique.com/ga/click/2-1152789=
+5-18-1027-1968-13696-f47b8faffa-dbbb456c11" target=3D"_blank"><img alt=3D"L=
+E BOIS AUX DAIMS" border=3D"0" height=3D"100" src=3D"http://46.101.7.34/vac=
+ances/vr-231015/MP9.jpg" style=3D"display:block;" width=3D"194" /></a></td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td style=3D"font-family:Arial, Helvetica, sans-serif; font-=
+size:11px; color:#707173;"><strong><a href=3D"http://chauffagethermique.com=
+/ga/click/2-11527895-18-1027-1968-13696-f47b8faffa-dbbb456c11" style=3D" co=
+lor:#707173; text-decoration:none;" target=3D"_blank">LE BOIS AUX DAIMS</a>=
+</strong><br />
+															<a href=3D"http://chauffagethermique.com/ga/click/2-11527895=
+-18-1027-1968-13696-f47b8faffa-dbbb456c11" style=3D"color:#707173; text-dec=
+oration:none;" target=3D"_blank">3j/2n en Cottage 55m&sup2;</a></td>
+															<td align=3D"right" valign=3D"middle" width=3D"48"><span sty=
+le=3D"font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#7071=
+73;"><a href=3D"http://chauffagethermique.com/ga/click/2-11527895-18-1027-1=
+968-13696-f47b8faffa-dbbb456c11" target=3D"_blank"><img alt=3D"CenterParcs"=
+ border=3D"0" height=3D"18" src=3D"http://46.101.7.34/vacances/vr-231015/lo=
+go_centerparcs.jpg" style=3D"display:block;" width=3D"48" /> </a> </span></=
+td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"2" cellspacing=3D"0" width=
+=3D"194">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#FF9900" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#707173;" valign=3D"t=
+op" width=3D"131"><span style=3D"font-family:Arial, Helvetica, sans-serif; =
+font-size:16px; color:#FFFFFF;"><strong><a href=3D"http://chauffagethermiqu=
+e.com/ga/click/2-11527895-18-1027-1968-13696-f47b8faffa-dbbb456c11" style=
+=3D"color:#FFFFFF; text-decoration:none;" target=3D"_blank">179&euro;</a></=
+strong><a href=3D"http://chauffagethermique.com/ga/click/2-11527895-18-1027=
+-1968-13696-f47b8faffa-dbbb456c11" style=3D" color:#FFFFFF; text-decoration=
+:none;"><span style=3D"font-size:8px;" target=3D"_blank">&nbsp;au lieu de&n=
+bsp;</span><span style=3D"font-size:10px;">259&euro;</span></a> </span></td>
+															<td align=3D"center" bgcolor=3D"#707173" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle" width=3D"55"><span style=3D"font-size:10px"><a href=3D"http://chauff=
+agethermique.com/ga/click/2-11527895-18-1027-1968-13696-f47b8faffa-dbbb456c=
+11" style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&eac=
+ute;couvrir&nbsp;<img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/v=
+acances/vr-231015/fleche.gif" width=3D"6" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"left" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"6" width=3D"2=
+06">
+										<tbody>
+											<tr>
+												<td><a href=3D"http://chauffagethermique.com/ga/click/2-1152789=
+5-18-1027-1968-13697-998e23917d-dbbb456c11" target=3D"_blank"><img alt=3D"M=
+EXIQUE RIVIERA MAYA" border=3D"0" height=3D"100" src=3D"http://46.101.7.34/=
+vacances/vr-231015/MP8.jpg" style=3D"display:block;" width=3D"194" /></a></=
+td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td style=3D"font-family:Arial, Helvetica, sans-serif; font-=
+size:11px; color:#707173;"><strong><a href=3D"http://chauffagethermique.com=
+/ga/click/2-11527895-18-1027-1968-13697-998e23917d-dbbb456c11" style=3D" co=
+lor:#707173; text-decoration:none;" target=3D"_blank">MEXIQUE RIVIERA MAYA<=
+/a></strong><br />
+															<a href=3D"http://chauffagethermique.com/ga/click/2-11527895=
+-18-1027-1968-13697-998e23917d-dbbb456c11" style=3D"color:#707173; text-dec=
+oration:none;" target=3D"_blank">8j/7n en tout inclus</a></td>
+															<td align=3D"right" valign=3D"middle" width=3D"48"><span sty=
+le=3D"font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#7071=
+73;"><a href=3D"http://chauffagethermique.com/ga/click/2-11527895-18-1027-1=
+968-13697-998e23917d-dbbb456c11" target=3D"_blank"><img alt=3D"Look Voyages=
+" border=3D"0" height=3D"18" src=3D"http://46.101.7.34/vacances/vr-231015/l=
+ookvoyages104x40.jpg" style=3D"display:block;" width=3D"48" /> </a> </span>=
+</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"2" cellspacing=3D"0" width=
+=3D"194">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#FF9900" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#707173;" valign=3D"t=
+op" width=3D"131"><span style=3D"font-family:Arial, Helvetica, sans-serif; =
+font-size:16px; color:#FFFFFF;"><strong><a href=3D"http://chauffagethermiqu=
+e.com/ga/click/2-11527895-18-1027-1968-13697-998e23917d-dbbb456c11" style=
+=3D"color:#FFFFFF; text-decoration:none;" target=3D"_blank">999&euro;</a></=
+strong><a href=3D"http://chauffagethermique.com/ga/click/2-11527895-18-1027=
+-1968-13697-998e23917d-dbbb456c11" style=3D" color:#FFFFFF; text-decoration=
+:none;"><span style=3D"font-size:8px;" target=3D"_blank">&nbsp;au lieu de&n=
+bsp;</span><span style=3D"font-size:10px;">1513&euro;</span></a> </span></t=
+d>
+															<td align=3D"center" bgcolor=3D"#707173" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle" width=3D"55"><span style=3D"font-size:10px"><a href=3D"http://chauff=
+agethermique.com/ga/click/2-11527895-18-1027-1968-13697-998e23917d-dbbb456c=
+11" style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&eac=
+ute;couvrir&nbsp;<img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/v=
+acances/vr-231015/fleche.gif" width=3D"6" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"left" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"6" width=3D"2=
+06">
+										<tbody>
+											<tr>
+												<td><a href=3D"http://chauffagethermique.com/ga/click/2-1152789=
+5-18-1027-1968-13698-c543fce542-dbbb456c11" target=3D"_blank"><img alt=3D"C=
+ROISIERE 5* REP DOM" border=3D"0" height=3D"100" src=3D"http://46.101.7.34/=
+vacances/vr-231015/MP7.jpg" style=3D"display:block;" width=3D"194" /></a></=
+td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+													<tbody>
+														<tr>
+															<td style=3D"font-family:Arial, Helvetica, sans-serif; font-=
+size:11px; color:#707173;"><strong><a href=3D"http://chauffagethermique.com=
+/ga/click/2-11527895-18-1027-1968-13698-c543fce542-dbbb456c11" style=3D" co=
+lor:#707173; text-decoration:none;" target=3D"_blank">CROISIERE 5* REP DOM<=
+/a></strong><br />
+															<a href=3D"http://chauffagethermique.com/ga/click/2-11527895=
+-18-1027-1968-13698-c543fce542-dbbb456c11" style=3D"color:#707173; text-dec=
+oration:none;" target=3D"_blank">Costa Magica vol inclus</a></td>
+															<td align=3D"right" valign=3D"middle" width=3D"48"><span sty=
+le=3D"font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#7071=
+73;"><a href=3D"http://chauffagethermique.com/ga/click/2-11527895-18-1027-1=
+968-13698-c543fce542-dbbb456c11" target=3D"_blank"><img alt=3D"Promo Croisi=
+=C3=A8re" border=3D"0" height=3D"18" src=3D"http://46.101.7.34/vacances/vr-=
+231015/promocroisiere104x40.jpg" style=3D"display:block;" width=3D"48" /> <=
+/a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+												<table border=3D"0" cellpadding=3D"2" cellspacing=3D"0" width=
+=3D"194">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#FF9900" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#707173;" valign=3D"t=
+op" width=3D"131"><span style=3D"font-family:Arial, Helvetica, sans-serif; =
+font-size:16px; color:#FFFFFF;"><strong><a href=3D"http://chauffagethermiqu=
+e.com/ga/click/2-11527895-18-1027-1968-13698-c543fce542-dbbb456c11" style=
+=3D"color:#FFFFFF; text-decoration:none;" target=3D"_blank">1196&euro;</a><=
+/strong><a href=3D"http://chauffagethermique.com/ga/click/2-11527895-18-102=
+7-1968-13698-c543fce542-dbbb456c11" style=3D" color:#FFFFFF; text-decoratio=
+n:none;"><span style=3D"font-size:8px;" target=3D"_blank">&nbsp;au lieu de&=
+nbsp;</span><span style=3D"font-size:10px;">1449&euro;</span></a> </span></=
+td>
+															<td align=3D"center" bgcolor=3D"#707173" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle" width=3D"55"><span style=3D"font-size:10px"><a href=3D"http://chauff=
+agethermique.com/ga/click/2-11527895-18-1027-1968-13698-c543fce542-dbbb456c=
+11" style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&eac=
+ute;couvrir&nbsp;<img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/v=
+acances/vr-231015/fleche.gif" width=3D"6" /> </a> </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"12" cellspacing=3D"0=
+" width=3D"630">
+				<tbody>
+					<tr>
+						<td align=3D"center" style=3D"color:#44443E; font-size:10px;-webkit-t=
+ext-size-adjust:none; font-family:Arial, Helvetica, sans-serif">* Les prix =
+affich&eacute;s sur cette newsletter ont &eacute;t&eacute; relev&eacute;s s=
+ur les sites internets mentionn&eacute;s le 21/10/2015 &agrave; 15h.</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<center><a href=3D"http://chauffagethermique.com/ga/unsubscribe/2-11527895-=
+18-1027-1968-ed35df89ef15825-dbbb456c11">Je souhaite me d=C3=A9sinscrire et=
+ ne plus recevoir les newsletters</a>
+</center><img src=3D"http://chauffagethermique.com/ga/open/2-11527895-18-10=
+27-1968-dbbb456c11" height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==e25f1ea4c6b06c61bf7e87cb2ffb79fe--

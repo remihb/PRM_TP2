@@ -1,0 +1,774 @@
+Return-Path: <return-a5-6364-6366-resp-m2-miage=univ-rennes1.fr=4@lagazette-du-jour.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Tue, 09 Feb 2016 18:21:03 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id BA44626A0CE5
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  9 Feb 2016 18:21:03 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id B3FEA60183
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  9 Feb 2016 18:21:03 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id N6Q_1J7JV9jE for <resp-m2-miage@univ-rennes1.fr>;
+	Tue,  9 Feb 2016 18:21:03 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 87A366003E
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  9 Feb 2016 18:21:03 +0100 (CET)
+Received: from mxb2-1.relay.renater.fr (mxb2-1.relay.renater.fr [194.214.200.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 6FFE520033
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  9 Feb 2016 18:21:03 +0100 (CET)
+Received: from smtp1-3.gazette-du-jour.com (smtp1-3.gazette-du-jour.com [5.135.22.138])
+	by mxb2-1.relay.renater.fr (asm) with SMTP id 27A796001D0
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  9 Feb 2016 18:21:03 +0100 (CET)
+Received: (GreenArrow 7084 invoked by uid 410); 9 Feb 2016 17:21:03 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=lagazette-du-jour.com; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=hm9z3x
+	+JyvyEoeCd8bxH+fxfwl4=; b=E91jUsApxku1BCIb6wD63p9Pcz9+w90vPmBGX0
+	NZtAK7zAuG38CC7LMtfrA6d7bfZejI8fBs99t4ts/UvmqhayaUTcyWd7bolGv8EY
+	xWUSWkNxBDY6wjA9XrSThU9vKLMPsIaNZgtuURfdj+9P76NT658eGolIsrwH9vDr
+	mzHeQ=
+Subject: =?UTF-8?Q?Guyancourt=20=3A=20d=C3=A9couvrez=20nos=20remise?=
+ =?UTF-8?Q?s=20sur=20les=20derniers=20appartements=20neufs?=
+From: "Eiffage immobilier par Sociabiliweb" <news@lagazette-du-jour.com>
+To: resp-m2-miage@univ-rennes1.fr
+Date: 09 Feb 2016 17:21:03 -0000
+List-Unsubscribe: <http://lagazette-du-jour.com/ga/unsubscribe/2-23408395-5-3309-6366-114eca03668ab6f-b6e6347a3f>,
+ <mailto:return-a5-6364-6366-resp-m2-miage=univ-rennes1.fr=4u@lagazette-du-jour.com>
+X-Mailer: GreenArrow Studio (v4.65.0)
+X-CampaignID: s4:6364-fee785fe436ebe72
+Message-ID: <mid-8ab21431e997b1ee55848f02a6ef7e35@lagazette-du-jour.com>
+X-Mailer-Info: 4.EWN.gNzYDN.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.gNzYjN
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==d64789e5f5df3db6b72423f8b93619ac"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 5.135.22.138
+X-Bizanga: IMP - mxb2-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekjedrfedtgddutddtucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepuffhvfffjffokfggtgesrgdtreerredtjeenucfhrhhomhepfdfgihhffhgrghgvuchimhhmohgsihhlihgvrhcuphgrrhcuufhotghirggsihhlihifvggsfdcuoehnvgifsheslhgrghgriigvthhtvgdqughuqdhjohhurhdrtghomheqnecuffhomhgrihhnpehlrghgrgiivghtthgvqdguuhdqjhhouhhrrdgtohhmnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehsmhhtphduqdefrdhgrgiivghtthgvqdguuhdqjhhouhhrrdgtohhmpdhinhgvthephedrudefhedrvddvrddufeekpdhmrghilhhfrhhomheprhgvthhurhhnqdgrhedqieefieegqdeifeeiiedqrhgvshhpqdhmvddqmhhirghgvgepuhhnihhvqdhrvghnnhgvshdurdhfrhepgeeslhgrghgriigvthhtvgdqughuqdhjohhurhdrtghomhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb2-1.relay.renater.fr
+
+This is a multi-part message in MIME format.
+
+--==d64789e5f5df3db6b72423f8b93619ac
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<a href=3D"http://lagazette-du-jour.com/ga/webviews/4-23408395-5-3309-3288-=
+6366-12ff3d9997">Visualiser la version en ligne</a>
+
+Eiffage Immobilier ( http://lagazette-du-jour.com/ga/click/2-23408395-5-330=
+9-6366-26111-2e054cb6ed-b6e6347a3f )
+
+Derni=C3=A8res opportunit=C3=A9s =C3=A0 saisir =C3=A0
+
+GUYANCOURT (78280) ( http://lagazette-du-jour.com/ga/click/2-23408395-5-330=
+9-6366-26112-74c13ddc6c-b6e6347a3f )
+
+( http://lagazette-du-jour.com/ga/click/2-23408395-5-3309-6366-26113-1c9134=
+d5ce-b6e6347a3f )
+
+( http://lagazette-du-jour.com/ga/click/2-23408395-5-3309-6366-26114-4b84bc=
+a0e0-b6e6347a3f )
+
+( http://lagazette-du-jour.com/ga/click/2-23408395-5-3309-6366-26115-90bc4a=
+c10b-b6e6347a3f )
+
+( http://lagazette-du-jour.com/ga/click/2-23408395-5-3309-6366-26116-79e081=
+d570-b6e6347a3f )
+
+D=C3=A9couvrir toutes nos offres ( http://lagazette-du-jour.com/ga/click/2-=
+23408395-5-3309-6366-26117-138b3207a1-b6e6347a3f )
+
+Votre appartement neuf =C3=A0 Guyancourt
+
+proche de toutes commodit=C3=A9s ( http://lagazette-du-jour.com/ga/click/2-=
+23408395-5-3309-6366-26118-e44e29a7cd-b6e6347a3f )
+
+( http://lagazette-du-jour.com/ga/click/2-23408395-5-3309-6366-26119-8cca61=
+291b-b6e6347a3f )
+VOTRE 3 PI=C3=88CES
+
+=C3=A0 partir de
+
+246 000=E2=82=AC ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3309-=
+6366-26120-53640d8e2b-b6e6347a3f )
+
+( http://lagazette-du-jour.com/ga/click/2-23408395-5-3309-6366-26121-59b946=
+edb0-b6e6347a3f )
+
+Grands 3 pi=C3=A8ces ou 5 pi=C3=A8ces avec terrasse
+
+ou balcon, cave et parking en sous-sol ( http://lagazette-du-jour.com/ga/cl=
+ick/2-23408395-5-3309-6366-26122-f7721122cb-b6e6347a3f )
+
+( http://lagazette-du-jour.com/ga/click/2-23408395-5-3309-6366-26123-efe600=
+34f8-b6e6347a3f )
+
+=C3=80 proximit=C3=A9 imm=C3=A9diate des =C3=A9coles,
+
+cr=C3=A8che et commerces du Mail des Saules ( http://lagazette-du-jour.com/=
+ga/click/2-23408395-5-3309-6366-26124-fed1700739-b6e6347a3f )
+
+( http://lagazette-du-jour.com/ga/click/2-23408395-5-3309-6366-26125-a7ab1e=
+821a-b6e6347a3f )
+
+=C3=80 10 min. =C3=A0 pied de la gare RER C
+
+Saint-Quentin-en-Yvelines, du centre
+
+commercial Espace St Quentin et SQY Ouest ( http://lagazette-du-jour.com/ga=
+/click/2-23408395-5-3309-6366-26126-e2d24dc92b-b6e6347a3f )
+
+( http://lagazette-du-jour.com/ga/click/2-23408395-5-3309-6366-26127-5bfd40=
+334d-b6e6347a3f )
+
+J'en profite ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3309-6366=
+-26128-33e52e7c51-b6e6347a3f )
+
+eiffage-immobilier.fr ( http://lagazette-du-jour.com/ga/click/2-23408395-5-=
+3309-6366-26129-c2e6a8f5b4-b6e6347a3f )
+
+0 800 734 734(4) ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3309-=
+6366-26130-6650ff1453-b6e6347a3f )
+
+Appel gratuit depuis un poste fixe ( http://lagazette-du-jour.com/ga/click/=
+2-23408395-5-3309-6366-26131-e162225945-b6e6347a3f )
+
+Suivez-nous ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3309-6366-=
+26132-4f28f6baf9-b6e6347a3f )
+
+Facebook ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3309-6366-261=
+33-f7b67006cc-b6e6347a3f )
+Youtube ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3309-6366-2613=
+4-38f290df79-b6e6347a3f )
+
+(1) Offre valable pour la r=C3=A9servation d'un appartement neuf
+dans la r=C3=A9sidence Ambiance Chagall avant le 21 f=C3=A9vrier 2016.
+Remise d'une valeur de 35 000 =E2=82=AC pour le 5 pi=C3=A8ces (lot B04) ;
+remise d'une valeur de 20 000 =E2=82=AC pour le 3 pi=C3=A8ces (lot B03) et =
+les
+5 pi=C3=A8ces portant les num=C3=A9ros de lot B24, B21, B01, B11.
+
+(2) Le PTZ+ est un pr=C3=AAt =C3=A0 taux z=C3=A9ro octroy=C3=A9 aux
+primo-acc=C3=A9dants pour l'achat d'un logement neuf en r=C3=A9sidence
+principale. Le montant du pr=C3=AAt et les conditions de son
+remboursement d=C3=A9pendent des revenus, du caract=C3=A8re neuf du
+logement, de la composition du foyer, de la zone g=C3=A9ographique et
+de la performance =C3=A9nerg=C3=A9tique de la r=C3=A9sidence. Le pr=C3=AAt =
+=C3=A0 taux
+z=C3=A9ro est r=C3=A9serv=C3=A9 aux personnes physiques qui n'ont pas =C3=
+=A9t=C3=A9
+propri=C3=A9taires de leur r=C3=A9sidence au cours des deux derni=C3=A8res
+ann=C3=A9es, sous r=C3=A9serve d'acceptation du dossier par l'=C3=A9tabliss=
+ement
+bancaire.
+
+(3) Le dispositif Pinel permet de b=C3=A9n=C3=A9ficier d'une
+r=C3=A9duction d'imp=C3=B4t, codifi=C3=A9e =C3=A0 l'article 199 novovicies =
+du code
+g=C3=A9n=C3=A9ral des imp=C3=B4ts, pour l'acquisition d'un logement neuf si=
+tu=C3=A9
+dans certaines zones g=C3=A9ographiques et fonction de la performance
+=C3=A9nerg=C3=A9tique du b=C3=A2timent, destin=C3=A9 =C3=A0 la location pen=
+dant 6 ans
+minimum =C3=A0 un loyer plafonn=C3=A9 et =C3=A0 des locataires sous plafond=
+s de
+ressources. La r=C3=A9duction d'imp=C3=B4t est de 12% (pour 6 ans de
+location) 18% (pour 9 ans de location) ou de 21 % (pour 12 ans de
+location) du prix d'acquisition du bien retenu, dans la limite
+d'un prix d'achat de 5 500 =E2=82=AC/m2. Faire un investissement
+immobilier pr=C3=A9sente des risques. Le non-respect des engagements
+de location entra=C3=AEne la perte du b=C3=A9n=C3=A9fice de la r=C3=A9ducti=
+on
+d'imp=C3=B4t.
+
+(4) Les informations recueillies par notre soci=C3=A9t=C3=A9 feront
+l'objet d'un traitement informatique destin=C3=A9 =C3=A0 la gestion de la
+client=C3=A8le et, =C3=A9ventuellement, =C3=A0 la prospection commerciale.
+Conform=C3=A9ment =C3=A0 la Loi n=C2=B0 78-17 du 6 janvier 1978 dite
+=C2=ABinformatique et libert=C3=A9s=C2=BB, vous b=C3=A9n=C3=A9ficiez d'un d=
+roit d'acc=C3=A8s et
+de rectification aux informations vous concernant, que vous
+pouvez exercer en vous adressant =C3=A0 Eiffage Immobilier, 11 place
+de l'Europe - 78141 V=C3=A9lizy-Villacoublay. Vous pouvez =C3=A9galement,
+pour des motifs l=C3=A9gitimes, vous opposer au traitement des donn=C3=A9es
+vous concernant. Eiffage Immobilier RCS Versailles 314 527 649.
+Conception - Illustrations non contractuelles destin=C3=A9es =C3=A0
+exprimer une intention architecturale d'ensemble et susceptibles
+d'adaptations.
+
+<a href=3D"http://lagazette-du-jour.com/ga/unsubscribe/2-23408395-5-3309-63=
+66-114eca03668ab6f-b6e6347a3f">Je souhaite me d=C3=A9sabonner</a>=
+
+--==d64789e5f5df3db6b72423f8b93619ac
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+	<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" />
+	<meta content=3D"width=3Ddevice-width, initial-scale=3D1" name=3D"viewport=
+" />
+	<title>Eiffage</title>
+	<style type=3D"text/css">body {
+				text-size-adjust: none;
+				-webkit-text-size-adjust: none;
+				    -ms-text-size-adjust: none;
+			}
+			@media screen and (max-width: 525px) {
+				*[class=3DhideMobile] {
+					display: none;
+				}
+				*[class=3DtextCenterXs] {
+					text-align: center;
+				}
+				*[class=3DtextCenterXs] img {
+					margin-right: auto;
+					margin-left: auto;
+				}
+				table[class=3Dwrapper] {
+					width: 320px !important;
+				}
+				td[class=3Dnewline] {
+					clear: both;
+					float: left;
+					width: 100% !important;
+				}
+				img[class=3DresponsiveImage] {
+					height: auto !important;
+					width: 100% !important;
+				}
+			}
+	</style>
+</head>
+<body bgcolor=3D"#ffffff" style=3D"margin:0;padding:0;"><a href=3D"http://l=
+agazette-du-jour.com/ga/webviews/4-23408395-5-3309-3288-6366-12ff3d9997">Vi=
+sualiser la version en ligne</a>
+
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"wrapper" width=3D"640">
+	<tbody>
+		<tr>
+			<td>
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%">
+				<tbody>
+					<tr>
+						<td align=3D"center" height=3D"30" style=3D"font-family:arial,sans-se=
+rif;font-size:11px;" width=3D"100%"></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%">
+				<tbody>
+					<tr>
+						<td class=3D"newline" width=3D"183">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td align=3D"center"><a href=3D"http://lagazette-du-jour.com/ga/cl=
+ick/2-23408395-5-3309-6366-26135-3bc683e088-b6e6347a3f" style=3D"text-decor=
+ation:none;color:#000000;" target=3D"_blank"><img alt=3D"Eiffage Immobilier=
+" border=3D"0" class=3D"responsiveImage" height=3D"59" src=3D"http://i.trad=
+va.ovh/content/20160201-7263b54e02d7/images/logo.gif" style=3D"display:bloc=
+k;max-width:183px;" title=3D"Eiffage Immobilier" width=3D"183" /></a></td>
+								</tr>
+								<tr>
+									<td height=3D"18" width=3D"100%">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"hideMobile" width=3D"100%">
+										<tbody>
+											<tr>
+												<td><img border=3D"0" height=3D"18" src=3D"http://i.tradva.ovh/=
+content/20160201-7263b54e02d7/images/bas.gif" style=3D"display:block;" titl=
+e=3D"" width=3D"183" /></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td class=3D"hideMobile"><img border=3D"0" class=3D"responsiveImage" =
+height=3D"77" src=3D"http://i.tradva.ovh/content/20160201-7263b54e02d7/imag=
+es/sep.gif" style=3D"display:block;" title=3D"" width=3D"62" /></td>
+						<td align=3D"right" bgcolor=3D"#ee3124" class=3D"newline" width=3D"39=
+5">
+						<table border=3D"0" cellpadding=3D"5" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td align=3D"right" style=3D"font-family:arial;,sans-serif;font-si=
+ze:25px;"><a href=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-330=
+9-6366-26136-214c906c0d-b6e6347a3f" style=3D"text-decoration:none;color:#00=
+0000;" target=3D"_blank"><font color=3D"#ffffff">Derni&egrave;res opportuni=
+t&eacute;s &agrave; saisir &agrave;<br />
+									<font style=3D"font-size:26px;text-transform:uppercase;">GUYANCOUR=
+T</font> <font style=3D"font-size:20px;">(78280)</font> </font></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%">
+				<tbody>
+					<tr>
+						<td><a href=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-330=
+9-6366-26137-128026600a-b6e6347a3f" style=3D"text-decoration:none;color:#00=
+0000;" target=3D"_blank"><img border=3D"0" class=3D"responsiveImage" height=
+=3D"303" src=3D"http://i.tradva.ovh/content/20160201-7263b54e02d7/images/vi=
+su.jpg" style=3D"display:block;" title=3D"" width=3D"640" /></a></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%">
+				<tbody>
+					<tr>
+						<td height=3D"4" width=3D"100%"></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%">
+				<tbody>
+					<tr>
+						<td class=3D"newline">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td align=3D"center" bgcolor=3D"#0082c0" class=3D"newline"><a href=
+=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3309-6366-26138-2aea=
+7e4743-b6e6347a3f" style=3D"text-decoration:none;color:#000000;" target=3D"=
+_blank"><img border=3D"0" class=3D"responsiveImage" height=3D"128" src=3D"h=
+ttp://i.tradva.ovh/content/20160201-7263b54e02d7/images/patch.gif" style=3D=
+"display:block;max-width:209px;" title=3D"" width=3D"209" /></a></td>
+									<td class=3D"hideMobile" width=3D"10"></td>
+									<td align=3D"center" bgcolor=3D"#afb904" class=3D"newline"><a href=
+=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3309-6366-26139-abe2=
+b21188-b6e6347a3f" style=3D"text-decoration:none;color:#000000;" target=3D"=
+_blank"><img border=3D"0" class=3D"responsiveImage" height=3D"128" src=3D"h=
+ttp://i.tradva.ovh/content/20160201-7263b54e02d7/images/pacth2.gif" style=
+=3D"display:block;max-width:209px;" title=3D"" width=3D"209" /></a></td>
+									<td class=3D"hideMobile" width=3D"11"></td>
+									<td align=3D"center" bgcolor=3D"#6c466c" class=3D"newline"><a href=
+=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3309-6366-26140-5d01=
+5d88c3-b6e6347a3f" style=3D"text-decoration:none;color:#000000;" target=3D"=
+_blank"><img border=3D"0" class=3D"responsiveImage" height=3D"128" src=3D"h=
+ttp://i.tradva.ovh/content/20160201-7263b54e02d7/images/pacth03.gif" style=
+=3D"display:block;max-width:209px;" title=3D"" width=3D"209" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%">
+				<tbody>
+					<tr>
+						<td height=3D"12" width=3D"100%"></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%">
+				<tbody>
+					<tr>
+						<td class=3D"hideMobile" width=3D"150"></td>
+						<td bgcolor=3D"#ef3125" width=3D"340">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td align=3D"center" height=3D"37" style=3D"font-family:arial,sans=
+-serif;font-size:18px;"><a href=3D"http://lagazette-du-jour.com/ga/click/2-=
+23408395-5-3309-6366-26141-faa720877e-b6e6347a3f" style=3D"text-decoration:=
+none;color:#000000;" target=3D"_blank"><font color=3D"#ffffff"><strong>D&ea=
+cute;couvrir toutes nos offres</strong></font>&nbsp; <img border=3D"0" heig=
+ht=3D"18" src=3D"http://i.tradva.ovh/content/20160201-7263b54e02d7/images/p=
+uce3.gif" title=3D"" width=3D"12" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td class=3D"hideMobile" width=3D"150"></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%">
+				<tbody>
+					<tr>
+						<td align=3D"center" height=3D"94" style=3D"font-family:arial,sans-se=
+rif;font-size:24px;" width=3D"100%"><a href=3D"http://lagazette-du-jour.com=
+/ga/click/2-23408395-5-3309-6366-26142-e07c5ea0e0-b6e6347a3f" style=3D"text=
+-decoration:none;color:#000000;" target=3D"_blank">Votre appartement neuf &=
+agrave; Guyancourt<br />
+						proche de toutes commodit&eacute;s</a></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%">
+				<tbody>
+					<tr>
+						<td class=3D"newline" width=3D"325"><a href=3D"http://lagazette-du-jo=
+ur.com/ga/click/2-23408395-5-3309-6366-26143-72f00ad5b8-b6e6347a3f" style=
+=3D"text-decoration:none;color:#000000;" target=3D"_blank"><img border=3D"0=
+" class=3D"responsiveImage" height=3D"150" src=3D"http://i.tradva.ovh/conte=
+nt/20160201-7263b54e02d7/images/visu01.jpg" style=3D"display:block;" title=
+=3D"" width=3D"325" /></a></td>
+						<td align=3D"center" bgcolor=3D"#f0efea" class=3D"newline" style=3D"f=
+ont-family:arial,sans-serif;font-size:18px;" width=3D"315"><a href=3D"http:=
+//lagazette-du-jour.com/ga/click/2-23408395-5-3309-6366-26144-dbfe7c2e90-b6=
+e6347a3f" style=3D"text-decoration:none;color:#000000;font-size:24px;" targ=
+et=3D"_blank">VOTRE 3 PI&Egrave;CES<br />
+						<font style=3D"font-size:16px;">&agrave; partir de</font><br />
+						<strong style=3D"color:#ee3124;">246 000&euro; </strong> </a></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%">
+				<tbody>
+					<tr>
+						<td class=3D"newline" width=3D"439">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td height=3D"20" width=3D"100%"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td class=3D"hideMobile" width=3D"20"></td>
+									<td valign=3D"top" width=3D"34"><a href=3D"http://lagazette-du-jou=
+r.com/ga/click/2-23408395-5-3309-6366-26145-e164ff6f72-b6e6347a3f" style=3D=
+"text-decoration:none;color:#000000;" target=3D"_blank"><img border=3D"0" h=
+eight=3D"17" src=3D"http://i.tradva.ovh/content/20160201-7263b54e02d7/image=
+s/puceliste.gif" style=3D"display:block;" title=3D"" width=3D"34" /></a></t=
+d>
+									<td align=3D"left" style=3D"font-family:arial,sans-serif;font-size=
+:15px;"><a href=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3309-=
+6366-26146-ddcec476e1-b6e6347a3f" style=3D"text-decoration:none;color:#0000=
+00;" target=3D"_blank">Grands <strong>3 pi&egrave;ces</strong> ou <strong>5=
+ pi&egrave;ces</strong> avec terrasse<br />
+									ou balcon, cave et parking en sous-sol</a><br />
+									&nbsp;</td>
+									<td width=3D"20"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td class=3D"hideMobile" width=3D"20"></td>
+									<td valign=3D"top" width=3D"34"><a href=3D"http://lagazette-du-jou=
+r.com/ga/click/2-23408395-5-3309-6366-26147-01123aded6-b6e6347a3f" style=3D=
+"text-decoration:none;color:#000000;" target=3D"_blank"><img border=3D"0" h=
+eight=3D"17" src=3D"http://i.tradva.ovh/content/20160201-7263b54e02d7/image=
+s/puceliste.gif" style=3D"display:block;" title=3D"" width=3D"34" /></a></t=
+d>
+									<td align=3D"left" style=3D"font-family:arial,sans-serif;font-size=
+:15px;"><a href=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3309-=
+6366-26148-2891362cff-b6e6347a3f" style=3D"text-decoration:none;color:#0000=
+00;" target=3D"_blank"><strong>&Agrave; proximit&eacute; imm&eacute;diate</=
+strong> des &eacute;coles,<br />
+									cr&egrave;che et commerces du Mail des Saules</a><br />
+									&nbsp;</td>
+									<td width=3D"20"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td class=3D"hideMobile" width=3D"20"></td>
+									<td valign=3D"top" width=3D"34"><a href=3D"http://lagazette-du-jou=
+r.com/ga/click/2-23408395-5-3309-6366-26149-603cfe5ae1-b6e6347a3f" style=3D=
+"text-decoration:none;color:#000000;" target=3D"_blank"><img border=3D"0" h=
+eight=3D"17" src=3D"http://i.tradva.ovh/content/20160201-7263b54e02d7/image=
+s/puceliste.gif" style=3D"display:block;" title=3D"" width=3D"34" /></a></t=
+d>
+									<td align=3D"left" style=3D"font-family:arial,sans-serif;font-size=
+:15px;" valign=3D"top"><a href=3D"http://lagazette-du-jour.com/ga/click/2-2=
+3408395-5-3309-6366-26150-2c44a99c51-b6e6347a3f" style=3D"text-decoration:n=
+one;color:#000000;" target=3D"_blank"><strong>&Agrave; 10 min. &agrave; pie=
+d de la gare RER C<br />
+									Saint-Quentin-en-Yvelines</strong>, du centre<br />
+									commercial Espace St Quentin et SQY Ouest</a><br />
+									&nbsp;</td>
+									<td width=3D"20"></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td class=3D"newline" width=3D"201">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td align=3D"center"><a href=3D"http://lagazette-du-jour.com/ga/cl=
+ick/2-23408395-5-3309-6366-26151-ee7a12ab27-b6e6347a3f" style=3D"text-decor=
+ation:none;color:#000000;" target=3D"_blank"><img border=3D"0" height=3D"83=
+" src=3D"http://i.tradva.ovh/content/20160201-7263b54e02d7/images/logos.gif=
+" style=3D"display:block;" title=3D"" width=3D"195" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td height=3D"30" width=3D"100%"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" height=3D"37" width=3D"100%">
+							<tbody>
+								<tr>
+									<td align=3D"center" bgcolor=3D"#ef3125" height=3D"37" style=3D"fo=
+nt-family:arial,sans-serif;font-size:18px;"><a href=3D"http://lagazette-du-=
+jour.com/ga/click/2-23408395-5-3309-6366-26152-bb1ae35a8d-b6e6347a3f" style=
+=3D"text-decoration:none;color:#000000;" target=3D"_blank"><font color=3D"#=
+ffffff"><strong>J&#39;en profite</strong></font>&nbsp; <img border=3D"0" he=
+ight=3D"18" src=3D"http://i.tradva.ovh/content/20160201-7263b54e02d7/images=
+/puce3.gif" title=3D"" width=3D"12" /></a></td>
+									<td class=3D"hideMobile" width=3D"20"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td height=3D"10" width=3D"100%"></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%">
+				<tbody>
+					<tr>
+						<td bgcolor=3D"#f0efea" class=3D"hideMobile" height=3D"145" valign=3D=
+"top" width=3D"90"></td>
+						<td bgcolor=3D"#f0efea" class=3D"newline" width=3D"292">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" height=3D"25" width=3D"100%">
+							<tbody>
+								<tr>
+									<td class=3D"hideMobile" height=3D"25" width=3D"292"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table align=3D"center" bgcolor=3D"#f0efea" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td align=3D"center"><a href=3D"http://lagazette-du-jour.com/ga/cl=
+ick/2-23408395-5-3309-6366-26153-33defaf376-b6e6347a3f" target=3D"_blank"><=
+img alt=3D"eiffage-immobilier.fr" border=3D"0" class=3D"responsiveImage" he=
+ight=3D"37" src=3D"http://i.tradva.ovh/content/20160201-7263b54e02d7/images=
+/tel1.gif" style=3D"display:block;max-width:292px;" title=3D"eiffage-immobi=
+lier.fr" width=3D"292" /></a></td>
+								</tr>
+								<tr>
+									<td align=3D"center" bgcolor=3D"#f0efea" height=3D"47" style=3D"fo=
+nt-family:arial,sans-serif;font-size:35px;" width=3D"100%"><a href=3D"http:=
+//lagazette-du-jour.com/ga/click/2-23408395-5-3309-6366-26154-52ccbfa838-b6=
+e6347a3f" style=3D"text-decoration:none;color:#000000;" target=3D"_blank"><=
+font color=3D"#ee3124"><strong>0 800 734 734</strong><sup style=3D"font-siz=
+e:14px;">(4)</sup></font></a></td>
+								</tr>
+								<tr>
+									<td align=3D"center"><a href=3D"http://lagazette-du-jour.com/ga/cl=
+ick/2-23408395-5-3309-6366-26155-b1d75061bf-b6e6347a3f" target=3D"_blank"><=
+img alt=3D"Appel gratuit depuis un poste fixe" border=3D"0" class=3D"respon=
+siveImage" height=3D"38" src=3D"http://i.tradva.ovh/content/20160201-7263b5=
+4e02d7/images/tel2.gif" style=3D"display:block;max-width:292px;" title=3D"A=
+ppel gratuit depuis un poste fixe" width=3D"292" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td bgcolor=3D"#f0efea" class=3D"hideMobile" width=3D"43"></td>
+						<td bgcolor=3D"#f0efea" class=3D"newline" width=3D"114">
+						<table align=3D"center" bgcolor=3D"#f0efea" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td class=3D"hideMobile" height=3D"24" width=3D"100%"></td>
+								</tr>
+								<tr>
+									<td align=3D"center" height=3D"37" style=3D"font-family:arial,sans=
+-serif;font-size:18px;" width=3D"100%"><a href=3D"http://lagazette-du-jour.=
+com/ga/click/2-23408395-5-3309-6366-26156-954350447d-b6e6347a3f" style=3D"t=
+ext-decoration:none;color:#000000;" target=3D"_blank"><strong>Suivez-nous</=
+strong></a></td>
+								</tr>
+								<tr>
+									<td width=3D"100%">
+									<table align=3D"center" bgcolor=3D"#f0efea" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" width=3D"100%">
+										<tbody>
+											<tr>
+												<td align=3D"right"><a href=3D"http://lagazette-du-jour.com/ga/=
+click/2-23408395-5-3309-6366-26157-53e24ff72b-b6e6347a3f" target=3D"_blank"=
+><img alt=3D"Facebook" border=3D"0" height=3D"47" src=3D"http://i.tradva.ov=
+h/content/20160201-7263b54e02d7/images/fb.gif" style=3D"display:block;" tit=
+le=3D"Facebook" width=3D"60" /></a></td>
+												<td align=3D"left"><a href=3D"http://lagazette-du-jour.com/ga/c=
+lick/2-23408395-5-3309-6366-26158-be21caf980-b6e6347a3f" target=3D"_blank">=
+<img alt=3D"Youtube" border=3D"0" height=3D"47" src=3D"http://i.tradva.ovh/=
+content/20160201-7263b54e02d7/images/youtube.gif" style=3D"display:block;" =
+title=3D"Youtube" width=3D"54" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td class=3D"hideMobile"><img border=3D"0" class=3D"responsiveImag=
+e" height=3D"39" src=3D"http://i.tradva.ovh/content/20160201-7263b54e02d7/i=
+mages/bas_reseau.gif" style=3D"display:block;" title=3D"" width=3D"114" /><=
+/td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td bgcolor=3D"#f0efea" class=3D"hideMobile" valign=3D"bottom"><img b=
+order=3D"0" class=3D"responsiveImage" height=3D"145" src=3D"http://i.tradva=
+.ovh/content/20160201-7263b54e02d7/images/droite_bas.gif" style=3D"display:=
+block;" title=3D"" width=3D"103" /></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%">
+				<tbody>
+					<tr>
+						<td align=3D"justify" style=3D"font-family:arial,sans-serif;font-size=
+:11px;"><br />
+						<br />
+						<font color=3D"#6c6c6c">(1) Offre valable pour la r&eacute;servation =
+d&#39;un appartement neuf dans la r&eacute;sidence Ambiance Chagall avant l=
+e 21 f&eacute;vrier 2016. Remise d&#39;une valeur de 35 000 &euro; pour le =
+5 pi&egrave;ces (lot B04) ; remise d&#39;une valeur de 20 000 &euro; pour l=
+e 3 pi&egrave;ces (lot B03) et les 5 pi&egrave;ces portant les num&eacute;r=
+os de lot B24, B21, B01, B11.<br />
+						<br />
+						(2) Le PTZ+ est un pr&ecirc;t &agrave; taux z&eacute;ro octroy&eacute=
+; aux primo-acc&eacute;dants pour l&#39;achat d&#39;un logement neuf en r&e=
+acute;sidence principale. Le montant du pr&ecirc;t et les conditions de son=
+ remboursement d&eacute;pendent des revenus, du caract&egrave;re neuf du lo=
+gement, de la composition du foyer, de la zone g&eacute;ographique et de la=
+ performance &eacute;nerg&eacute;tique de la r&eacute;sidence. Le pr&ecirc;=
+t &agrave; taux z&eacute;ro est r&eacute;serv&eacute; aux personnes physiqu=
+es qui n&#39;ont pas &eacute;t&eacute; propri&eacute;taires de leur r&eacut=
+e;sidence au cours des deux derni&egrave;res ann&eacute;es, sous r&eacute;s=
+erve d&#39;acceptation du dossier par l&#39;&eacute;tablissement bancaire.<=
+br />
+						<br />
+						(3) Le dispositif Pinel permet de b&eacute;n&eacute;ficier d&#39;une =
+r&eacute;duction d&#39;imp&ocirc;t, codifi&eacute;e &agrave; l&#39;article =
+199 novovicies du code g&eacute;n&eacute;ral des imp&ocirc;ts, pour l&#39;a=
+cquisition d&#39;un logement neuf situ&eacute; dans certaines zones g&eacut=
+e;ographiques et fonction de la performance &eacute;nerg&eacute;tique du b&=
+acirc;timent, destin&eacute; &agrave; la location pendant 6 ans minimum &ag=
+rave; un loyer plafonn&eacute; et &agrave; des locataires sous plafonds de =
+ressources. La r&eacute;duction d&#39;imp&ocirc;t est de 12% (pour 6 ans de=
+ location) 18% (pour 9 ans de location) ou de 21 % (pour 12 ans de location=
+) du prix d&#39;acquisition du bien retenu, dans la limite d&#39;un prix d&=
+#39;achat de 5 500 &euro;/m2. Faire un investissement immobilier pr&eacute;=
+sente des risques. Le non-respect des engagements de location entra&icirc;n=
+e la perte du b&eacute;n&eacute;fice de la r&eacute;duction d&#39;imp&ocirc=
+;t.<br />
+						<br />
+						(4) Les informations recueillies par notre soci&eacute;t&eacute; fero=
+nt l&#39;objet d&#39;un traitement informatique destin&eacute; &agrave; la =
+gestion de la client&egrave;le et, &eacute;ventuellement, &agrave; la prosp=
+ection commerciale. Conform&eacute;ment &agrave; la Loi n&deg; 78-17 du 6 j=
+anvier 1978 dite &laquo;informatique et libert&eacute;s&raquo;, vous b&eacu=
+te;n&eacute;ficiez d&#39;un droit d&#39;acc&egrave;s et de rectification au=
+x informations vous concernant, que vous pouvez exercer en vous adressant &=
+agrave; Eiffage Immobilier, 11 place de l&#39;Europe - 78141 V&eacute;lizy-=
+Villacoublay. Vous pouvez &eacute;galement, pour des motifs l&eacute;gitime=
+s, vous opposer au traitement des donn&eacute;es vous concernant. Eiffage I=
+mmobilier RCS Versailles 314 527 649. Conception - Illustrations non contra=
+ctuelles destin&eacute;es &agrave; exprimer une intention architecturale d&=
+#39;ensemble et susceptibles d&#39;adaptations. </font><br />
+						&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><img height=3D"1" src=3D"http://o.tradva.ovh/126-29-48-2853-28170/unique=
+Id" width=3D"1" /></p>
+
+
+<a href=3D"http://lagazette-du-jour.com/ga/unsubscribe/2-23408395-5-3309-63=
+66-114eca03668ab6f-b6e6347a3f">Je souhaite me d=C3=A9sabonner</a><img alt=
+=3D"track" height=3D"1" src=3D"http://er.sociabiliweb.fr/EREO/E/458/730c3/r=
+esp-m2-miage@univ-rennes1.fr/pixel.gif" /> <img alt=3D"track" height=3D"1" =
+src=3D"http://asset.email-match.com/849/asset?type=3DIMG&optin=3D1&email=3D=
+resp-m2-miage@univ-rennes1.fr" width=3D"1" /><img alt=3D"track" height=3D"1=
+" src=3D"http://adtrack.adleadevent.com/adtckrtg.php?ids=3D37&email=3Dresp-=
+m2-miage@univ-rennes1.fr" />=20
+
+<img src=3D"http://lagazette-du-jour.com/ga/open/2-23408395-5-3309-6366-b6e=
+6347a3f" height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==d64789e5f5df3db6b72423f8b93619ac--

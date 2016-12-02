@@ -1,0 +1,270 @@
+Return-Path: <news@my.shopping-notification.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Tue, 20 Oct 2015 01:32:17 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from vmsmtprexch.univ-rennes1.fr (vmsmtprexch.univ-rennes1.fr [129.20.128.62])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id B947026A06AF
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 20 Oct 2015 01:32:17 +0200 (CEST)
+Received: from mbcasexch2.Ur.local (mbcasexch2.univ-rennes1.fr [129.20.125.130])
+	by vmsmtprexch.univ-rennes1.fr (Postfix) with ESMTP id B60AB81
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 20 Oct 2015 01:32:17 +0200 (CEST)
+X-CrossPremisesHeadersFilteredBySendConnector: mbcasexch2.Ur.local
+Received: from mbcasexch1.Ur.local (2002:8114:7d81::8114:7d81) by
+ mbcasexch2.Ur.local (2002:8114:7d82::8114:7d82) with Microsoft SMTP Server
+ (TLS) id 15.0.913.22; Tue, 20 Oct 2015 01:32:17 +0200
+Received: from mailout1.univ-rennes1.fr (129.20.128.162) by
+ mbcasexch1.Ur.local (129.20.125.129) with Microsoft SMTP Server id
+ 15.0.913.22 via Frontend Transport; Tue, 20 Oct 2015 01:32:16 +0200
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 57AB360074
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 20 Oct 2015 01:32:17 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id r4mh4WgCW5E6 for <resp-m2-miage@univ-rennes1.fr>;
+	Tue, 20 Oct 2015 01:32:17 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 3A3E96001F
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 20 Oct 2015 01:32:17 +0200 (CEST)
+Received: from mxb2-1.relay.renater.fr (mxb2-1.relay.renater.fr [194.214.200.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 3263B2003A
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 20 Oct 2015 01:32:17 +0200 (CEST)
+Received: from my.shopping-notification.com (mta77.smtp6.azrmta.com [51.254.72.77])
+	by mxb2-1.relay.renater.fr (asm) with SMTP id F194F6000D1
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 20 Oct 2015 01:32:16 +0200 (CEST)
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=mail;d=my.shopping-notification.com;
+  h=from:sender:to:date:message-id:subject:mime-version:content-type;
+  b=pGhTEZLWWA1f4e3aCNC3tgK4AaBRTB9wV+8hrksIgIVFEkjADjmCw68cc+MABnDdad4I5nf6
+    gVD182yBilQ7/Djqmx2k6pxvOTRcnxLRS7DI4gWtNAVSwAF5kxfi2laVarcY+Nj3RX+MRT0U
+    RnQHl9amc8fyNWlpcnVwvxjue58=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+  s=mail;d=my.shopping-notification.com;
+  h=from:sender:to:date:message-id:subject:mime-version:content-type;
+  bh=/fRBkBEb0cjCeIq1DdEySxvB6o8=;
+  b=OFA6+K7BfgoTNIsNTDNGI9SalD26jgaWrGHiw4weHJb5y5mZxTZ6gh729sIHdM21gjJdsbOC
+    nUIUvPWwjfrw/qbVWxk2dhcCbI0xFPOuGRGe8vAn4/NqxuTajx6hZbtf7pv3RD3FNXdAm7yR
+    vzPmMmC1zA4AvmBIg6Pah+z7WDQ=
+X-Customer-Id: 115
+X-Campaign-Id: 67
+List-Unsubscribe: http://my.shopping-notification.com/tr/1/0184077/67/234942/
+From: Becquet / Offre du jour <news@my.shopping-notification.com>
+Sender: Becquet / Offre du jour <news@my.shopping-notification.com>
+Reply-To: Becquet / Offre du jour <news@my.shopping-notification.com>
+To: <resp-m2-miage@univ-rennes1.fr>
+Date: Mon, 19 Oct 2015 23:32:47 +0000
+Organization: my.shopping-notification.com
+Message-ID: <1-0184077-67-234942@my.shopping-notification.com>
+Subject: =?utf-8?B?R3JhbmQgZMOpc3RvY2thZ2UgOiBKdXNxdeKAmcOgIC00MCUgc3VyIGxhIHM=?=
+	=?utf-8?B?w6lsZWN0aW9uIENvY29vbiBldCBsaXZyYWlzb24gZ3JhdHVpdGU=?=
+MIME-Version: 1.0
+X-Mailer: PHPMailer
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 51.254.72.77
+X-Bizanga: IMP - mxb2-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekgedrleejgddvhecutefuodetggdotefrucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepjffhshhrvfffohfkufggofgtgfeshhekredthedtjeenucfhrhhomhepuegvtghquhgvthcusdcuqfhffhhrvgcuughuuchjohhurhcuoehnvgifshesmhihrdhshhhophhpihhnghdqnhhothhifhhitggrthhiohhnrdgtohhmqeenucffohhmrghinhepshhhohhpphhinhhgqdhnohhtihhfihgtrghtihhonhdrtghomhenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepmhihrdhshhhophhpihhnghdqnhhothhifhhitggrthhiohhnrdgtohhmpdhinhgvthephedurddvheegrdejvddrjeejpdhmrghilhhfrhhomhepnhgvfihssehmhidrshhhohhpphhinhhgqdhnohhtihhfihgtrghtihhonhdrtghomhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb2-1.relay.renater.fr
+X-OrganizationHeadersPreserved: mbcasexch2.Ur.local
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Grand déstockage : Jusqu’à -40% sur la sélection Cocoon et livraison gratuite</title>
+</head>
+
+<style type="text/css">
+body {width:100% !important; font-family:arial, sans-serif; margin:auto; padding:0; background-color:#ffffff; }
+html {
+   -webkit-text-size-adjust: 100%;
+   -ms-text-size-adjust: 100%;
+  }
+table, tr, td {border-collapse: collapse !important;}
+img {display:block; border:none;}
+a {border:none;}
+
+</style>
+
+<body><div align="center">
+<font color="#666666" style="font-size:10px;font-family:Verdana,Arial,Helvetica,sans-serif;">
+<b>Bonjour  , vous recevez ce mail car vous êtes abonné avec l'adresse resp-m2-miage@univ-rennes1.fr</b><br>
+Pour cesser de recevoir nos communications <a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b21841587806b4191858e7b7cc2eb701819">d&eacute;sabonnez-vous</a><br>
+		Pour visualiser correctement ce message, acc&eacute;dez &agrave; la <a  href="http://my.shopping-notification.com/mr/?id=1f7f0c30612c18662f693a70c2958b213d16a9cf6bdd8ce5c7b6b419d3562d0490d6ffbb5335a98a">version en ligne</a><br>
+	</font>
+</div>
+
+<table width="640" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff">
+  <tr>
+      <td style="font-family:Arial, Helvetica, sans-serif; color:#e07211; font-size:17px; font-weight:bold; text-align:center; padding:20px 0;"><a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b2155508adb9789d290dca8ab3382c73cbd" style="color:#e07211; text-decoration:none;" target="_blank"><strong>Jusqu’&agrave; -40&#037;<sup>(1)</sup> sur la s&eacute;lection Cocoon et livraison gratuite<sup>(2)</sup></strong></a></td>
+    </tr>
+</table>
+
+<table width="640" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff">
+	<tr>
+      <td><a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b2184e911b35bb9dbcbcf1cd1621ba3b837" target="_blank"><img src="http://hst.tradedoubler.com/file/222974/cocoon_oct15/gen/logo.jpg" alt="logo becquet" width="215" height="62" border="0" style="display:block; border:none;" /></a></td>
+      <td><a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b2190ce3159f6368fa6c4fa64391a17c849" target="_blank"><img src="http://hst.tradedoubler.com/file/222974/cocoon_oct15/gen/flocons.jpg" alt="flocons" width="173" height="62" border="0" style="display:block; border:none;" /></a></td>
+      <td><a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b21a7d42ce88da66061d24b4b8147b642b3" target="_blank"><img src="http://hst.tradedoubler.com/file/222974/cocoon_oct15/gen/livraisonofferte.jpg" alt="livraison offerte" width="252" height="62" border="0" style="display:block; border:none;" /></a></td>
+   		      </tr>
+            </table>
+      </td>
+    </tr>
+</table>
+
+<table width="640" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+        <td width="640" height="22"></td>  
+  </tr>
+</table>
+
+<table width="640" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff">
+	<tr>
+    	<td height="25" ><table style="display: inline-table;" align="center"border="0" cellpadding="0" cellspacing="0" width="640">
+    	  <tbody>
+    	    <!--  menu  -->
+    	    <tr>
+    	      <td bgcolor="#ffffff" valign="middle"><a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b2169d535a69e666c17ac5ed3c5c8863ec9" target="_blank"><img style="display:block;" src="http://hst.tradedoubler.com/file/222974/cocoon_oct15/gen/ligne-horizontale.jpg" width="640" height="4" border="0" /></a></td>
+  	      </tr>
+    	    <tr>
+    	      <td bgcolor="#ffffff"><table style="display: inline-table;" align="left" border="0" cellpadding="0" cellspacing="0" width="640">
+    	        <tbody>
+    	          <tr>
+    	            <td bgcolor="ffffff" align="center" width="123px" height="24px" style="text-decoration:none; "><a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b21819dedf0a5a0485a0895cade3c6c6243" target="_blank" style="text-decoration:none; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#ff2a60; line-height:10px;">Nouvelle collection</a></td><td bgcolor="666666" align="center" width="1px" height="17px" style="text-decoration:none; "><img style="display:block;" src="http://hst.tradedoubler.com/file/222974/cocoon_oct15/gen/ligne-verticale.jpg" width="1" height="0" border="0" /></td>
+    	            <td bgcolor="#ffffff" align="center" width="95px" style="text-decoration:none; color:#504f50; font-family:Arial, Helvetica, sans-serif; font-size:12px;"><a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b2131ce3c3eb9c2c88cceb52eb4b49a5d27" target="_blank" style="text-decoration:none; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666;">Linge de lit</a></td>
+    	            <td bgcolor="666666" align="center" width="1px" height="17px" ><img style="display:block;" src="http://hst.tradedoubler.com/file/222974/cocoon_oct15/gen/ligne-verticale.jpg" width="1" height="0" border="0" /></td>
+    	            <td bgcolor="#ffffff" align="center" width="95px" style="text-decoration:none; color:#504f50; font-family:Arial, Helvetica, sans-serif; font-size:12px;"><a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b21a260a8f1c08eaa0c2add9a41af0e1d43" target="_blank" style="text-decoration:none; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666;">Linge de bain</a></td>
+    	            <td bgcolor="666666" align="center" width="1px" height="17px" style="text-decoration:none; "><img style="display:block;" src="http://hst.tradedoubler.com/file/222974/cocoon_oct15/gen/ligne-verticale.jpg" width="1" height="0&quot;4&quot;" border="0" /></td>
+    	            <td bgcolor="#ffffff" align="center" width="131px" style="text-decoration:none; color:#504f50; font-family:Arial, Helvetica, sans-serif; font-size:12px;"><a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b2150ef68725e0f7f70929e4f822f8cfe9b" target="_blank" style="text-decoration:none; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666;">Rideaux et d&eacute;co textile</a></td>
+    	            <td bgcolor="666666" align="center" width="1px" height="17px" style="text-decoration:none; "><img style="display:block;" src="http://hst.tradedoubler.com/file/222974/cocoon_oct15/gen/ligne-verticale.jpg" width="1" height="0" border="0" /></td>
+    	            <td bgcolor="#ffffff" align="center" width="70px" style="text-decoration:none; color:#504f50; font-family:Arial, Helvetica, sans-serif; font-size:12px;"><a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b217ac2962cb50514f754c2c4d9f9166e40" target="_blank" style="text-decoration:none; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666;">Literie</a></td>
+    	            <td bgcolor="666666" align="center" width="1px" height="17px" style="text-decoration:none; "><img style="display:block;" src="http://hst.tradedoubler.com/file/222974/cocoon_oct15/gen/ligne-verticale.jpg" width="1" height="0" border="0" /></td>
+    	            <td bgcolor="#ffffff" align="center" width="81px" style="text-decoration:none; color:#504f50; font-family:Arial, Helvetica, sans-serif; font-size:12px;"><a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b21859268135a3e58b94c759123ffccefbb" target="_blank" style="text-decoration:none; color:#f6246b; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#ff5500;">Promos %</a></td>
+  	            </tr>
+  	          </tbody>
+  	        </table></td>
+  	      </tr>
+    	    <tr>
+    	      <td bgcolor="#ffffff"><a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b211c786b08020d9c06da1ac5a9fa12fbda" target="_blank"><img  src="http://hst.tradedoubler.com/file/222974/cocoon_oct15/gen/ligne-horizontale.jpg" width="640" height="4" border="0" style="display:block;"/></a></td>
+  	      </tr>
+  	    </tbody>
+  	  </table></td>
+    </tr>
+</table>
+
+<table width="640" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+        <td width="640" height="7"></td>  
+  </tr>
+</table>
+
+<table width="640" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b21ccf7375bc07ff8ef0b5397e0b2ab4a7c" target="_blank"><img src="http://hst.tradedoubler.com/file/222974/cocoon_oct15/gen/cocooning1.jpg" alt="J'adopte l'hiver en mode cocooning" width="640" height="170" style="display:block; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#000;" border="0" /></a></td>
+      </tr>
+  <tr>
+    <td><a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b21bba8aef066a5d6704ed3ef181416e79f" target="_blank"><img src="http://hst.tradedoubler.com/file/222974/cocoon_oct15/gen/cocooning2.jpg" alt="et Becquet s'occupe de tout" width="640" height="230" style="display:block; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#000;" border="0" /></a></td>
+  </tr>
+  <tr>
+  	 <td>
+     	<table border="0" cellpadding="0" cellspacing="0">
+        	<tr>
+            	<td><a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b2177753724289e3105f4bd310762136da7" target="_blank"><img src="http://hst.tradedoubler.com/file/222974/cocoon_oct15/gen/cocooning3.jpg" width="219" height="44" alt="becquet" style="display:block; border:none;"/></a></td>
+                <td><a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b21f2a5990de9d9e31edad3bda188ffb51e" target="_blank"><img src="http://hst.tradedoubler.com/file/222974/cocoon_oct15/gen/ctajenprofite.jpg" width="202" height="44" alt="j'en profite" style="display:block; border:none;"/></a></td>
+                <td><a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b21791800ad6a5ca7197efc17d0ab878b9c" target="_blank"><img src="http://hst.tradedoubler.com/file/222974/cocoon_oct15/gen/cocooning4.jpg" width="219" height="44" alt="becquet" style="display:block; border:none;"/></a></td>
+            </tr>
+        </table>
+     </td>
+  </tr>
+  <tr>
+    <td><a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b21de9ebaef6861d5b1b50f80b40c1187e7" target="_blank"><img src="http://hst.tradedoubler.com/file/222974/cocoon_oct15/gen/cocooning5.jpg" alt="becquet" width="640" height="29" style="display:block; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#000;" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td bgcolor="#ffffff" width="640" height="215" align="center"><a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b21f5eefb65ac76c893f07931807d4240c3" target="_blank" style="text-decoration:none;"><font style="font-family:Arial, Helvetica, sans-serif; font-size:27px; color:#84d7d1;">Commencez l’hiver tout en douceur</font><br/>
+                <font style="font-family:Arial, Helvetica, sans-serif; font-size:27px; color:#000000;">D&eacute;couvrez la s&eacute;lection Cocoon</font>
+                <font style="font-family:Arial, Helvetica, sans-serif; font-size:27px; color:#e07211;"><strong>jusqu’&agrave; -40&#37;<sup>(1)</sup></strong></font><br />
+                <font style="font-family:Arial, Helvetica, sans-serif; font-size:27px; color:#000000;">et profitez de la</font>
+                <font style="font-family:Arial, Helvetica, sans-serif; font-size:27px; color:#e07211;"><strong>livraison &agrave; 0&euro;<sup>(2)</sup></strong></font><br />
+                <font style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000001;">d&egrave;s 49&euro; d'achats</font><br />
+                <font style="font-family:Arial, Helvetica, sans-serif; font-size:24px; color:#000001;">avec le code avantage</font><br />
+            <font style="font-family:Arial, Helvetica, sans-serif; font-size:32px; color:#e07211;"><strong>941734</strong></font></a></td>
+  </tr>
+</table>
+
+<table width="640" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b219ca89520228e0a6e67939e68e2073a43" target="_blank"><img src="http://hst.tradedoubler.com/file/222974/cocoon_oct15/gen/flocons2.jpg" alt="becquet" width="640" height="46" style="display:block; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#000;" border="0"/></a></td>
+ </tr>
+ </table>
+
+<table width="640" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b2107ffd12554d303153ba3e94131b3d476" target="_blank"><img src="http://hst.tradedoubler.com/file/222974/cocoon_oct15/gen/img1.jpg" alt="Linge de lit" width="386" height="305" style="display:block; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#000;" border="0"/></a></td>
+        <td width="5"></td>  
+    <td><a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b21c9a6aec86be80c1ddfb860f03670a1b4" target="_blank"><img src="http://hst.tradedoubler.com/file/222974/cocoon_oct15/gen/img2.jpg" alt="Plaid" width="249" height="305" style="display:block; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#000;" border="0"/></a></td>
+  </tr>
+</table>
+
+<table width="640" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b218a241470e49f165c0d7d800bd77b464d" target="_blank"><img src="http://hst.tradedoubler.com/file/222974/cocoon_oct15/gen/img3.jpg" alt="Couverture" width="210" height="251" style="display:block; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#000;" border="0"/></a></td>
+        <td width="5"></td>  
+    <td><a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b213b351723b7a8b06e4b282c4b2292e5a8" target="_blank"><img src="http://hst.tradedoubler.com/file/222974/cocoon_oct15/gen/img4.jpg" alt="Linge de lit" width="210" height="251" style="display:block; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#000;" border="0"/></a></td>
+        <td width="5"></td>  
+    <td><a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b212d5e3aeb66c030ffe2ebb7036b9c8014" target="_blank"><img src="http://hst.tradedoubler.com/file/222974/cocoon_oct15/gen/img5.jpg" alt="Panier &agrave; bois" width="210" height="251" style="display:block; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#000;" border="0"/></a></td>
+  </tr>
+</table>
+
+<table width="640" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+        <td width="640" height="40"></td>  
+  </tr>
+</table>
+
+
+<table width="640" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b21b2fb379cf5bff45706fff64c125aa0aa" target="_blank"><img src="http://hst.tradedoubler.com/file/222974/cocoon_oct15/gen/img6.jpg" alt="Linge de bain" width="249" height="305" style="display:block; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#000;" border="0"/></a></td>
+        <td width="5"></td>  
+    <td><a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b21a24c10a452cea1ad7c946c9425babfbf" target="_blank"><img src="http://hst.tradedoubler.com/file/222974/cocoon_oct15/gen/img7.jpg" alt="Linge de lit" width="387" height="305" style="display:block; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#000;" border="0"/></a></td>
+  </tr>
+</table>
+
+<table width="640" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b21319d6898b8adc0f701b954500f47ee77" target="_blank"><img src="http://hst.tradedoubler.com/file/222974/cocoon_oct15/gen/frise.jpg" alt="becquet" width="640" height="82" style="display:block; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#000;" border="0"/></a></td>
+ </tr>
+ </table>
+
+<table width="640" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff">
+  <tr>
+      <td style="font-family:Arial, Helvetica, sans-serif; color:#767676; font-size:10px;  text-align:left; padding:15px;">(1) Op&eacute;ration Cocoon jusqu’&agrave; -40&#037; : Prix valables du 08/10/2015 au 10/12/2015, dans la limite du stock disponible.<br /><br />
+
+(2) Livraison gratuite : Participation forfaitaire aux frais de traitement offerte &agrave; hauteur de 5.99&euro; d&egrave;s 49&euro; d’achats pour une livraison en France M&eacute;tropolitaine exclusivement. Ne concerne pas les articles lourds ou encombrants. Offre valable sur becquet.fr jusqu’au 10 d&eacute;cembre  2015, non cumulable avec un autre code promotionnel.
+
+</td>
+    </tr>
+</table>
+<img src="http://impfr.tradedoubler.com/imp?type(inv)g(22884784)a(1905389)">
+
+<table width="640" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff">
+  <tr>
+      <td style="font-family:Arial, Helvetica, sans-serif; color:#767676; font-size:10px;  text-align:left; padding:15px;">En application de la loi &laquo;Informatique et Libert&eacute;&raquo;, vous disposez d&acute;un droit d&acute;acc&egrave;s, de rectification et d'opposition sur les donn&eacute;es vous concernant. Si vous souhaitez acc&eacute;der &agrave; vos donn&eacute;es personnelles, les rectifier ou ne plus recevoir de propositions commerciales par l'interm&eacute;diaire de Becquet, il vous suffit de le signaler &agrave; BECQUET - Service Client&egrave;le - VEPEX 5000 - 59425 Armenti&egrave;res Cedex ou par e-mail en <a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b216382abfdfbb6f1ec2e732bfe2bf448c1" target="_blank" style="font-family:Arial, Helvetica, sans-serif; color:#767676; font-size:10px; text-decoration:underline;"><strong>cliquant ici</strong> </a></td>
+  </tr>
+</table>
+<div align="center">
+<font color="#666666" style="font-size:10px;font-family:Verdana,Arial,Helvetica,sans-serif;">
+<b>Vous bénéficiez de cette offre car vous etes inscrit sur le reseau FilWiki</b><br>
+FilWiki vous permet de profiter d'offres spéciales, de bons plans, de code promotion et plus<br>
+À tout moment, vous disposez d'un droit d'accès, de modification, de rectification et de suppression<br>
+ de vos données personnelles (art 34 de la loi Informatique et Libertés du 6 Janvier1978).
+<br>
+Pour cesser de recevoir nos informations sur l'adresse resp-m2-miage@univ-rennes1.fr , <a  href="http://my.shopping-notification.com/tr/?id=1f7f0c30612c18662f693a70c2958b21750a5a6096181e9f53e0070e1f3513db">d&eacute;sabonnez-vous</a>.
+</font>
+</div><img height='1' width='1' border='0' alt='' src='http://my.shopping-notification.com/tr/?id=1f7f0c30612c18667b7fe89aa468dc17cbded359b128e279fab3c95b1ee338a0'></body>
+</html>
+

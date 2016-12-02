@@ -1,0 +1,784 @@
+Return-Path: <return-a18-1787-1796-resp-m2-miage=univ-rennes1.fr=4@equiper-sa-maison.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Mon, 05 Oct 2015 10:12:08 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from vmsmtprexch.univ-rennes1.fr (vmsmtprexch.univ-rennes1.fr [129.20.128.62])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 3B6F726A04FA
+	for <resp-m2-miage@univ-rennes1.fr>; Mon,  5 Oct 2015 10:12:08 +0200 (CEST)
+Received: from mbcasexch2.Ur.local (mbcasexch2.univ-rennes1.fr [129.20.125.130])
+	by vmsmtprexch.univ-rennes1.fr (Postfix) with ESMTP id 382727F
+	for <resp-m2-miage@univ-rennes1.fr>; Mon,  5 Oct 2015 10:12:08 +0200 (CEST)
+X-CrossPremisesHeadersFilteredBySendConnector: mbcasexch2.Ur.local
+Received: from mbcasexch1.Ur.local (2002:8114:7d81::8114:7d81) by
+ mbcasexch2.Ur.local (2002:8114:7d82::8114:7d82) with Microsoft SMTP Server
+ (TLS) id 15.0.913.22; Mon, 5 Oct 2015 10:12:07 +0200
+Received: from mailout1.univ-rennes1.fr (129.20.128.162) by
+ mbcasexch1.Ur.local (129.20.125.129) with Microsoft SMTP Server id
+ 15.0.913.22 via Frontend Transport; Mon, 5 Oct 2015 10:12:07 +0200
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id C6D4E60107
+	for <resp-m2-miage@univ-rennes1.fr>; Mon,  5 Oct 2015 10:12:07 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id 5AEt8cfIho7w for <resp-m2-miage@univ-rennes1.fr>;
+	Mon,  5 Oct 2015 10:12:07 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id A0E7560026
+	for <resp-m2-miage@univ-rennes1.fr>; Mon,  5 Oct 2015 10:12:07 +0200 (CEST)
+Received: from mxb1-1.relay.renater.fr (mxb1-1.relay.renater.fr [194.214.201.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 98B1A20033
+	for <resp-m2-miage@univ-rennes1.fr>; Mon,  5 Oct 2015 10:12:07 +0200 (CEST)
+Received: from smtp1-63.revue-en-ligne.com (smtp1-63.revue-en-ligne.com [46.105.172.211])
+	by mxb1-1.relay.renater.fr (asm) with SMTP id 587E5600291
+	for <resp-m2-miage@univ-rennes1.fr>; Mon,  5 Oct 2015 10:12:07 +0200 (CEST)
+Received: (GreenArrow 22521 invoked by uid 410); 5 Oct 2015 08:12:03 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=equiper-sa-maison.com; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=mpQKqY
+	A9jAMmC+o5NaILlmG9mI0=; b=i0rFxoETowQ7b6SvLMZ9EbqST2CGmED0Rl+6SJ
+	G50C4eyC5LrdmFL7w3nYl3OH2rStANK4YZwl2Js9FKqW6gFrKuq07uehNufiliE1
+	7rwywx+ncTCvcEkWtehewDbTVJ6eYTydeshMDJrhP6NG4wUoNXWD2FVvEP1PWBDm
+	YjxPs=
+Subject: =?UTF-8?Q?Croisi=C3=A8res=20Iles=20Ca=C3=AFmans=20ou=20Italie?=
+ =?UTF-8?Q?=2C=20Ski=20au=20pied=20des=20pistes=20et=20s=C3=A9jours=20?=
+ =?UTF-8?Q?No=C3=ABl=20=C3=A0=20la=20Neige?=
+From: =?UTF-8?B?VmFjYW5jZXMgUsOpdXNzaWVzIHBhciBTb2NpYWJpbGl3ZWI=?=
+	<news@equiper-sa-maison.com>
+To: <resp-m2-miage@univ-rennes1.fr>
+Date: Mon, 5 Oct 2015 08:12:03 +0000
+List-Unsubscribe: <http://equiper-sa-maison.com/ga/unsubscribe/2-11527895-18-936-1796-ed35df89ef15825-7c486c9001>,
+ <mailto:return-a18-1787-1796-resp-m2-miage=univ-rennes1.fr=4u@equiper-sa-maison.com>
+X-Mailer: GreenArrow Studio (v4.44.0)
+X-CampaignID: s4:1787-dcee94e040a88cfd
+Message-ID: <mid-eae3a812dfdf88415d51c7bc82129f5d@equiper-sa-maison.com>
+X-Mailer-Info: 4.hFDO.QM3gzN.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.QM3kjN
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="==b4c53b6d5e29e097f577ed153df72e69"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 46.105.172.211
+X-Bizanga: IMP - mxb1-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekgedrieekgddtudcutefuodetggdotefrucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepuffhvfffjffokfggtgesrgdtreerredtjeenucfhrhhomhepgggrtggrnhgtvghsucftrohushhsihgvshcuphgrrhcuufhotghirggsihhlihifvggsuceonhgvfihssegvqhhuihhpvghrqdhsrgdqmhgrihhsohhnrdgtohhmqeenucffohhmrghinhepvghquhhiphgvrhdqshgrqdhmrghishhonhdrtghomh 
+X-Renater-ServerName: mxb1-1.relay.renater.fr
+X-OrganizationHeadersPreserved: mbcasexch2.Ur.local
+
+--==b4c53b6d5e29e097f577ed153df72e69
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Vacances r=C3=A9ussies.com - FLASH DERNIERES MINUTES ( http://equiper-sa-ma=
+ison.com/ga/click/2-11527895-18-936-1796-12413-3906c522a9-7c486c9001 )
+
+ABCroisi=C3=A8re ( http://equiper-sa-maison.com/ga/click/2-11527895-18-936-=
+1796-12414-2cca89fd6c-7c486c9001 )
+
+ABCroisi=C3=A8re ( http://equiper-sa-maison.com/ga/click/2-11527895-18-936-=
+1796-12414-2cca89fd6c-7c486c9001 )
+
+CUBA JAMA=C3=8FQUE ILES CA=C3=8FMANS ( http://equiper-sa-maison.com/ga/clic=
+k/2-11527895-18-936-1796-12414-2cca89fd6c-7c486c9001 )
+
+MSC Opera 4* vols inclus 9j/8n ( http://equiper-sa-maison.com/ga/click/2-11=
+527895-18-936-1796-12414-2cca89fd6c-7c486c9001 )
+
+=C3=80 partir de ( http://equiper-sa-maison.com/ga/click/2-11527895-18-936-=
+1796-12414-2cca89fd6c-7c486c9001 )1374=E2=82=AC ( http://equiper-sa-maison.=
+com/ga/click/2-11527895-18-936-1796-12414-2cca89fd6c-7c486c9001 )
+
+D=C3=89COUVRIR ( http://equiper-sa-maison.com/ga/click/2-11527895-18-936-17=
+96-12414-2cca89fd6c-7c486c9001 )
+
+Superbesse R=C3=A9servation ( http://equiper-sa-maison.com/ga/click/2-11527=
+895-18-936-1796-12415-f222d666ed-7c486c9001 )
+
+Superbesse R=C3=A9servation ( http://equiper-sa-maison.com/ga/click/2-11527=
+895-18-936-1796-12415-f222d666ed-7c486c9001 )
+
+SPECIAL SKI A SUPERBESSE ( http://equiper-sa-maison.com/ga/click/2-11527895=
+-18-936-1796-12415-f222d666ed-7c486c9001 )
+
+Les meilleures locations cet hiver ( http://equiper-sa-maison.com/ga/click/=
+2-11527895-18-936-1796-12415-f222d666ed-7c486c9001 )
+
+=C3=80 partir de ( http://equiper-sa-maison.com/ga/click/2-11527895-18-936-=
+1796-12415-f222d666ed-7c486c9001 )296=E2=82=AC ( http://equiper-sa-maison.c=
+om/ga/click/2-11527895-18-936-1796-12415-f222d666ed-7c486c9001 )
+
+D=C3=89COUVRIR ( http://equiper-sa-maison.com/ga/click/2-11527895-18-936-17=
+96-12415-f222d666ed-7c486c9001 )
+
+Pierre & Vacances ( http://equiper-sa-maison.com/ga/click/2-11527895-18-936=
+-1796-12416-3ba43a825d-7c486c9001 )
+
+Pierre & Vacances ( http://equiper-sa-maison.com/ga/click/2-11527895-18-936=
+-1796-12416-3ba43a825d-7c486c9001 )
+
+CHAMONIX 3* AIGLONS ( http://equiper-sa-maison.com/ga/click/2-11527895-18-9=
+36-1796-12416-3ba43a825d-7c486c9001 )
+
+8j/7n en Studio 4 personnes ( http://equiper-sa-maison.com/ga/click/2-11527=
+895-18-936-1796-12416-3ba43a825d-7c486c9001 )
+
+=C3=80 partir de ( http://equiper-sa-maison.com/ga/click/2-11527895-18-936-=
+1796-12416-3ba43a825d-7c486c9001 )363=E2=82=AC ( http://equiper-sa-maison.c=
+om/ga/click/2-11527895-18-936-1796-12416-3ba43a825d-7c486c9001 )
+
+D=C3=89COUVRIR ( http://equiper-sa-maison.com/ga/click/2-11527895-18-936-17=
+96-12416-3ba43a825d-7c486c9001 )
+
+Alpes R=C3=A9servation ( http://equiper-sa-maison.com/ga/click/2-11527895-1=
+8-936-1796-12417-7b3af312b8-7c486c9001 )
+
+Alpes R=C3=A9servation ( http://equiper-sa-maison.com/ga/click/2-11527895-1=
+8-936-1796-12417-7b3af312b8-7c486c9001 )
+
+AU PIED DES PISTES ( http://equiper-sa-maison.com/ga/click/2-11527895-18-93=
+6-1796-12417-7b3af312b8-7c486c9001 )
+
+75 offres dans les Alpes ( http://equiper-sa-maison.com/ga/click/2-11527895=
+-18-936-1796-12417-7b3af312b8-7c486c9001 )
+
+=C3=80 partir de ( http://equiper-sa-maison.com/ga/click/2-11527895-18-936-=
+1796-12417-7b3af312b8-7c486c9001 )143=E2=82=AC ( http://equiper-sa-maison.c=
+om/ga/click/2-11527895-18-936-1796-12417-7b3af312b8-7c486c9001 )
+
+D=C3=89COUVRIR ( http://equiper-sa-maison.com/ga/click/2-11527895-18-936-17=
+96-12417-7b3af312b8-7c486c9001 )
+
+Promo Croisi=C3=A8re ( http://equiper-sa-maison.com/ga/click/2-11527895-18-=
+936-1796-12418-6fc7e46ee5-7c486c9001 )
+
+Promo Croisi=C3=A8re ( http://equiper-sa-maison.com/ga/click/2-11527895-18-=
+936-1796-12418-6fc7e46ee5-7c486c9001 )
+
+COSTA FASCINOSA 5* ( http://equiper-sa-maison.com/ga/click/2-11527895-18-93=
+6-1796-12418-6fc7e46ee5-7c486c9001 )
+
+Italie, Sicile, Malte, Espagne ( http://equiper-sa-maison.com/ga/click/2-11=
+527895-18-936-1796-12418-6fc7e46ee5-7c486c9001 )
+
+=C3=80 partir de ( http://equiper-sa-maison.com/ga/click/2-11527895-18-936-=
+1796-12418-6fc7e46ee5-7c486c9001 )399=E2=82=AC ( http://equiper-sa-maison.c=
+om/ga/click/2-11527895-18-936-1796-12418-6fc7e46ee5-7c486c9001 )
+
+D=C3=89COUVRIR ( http://equiper-sa-maison.com/ga/click/2-11527895-18-936-17=
+96-12418-6fc7e46ee5-7c486c9001 )
+
+Pierre & Vacances ( http://equiper-sa-maison.com/ga/click/2-11527895-18-936=
+-1796-12419-c983d5ed18-7c486c9001 )
+
+Pierre & Vacances ( http://equiper-sa-maison.com/ga/click/2-11527895-18-936=
+-1796-12419-c983d5ed18-7c486c9001 )
+
+MAGIE DE NO=C3=8BL A LA NEIGE ( http://equiper-sa-maison.com/ga/click/2-115=
+27895-18-936-1796-12419-c983d5ed18-7c486c9001 )
+
+S=C3=A9jours jusqu'=C3=A0 -20%, =C3=A0 saisir ( http://equiper-sa-maison.co=
+m/ga/click/2-11527895-18-936-1796-12419-c983d5ed18-7c486c9001 )
+
+=C3=80 partir de ( http://equiper-sa-maison.com/ga/click/2-11527895-18-936-=
+1796-12419-c983d5ed18-7c486c9001 )347=E2=82=AC ( http://equiper-sa-maison.c=
+om/ga/click/2-11527895-18-936-1796-12419-c983d5ed18-7c486c9001 )
+
+D=C3=89COUVRIR ( http://equiper-sa-maison.com/ga/click/2-11527895-18-936-17=
+96-12419-c983d5ed18-7c486c9001 )
+
+* Les prix affich=C3=A9s sur cette newsletter ont =C3=A9t=C3=A9 relev=C3=A9=
+s sur les
+sites internets mentionn=C3=A9s le 30/09/2015 =C3=A0 15h.=
+
+--==b4c53b6d5e29e097f577ed153df72e69
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" />
+	<title>VacancesReussies.com - FLASH DERNI&Egrave;RES MINUTES</title>
+</head>
+<body style=3D"background-color:#CECCC8;"><!-- BANNIERE: FLASH DERNIERES MI=
+NUTES -->
+<div style=3D"background-color:#CECCC8;">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"650">
+	<tbody>
+		<tr>
+			<td bgcolor=3D"#F6F6F6"><a href=3D"http://equiper-sa-maison.com/ga/click=
+/2-11527895-18-936-1796-12413-3906c522a9-7c486c9001" target=3D"_blank"><img=
+ alt=3D"Vacances r=C3=A9ussies.com - FLASH DERNIERES MINUTES" border=3D"0" =
+height=3D"150" src=3D"http://46.101.7.34/vacances/vr-011015/header_bp_4.jpg=
+" style=3D"display:block;" width=3D"650" /></a></td>
+		</tr>
+		<tr>
+			<td bgcolor=3D"#FFFFFF"><img border=3D"0" height=3D"12" src=3D"http://46=
+.101.7.34/vacances/vr-011015/header_under.gif" style=3D"display:block;" wid=
+th=3D"650" /></td>
+		</tr>
+	</tbody>
+</table>
+<!-- CONTENU BDD(INFOS) -->
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"650">
+	<tbody>
+		<tr>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://equipe=
+r-sa-maison.com/ga/click/2-11527895-18-936-1796-12414-2cca89fd6c-7c486c9001=
+" target=3D"_blank"><img alt=3D"ABCroisi=C3=A8re" border=3D"0" height=3D"16=
+0" src=3D"http://46.101.7.34/vacances/vr-011015/IP1.jpg" style=3D"display:b=
+lock;" width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://equiper-sa-maison.com/ga/click/2-11527895-18-936-1796-12414-2cca89fd=
+6c-7c486c9001" target=3D"_blank"><img alt=3D"ABCroisi=C3=A8re" border=3D"0"=
+ height=3D"28" src=3D"http://46.101.7.34/vacances/vr-011015/AB_104x40.jpg" =
+style=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://equiper-sa-maison.com/ga/click/2-11527895-18-936-1796-12414-2cca89fd6c=
+-7c486c9001" style=3D" color:#707173; text-decoration:none;" target=3D"_bla=
+nk">CUBA JAMA&Iuml;QUE ILES CA&Iuml;MANS</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://equiper-sa-maison.com/ga/click/2-11527895-18-936-1796-12414-2cca89f=
+d6c-7c486c9001" style=3D" color:#707173; text-decoration:none;" target=3D"_=
+blank">MSC Opera 4* vols inclus 9j/8n</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://equiper-sa-maison.com/g=
+a/click/2-11527895-18-936-1796-12414-2cca89fd6c-7c486c9001" style=3D" color=
+:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></=
+span><a href=3D"http://equiper-sa-maison.com/ga/click/2-11527895-18-936-179=
+6-12414-2cca89fd6c-7c486c9001" style=3D" color:#FFFFFF; text-decoration:non=
+e;" target=3D"_blank"> <strong style=3D"font-size:24px">1374&euro;</strong>=
+</a></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://equiper-sa=
+-maison.com/ga/click/2-11527895-18-936-1796-12414-2cca89fd6c-7c486c9001" st=
+yle=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;CO=
+UVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-=
+011015/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://equipe=
+r-sa-maison.com/ga/click/2-11527895-18-936-1796-12415-f222d666ed-7c486c9001=
+" target=3D"_blank"><img alt=3D"Superbesse R=C3=A9servation" border=3D"0" h=
+eight=3D"160" src=3D"http://46.101.7.34/vacances/vr-011015/IP2.jpg" style=
+=3D"display:block;" width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://equiper-sa-maison.com/ga/click/2-11527895-18-936-1796-12415-f222d666=
+ed-7c486c9001" target=3D"_blank"><img alt=3D"Superbesse R=C3=A9servation" b=
+order=3D"0" height=3D"28" src=3D"http://46.101.7.34/vacances/vr-011015/Logo=
+-superbesse-resa.jpg" style=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://equiper-sa-maison.com/ga/click/2-11527895-18-936-1796-12415-f222d666ed=
+-7c486c9001" style=3D" color:#707173; text-decoration:none;" target=3D"_bla=
+nk">SPECIAL SKI A SUPERBESSE</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://equiper-sa-maison.com/ga/click/2-11527895-18-936-1796-12415-f222d66=
+6ed-7c486c9001" style=3D" color:#707173; text-decoration:none;" target=3D"_=
+blank">Les meilleures locations cet hiver</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://equiper-sa-maison.com/g=
+a/click/2-11527895-18-936-1796-12415-f222d666ed-7c486c9001" style=3D" color=
+:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></=
+span><a href=3D"http://equiper-sa-maison.com/ga/click/2-11527895-18-936-179=
+6-12415-f222d666ed-7c486c9001" style=3D" color:#FFFFFF; text-decoration:non=
+e;" target=3D"_blank"> <strong style=3D"font-size:24px">296&euro;</strong><=
+/a></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://equiper-sa=
+-maison.com/ga/click/2-11527895-18-936-1796-12415-f222d666ed-7c486c9001" st=
+yle=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;CO=
+UVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-=
+011015/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"650">
+	<tbody>
+		<tr>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://equipe=
+r-sa-maison.com/ga/click/2-11527895-18-936-1796-12416-3ba43a825d-7c486c9001=
+" target=3D"_blank"><img alt=3D"Pierre & Vacances" border=3D"0" height=3D"1=
+60" src=3D"http://46.101.7.34/vacances/vr-011015/IP3.jpg" style=3D"display:=
+block;" width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://equiper-sa-maison.com/ga/click/2-11527895-18-936-1796-12416-3ba43a82=
+5d-7c486c9001" target=3D"_blank"><img alt=3D"Pierre & Vacances" border=3D"0=
+" height=3D"28" src=3D"http://46.101.7.34/vacances/vr-011015/pierreetvacanc=
+es104x40.jpg" style=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://equiper-sa-maison.com/ga/click/2-11527895-18-936-1796-12416-3ba43a825d=
+-7c486c9001" style=3D" color:#707173; text-decoration:none;" target=3D"_bla=
+nk">CHAMONIX 3* AIGLONS</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://equiper-sa-maison.com/ga/click/2-11527895-18-936-1796-12416-3ba43a8=
+25d-7c486c9001" style=3D" color:#707173; text-decoration:none;" target=3D"_=
+blank">8j/7n en Studio 4 personnes</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://equiper-sa-maison.com/g=
+a/click/2-11527895-18-936-1796-12416-3ba43a825d-7c486c9001" style=3D" color=
+:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></=
+span><a href=3D"http://equiper-sa-maison.com/ga/click/2-11527895-18-936-179=
+6-12416-3ba43a825d-7c486c9001" style=3D" color:#FFFFFF; text-decoration:non=
+e;" target=3D"_blank"> <strong style=3D"font-size:24px">363&euro;</strong><=
+/a></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://equiper-sa=
+-maison.com/ga/click/2-11527895-18-936-1796-12416-3ba43a825d-7c486c9001" st=
+yle=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;CO=
+UVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-=
+011015/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://equipe=
+r-sa-maison.com/ga/click/2-11527895-18-936-1796-12417-7b3af312b8-7c486c9001=
+" target=3D"_blank"><img alt=3D"Alpes R=C3=A9servation" border=3D"0" height=
+=3D"160" src=3D"http://46.101.7.34/vacances/vr-011015/IP4.jpg" style=3D"dis=
+play:block;" width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://equiper-sa-maison.com/ga/click/2-11527895-18-936-1796-12417-7b3af312=
+b8-7c486c9001" target=3D"_blank"><img alt=3D"Alpes R=C3=A9servation" border=
+=3D"0" height=3D"28" src=3D"http://46.101.7.34/vacances/vr-011015/Logo-alpe=
+s-resa.jpg" style=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://equiper-sa-maison.com/ga/click/2-11527895-18-936-1796-12417-7b3af312b8=
+-7c486c9001" style=3D" color:#707173; text-decoration:none;" target=3D"_bla=
+nk">AU PIED DES PISTES</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://equiper-sa-maison.com/ga/click/2-11527895-18-936-1796-12417-7b3af31=
+2b8-7c486c9001" style=3D" color:#707173; text-decoration:none;" target=3D"_=
+blank">75 offres dans les Alpes</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://equiper-sa-maison.com/g=
+a/click/2-11527895-18-936-1796-12417-7b3af312b8-7c486c9001" style=3D" color=
+:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></=
+span><a href=3D"http://equiper-sa-maison.com/ga/click/2-11527895-18-936-179=
+6-12417-7b3af312b8-7c486c9001" style=3D" color:#FFFFFF; text-decoration:non=
+e;" target=3D"_blank"> <strong style=3D"font-size:24px">143&euro;</strong><=
+/a></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://equiper-sa=
+-maison.com/ga/click/2-11527895-18-936-1796-12417-7b3af312b8-7c486c9001" st=
+yle=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;CO=
+UVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-=
+011015/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"650">
+	<tbody>
+		<tr>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://equipe=
+r-sa-maison.com/ga/click/2-11527895-18-936-1796-12418-6fc7e46ee5-7c486c9001=
+" target=3D"_blank"><img alt=3D"Promo Croisi=C3=A8re" border=3D"0" height=
+=3D"160" src=3D"http://46.101.7.34/vacances/vr-011015/IP5.jpg" style=3D"dis=
+play:block;" width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://equiper-sa-maison.com/ga/click/2-11527895-18-936-1796-12418-6fc7e46e=
+e5-7c486c9001" target=3D"_blank"><img alt=3D"Promo Croisi=C3=A8re" border=
+=3D"0" height=3D"28" src=3D"http://46.101.7.34/vacances/vr-011015/promocroi=
+siere104x40.jpg" style=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://equiper-sa-maison.com/ga/click/2-11527895-18-936-1796-12418-6fc7e46ee5=
+-7c486c9001" style=3D" color:#707173; text-decoration:none;" target=3D"_bla=
+nk">COSTA FASCINOSA 5*</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://equiper-sa-maison.com/ga/click/2-11527895-18-936-1796-12418-6fc7e46=
+ee5-7c486c9001" style=3D" color:#707173; text-decoration:none;" target=3D"_=
+blank">Italie, Sicile, Malte, Espagne</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://equiper-sa-maison.com/g=
+a/click/2-11527895-18-936-1796-12418-6fc7e46ee5-7c486c9001" style=3D" color=
+:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></=
+span><a href=3D"http://equiper-sa-maison.com/ga/click/2-11527895-18-936-179=
+6-12418-6fc7e46ee5-7c486c9001" style=3D" color:#FFFFFF; text-decoration:non=
+e;" target=3D"_blank"> <strong style=3D"font-size:24px">399&euro;</strong><=
+/a></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://equiper-sa=
+-maison.com/ga/click/2-11527895-18-936-1796-12418-6fc7e46ee5-7c486c9001" st=
+yle=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;CO=
+UVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-=
+011015/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://equipe=
+r-sa-maison.com/ga/click/2-11527895-18-936-1796-12419-c983d5ed18-7c486c9001=
+" target=3D"_blank"><img alt=3D"Pierre & Vacances" border=3D"0" height=3D"1=
+60" src=3D"http://46.101.7.34/vacances/vr-011015/IP6.png" style=3D"display:=
+block;" width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://equiper-sa-maison.com/ga/click/2-11527895-18-936-1796-12419-c983d5ed=
+18-7c486c9001" target=3D"_blank"><img alt=3D"Pierre & Vacances" border=3D"0=
+" height=3D"28" src=3D"http://46.101.7.34/vacances/vr-011015/pierreetvacanc=
+es104x40.jpg" style=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://equiper-sa-maison.com/ga/click/2-11527895-18-936-1796-12419-c983d5ed18=
+-7c486c9001" style=3D" color:#707173; text-decoration:none;" target=3D"_bla=
+nk">MAGIE DE NO&Euml;L A LA NEIGE</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://equiper-sa-maison.com/ga/click/2-11527895-18-936-1796-12419-c983d5e=
+d18-7c486c9001" style=3D" color:#707173; text-decoration:none;" target=3D"_=
+blank">S&eacute;jours jusqu&#39;&agrave; -20%, &agrave; saisir</a></span></=
+td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://equiper-sa-maison.com/g=
+a/click/2-11527895-18-936-1796-12419-c983d5ed18-7c486c9001" style=3D" color=
+:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></=
+span><a href=3D"http://equiper-sa-maison.com/ga/click/2-11527895-18-936-179=
+6-12419-c983d5ed18-7c486c9001" style=3D" color:#FFFFFF; text-decoration:non=
+e;" target=3D"_blank"> <strong style=3D"font-size:24px">347&euro;</strong><=
+/a></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://equiper-sa=
+-maison.com/ga/click/2-11527895-18-936-1796-12419-c983d5ed18-7c486c9001" st=
+yle=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;CO=
+UVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-=
+011015/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+		</tr>
+	</tbody>
+</table>
+<!-- Footer -->
+
+<table align=3D"center" border=3D"0" cellpadding=3D"12" cellspacing=3D"0" w=
+idth=3D"650">
+	<tbody>
+		<tr>
+			<td align=3D"center" style=3D"color:#44443E; font-size:10px;-webkit-text=
+-size-adjust:none; font-family:Arial, Helvetica, sans-serif">* Les prix aff=
+ich&eacute;s sur cette newsletter ont &eacute;t&eacute; relev&eacute;s sur =
+les sites internets mentionn&eacute;s le 30/09/2015 &agrave; 15h.</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<center><a href=3D"http://equiper-sa-maison.com/ga/unsubscribe/2-11527895-1=
+8-936-1796-ed35df89ef15825-7c486c9001">Je souhaite me d=C3=A9sinscrire et n=
+e plus recevoir les newsletters</a>
+</center><img src=3D"http://equiper-sa-maison.com/ga/open/2-11527895-18-936=
+-1796-7c486c9001" height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==b4c53b6d5e29e097f577ed153df72e69--

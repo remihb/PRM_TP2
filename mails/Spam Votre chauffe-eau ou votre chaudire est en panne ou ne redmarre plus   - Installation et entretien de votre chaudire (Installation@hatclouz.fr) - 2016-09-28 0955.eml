@@ -1,0 +1,125 @@
+Return-Path: <wjxu-r7-rnflj_jc7k-g3cc3hq.4g@hatclouz.fr>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Wed, 28 Sep 2016 09:55:59 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from mailout2.univ-rennes1.fr (mailout2.univ-rennes1.fr [129.20.129.120])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id ABE1C52
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 28 Sep 2016 09:55:59 +0200 (CEST)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id A908C60207
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 28 Sep 2016 09:55:59 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout2.univ-rennes1.fr ([129.20.129.120])
+	by localhost (vmscanmail.univ-rennes1.fr [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id wupG2gRrSYBv for <resp-m2-miage@univ-rennes1.fr>;
+	Wed, 28 Sep 2016 09:55:59 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 8EEAB6022F
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 28 Sep 2016 09:55:59 +0200 (CEST)
+Received: from mxb1-2.relay.renater.fr (mxb1-2.relay.renater.fr [194.214.201.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 8686E20033
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 28 Sep 2016 09:55:59 +0200 (CEST)
+Received: from ip-81-93-246-98.sd-france.net (ip-81-93-246-98.sd-france.net [81.93.246.98])
+	by mxb1-2.relay.renater.fr (asm) with ESMTP id 579DA28038B
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 28 Sep 2016 09:55:59 +0200 (CEST)
+Received: from hatclouz.fr (unknown [188.130.7.25])
+	by srv2577.localdomain (Postfix) with ESMTP id 44B19131F91
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 28 Sep 2016 09:55:59 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=hatclouz.fr;
+	s=hatclouzfr; t=1475049359;
+	bh=NsxCE3aCK1dhMr9/6x4l9m0vCTKitlcYTApnG/lBLkE=;
+	h=Date:To:From:Reply-to:Subject:List-Unsubscribe:Message-ID:
+	 MIME-Version:Content-Type;
+	b=rEr7+W0JBQboSZydAF8smuWpUT5RLroYKrqxTYsR7BlKejG+KYBVQ0FpbH9ZQEez7
+	 O9TxC1t5DEGaIuKwTodCkyEE09nbL+5AxDQySuCvz6dzR82KrJ/MuETngl1CwaGyd5
+	 r39cRE2+2GDAJcBBsbzdl+INn5NgX48Nmy6PVJi8=
+Date: Wed, 28 Sep 2016 09:55:59 +0200
+To: resp-m2-miage <resp-m2-miage@univ-rennes1.fr>
+From: =?utf-8?Q?Installation_et_entretien_de_votre_chaudi=C3=A8re?= <Installation@hatclouz.fr>
+Reply-to: =?utf-8?Q?Installation_et_entretien_de_votre_chaudi=C3=A8re?= <wjxu-r7-rnflj_jc7k-g3cc3hq.4g@hatclouz.fr>
+Subject: *****Spam*****=?utf-8?Q?Votre_chauffe-eau_ou_votre_chaudi=C3=A8re_est_en_panne_ou_ne_re?=
+ =?utf-8?Q?d=C3=A9marre_plus_=3F?=
+X-campaign_id: 9805849059963967_1
+Precedence: bulk
+X-uid_id_m: <cmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI==285>
+List-Unsubscribe: <http://www.hatclouz.fr/d/?camp=9805849059963967_1&ms=cmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=>
+Message-ID: <17b2bec087022b30dd4537d11e710544@hatclouz.fr>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="Part1_17b2bec087022b30dd4537d11e710544"
+X-Original-Source-IP: 81.93.246.98
+X-Renater-Spam-Status: Yes
+X-VR-SPAM-SCORE: 107
+X-Bizanga: IMP - mxb1-2.relay.renater.fr
+X-Renater-SpamState: 12
+X-Renater-SpamScore: 107
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeelvddrudeigddufeegucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucftohhuthgvrhdqqdfrmfgjucdluddtjedmnecujfgurhepfffvhfhrufhpjffkgggtsegrtdhjredttdejnecuhfhrohhmpefknhhsthgrlhhlrghtihhonhgpvghtpggvnhhtrhgvthhivghnpgguvggpvhhothhrvggptghhrghuughiqohrvgcuoefknhhsthgrlhhlrghtihhonheshhgrthgtlhhouhiirdhfrheqnecuffhomhgrihhnpehhrghttghlohhuiidrfhhrnecukfhppeekuddrleefrddvgeeirdelkedpudekkedrudeftddrjedrvdehnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehiphdqkeduqdelfedqvdegiedqleekrdhsugdqfhhrrghntggvrdhnvghtpdhinhgvthepkedurdelfedrvdegiedrleekpdhmrghilhhfrhhomhepfihjgihuqdhrjedqrhhnfhhljhgpjhgtjehkqdhgfegttgefhhhqrdeggheshhgrthgtlhhouhiirdhfrhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb1-2.relay.renater.fr
+
+
+--Part1_17b2bec087022b30dd4537d11e710544
+Content-Type: text/plain; charset = "utf-8"
+Content-Transfer-Encoding: 8bit
+
+Pour visualiser et se désabonner ce message,
+ 
+Veuillez, copier puis coller, l'adresse URL complète ci-dessous dans la
+barre d'adresse de votre navigateur et appuyer sur la touche "Entrée" de
+votre clavier.
+
+
+
+- - - - - - - - - - - - - - - - - 
+
+http://www.hatclouz.fr/v/?camp=9805849059963967_1&ms=cmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=
+
+- - - - - - - - - - - - - - - - - 
+
+
+
+
+--Part1_17b2bec087022b30dd4537d11e710544
+Content-Type: text/html; charset = "utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Votre chauffe-eau ou votre chaudière est en panne ou ne redémarre plus ? </title>
+</head>
+<body>
+<table cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr><td align="center">
+<a href="http://www.hatclouz.fr/v/?camp=9805849059963967_1&ms=cmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=" target="_blank" title="Si cet e-mail ne s'affiche pas correctement, suivez ce lien." style="color:#00F; font-family:'Arial'; font-size:12px; text-decoration:underline;">Si cet email ne s&rsquo;affiche pas correctement, suivez ce lien.</a></td></tr><tr><td  align="center">                                      		         Installation et entretien de votre chaudi&egrave;re | NeoDevis         <style type="text/css">         @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700); 		body {margin: 0; padding: 0; min-width: 100%!important;font-family:PT Sans,sans-serif;color:#3A3A3A;}         .columnContent{font-size:16px;} 		.txt1{font-size:32px;line-height:32px;} 		.txt2{font-size:16px;padding:10px 30px;} 		.txt3{font-size:16px;} 		.txt4{font-size:16px;} 				 		@media only screen and (max-width: 600px){ 		 			.content {width: 100% !important;} 		 			#templateColumns{
+				width:100% !important; 			} 			.templateColumnContainer{ 				display:block !important; 				width:100% !important; 			} 			.columnImage{ 				height:auto !important; 				max-width:300px !important; 				width:100% !important; 			} 			.columnContent{ 				font-size:22px !important; 				line-height:125% !important; 			}			 			.emailImage{ 				height:auto !important; 				max-width:200px !important; 				width: 100% !important; 			}			 			.txt1{font-size:32px;line-height:32px;} 			.txt2 {font-size:16px;padding:10px 20px;} 			.txt3{font-size:16px;} 			.txt4{font-size:16px;} 		} 		 		@media only screen and (max-width: 320px){ 			.txt1{font-size:32px;line-height:32px;}		 			.txt2 {font-size:16px;padding:10px 10px;}	 			.txt3{font-size:16px;} 			.txt4{font-size:16px;}			 			.columnImage{ 				height:auto !important; 				max-width:280px !important; 				width:100% !important; 			}			 			.emailImage{ 				height:auto !important; 				max-width:150px !important; 				width: 100% !important; 	
+ 		}
+		}		         </style>           <img src="http://www.hatclouz.fr/r/?rc=aHR0cDovL2FmZmlsaWF0aW9uLm5lby1kZXZpcy5jb20vYWYvcHgvTXpJMVgzeGZNams0WDN4Zk1qZGZmRjh3WDN4Zk1BL2FIUjBjRG92TDJWdWRISmxkR2xsYmkxamFHRjFaR2xsY21VdWNtVmhZM1JwYjI0dGFHRmlhWFJoZEM1amIyMHY=" border="0" width="1" height="1">         <table border="0" bgcolor="#FFFFFF" width="100%" cellspacing="0" cellpadding="0">             <tbody><tr>                 <td> 					 					<table width="600" align="center" cellpadding="0" cellspacing="0" border="0"> 						<tr> 							<td> 								 								<table class="content" border="0" bgcolor="#FFFFFF" align="center" width="600" cellspacing="0" cellpadding="0"> 									<tbody><tr> 										<td colspan="3" class="templateColumnContainer" style="background:#FFFFFF;padding:30px 0;" align="left" width="100%" valign="top"> 											<table border="0" width="100%" cellspacing="0" cellpadding="10"> 												<tbody><tr> 													<td class="columnContent" style="text-align:center;"
+width="40%"> 														<a href="http://www.hatclouz.fr/r/?m=cmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=&c=9805849059963967_1&rc=aHR0cDovL2FmZmlsaWF0aW9uLm5lby1kZXZpcy5jb20vYWYvY2xjL016STFYM3hmTWprNFgzeGZNamRmZkY4d1gzeGZNQS9hSFIwY0RvdkwyVnVkSEpsZEdsbGJpMWphR0YxWkdsbGNtVXVjbVZoWTNScGIyNHRhR0ZpYVhSaGRDNWpiMjB2" title="Demandez un devis gratuit" style="text-decoration:none;color:#FFFFFF;" target="_blank"> 															<img src="http://www.hatclouz.fr/r/?rc=aHR0cDovL3d3dy5yZWFjdGlvbi1oYWJpdGF0LmNvbS9hcHBsaWNhdGlvbi90aGVtZXMvZGVmYXVsdC9pbWFnZXMvbG9nby1yZWFjdGlvbi1oYWJpdGF0LnBuZw==" class="emailImage" style="border:0;" alt="NeoDevis">									 														</a> 													</td> 												 													<td class="columnContent" style="text-align:center;" align="center" width="60%"> 														<a
+href="http://www.hatclouz.fr/r/?m=cmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=&c=9805849059963967_1&rc=aHR0cDovL2FmZmlsaWF0aW9uLm5lby1kZXZpcy5jb20vYWYvY2xjL016STFYM3hmTWprNFgzeGZNamRmZkY4d1gzeGZNQS9hSFIwY0RvdkwyVnVkSEpsZEdsbGJpMWphR0YxWkdsbGNtVXVjbVZoWTNScGIyNHRhR0ZpYVhSaGRDNWpiMjB2" title="Demandez un devis gratuit" style="text-decoration:none;color:#FFFFFF;" target="_blank">                                                         <center><table bgcolor="#2b6bb7" cellspacing="0" cellpadding="10"><tbody><tr><td style="text-decoration:none;color:#FFFFFF; width:200px;" align="center">Demander un devis</td></tr></tbody></table></center></a> 													</td> 												</tr> 											</tbody></table> 										</td> 									</tr> 									<tr> 										<td colspan="3" class="templateColumnContainer" style="text-align:center;background:#274c78;padding:15px 0 30px 0;" align="center" width="100%" valign="top"> 											<a
+href="http://www.hatclouz.fr/r/?m=cmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=&c=9805849059963967_1&rc=aHR0cDovL2FmZmlsaWF0aW9uLm5lby1kZXZpcy5jb20vYWYvY2xjL016STFYM3hmTWprNFgzeGZNamRmZkY4d1gzeGZNQS9hSFIwY0RvdkwyVnVkSEpsZEdsbGJpMWphR0YxWkdsbGNtVXVjbVZoWTNScGIyNHRhR0ZpYVhSaGRDNWpiMjB2" class="txt1" title="Demandez un devis gratuit" style="font-weight:bold;text-decoration:none;color:#FFFFFF;padding:10px 20px;" target="_blank"> 												Entretien et maintenance de <br>votre chauffage 											</a> 											<br><br> 											<a href="http://www.hatclouz.fr/r/?m=cmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=&c=9805849059963967_1&rc=aHR0cDovL2FmZmlsaWF0aW9uLm5lby1kZXZpcy5jb20vYWYvY2xjL016STFYM3hmTWprNFgzeGZNamRmZkY4d1gzeGZNQS9hSFIwY0RvdkwyVnVkSEpsZEdsbGJpMWphR0YxWkdsbGNtVXVjbVZoWTNScGIyNHRhR0ZpYVhSaGRDNWpiMjB2" title="Demandez un devis gratuit" style="text-decoration:none;color:#FFFFFF;" target="_blank">                                                         <center><table
+bgcolor="#d71818" cellspacing="0" cellpadding="10"><tbody><tr><td style="text-decoration:none;color:#FFFFFF; width:200px;" align="center">Obtenir un devis</td></tr></tbody></table></center></a> 										</td> 									</tr> 									<tr> 										<td class="templateColumnContainer" style="padding-top:20px;" align="left" width="30%" valign="top"> 											<table border="0" width="100%" cellspacing="0" cellpadding="5"> 												<tbody><tr> 													<td class="columnContent" style="text-align:center;"> 														<a href="http://www.hatclouz.fr/r/?m=cmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=&c=9805849059963967_1&rc=aHR0cDovL2FmZmlsaWF0aW9uLm5lby1kZXZpcy5jb20vYWYvY2xjL016STFYM3hmTWprNFgzeGZNamRmZkY4d1gzeGZNQS9hSFIwY0RvdkwyVnVkSEpsZEdsbGJpMWphR0YxWkdsbGNtVXVjbVZoWTNScGIyNHRhR0ZpYVhSaGRDNWpiMjB2" title="Demandez un devis gratuit" target="_blank"> 															<img
+src="http://www.hatclouz.fr/r/?rc=aHR0cDovL2VudHJldGllbi1jaGF1ZGllcmUucmVhY3Rpb24taGFiaXRhdC5jb20vbWFpbGluZy9lbnRyZXRpZW4tY2hhdWRpZXJlL2VudHJldGllbi5qcGc=" style="max-width:220px;border:0;border:5px solid #e3e3e3;" class="columnImage" alt="Chaudi&egrave;re entretien" width="220"> 														</a> 													</td> 												</tr> 												<tr> 													<td class="columnContent" style="text-align:center;" valign="top"> 														<a class="txt3" href="http://www.hatclouz.fr/r/?m=cmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=&c=9805849059963967_1&rc=aHR0cDovL2FmZmlsaWF0aW9uLm5lby1kZXZpcy5jb20vYWYvY2xjL016STFYM3hmTWprNFgzeGZNamRmZkY4d1gzeGZNQS9hSFIwY0RvdkwyVnVkSEpsZEdsbGJpMWphR0YxWkdsbGNtVXVjbVZoWTNScGIyNHRhR0ZpYVhSaGRDNWpiMjB2" title="Demandez un devis gratuit" style="font-weight:bold;text-transform:uppercase;text-decoration:none;color:#787878;" target="_blank"> 															Entretien <br>chaudi&egrave;re 														</a> 													</td> 												</tr>
+												<tr> 													<td class="columnContent" style="padding:0 12px;" valign="top"> 														<a class="txt5" href="http://www.hatclouz.fr/r/?m=cmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=&c=9805849059963967_1&rc=aHR0cDovL2FmZmlsaWF0aW9uLm5lby1kZXZpcy5jb20vYWYvY2xjL016STFYM3hmTWprNFgzeGZNamRmZkY4d1gzeGZNQS9hSFIwY0RvdkwyVnVkSEpsZEdsbGJpMWphR0YxWkdsbGNtVXVjbVZoWTNScGIyNHRhR0ZpYVhSaGRDNWpiMjB2" title="Demandez un devis gratuit" style="text-decoration:none;color:#787878;" target="_blank"> 															D&eacute;couvrez nos contrats d'entretien de chaudi&egrave;re ou chauffe-eau et profitez de notre offre sp&eacute;ciale 														</a> 													</td> 												</tr> 												<tr> 													<td class="columnContent" style="text-align:center;padding-top:20px;" align="center" valign="top"> 										                                                         <a
+href="http://www.hatclouz.fr/r/?m=cmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=&c=9805849059963967_1&rc=aHR0cDovL2FmZmlsaWF0aW9uLm5lby1kZXZpcy5jb20vYWYvY2xjL016STFYM3hmTWprNFgzeGZNamRmZkY4d1gzeGZNQS9hSFIwY0RvdkwyVnVkSEpsZEdsbGJpMWphR0YxWkdsbGNtVXVjbVZoWTNScGIyNHRhR0ZpYVhSaGRDNWpiMjB2" title="Demandez un devis gratuit" style="text-decoration:none;color:#FFFFFF;" target="_blank">                                                         <center><table bgcolor="#d73b18" cellspacing="0" cellpadding="10"><tbody><tr><td style="text-decoration:none;color:#FFFFFF; width:150px;" align="center">Entretien</td></tr></tbody></table></center></a> 													</td> 												</tr> 											</tbody></table> 										</td> 										<td class="templateColumnContainer" style="padding-top:20px;" align="left" width="30%" valign="top"> 											<table border="0" width="100%" cellspacing="0" cellpadding="5"> 												<tbody><tr> 													<td class="columnContent" style="text-align:center;"
+ >
+														<a href="http://www.hatclouz.fr/r/?m=cmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=&c=9805849059963967_1&rc=aHR0cDovL2FmZmlsaWF0aW9uLm5lby1kZXZpcy5jb20vYWYvY2xjL016STFYM3hmTWprNFgzeGZNamRmZkY4d1gzeGZNQS9hSFIwY0RvdkwyVnVkSEpsZEdsbGJpMWphR0YxWkdsbGNtVXVjbVZoWTNScGIyNHRhR0ZpYVhSaGRDNWpiMjB2" title="Demandez un devis gratuit" target="_blank"> 															<img src="http://www.hatclouz.fr/r/?rc=aHR0cDovL2VudHJldGllbi1jaGF1ZGllcmUucmVhY3Rpb24taGFiaXRhdC5jb20vbWFpbGluZy9lbnRyZXRpZW4tY2hhdWRpZXJlL2RlcGFubmFnZS5qcGc=" style="max-width:220px;border:0;border:5px solid #e3e3e3;" class="columnImage" alt="R&eacute;paration chaudi&egrave;re" width="220"> 														</a> 													</td> 												</tr> 												<tr> 													<td class="columnContent" style="text-align:center;" valign="top"> 														<a class="txt3"
+href="http://www.hatclouz.fr/r/?m=cmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=&c=9805849059963967_1&rc=aHR0cDovL2FmZmlsaWF0aW9uLm5lby1kZXZpcy5jb20vYWYvY2xjL016STFYM3hmTWprNFgzeGZNamRmZkY4d1gzeGZNQS9hSFIwY0RvdkwyVnVkSEpsZEdsbGJpMWphR0YxWkdsbGNtVXVjbVZoWTNScGIyNHRhR0ZpYVhSaGRDNWpiMjB2" title="Demandez un devis gratuit" style="font-weight:bold;text-transform:uppercase;text-decoration:none;color:#787878;" target="_blank"> 															D&eacute;pannage /<br>r&eacute;paration 														</a> 													</td> 												</tr> 												<tr> 													<td class="columnContent" style="padding:0 12px;" valign="top"> 														<a class="txt5" href="http://www.hatclouz.fr/r/?m=cmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=&c=9805849059963967_1&rc=aHR0cDovL2FmZmlsaWF0aW9uLm5lby1kZXZpcy5jb20vYWYvY2xjL016STFYM3hmTWprNFgzeGZNamRmZkY4d1gzeGZNQS9hSFIwY0RvdkwyVnVkSEpsZEdsbGJpMWphR0YxWkdsbGNtVXVjbVZoWTNScGIyNHRhR0ZpYVhSaGRDNWpiMjB2" title="Demandez un devis gratuit"
+style="text-decoration:none;color:#787878;" target="_blank">  															Votre chauffe-eau ou votre chaudi&egrave;re est en panne ou ne red&eacute;marre plus ? <br>Contactez-nous ! 														</a> 													</td> 												</tr> 												<tr> 													<td class="columnContent" style="text-align:center;padding-top:20px;" align="center" valign="top"> 													                                                           <a href="http://www.hatclouz.fr/r/?m=cmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=&c=9805849059963967_1&rc=aHR0cDovL2FmZmlsaWF0aW9uLm5lby1kZXZpcy5jb20vYWYvY2xjL016STFYM3hmTWprNFgzeGZNamRmZkY4d1gzeGZNQS9hSFIwY0RvdkwyVnVkSEpsZEdsbGJpMWphR0YxWkdsbGNtVXVjbVZoWTNScGIyNHRhR0ZpYVhSaGRDNWpiMjB2" title="Demandez un devis gratuit" style="text-decoration:none;color:#FFFFFF;" target="_blank">                                                        <center> <table bgcolor="#d73b18" cellspacing="0" cellpadding="10"><tbody><tr><td
+style="text-decoration:none;color:#FFFFFF; width:150px;" align="center">D&eacute;pannage</td></tr></tbody></table></center></a> 													</td> 												</tr> 											</tbody></table> 										</td> 										<td class="templateColumnContainer" style="padding-top:20px;" align="left" width="30%" valign="top"> 											<table border="0" width="100%" cellspacing="0" cellpadding="5"> 												<tbody><tr> 													<td class="columnContent" style="text-align:center;"> 														<a href="http://www.hatclouz.fr/r/?m=cmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=&c=9805849059963967_1&rc=aHR0cDovL2FmZmlsaWF0aW9uLm5lby1kZXZpcy5jb20vYWYvY2xjL016STFYM3hmTWprNFgzeGZNamRmZkY4d1gzeGZNQS9hSFIwY0RvdkwyVnVkSEpsZEdsbGJpMWphR0YxWkdsbGNtVXVjbVZoWTNScGIyNHRhR0ZpYVhSaGRDNWpiMjB2" title="Demandez un devis gratuit" target="_blank"> 															<img
+src="http://www.hatclouz.fr/r/?rc=aHR0cDovL2VudHJldGllbi1jaGF1ZGllcmUucmVhY3Rpb24taGFiaXRhdC5jb20vbWFpbGluZy9lbnRyZXRpZW4tY2hhdWRpZXJlL2luc3RhbGxhdGlvbi5qcGc=" style="max-width:220px;border:0;border:5px solid #e3e3e3;" class="columnImage" alt="Installation chaudi&egrave;re" width="220"> 														</a> 													</td> 												</tr> 												<tr> 													<td class="columnContent" style="text-align:center;" valign="top"> 														<a class="txt3" href="http://www.hatclouz.fr/r/?m=cmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=&c=9805849059963967_1&rc=aHR0cDovL2FmZmlsaWF0aW9uLm5lby1kZXZpcy5jb20vYWYvY2xjL016STFYM3hmTWprNFgzeGZNamRmZkY4d1gzeGZNQS9hSFIwY0RvdkwyVnVkSEpsZEdsbGJpMWphR0YxWkdsbGNtVXVjbVZoWTNScGIyNHRhR0ZpYVhSaGRDNWpiMjB2" title="Demandez un devis gratuit" style="font-weight:bold;text-transform:uppercase;text-decoration:none;color:#787878;" target="_blank"> 															Installation /<br>Remplacement 														</a> 													</td> 												</tr>
+												<tr> 													<td class="columnContent" style="padding:0 12px;" valign="top"> 														<a class="txt5" href="http://www.hatclouz.fr/r/?m=cmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=&c=9805849059963967_1&rc=aHR0cDovL2FmZmlsaWF0aW9uLm5lby1kZXZpcy5jb20vYWYvY2xjL016STFYM3hmTWprNFgzeGZNamRmZkY4d1gzeGZNQS9hSFIwY0RvdkwyVnVkSEpsZEdsbGJpMWphR0YxWkdsbGNtVXVjbVZoWTNScGIyNHRhR0ZpYVhSaGRDNWpiMjB2" title="Demandez un devis gratuit" style="text-decoration:none;color:#787878;" target="_blank"> 															Votre chaudi&egrave;re est ancienne ? D&eacute;couvrez nos solutions chauffage / eau-chaude <br>  														</a> 													</td> 												</tr> 												<tr> 													<td class="columnContent" style="text-align:center;padding-top:20px;" valign="top">                                                         <a
+href="http://www.hatclouz.fr/r/?m=cmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=&c=9805849059963967_1&rc=aHR0cDovL2FmZmlsaWF0aW9uLm5lby1kZXZpcy5jb20vYWYvY2xjL016STFYM3hmTWprNFgzeGZNamRmZkY4d1gzeGZNQS9hSFIwY0RvdkwyVnVkSEpsZEdsbGJpMWphR0YxWkdsbGNtVXVjbVZoWTNScGIyNHRhR0ZpYVhSaGRDNWpiMjB2" title="Demandez un devis gratuit" style="text-decoration:none;color:#FFFFFF;" align="center" target="_blank">                                                         <center><table bgcolor="#d73b18" cellspacing="0" cellpadding="10"><tbody><tr><td style="text-decoration:none;color:#FFFFFF; width:150px;" align="center">Installation</td></tr></tbody></table></center></a> 													</td> 												</tr> 											</tbody></table> 										</td> 									</tr>																									 									<tr> 										<td colspan="3" style="font-size:11px;color:#888;padding:60px 5px 5px 5px;" height="20"> 											Conform&eacute;ment &agrave; la Loi Informatique et Libert&eacute;s (Loi n&deg; 78-17 du 6 ja
+ nvier
+1978), vous disposez d&rsquo;un droit d&rsquo;acc&egrave;s, de modification, de rectification et de suppression des donn&eacute;es vous concernant. Vous pouvez l&rsquo;exercer en vous d&eacute;sinscrivant. 										</td> 									</tr> 								</tbody></table> 								  							</td> 						</tr> 					</table> 					                 </td>             </tr>         </tbody></table>                       <img src="http://www.hatclouz.fr/t/?i=9805849059963967_1&m=cmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=&url=http://www.hatclouz.fr/images/blank.jpg" alt="_pspacer7"  /></td></tr><tr><td align="center">
+<a href="http://www.hatclouz.fr/d/?camp=9805849059963967_1&ms=cmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=" target="_blank" title="Ne plus recevoir d'informations de notre part" style="color:#00F; font-family:'Arial'; font-size:12px; text-decoration:underline;">Pour se d&eacute;sabonner : Suivez ce lien.</a><br />Si ce message vous a caus&eacute; un quelconque d&eacute;rangement, nous vous prions de nous en excuser.
+</td></tr></tbody></table>
+</body>
+</html>
+
+
+
+--Part1_17b2bec087022b30dd4537d11e710544--
+
+

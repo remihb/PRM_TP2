@@ -9,6 +9,7 @@ var fs = require('fs'),
 
 var vocab = _.map(['java', 'offre', 'c#', 'php', 'emploi', 'stage', 'html', 'css', 'javascript', 'js', 'big', 'data', 'bigdata', 'business', 'intelligence', 'ingnieur', 'ingenieur', 'ingénieur', 'style', 'sap', 'programmation', 'sql', 'bdd', 'données', 'sgbd', 'tests', 'hadoop', 'agile', 'projet', 'système', 'systeme', 'saas', 'esn', 'sii', 'développement', 'développeur', 'dveloppeur', 'dveloppement', 'developpement', 'developpeur', 'gestion', 'entreprise', 'société', 'societe', 'socte', 'python', 'embauche', 'MIAGE', 'profil', 'technique', 'fonctionnel', 'ecole', 'service', 'numérique', 'numerique', 'numrique', 'candidat', 'compétence', 'comptence', 'competence', 'recrutement', 'recruter', 'recrute', 'formation', 'thèse', 'these', 'thse'], _.method('toLowerCase'));
 var vectorRef = _.fill(Array(vocab.length), 1);
+var COSRATE = 0.35;
 
 function ensureExists(path, mask, cb) {
 	if (typeof mask == 'function') {
@@ -96,7 +97,7 @@ var sortMails = function() {
 				})
 				.then(function(mails) {
 					var spam = _.remove(mails, function(mail) {
-						return mail.sign < 0.35;
+						return mail.sign < COSRATE;
 					});
 					var good = _.difference(mails, spam);
 					resolve({

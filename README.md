@@ -35,7 +35,8 @@ Dans un premier temps, on récupère les mails dans des objets json comprenants 
 ...
     text:
     html:
-}```
+}
+```
 
 Les mails sont parsés grâce au module `mailparser` qui permet notamment de récupérer le champ __text__ qui contient le contenu brut du mail sans le code html.
 

@@ -69,3 +69,6 @@ Il ne reste plus qu'à fixer un seuil en deça duquel on considère que le conte
 On avait définit un vocabulaire comprenant des mots issus des champs de l'informatique et du recrutement afin de ne garder que les mails correspondant à des offres de stages et assimilé.
 
 Après calcul, on obtient bien la totalité des mails voulus à partir du corpus de mails originel qui contenait de nombreux spam. On récupère aussi quelques offres qui ne rentrent pas complètement dans la catégorie souhaitée comme des mails de Linkedin.
+
+- __mails ok    : 202__
+- __mails spam  : 1599__

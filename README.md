@@ -23,7 +23,7 @@ Les mails sont triés et séparés en deux groupes dans `mails/spam` et `mails/g
 - Programmation sous forme de Promise
 
 
-##### Parsage des mails
+#### Parsage des mails
 
 Dans un premier temps, on récupère les mails dans des objets json comprenants différents champs
 ```
@@ -40,7 +40,7 @@ Dans un premier temps, on récupère les mails dans des objets json comprenants 
 
 Les mails sont parsés grâce au module `mailparser` qui permet notamment de récupérer le champ __text__ qui contient le contenu brut du mail sans le code html.
 
-##### Modèle vectoriel
+#### Modèle vectoriel
 
 On créé un vocabulaire de référence de mots  
 __[java, offre, c#, php, emploi, stage, html, css, javascript, js, big, data, bigdata, business, intelligence, ingnieur, ingenieur, ingénieur, style, sap, programmation, sql, bdd, données, sgbd, tests, hadoop, agile, projet, système, systeme, saas, esn, sii, développement, développeur, dveloppeur, dveloppement, developpement, developpeur, gestion, entreprise, société, societe, socte, python, embauche, MIAGE, profil, technique, fonctionnel, ecole, service, numérique, numerique, numrique, candidat, compétence, comptence, competence, recrutement, recruter, recrute, formation, thèse, these, thse]__
@@ -53,7 +53,7 @@ On obtient alors un vecteur propre à chaque mail qui sera du type [1,0,0,0,1,1,
 Autrement dit, __soit Ti le texte du mail Mi, si V0[j]⊂Ti, alors Vi[j]=1, sinon Vi[j]=0__
 
 
-##### Classement
+#### Classement
 
 Une fois obtenues les signatures vectorielles de tous les mails, il suffit de calculer le coefficient du cosinus et renormaliser  afin d'obtenir un angle d'écart entre une signature vectorielle donnée et le vecteur du vocabulaire de référence
 
@@ -64,7 +64,7 @@ Grâce au module `compute-cosine-similarity`, on obtient une valeur pour cosϴ c
 Il ne reste plus qu'à fixer un seuil en deça duquel on considère que le contenu du mail diffère trop du vocabulaire pour pouvoir être gardé comme intéréssant. Ici le seuil est fixé à __0.65__
 
 
-##### Résultats
+#### Résultats
 
 On avait définit un vocabulaire comprenant des mots issus des champs de l'informatique et du recrutement afin de ne garder que les mails correspondant à des offres de stages et assimilé.
 
@@ -72,3 +72,6 @@ Après calcul, on obtient bien la totalité des mails voulus à partir du corpus
 
 - __mails ok    : 202__
 - __mails spam  : 1599__
+
+
+#### Temps d'exécution ≃ 3.7ms

@@ -11,18 +11,33 @@ var vocab = _.map(['java', 'offre', 'c#', 'php', 'emploi', 'stage', 'html', 'css
 var vectorRef = _.fill(Array(vocab.length), 1);
 var COSRATE = 0.35;
 
-function ensureExists(path, mask, cb) {
+var deleteFolderRecursive = function(path) {
+  if( fs.existsSync(path) ) {
+    fs.readdirSync(path).forEach(function(file,index){
+      var curPath = path + "/" + file;
+      if(fs.lstatSync(curPath).isDirectory()) { // recurse
+        deleteFolderRecursive(curPath);
+      } else { // delete file
+        fs.unlinkSync(curPath);
+      }
+    });
+    fs.rmdirSync(path);
+  }
+};
+var ensureExists = function(path, mask, cb) {
 	if (typeof mask == 'function') {
 		cb = mask;
 		mask = 0777;
 	}
 	fs.mkdir(path, mask, function(err) {
 		if (err) {
-			if (err.code == 'EEXIST') cb(null);
+			if (err.code == 'EEXIST'){
+				deleteFolderRecursive(path);
+			}
 			else cb(err);
 		} else cb(null);
 	});
-}
+};
 
 
 var vectorSignature = function(mail) {
@@ -134,32 +149,41 @@ var writeMails = function(mails, dir) {
 	});
 };
 
-var execute = function(){
+var execute = function() {
+	deleteFolderRecursive(__dirname + '/mails/good');
+	deleteFolderRecursive(__dirname + '/mails/spam');
 	return new Promise(function(resolve, reject) {
 		sortMails()
-		.then(function(result){
-			writeMails(result.good, '/good/')
-			.then(function(){
-				writeMails(result.spam, '/spam/')
-				.then(function(){
-					resolve('all mails write');
-				})
-				.catch(function(error){
-					reject(error);
-				});
+			.then(function(result) {
+				writeMails(result.good, '/good/')
+					.then(function() {
+						writeMails(result.spam, '/spam/')
+							.then(function() {
+								resolve('all mails write');
+							})
+							.catch(function(error) {
+								reject(error);
+							});
+					})
+					.catch(function(error) {
+						reject(error);
+					});
 			})
-			.catch(function(error){
+			.catch(function(error) {
 				reject(error);
 			});
-		})
-		.catch(function(error){
-			reject(error);
-		});
 	});
 };
 
+var start = new Date();
 execute()
 	.then(function(result) {
+		setTimeout(function(argument) {
+			// execution time simulated with setTimeout function
+			var end = new Date() - start;
+			console.info("Execution time: %dms", end);
+		}, 1000);
+
 		console.log(result);
 	})
 	.catch(function(error) {

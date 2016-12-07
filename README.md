@@ -74,4 +74,4 @@ Après calcul, on obtient bien la totalité des mails voulus à partir du corpus
 - __mails spam  : 1599__
 
 
-#### Temps d'exécution ≃ 3.7ms
+#### Temps d'exécution ≃ 3,700ms
